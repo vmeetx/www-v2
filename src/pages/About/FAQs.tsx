@@ -1,5 +1,5 @@
-import Header from "../../sections/Header";
-import Footer from "../../sections/Footer";
+import Header from '../../sections/Header';
+import Footer from '../../sections/Footer';
 
 const FAQs = () => {
   return (
@@ -11,13 +11,16 @@ const FAQs = () => {
           <div className="bg-gray-100 p-4 rounded-lg">
             <h2 className="text-xl font-semibold">What is SugarLabs?</h2>
             <p className="mt-2 text-gray-700">
-              SugarLabs is a non-profit organization that develops free and open-source educational software for children.
+              SugarLabs is a non-profit organization that develops free and
+              open-source educational software for children.
             </p>
           </div>
           <div className="bg-gray-100 p-4 rounded-lg">
             <h2 className="text-xl font-semibold">How can I get involved?</h2>
             <p className="mt-2 text-gray-700">
-              You can join our community as a developer, volunteer, or donor. Visit the "Join Development" or "Volunteer" pages for more information.
+              You can join our community as a developer, volunteer, or donor.
+              Visit the "Join Development" or "Volunteer" pages for more
+              information.
             </p>
           </div>
         </div>

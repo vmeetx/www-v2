@@ -19,7 +19,9 @@ const MainPage: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left Column */}
           <div className="space-y-6">
-            <div className="text-sm text-gray-600">EMPOWERING YOUNG LEARNERS</div>
+            <div className="text-sm text-gray-600">
+              EMPOWERING YOUNG LEARNERS
+            </div>
             <h1 className="text-4xl md:text-5xl font-bold space-y-2">
               <span>Our Mission?</span>
               <div>
@@ -31,7 +33,8 @@ const MainPage: React.FC = () => {
               </div>
             </h1>
             <p className="text-gray-600">
-              Join Us to Empower Young Learners all Across the Globe. The simplest way to get involved is to join our newsletter.
+              Join Us to Empower Young Learners all Across the Globe. The
+              simplest way to get involved is to join our newsletter.
             </p>
             <form onSubmit={handleSubscribe} className="flex gap-4">
               <input
@@ -56,7 +59,8 @@ const MainPage: React.FC = () => {
               <div className="absolute top-6 right-6 bg-white rounded-lg p-4 shadow-lg max-w-xs">
                 <h3 className="font-semibold mb-2">Project Based Learning</h3>
                 <p className="text-sm text-gray-600">
-                  Empowering learners and educators with hands-on project-based tools that enable creation and real-world problem-solving.
+                  Empowering learners and educators with hands-on project-based
+                  tools that enable creation and real-world problem-solving.
                 </p>
               </div>
               <img
@@ -65,9 +69,12 @@ const MainPage: React.FC = () => {
                 className="w-full rounded-2xl"
               />
               <div className="absolute bottom-6 right-6 bg-blue-100 rounded-lg p-4 shadow-lg max-w-xs">
-                <h3 className="font-semibold mb-2">Challenge and Fun: It's hard fun.</h3>
+                <h3 className="font-semibold mb-2">
+                  Challenge and Fun: It's hard fun.
+                </h3>
                 <p className="text-sm text-gray-600">
-                  Bringing interactive, meaningful experiences that make education exciting and impactful.
+                  Bringing interactive, meaningful experiences that make
+                  education exciting and impactful.
                 </p>
               </div>
             </div>

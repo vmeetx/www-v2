@@ -1,5 +1,5 @@
-import Header from "../sections/Header";
-import Footer from "../sections/Footer";
+import Header from '../sections/Header';
+import Footer from '../sections/Footer';
 
 const TrySugar = () => {
   return (
@@ -16,7 +16,10 @@ const TrySugar = () => {
             <p className="mt-2 text-gray-700">
               Download and install Sugar Desktop on your computer.
             </p>
-            <a href="#" className="mt-4 inline-block text-blue-600 hover:underline">
+            <a
+              href="#"
+              className="mt-4 inline-block text-blue-600 hover:underline"
+            >
               Download →
             </a>
           </div>
@@ -25,16 +28,25 @@ const TrySugar = () => {
             <p className="mt-2 text-gray-700">
               Try the Sugar Learning Platform online, no installation required.
             </p>
-            <a href="#" className="mt-4 inline-block text-green-600 hover:underline">
+            <a
+              href="#"
+              className="mt-4 inline-block text-green-600 hover:underline"
+            >
               Try Now →
             </a>
           </div>
           <div className="bg-yellow-100 p-6 rounded-lg shadow-md">
-            <h2 className="text-2xl font-semibold">Documentation and Resources</h2>
+            <h2 className="text-2xl font-semibold">
+              Documentation and Resources
+            </h2>
             <p className="mt-2 text-gray-700">
-              Find documentation, tutorials, and other resources to help you get started with Sugar.
+              Find documentation, tutorials, and other resources to help you get
+              started with Sugar.
             </p>
-            <a href="#" className="mt-4 inline-block text-yellow-600 hover:underline">
+            <a
+              href="#"
+              className="mt-4 inline-block text-yellow-600 hover:underline"
+            >
               Learn More →
             </a>
           </div>

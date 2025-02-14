@@ -50,17 +50,27 @@ const Header: React.FC = () => {
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Toggle menu"
         >
-          <span className={`block w-full h-1 bg-gray-700 transition-transform duration-300 absolute ${menuOpen ? 'rotate-45 top-2.5' : 'top-0'}`} />
-          <span className={`block w-full h-1 bg-gray-700 transition-opacity duration-300 absolute ${menuOpen ? 'opacity-0' : 'top-2.5'}`} />
-          <span className={`block w-full h-1 bg-gray-700 transition-transform duration-300 absolute ${menuOpen ? '-rotate-45 top-2.5' : 'top-5'}`} />
+          <span
+            className={`block w-full h-1 bg-gray-700 transition-transform duration-300 absolute ${menuOpen ? 'rotate-45 top-2.5' : 'top-0'}`}
+          />
+          <span
+            className={`block w-full h-1 bg-gray-700 transition-opacity duration-300 absolute ${menuOpen ? 'opacity-0' : 'top-2.5'}`}
+          />
+          <span
+            className={`block w-full h-1 bg-gray-700 transition-transform duration-300 absolute ${menuOpen ? '-rotate-45 top-2.5' : 'top-5'}`}
+          />
         </button>
 
-        <div className={`${menuOpen ? 'block' : 'hidden'} md:flex md:items-center md:space-x-8 absolute md:relative top-16 md:top-0 left-0 w-full md:w-auto bg-white shadow-md md:shadow-none p-4 md:p-0 space-y-4 md:space-y-0`}>
+        <div
+          className={`${menuOpen ? 'block' : 'hidden'} md:flex md:items-center md:space-x-8 absolute md:relative top-16 md:top-0 left-0 w-full md:w-auto bg-white shadow-md md:shadow-none p-4 md:p-0 space-y-4 md:space-y-0`}
+        >
           {Object.entries(dropdowns).map(([key, { label, items }]) => (
             <div key={key} className="relative group">
               <button
                 className="text-gray-700 hover:text-blue-600 font-medium w-full text-left md:w-auto"
-                onClick={() => setMobileDropdown(mobileDropdown === key ? null : key)}
+                onClick={() =>
+                  setMobileDropdown(mobileDropdown === key ? null : key)
+                }
               >
                 {label}
               </button>
@@ -93,12 +103,42 @@ const Header: React.FC = () => {
             </div>
           ))}
 
-          <Link to="/products" className="text-gray-700 hover:text-blue-600 font-medium block md:inline-block py-2 md:px-4" onClick={() => setMenuOpen(false)}>Products</Link>
-          <Link to="/donate" className="text-gray-700 hover:text-blue-600 font-medium block md:inline-block py-2 md:px-4" onClick={() => setMenuOpen(false)}>Donate</Link>
-          <Link to="/join-development" className="text-gray-700 hover:text-blue-600 font-medium block md:inline-block py-2 md:px-4" onClick={() => setMenuOpen(false)}>Join Development</Link>
-          <Link to="/volunteer" className="text-gray-700 hover:text-blue-600 font-medium block md:inline-block py-2 md:px-4" onClick={() => setMenuOpen(false)}>Volunteer</Link>
+          <Link
+            to="/products"
+            className="text-gray-700 hover:text-blue-600 font-medium block md:inline-block py-2 md:px-4"
+            onClick={() => setMenuOpen(false)}
+          >
+            Products
+          </Link>
+          <Link
+            to="/donate"
+            className="text-gray-700 hover:text-blue-600 font-medium block md:inline-block py-2 md:px-4"
+            onClick={() => setMenuOpen(false)}
+          >
+            Donate
+          </Link>
+          <Link
+            to="/join-development"
+            className="text-gray-700 hover:text-blue-600 font-medium block md:inline-block py-2 md:px-4"
+            onClick={() => setMenuOpen(false)}
+          >
+            Join Development
+          </Link>
+          <Link
+            to="/volunteer"
+            className="text-gray-700 hover:text-blue-600 font-medium block md:inline-block py-2 md:px-4"
+            onClick={() => setMenuOpen(false)}
+          >
+            Volunteer
+          </Link>
 
-          <Link to="/try-sugar" className="bg-blue-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors block md:inline-block mt-4 md:mt-0" onClick={() => setMenuOpen(false)}>TRY NOW</Link>
+          <Link
+            to="/try-sugar"
+            className="bg-blue-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors block md:inline-block mt-4 md:mt-0"
+            onClick={() => setMenuOpen(false)}
+          >
+            TRY NOW
+          </Link>
         </div>
       </div>
     </nav>
