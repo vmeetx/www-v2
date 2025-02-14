@@ -3,13 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://sugarlabs.github.io/www-v2",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "lint:ts": "eslint 'src/**/*.{ts,tsx}'",
     "lint:md": "markdownlint '**/*.md' --ignore node_modules",
     "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,json,css,md}'",
@@ -42,6 +43,5 @@
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.22.0",
     "vite": "^6.1.0"
-  },
-  "homepage": "https://sugarlabs.github.io/www-v2"
+  }
 }
