@@ -24,13 +24,10 @@ extra tools for other development tasks.
 
 You'll need _**tsc**_ (_TypeScript Compiler_) to manually compile `.ts` files. You'll need
 _**ts-node**_ (_Node.js executable for TypeScript_) to manually execute `.ts` scripts directly. Finally,
-you'll need an _HTTP_ server like _**http-server**_ (_a HTTP server program_), if you want to serve
-files manually.
 
 Once _**npm**_ is installed, to install the above, run
 
 ```bash
-npm i -g http-server
 npm i -g typescript
 npm i -g ts-node
 ```
@@ -40,7 +37,7 @@ _**Note:**_ Users on _Linux_ and _MacOS_ are required to add a `sudo` before the
 Check installation using
 
 ```bash
-node -v && npm -v && tsc -v && ts-node -v && http-server -v
+node -v && npm -v && tsc -v && ts-node -v
 ```
 
 Output should look like
@@ -50,7 +47,6 @@ v23.7.0
 11.1.0
 Version 5.7.3
 v10.9.2
-v14.1.1
 ```
 
 ## Commands
@@ -115,9 +111,7 @@ _**Visual Studio Code**_ (_**VSCode**_) is currently the most-popular code edito
 being _lightweight_, _cleaner_, large marketplace of _extensions_, integrated _source control_
 features, _debugger_, _remote explorer_ support, _regular expression_ based find/replace, etc.
 
-In fact, a workspace configuration file for _vscode_`.vscode/settings.json` has already been added.
-Recommended extensions for this project are `Babel JavaScript`, `ESLint`, `Git Graph`,
-`GitLens`, `markdownlint`, `Prettier`, `Tailwind CSS IntelliSense`, and `SVG`.
+Recommended extensions for this project are `Babel JavaScript`, `ESLint`, `Git Graph`,`GitLens`, `markdownlint`, `Prettier`, `Tailwind CSS IntelliSense`, and `SVG`.
 
 All that, however, shouldn't necessarily stop you from using _**Emacs**_, _**Nano**_, or _**Vim**_,
 if that's your poison :D. Happy coding!
