@@ -1,147 +1,268 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo.svg';
 import { motion, AnimatePresence } from 'framer-motion';
-
-interface MenuItem {
-  label: string;
-  path: string;
-}
-
-interface DropdownItem {
-  label: string;
-  items: MenuItem[];
-}
+import { dropdowns } from '../constants/Header';
+import logo from '../assets/logo.svg';
 
 const Header: React.FC = () => {
-  const [activeDropdown] = useState<string | null>(null);
+  const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const [menuOpen, setMenuOpen] = useState(false);
-  const [mobileDropdown, setMobileDropdown] = useState<string | null>(null);
+  const [scrolled, setScrolled] = useState(false);
 
-  const aboutItems: MenuItem[] = [
-    { label: 'About Us', path: '/about-us' },
-    { label: 'Mission', path: '/mission' },
-    { label: 'Leadership', path: '/leadership' },
-    { label: 'Contact Us', path: '/contact-us' },
-    { label: 'FAQs', path: '/faqs' },
-  ];
-
-  const newsItems: MenuItem[] = [
-    { label: 'Community News', path: '/community-news' },
-    { label: 'Events', path: '/events' },
-    { label: 'Press Release', path: '/press-release' },
-    { label: 'Sugar Stories', path: '/sugar-stories' },
-  ];
-
-  const dropdowns: Record<string, DropdownItem> = {
-    about: { label: 'About', items: aboutItems },
-    news: { label: 'News', items: newsItems },
+  const handleScroll = () => {
+    setScrolled(window.scrollY > 20);
   };
 
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  useEffect(() => {
+    setMenuOpen(false);
+    setActiveDropdown(null);
+  }, []);
+
   return (
-    <nav className="bg-white shadow-md w-full z-50 relative">
-      <div className="w-full mx-auto px-6 py-4 flex justify-between items-center">
-        <Link to="/" className="flex items-center">
-          <img src={logo} alt="Sugar Labs" className="h-12 object-fill" />
-        </Link>
+    <>
+      <header
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+          scrolled ? 'backdrop-blur-md bg-white/90 shadow-lg' : 'bg-white'
+        }`}
+      >
+        <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-between items-center h-20">
+            {/* Logo */}
+            <Link to="/" className="flex-shrink-0 flex items-center">
+              <img
+                src={logo}
+                alt="Sugar Labs"
+                className="h-12 w-auto transition-transform hover:scale-105"
+              />
+            </Link>
 
-        <button
-          className="md:hidden flex flex-col justify-center w-8 h-8 relative"
-          onClick={() => setMenuOpen(!menuOpen)}
-          aria-label="Toggle menu"
-        >
-          <span
-            className={`block w-full h-1 bg-gray-700 transition-transform duration-300 absolute ${menuOpen ? 'rotate-45 top-2.5' : 'top-0'}`}
-          />
-          <span
-            className={`block w-full h-1 bg-gray-700 transition-opacity duration-300 absolute ${menuOpen ? 'opacity-0' : 'top-2.5'}`}
-          />
-          <span
-            className={`block w-full h-1 bg-gray-700 transition-transform duration-300 absolute ${menuOpen ? '-rotate-45 top-2.5' : 'top-5'}`}
-          />
-        </button>
+            {/* Mobile Menu Button */}
+            <button
+              className="md:hidden relative w-10 h-10 focus:outline-none group"
+              onClick={() => setMenuOpen(!menuOpen)}
+              aria-label="Toggle menu"
+            >
+              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                <span
+                  className={`block w-6 h-0.5 bg-gray-600 transition-all duration-300 ${
+                    menuOpen
+                      ? 'rotate-45 translate-y-1.5'
+                      : 'translate-y-[-4px]'
+                  }`}
+                />
+                <span
+                  className={`block w-6 h-0.5 bg-gray-600 transition-all duration-300 mt-1 ${
+                    menuOpen ? 'opacity-0' : ''
+                  }`}
+                />
+                <span
+                  className={`block w-6 h-0.5 bg-gray-600 transition-all duration-300 mt-1 ${
+                    menuOpen
+                      ? '-rotate-45 -translate-y-1.5'
+                      : 'translate-y-[4px]'
+                  }`}
+                />
+              </div>
+            </button>
 
-        <div
-          className={`${menuOpen ? 'block' : 'hidden'} md:flex md:items-center md:space-x-8 absolute md:relative top-16 md:top-0 left-0 w-full md:w-auto bg-white shadow-md md:shadow-none p-4 md:p-0 space-y-4 md:space-y-0`}
-        >
-          {Object.entries(dropdowns).map(([key, { label, items }]) => (
-            <div key={key} className="relative group">
-              <button
-                className="text-gray-700 hover:text-blue-600 font-medium w-full text-left md:w-auto"
-                onClick={() =>
-                  setMobileDropdown(mobileDropdown === key ? null : key)
-                }
-              >
-                {label}
-              </button>
-
-              <AnimatePresence>
-                {(activeDropdown === key || mobileDropdown === key) && (
-                  <motion.ul
-                    initial={{ opacity: 0, y: -10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -10 }}
-                    className="md:absolute md:top-full left-0 bg-white rounded-lg shadow-lg py-2 min-w-[200px] z-50"
+            {/* Desktop Navigation */}
+            <div className="hidden md:flex md:items-center md:space-x-8">
+              {Object.entries(dropdowns).map(([key, { label, items }]) => (
+                <div
+                  key={key}
+                  className="relative"
+                  onMouseEnter={() => setActiveDropdown(key)}
+                  onMouseLeave={() => setActiveDropdown(null)}
+                >
+                  <button
+                    className={`px-3 py-2 text-gray-700 hover:text-blue-600 font-medium rounded-md
+                                transition-all duration-200 hover:bg-gray-50 flex items-center space-x-1
+                                ${activeDropdown === key ? 'text-blue-600' : ''}`}
                   >
-                    {items.map((item) => (
-                      <li key={item.path}>
-                        <Link
-                          to={item.path}
-                          className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-blue-600"
-                          onClick={() => {
-                            setMenuOpen(false);
-                            setMobileDropdown(null);
-                          }}
-                        >
-                          {item.label}
-                        </Link>
-                      </li>
-                    ))}
-                  </motion.ul>
-                )}
-              </AnimatePresence>
+                    <span>{label}</span>
+                    <svg
+                      className={`w-4 h-4 transition-transform duration-200 ${
+                        activeDropdown === key ? 'rotate-180' : ''
+                      }`}
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M19 9l-7 7-7-7"
+                      />
+                    </svg>
+                  </button>
+
+                  <AnimatePresence>
+                    {activeDropdown === key && (
+                      <motion.div
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: 10 }}
+                        transition={{ duration: 0.2 }}
+                        className="absolute left-0 mt-2 w-56 rounded-xl bg-white shadow-xl ring-1 ring-black ring-opacity-5 overflow-hidden"
+                      >
+                        <div className="py-2">
+                          {items.map((item) => (
+                            <Link
+                              key={item.path}
+                              to={item.path}
+                              className="group flex items-center px-4 py-3 text-sm text-gray-700 hover:bg-gray-50
+                                        transition-all duration-200 hover:text-blue-600"
+                            >
+                              <span
+                                className="w-2 h-2 rounded-full bg-blue-600 opacity-0 group-hover:opacity-100
+                                            transition-all duration-200 mr-2 transform scale-0 group-hover:scale-100"
+                              />
+                              {item.label}
+                            </Link>
+                          ))}
+                        </div>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </div>
+              ))}
+
+              {/* Navigation Links */}
+              {['Products', 'Donate', 'Join Development', 'Volunteer'].map(
+                (item) => (
+                  <Link
+                    key={item}
+                    to={`/${item.toLowerCase().replace(' ', '-')}`}
+                    className="px-3 py-2 text-gray-700 hover:text-blue-600 font-medium rounded-md
+                              transition-all duration-200 hover:bg-gray-50"
+                  >
+                    {item}
+                  </Link>
+                ),
+              )}
+
+              {/* CTA Button */}
+              <Link
+                to="/try-sugar"
+                className="inline-flex items-center px-6 py-2.5 rounded-full font-semibold text-white
+                            bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800
+                            transition-all duration-300 transform hover:scale-105 hover:shadow-lg
+                            focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+              >
+                TRY NOW
+              </Link>
             </div>
-          ))}
 
-          <Link
-            to="/products"
-            className="text-gray-700 hover:text-blue-600 font-medium block md:inline-block py-2 md:px-4"
-            onClick={() => setMenuOpen(false)}
-          >
-            Products
-          </Link>
-          <Link
-            to="/donate"
-            className="text-gray-700 hover:text-blue-600 font-medium block md:inline-block py-2 md:px-4"
-            onClick={() => setMenuOpen(false)}
-          >
-            Donate
-          </Link>
-          <Link
-            to="/join-development"
-            className="text-gray-700 hover:text-blue-600 font-medium block md:inline-block py-2 md:px-4"
-            onClick={() => setMenuOpen(false)}
-          >
-            Join Development
-          </Link>
-          <Link
-            to="/volunteer"
-            className="text-gray-700 hover:text-blue-600 font-medium block md:inline-block py-2 md:px-4"
-            onClick={() => setMenuOpen(false)}
-          >
-            Volunteer
-          </Link>
+            {/* Mobile Navigation */}
+            <AnimatePresence>
+              {menuOpen && (
+                <motion.div
+                  initial={{ opacity: 0, x: 100 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  exit={{ opacity: 0, x: 100 }}
+                  transition={{ type: 'tween' }}
+                  className="fixed md:hidden top-20 right-0 bottom-0 w-full bg-white shadow-xl z-40"
+                >
+                  <div className="flex flex-col h-full overflow-y-auto pb-20">
+                    <div className="px-4 py-6 space-y-6">
+                      {Object.entries(dropdowns).map(
+                        ([key, { label, items }]) => (
+                          <div key={key} className="space-y-2">
+                            <button
+                              onClick={() =>
+                                setActiveDropdown(
+                                  activeDropdown === key ? null : key,
+                                )
+                              }
+                              className="flex items-center justify-between w-full text-left px-2 py-2
+                                      text-gray-700 font-medium rounded-lg hover:bg-gray-50"
+                            >
+                              <span>{label}</span>
+                              <svg
+                                className={`w-5 h-5 transition-transform duration-200 ${
+                                  activeDropdown === key ? 'rotate-180' : ''
+                                }`}
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                              >
+                                <path
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  strokeWidth={2}
+                                  d="M19 9l-7 7-7-7"
+                                />
+                              </svg>
+                            </button>
 
-          <Link
-            to="/try-sugar"
-            className="bg-blue-600 text-white px-6 py-2 rounded-lg font-medium hover:bg-blue-700 transition-colors block md:inline-block mt-4 md:mt-0"
-            onClick={() => setMenuOpen(false)}
-          >
-            TRY NOW
-          </Link>
-        </div>
-      </div>
-    </nav>
+                            <AnimatePresence>
+                              {activeDropdown === key && (
+                                <motion.div
+                                  initial={{ height: 0, opacity: 0 }}
+                                  animate={{ height: 'auto', opacity: 1 }}
+                                  exit={{ height: 0, opacity: 0 }}
+                                  transition={{ duration: 0.2 }}
+                                  className="overflow-hidden"
+                                >
+                                  <div className="pl-4 space-y-2">
+                                    {items.map((item) => (
+                                      <Link
+                                        key={item.path}
+                                        to={item.path}
+                                        className="flex items-center px-4 py-2 text-sm text-gray-600
+                                                rounded-lg hover:bg-gray-50 hover:text-blue-600"
+                                      >
+                                        {item.label}
+                                      </Link>
+                                    ))}
+                                  </div>
+                                </motion.div>
+                              )}
+                            </AnimatePresence>
+                          </div>
+                        ),
+                      )}
+
+                      {[
+                        'Products',
+                        'Donate',
+                        'Join Development',
+                        'Volunteer',
+                      ].map((item) => (
+                        <Link
+                          key={item}
+                          to={`/${item.toLowerCase().replace(' ', '-')}`}
+                          className="block px-4 py-2 text-gray-700 font-medium rounded-lg
+                                    hover:bg-gray-50 hover:text-blue-600"
+                        >
+                          {item}
+                        </Link>
+                      ))}
+
+                      <Link
+                        to="/try-sugar"
+                        className="flex items-center justify-center px-6 py-3 rounded-xl font-semibold
+                                  text-white bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700
+                                  hover:to-blue-800 transition-all duration-300"
+                      >
+                        TRY NOW
+                      </Link>
+                    </div>
+                  </div>
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
+        </nav>
+      </header>
+      <div className="h-20"></div>
+    </>
   );
 };
 
