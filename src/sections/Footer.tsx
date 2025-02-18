@@ -91,7 +91,7 @@ const Footer = () => {
                     className="group relative flex items-center justify-center w-12 h-12 
                       bg-gray-800/30 hover:bg-gray-700 rounded-xl 
                       transition-all duration-300 ease-in-out
-                      hover:scale-110 hover:rotate-3
+                      hover:scale-110
                       before:absolute before:inset-0 before:rounded-xl
                       before:bg-gradient-to-r before:from-blue-500/20 before:to-purple-500/20
                       before:opacity-0 before:transition-opacity before:duration-300
@@ -107,7 +107,7 @@ const Footer = () => {
                         group-hover:opacity-100 group-hover:scale-110"
                     />
                     <span
-                      className="absolute -bottom-8 left-1/2 -translate-x-1/2 
+                      className="absolute -bottom-6 left-1/2 -translate-x-1/2 
                       whitespace-nowrap text-sm opacity-0 group-hover:opacity-100
                       transition-opacity duration-300 pointer-events-none"
                     >
