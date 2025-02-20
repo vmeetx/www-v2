@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { dropdowns } from '../constants/Header';
@@ -9,31 +9,52 @@ const Header: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
-  const handleScroll = () => {
+  // Prevent body scroll when mobile menu is open
+  useEffect(() => {
+    if (menuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [menuOpen]);
+
+  const handleScroll = useCallback(() => {
     setScrolled(window.scrollY > 20);
-  };
+  }, []);
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [handleScroll]);
 
   useEffect(() => {
     setMenuOpen(false);
     setActiveDropdown(null);
   }, []);
 
+  const closeMenu = () => {
+    setMenuOpen(false);
+    setActiveDropdown(null);
+  };
+
   return (
     <>
-      <header
+      <div
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
           scrolled ? 'backdrop-blur-md bg-white/90 shadow-lg' : 'bg-white'
         }`}
       >
-        <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             {/* Logo */}
-            <Link to="/" className="flex-shrink-0 flex items-center">
+            <Link
+              to="/"
+              className="flex-shrink-0 flex items-center"
+              onClick={closeMenu}
+            >
               <img
                 src={logo}
                 alt="Sugar Labs"
@@ -43,9 +64,10 @@ const Header: React.FC = () => {
 
             {/* Mobile Menu Button */}
             <button
-              className="md:hidden relative w-10 h-10 focus:outline-none group"
+              className="md:hidden relative w-10 h-10 focus:outline-none group z-50"
               onClick={() => setMenuOpen(!menuOpen)}
               aria-label="Toggle menu"
+              aria-expanded={menuOpen}
             >
               <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                 <span
@@ -81,8 +103,9 @@ const Header: React.FC = () => {
                 >
                   <button
                     className={`px-3 py-2 text-gray-700 hover:text-blue-600 font-medium rounded-md
-                                transition-all duration-200 hover:bg-gray-50 flex items-center space-x-1
-                                ${activeDropdown === key ? 'text-blue-600' : ''}`}
+                              transition-all duration-200 hover:bg-gray-50 flex items-center space-x-1
+                              ${activeDropdown === key ? 'text-blue-600' : ''}`}
+                    aria-expanded={activeDropdown === key}
                   >
                     <span>{label}</span>
                     <svg
@@ -117,11 +140,11 @@ const Header: React.FC = () => {
                               key={item.path}
                               to={item.path}
                               className="group flex items-center px-4 py-3 text-sm text-gray-700 hover:bg-gray-50
-                                        transition-all duration-200 hover:text-blue-600"
+                                      transition-all duration-200 hover:text-blue-600"
                             >
                               <span
                                 className="w-2 h-2 rounded-full bg-blue-600 opacity-0 group-hover:opacity-100
-                                            transition-all duration-200 mr-2 transform scale-0 group-hover:scale-100"
+                                          transition-all duration-200 mr-2 transform scale-0 group-hover:scale-100"
                               />
                               {item.label}
                             </Link>
@@ -140,7 +163,7 @@ const Header: React.FC = () => {
                     key={item}
                     to={`/${item.toLowerCase().replace(' ', '-')}`}
                     className="px-3 py-2 text-gray-700 hover:text-blue-600 font-medium rounded-md
-                              transition-all duration-200 hover:bg-gray-50"
+                            transition-all duration-200 hover:bg-gray-50"
                   >
                     {item}
                   </Link>
@@ -151,26 +174,42 @@ const Header: React.FC = () => {
               <Link
                 to="/try-sugar"
                 className="inline-flex items-center px-6 py-2.5 rounded-full font-semibold text-white
-                            bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800
-                            transition-all duration-300 transform hover:scale-105 hover:shadow-lg
-                            focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                          bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800
+                          transition-all duration-300 transform hover:scale-105 hover:shadow-lg
+                          focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
               >
                 TRY NOW
               </Link>
             </div>
 
-            {/* Mobile Navigation */}
+            {/* Mobile Navigation Backdrop */}
             <AnimatePresence>
               {menuOpen && (
                 <motion.div
-                  initial={{ opacity: 0, x: 100 }}
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                  transition={{ duration: 0.2 }}
+                  className="fixed inset-0 bg-black/30 md:hidden z-40"
+                  onClick={closeMenu}
+                />
+              )}
+            </AnimatePresence>
+
+            {/* Mobile Navigation Menu */}
+            <AnimatePresence>
+              {menuOpen && (
+                <motion.div
+                  initial={{ opacity: 0, x: '100%' }}
                   animate={{ opacity: 1, x: 0 }}
-                  exit={{ opacity: 0, x: 100 }}
-                  transition={{ type: 'tween' }}
-                  className="fixed md:hidden top-20 right-0 bottom-0 w-full bg-white shadow-xl z-40"
+                  exit={{ opacity: 0, x: '100%' }}
+                  transition={{ type: 'tween', duration: 0.3 }}
+                  className="fixed md:hidden top-0 right-0 bottom-0 w-[80%] max-w-sm bg-white shadow-xl z-40
+                            flex flex-col h-full"
                 >
-                  <div className="flex flex-col h-full overflow-y-auto pb-20">
-                    <div className="px-4 py-6 space-y-6">
+                  <div className="h-20" />
+                  <div className="flex-1 overflow-y-auto overscroll-contain px-4 py-6">
+                    <div className="space-y-6">
                       {Object.entries(dropdowns).map(
                         ([key, { label, items }]) => (
                           <div key={key} className="space-y-2">
@@ -181,7 +220,8 @@ const Header: React.FC = () => {
                                 )
                               }
                               className="flex items-center justify-between w-full text-left px-2 py-2
-                                      text-gray-700 font-medium rounded-lg hover:bg-gray-50"
+                                    text-gray-700 font-medium rounded-lg hover:bg-gray-50"
+                              aria-expanded={activeDropdown === key}
                             >
                               <span>{label}</span>
                               <svg
@@ -215,8 +255,9 @@ const Header: React.FC = () => {
                                       <Link
                                         key={item.path}
                                         to={item.path}
+                                        onClick={closeMenu}
                                         className="flex items-center px-4 py-2 text-sm text-gray-600
-                                                rounded-lg hover:bg-gray-50 hover:text-blue-600"
+                                              rounded-lg hover:bg-gray-50 hover:text-blue-600"
                                       >
                                         {item.label}
                                       </Link>
@@ -238,30 +279,33 @@ const Header: React.FC = () => {
                         <Link
                           key={item}
                           to={`/${item.toLowerCase().replace(' ', '-')}`}
+                          onClick={closeMenu}
                           className="block px-4 py-2 text-gray-700 font-medium rounded-lg
-                                    hover:bg-gray-50 hover:text-blue-600"
+                                  hover:bg-gray-50 hover:text-blue-600"
                         >
                           {item}
                         </Link>
                       ))}
-
-                      <Link
-                        to="/try-sugar"
-                        className="flex items-center justify-center px-6 py-3 rounded-xl font-semibold
-                                  text-white bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700
-                                  hover:to-blue-800 transition-all duration-300"
-                      >
-                        TRY NOW
-                      </Link>
                     </div>
+                  </div>
+                  <div className="p-4 border-t border-gray-200">
+                    <Link
+                      to="/try-sugar"
+                      onClick={closeMenu}
+                      className="flex items-center justify-center px-6 py-3 rounded-xl font-semibold
+                              text-white bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700
+                              hover:to-blue-800 transition-all duration-300 w-full"
+                    >
+                      TRY NOW
+                    </Link>
                   </div>
                 </motion.div>
               )}
             </AnimatePresence>
           </div>
-        </nav>
-      </header>
-      <div className="h-20"></div>
+        </div>
+      </div>
+      <div className="h-10" />
     </>
   );
 };
