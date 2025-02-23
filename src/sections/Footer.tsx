@@ -10,7 +10,6 @@ import {
 const Footer = () => {
   return (
     <>
-      <div className="h-20"></div>
       <footer className="bg-gradient-to-b from-gray-900 to-gray-950 text-gray-300 py-16 px-6 relative">
         {/* Decorative top border */}
         <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"></div>

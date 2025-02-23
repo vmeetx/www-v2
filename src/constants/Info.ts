@@ -3,12 +3,6 @@ import teach1Image from '../assets/Images/teach1.jpg';
 import discussImage from '../assets/Images/discuss.jpeg';
 import teach2Image from '../assets/Images/teach2.jpeg';
 import learnImage from '../assets/Images/learn.jpg';
-import kidlaptop from '../assets/Stats/KidsWhoseLife.svg';
-import studentsCollaborating from '../assets/Stats/ProjectsForTeaching.svg';
-import studentMobile from '../assets/Stats/ProblemSolvingTasks.svg';
-import activity from '../assets/Stats/ActivitiesDownloaded.svg';
-import language from '../assets/Stats/Languages.svg';
-import mentorsTeaching from '../assets/Stats/MentorsHelping.svg';
 
 export interface ImageConfig {
   src: string;
@@ -51,12 +45,6 @@ export const images: Record<string, ImageConfig> = {
   },
 };
 
-export const stats = {
+export const mission = {
   learnImage,
-  kidlaptop,
-  studentsCollaborating,
-  studentMobile,
-  activity,
-  language,
-  mentorsTeaching,
 };
