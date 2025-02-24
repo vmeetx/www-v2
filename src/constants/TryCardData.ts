@@ -6,6 +6,14 @@ import DesktopInitializationImg from '../assets/Cards/DesktopInitialization.png'
 import TriquelImg from '../assets/Cards/Triquel.png';
 import RaspberryPiImg from '../assets/Cards/RaspberryPi.png';
 import FlatpackImg from '../assets/Cards/Flatpack.png';
+import Finance from '../assets/Cards/activity-finance.svg';
+import Maze from '../assets/Cards/activity-maze.svg';
+import Measure from '../assets/Cards/activity-measure.svg';
+import Turtle3D from '../assets/Cards/activity-turtle3d.svg';
+import Words from '../assets/Cards/activity-words.svg';
+import Ruler from '../assets/Cards/activity-ruler.svg';
+import StarChart from '../assets/Cards/activity-star-chart.svg';
+import Recall from '../assets/Cards/activity-recall.svg';
 
 interface CardDataType {
   title: string;
@@ -18,7 +26,7 @@ interface CardDataType {
   gradientClass: string;
 }
 
-const TryCardData: CardDataType[] = [
+export const TryCardData: CardDataType[] = [
   {
     title: 'Music Blocks',
     description:
@@ -108,4 +116,61 @@ const TryCardData: CardDataType[] = [
   },
 ];
 
-export default TryCardData;
+export const Activities = [
+  {
+    title: 'Finance',
+    description: 'Roleplay with money',
+    icon: Finance,
+    buttonText: 'Get Finance',
+    href: 'https://activities.sugarlabs.org/en-US/sugar/addon/4040',
+  },
+  {
+    title: 'Maze',
+    description: 'Have fun with progressive challenges',
+    icon: Maze,
+    buttonText: 'Get Maze',
+    href: 'https://activities.sugarlabs.org/en-US/sugar/addon/4727',
+  },
+  {
+    title: 'Measure',
+    description: 'Use your computer to measure things in the physical world',
+    icon: Measure,
+    buttonText: 'Get Measure',
+    href: 'https://activities.sugarlabs.org/en-US/sugar/addon/4197',
+  },
+  {
+    title: 'TurtleBlocks3D',
+    description: 'Turtle Blocks? But in three dimensions!',
+    icon: Turtle3D,
+    buttonText: 'Get TurtleBlocks3D',
+    href: 'https://activities.sugarlabs.org/en-US/sugar/addon/4757',
+  },
+  {
+    title: 'Words',
+    description: 'Compose and share your ideas',
+    icon: Words,
+    buttonText: 'Get Words',
+    href: 'https://activities.sugarlabs.org/en-US/sugar/addon/4315',
+  },
+  {
+    title: 'Ruler',
+    description: 'Measure and explore math',
+    icon: Ruler,
+    buttonText: 'Get Ruler',
+    href: 'https://activities.sugarlabs.org/en-US/sugar/addon/4192',
+  },
+  {
+    title: 'StarChart',
+    description: 'Explore numbers and information in charts',
+    icon: StarChart,
+    buttonText: 'Get StarChart',
+    href: 'https://activities.sugarlabs.org/en-US/sugar/addon/4300',
+  },
+  {
+    title: 'Recall',
+    description: 'Test your memory with this fun game',
+    icon: Recall,
+    buttonText: 'Get Recall',
+    href: 'https://v4.activities.sugarlabs.org/app/org.sugarlabs.RecallActivity.html',
+  },
+];

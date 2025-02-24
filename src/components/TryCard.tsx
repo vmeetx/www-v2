@@ -11,7 +11,34 @@ interface TryCardProps {
   gradientClass?: string;
 }
 
-const TryCard: React.FC<TryCardProps> = ({
+interface ActivityCardProps {
+  title: string;
+  description: string;
+  icon: string;
+  buttonText: string;
+  href: string;
+}
+
+export const ActivityCard: React.FC<ActivityCardProps> = ({
+  title,
+  description,
+  icon,
+  buttonText,
+  href,
+}) => (
+  <div className="bg-white rounded-3xl p-8 flex flex-col items-center text-center shadow-lg transition-transform hover:scale-105">
+    <img src={icon} alt={title} className="w-24 h-24 mb-4" />
+    <h3 className="text-3xl font-bold mb-2">{title}</h3>
+    <p className="text-gray-600 mb-6">{description}</p>
+    <a href={href} className="w-full">
+      <button className="w-full py-3 px-6 border-2 border-gray-900 rounded-full text-lg font-semibold hover:bg-gray-900 hover:text-white transition-colors">
+        {buttonText}
+      </button>
+    </a>
+  </div>
+);
+
+export const TryCard: React.FC<TryCardProps> = ({
   title,
   description,
   tryNowText,
@@ -77,5 +104,3 @@ const TryCard: React.FC<TryCardProps> = ({
     </div>
   </div>
 );
-
-export default TryCard;
