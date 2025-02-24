@@ -18,8 +18,7 @@
 
 If you need to update the colors of an existing favicon, edit the SVG file and update the hex codes in the following places:
 
-- `flood-color="#00FFFF"`
-- `fill="#40C0E7"`
-- `stroke="#00FFFF"`
+- `fill="#033CD2"`
+- `stroke="#FF7800"`
 
 Ensure that the new colors remain consistent with the current favicon theme.
