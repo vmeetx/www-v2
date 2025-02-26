@@ -9,4 +9,20 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  build: {
+    rollupOptions: {
+      /**
+       * Ignore "use client" waning since we are not using SSR
+       */
+      onwarn(warning, warn) {
+        if (
+          warning.code === "MODULE_LEVEL_DIRECTIVE" &&
+          warning.message.includes(`"use client"`)
+        ) {
+          return;
+        }
+        warn(warning);
+      },
+    },
+  },
 })
