@@ -5,6 +5,8 @@ import {
   thirdRow,
   fourthRow,
 } from '@/constants/TryMore3D';
+import { motion } from 'framer-motion';
+import { slideInLeft, staggerContainer, bounce, fadeIn, headerReveal } from '@/styles/Animations';
 
 const ReviewCard = ({
   img,
@@ -38,22 +40,61 @@ export function TryMore() {
     <div className="relative flex flex-col lg:flex-row h-auto lg:h-96 w-full items-center justify-center gap-6 lg:gap-4 overflow-hidden [perspective:300px] px-4 sm:px-6 md:px-10 lg:pl-20 bg-gradient-to-b from-[#F5DDC8] to-white-800">
       <div className="height- 30px"></div>
       {/* Left Side Content */}
-      <div className="w-full lg:w-1/2 text-center lg:text-left">
-        <h2 className="text-3xl sm:text-4xl font-extrabold text-[#975555] dark:text-[#975555]">
-          Check out the <br className="hidden lg:block" /> remaining hundreds{' '}
-          <br className="hidden lg:block" /> of activities!
-        </h2>
-        <p className="mt-4 text-base sm:text-lg text-gray-700 dark:text-gray-300">
-          Important: Please know that in order to install and try them, you need
-          to be running the Sugar Desktop Environment. If you don’t have that
-          already, please reconsider your other options to explore Sugar. Try
-          Sugar!
-        </p>
-        <button className="mt-6 px-6 py-3 bg-indigo-600 text-white font-medium rounded-lg hover:bg-indigo-700 transition">
-          Go to sugar activity page
-        </button>
-      </div>
-
+      <motion.div 
+  className="w-full lg:w-1/2 text-center lg:text-left"
+  initial="hidden"
+  whileInView="visible"
+  viewport={{ once: true, amount: 0.3 }}
+  variants={staggerContainer}
+>
+  <motion.h2 
+    className="text-3xl sm:text-4xl font-extrabold text-[#975555] dark:text-[#975555]"
+    variants={headerReveal}
+  >
+    <motion.span
+      variants={slideInLeft}
+      custom={0}
+    >
+      Check out the <br className="hidden lg:block" /> 
+    </motion.span>
+    <motion.span
+      variants={slideInLeft}
+      custom={1}
+    >
+      remaining hundreds{' '}
+      <br className="hidden lg:block" /> 
+    </motion.span>
+    <motion.span
+      variants={slideInLeft}
+      custom={2}
+    >
+      of activities!
+    </motion.span>
+  </motion.h2>
+  <motion.p 
+    className="mt-4 text-base sm:text-lg text-gray-700 dark:text-gray-300"
+    variants={fadeIn}
+    custom={3}
+  >
+    Important: Please know that in order to install and try them, you need
+    to be running the Sugar Desktop Environment. If you don't have that
+    already, please reconsider your other options to explore Sugar. Try
+    Sugar!
+  </motion.p>
+  <motion.button 
+    className="mt-6 px-6 py-3 bg-indigo-600 text-white font-medium rounded-lg hover:bg-indigo-700 transition"
+    variants={bounce}
+    custom={4}
+    whileHover={{ 
+      scale: 1.05, 
+      backgroundColor: "#4338ca", 
+      boxShadow: "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)" 
+    }}
+    whileTap={{ scale: 0.95 }}
+  >
+    Go to sugar activity page
+  </motion.button>
+</motion.div>
       {/* Marquee Section */}
       <div
         className="flex flex-col lg:flex-row items-center gap-4 max-[1040px]:hidden"
