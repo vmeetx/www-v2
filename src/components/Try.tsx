@@ -9,7 +9,7 @@ import {
   slideInBottom,
   staggerContainer,
   subtleRise,
-  headerReveal
+  headerReveal,
 } from '@/styles/Animations';
 
 const Try: React.FC = () => {
@@ -67,10 +67,7 @@ const Try: React.FC = () => {
     >
       <motion.main className="flex-grow bg-[#F6DEC9] p-4 md:p-16">
         <div className="max-w-6xl mx-auto space-y-8">
-          <motion.header
-            className="space-y-6"
-            variants={staggerContainer}
-          >
+          <motion.header className="space-y-6" variants={staggerContainer}>
             <motion.h1
               className="text-5xl md:text-7xl font-bold flex flex-col sm:flex-row items-start sm:items-center"
               variants={headerReveal}
@@ -88,10 +85,7 @@ const Try: React.FC = () => {
                 SUGAR
               </motion.span>
             </motion.h1>
-            <motion.div
-              className="space-y-4"
-              variants={subtleRise}
-            >
+            <motion.div className="space-y-4" variants={subtleRise}>
               <motion.p
                 className="text-[#975555] text-2xl md:text-4xl font-bold leading-tight"
                 variants={fadeIn}
@@ -99,10 +93,7 @@ const Try: React.FC = () => {
                 "Our educational tools can be experienced in a number of ways.
                 Try the ones that are best for you!"
               </motion.p>
-              <motion.i
-                className="text-xs text-gray-700"
-                variants={fadeIn}
-              >
+              <motion.i className="text-xs text-gray-700" variants={fadeIn}>
                 Whether you enjoy hands-on activities, visual learning, or
                 interactive coding, there's something for everyone. Explore
                 creative tools, enhance your problem-solving skills, and make
@@ -228,10 +219,7 @@ const Try: React.FC = () => {
           viewport={{ once: true, amount: 0.1 }}
           variants={slideInBottom}
         >
-          <motion.header
-            className="space-y-6"
-            variants={staggerContainer}
-          >
+          <motion.header className="space-y-6" variants={staggerContainer}>
             <motion.h1
               className="text-5xl md:text-7xl font-bold flex flex-col sm:flex-row items-start sm:items-center"
               variants={headerReveal}
@@ -249,20 +237,14 @@ const Try: React.FC = () => {
                 SUGAR?
               </motion.span>
             </motion.h1>
-            <motion.div
-              className="space-y-4"
-              variants={subtleRise}
-            >
+            <motion.div className="space-y-4" variants={subtleRise}>
               <motion.p
                 className="text-[#975555] text-2xl md:text-4xl font-bold leading-tight"
                 variants={fadeIn}
               >
                 "We have many activities for you!"
               </motion.p>
-              <motion.i
-                className="text-xs text-gray-700"
-                variants={fadeIn}
-              >
+              <motion.i className="text-xs text-gray-700" variants={fadeIn}>
                 The Sugar Learning platform is a complete environment for
                 teaching and learning, which includes individual activities. If
                 you're already using the Sugar Desktop Environment, then you can

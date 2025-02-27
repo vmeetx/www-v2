@@ -12,7 +12,7 @@ import {
   fadeIn,
   simpleFadeIn,
   subtleRise,
-  simpleGridContainer
+  simpleGridContainer,
 } from '../styles/Animations';
 
 const Info: React.FC = () => {
@@ -111,7 +111,7 @@ const Info: React.FC = () => {
             </motion.div>
 
             {/* Desktop Image Grid */}
-            <motion.div 
+            <motion.div
               className="hidden md:grid grid-cols-1 md:grid-cols-3 gap-4"
               variants={simpleGridContainer}
               initial="hidden"
@@ -124,7 +124,7 @@ const Info: React.FC = () => {
             </motion.div>
 
             {/* Mobile Carousel */}
-            <motion.div 
+            <motion.div
               className="md:hidden"
               variants={fadeIn}
               initial="hidden"
@@ -151,7 +151,7 @@ const Info: React.FC = () => {
           </section>
 
           {/* Mission Section */}
-          <motion.section 
+          <motion.section
             className="grid md:grid-cols-2 gap-10 md:gap-20 items-center"
             initial="hidden"
             whileInView="visible"
@@ -191,7 +191,7 @@ const Info: React.FC = () => {
                 </div>
               </motion.h2>
 
-              <motion.h4 
+              <motion.h4
                 className="text-lg md:text-xl font-bold text-gray-800"
                 variants={subtleRise}
               >
@@ -204,10 +204,7 @@ const Info: React.FC = () => {
               </p>
             </div>
 
-            <motion.div 
-              className="relative"
-              variants={subtleRise}
-            >
+            <motion.div className="relative" variants={subtleRise}>
               <div className="bg-auto rounded-2xl overflow-hidden shadow-xl">
                 {/* Card on Top Left */}
                 <motion.div

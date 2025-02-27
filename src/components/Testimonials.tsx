@@ -8,7 +8,7 @@ import {
   decorativeElement,
   testimonialText,
   avatarReveal,
-  marqueeContainer
+  marqueeContainer,
 } from '@/styles/Animations';
 
 const ReviewCard = ({
@@ -16,7 +16,7 @@ const ReviewCard = ({
   name,
   username,
   body,
-  delay = 0
+  delay = 0,
 }: {
   img: string;
   name: string;
@@ -25,7 +25,7 @@ const ReviewCard = ({
   delay?: number;
 }) => {
   return (
-    <motion.div 
+    <motion.div
       className="bg-white dark:bg-gray-900 rounded-xl p-6 flex flex-col items-center text-center min-h-[250px] h-auto w-[350px] shadow-lg border border-gray-200 dark:border-gray-700 mx-2"
       variants={testimonialCard}
       initial="hidden"
@@ -41,9 +41,9 @@ const ReviewCard = ({
         className="w-10 h-10 self-start opacity-70"
         variants={decorativeElement}
       />
-      
+
       {/* Feedback Text */}
-      <motion.p 
+      <motion.p
         className="text-gray-700 dark:text-gray-300 mt-2"
         variants={testimonialText}
       >
@@ -78,7 +78,7 @@ export function Testimonials() {
   return (
     <div className="w-full bg-gradient-to-b from-white-800 to-[#F5DDC8] p-6">
       {/* Heading Section with Hearts */}
-      <motion.div 
+      <motion.div
         className="flex items-center justify-center gap-4 md:gap-6 mb-12"
         initial="hidden"
         whileInView="visible"
@@ -106,7 +106,7 @@ export function Testimonials() {
           />
 
           {/* Heading */}
-          <motion.h2 
+          <motion.h2
             className="font-bold tracking-wider font-Caveat text-3xl md:text-5xl lg:text-6xl text-gray-800 text-center"
             variants={testimonialHeading}
           >
@@ -138,7 +138,7 @@ export function Testimonials() {
       </motion.div>
 
       {/* Testimonials Section */}
-      <motion.div 
+      <motion.div
         className="relative flex flex-col items-center justify-center w-full overflow-hidden mt-6"
         initial="hidden"
         whileInView="visible"
@@ -148,10 +148,10 @@ export function Testimonials() {
         {/* First Row (left to right) */}
         <Marquee pauseOnHover className="w-full">
           {firstRow.map((review, index) => (
-            <ReviewCard 
-              key={review.username} 
-              {...review} 
-              delay={index * 0.05} 
+            <ReviewCard
+              key={review.username}
+              {...review}
+              delay={index * 0.05}
             />
           ))}
         </Marquee>
@@ -159,10 +159,10 @@ export function Testimonials() {
         {/* Second Row (right to left) */}
         <Marquee reverse pauseOnHover className="w-full mt-4">
           {secondRow.map((review, index) => (
-            <ReviewCard 
-              key={review.username} 
-              {...review} 
-              delay={index * 0.05} 
+            <ReviewCard
+              key={review.username}
+              {...review}
+              delay={index * 0.05}
             />
           ))}
         </Marquee>
