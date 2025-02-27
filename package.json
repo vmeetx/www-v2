@@ -14,6 +14,7 @@
     "lint:ts": "eslint 'src/**/*.{ts,tsx}'",
     "lint:md": "markdownlint '**/*.md' --ignore node_modules",
     "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,json,css,md}'",
+    "format:file": "prettier --write",
     "format:check": "prettier --check 'src/**/*.{js,jsx,ts,tsx,json,css,md}'"
   },
   "dependencies": {
