@@ -349,7 +349,7 @@ export const goalSectionAnimations = {
   },
 };
 
-// Hero Section animations
+
 export const heroAnimations = {
   container: {
     hidden: { opacity: 0 },
@@ -389,19 +389,6 @@ export const heroAnimations = {
       opacity: 1,
       transition: { delay: 1.2, duration: 0.8 },
     },
-  },
-  floatingCircle: {
-    hidden: { scale: 0, opacity: 0 },
-    visible: (i: number) => ({
-      scale: [0, 1.5, 1],
-      opacity: [0, 0.8, 0],
-      transition: {
-        duration: 3,
-        delay: i * 0.5,
-        repeat: Infinity,
-        repeatType: 'loop',
-      },
-    }),
   },
   hoverText: {
     initial: {},

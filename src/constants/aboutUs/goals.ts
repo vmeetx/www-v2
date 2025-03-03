@@ -1,16 +1,16 @@
-import { MotionProps, Variants } from 'framer-motion';
+import { MotionProps} from 'framer-motion';
 
 export interface Goal {
   title: string;
   description: string;
 }
 
-interface ProgressItem extends Variants {
-  label: string;
+interface ProgressItem {
   percent: number;
+  label: string;
   color: string;
-  [key: string]: string | number;
 }
+
 export interface SectionContentType {
   title: {
     main: string;

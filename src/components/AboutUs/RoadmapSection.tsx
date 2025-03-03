@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import SectionContainer from '@/components/shared/SectionContainer';
 import SectionTitle from '@/components/shared/SectionTitle';
 import { roadmapItems, roadmapContent } from '@/constants/aboutUs/roadmap';
-import { roadmapSectionAnimations } from '@/styles/animations';
+import { roadmapSectionAnimations } from '@/styles/Animations';
 
 const RoadmapSection: React.FC = () => {
   return (

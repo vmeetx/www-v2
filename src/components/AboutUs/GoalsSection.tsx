@@ -24,7 +24,13 @@ interface GoalStat {
 }
 
 const GoalsSection: FC = () => {
-  const renderProgressBars = (items) => {
+  interface ProgressItem {
+    label: string;
+    percent: number;
+    color: string;
+  }
+
+  const renderProgressBars = (items: ProgressItem[]) => {
     return items.map((item, index) => (
       <motion.div
         key={index}

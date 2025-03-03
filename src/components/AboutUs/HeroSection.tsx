@@ -81,24 +81,6 @@ const HeroSection = () => {
         </motion.span>{' '}
         Enthusiasts
       </motion.h2>
-
-      {/* Animated decorative circles */}
-      <div className="absolute w-full h-full pointer-events-none">
-        {[...Array(6)].map((_, i) => (
-          <motion.div
-            key={i}
-            className="absolute w-4 h-4 rounded-full bg-red-500/10"
-            style={{
-              x: Math.random() * window.innerWidth,
-              y: Math.random() * window.innerHeight,
-            }}
-            variants={heroAnimations.floatingCircle}
-            animate="visible"
-            custom={i}
-          />
-        ))}
-      </div>
-
       {/* Interactive mouse-follow effect */}
       <motion.div
         className="absolute w-96 h-96 bg-red-100 rounded-full blur-3xl opacity-20"
