@@ -1,4 +1,4 @@
-import { MotionProps} from 'framer-motion';
+import { MotionProps } from 'framer-motion';
 
 export interface Goal {
   title: string;

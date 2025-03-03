@@ -349,7 +349,6 @@ export const goalSectionAnimations = {
   },
 };
 
-
 export const heroAnimations = {
   container: {
     hidden: { opacity: 0 },
