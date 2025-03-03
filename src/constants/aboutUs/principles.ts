@@ -51,5 +51,5 @@ export const principlesContent = {
   },
   description:
     "In order for Sugar Labs to be successful, it needs the participation of a large number of people who share common goals while maintaining independence, so that each participant has the ability to act independently. For these reasons, Sugar Labs subscribes to the principles described here, which are the author's own translation of an original text in Spanish.",
-  featuredImage: '/assets/Images/teach1.jpg',
+  featuredImage: 'assets/Images/teach1.jpg',
 };
