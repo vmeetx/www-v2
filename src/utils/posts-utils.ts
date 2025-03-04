@@ -113,7 +113,7 @@ export const fetchMarkdownPosts = async (
               : [],
           image: Array.isArray(frontmatter.image)
             ? frontmatter.image.join(' ')
-            : frontmatter.image || '/assets/Images/teach.jpg',
+            : frontmatter.image || 'assets/Images/teach.jpg',
         };
 
         allPosts.push(post);
