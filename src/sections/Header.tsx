@@ -56,8 +56,9 @@ const Header: React.FC = () => {
   return (
     <>
       <div
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'backdrop-blur-md bg-white/90 shadow-lg' : 'bg-white'
-          }`}
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+          scrolled ? 'backdrop-blur-md bg-white/90 shadow-lg' : 'bg-white'
+        }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
@@ -77,27 +78,29 @@ const Header: React.FC = () => {
             {/* Mobile Menu Button */}
             <button
               className="md:hidden relative w-10 h-10 focus:outline-none group z-50"
-
               onClick={() => setMenuOpen(!menuOpen)}
               aria-label="Toggle menu"
               aria-expanded={menuOpen}
             >
               <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                 <span
-                  className={`block w-6 h-0.5 bg-gray-600 transition-all duration-300 ${menuOpen
-                    ? 'rotate-45 translate-y-1.5'
-                    : 'translate-y-[-4px]'
-                    }`}
+                  className={`block w-6 h-0.5 bg-gray-600 transition-all duration-300 ${
+                    menuOpen
+                      ? 'rotate-45 translate-y-1.5'
+                      : 'translate-y-[-4px]'
+                  }`}
                 />
                 <span
-                  className={`block w-6 h-0.5 bg-gray-600 transition-all duration-300 mt-1 ${menuOpen ? 'opacity-0' : ''
-                    }`}
+                  className={`block w-6 h-0.5 bg-gray-600 transition-all duration-300 mt-1 ${
+                    menuOpen ? 'opacity-0' : ''
+                  }`}
                 />
                 <span
-                  className={`block w-6 h-0.5 bg-gray-600 transition-all duration-300 mt-1 ${menuOpen
-                    ? '-rotate-45 -translate-y-1.5'
-                    : 'translate-y-[4px]'
-                    }`}
+                  className={`block w-6 h-0.5 bg-gray-600 transition-all duration-300 mt-1 ${
+                    menuOpen
+                      ? '-rotate-45 -translate-y-1.5'
+                      : 'translate-y-[4px]'
+                  }`}
                 />
               </div>
             </button>
@@ -116,12 +119,12 @@ const Header: React.FC = () => {
                               transition-all duration-200 hover:bg-gray-50 flex items-center space-x-1
                               ${activeDropdown === key ? 'text-blue-600' : ''}`}
                     aria-expanded={activeDropdown === key}
-
                   >
                     <span>{label}</span>
                     <svg
-                      className={`w-4 h-4 transition-transform duration-200 ${activeDropdown === key ? 'rotate-180' : ''
-                        }`}
+                      className={`w-4 h-4 transition-transform duration-200 ${
+                        activeDropdown === key ? 'rotate-180' : ''
+                      }`}
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -202,7 +205,6 @@ const Header: React.FC = () => {
                   transition={{ duration: 0.2 }}
                   className="fixed inset-0 bg-black/30 md:hidden z-40"
                   onClick={closeMenu}
-
                 />
               )}
             </AnimatePresence>
@@ -232,13 +234,13 @@ const Header: React.FC = () => {
                               }
                               className="flex items-center justify-between w-full text-left px-2 py-2
                                     text-gray-700 font-medium rounded-lg hover:bg-gray-50"
-
                               aria-expanded={activeDropdown === key}
                             >
                               <span>{label}</span>
                               <svg
-                                className={`w-5 h-5 transition-transform duration-200 ${activeDropdown === key ? 'rotate-180' : ''
-                                  }`}
+                                className={`w-5 h-5 transition-transform duration-200 ${
+                                  activeDropdown === key ? 'rotate-180' : ''
+                                }`}
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke="currentColor"
@@ -282,7 +284,6 @@ const Header: React.FC = () => {
                       )}
 
                       {[
-
                         'Products',
                         'Donate',
                         'Join Development',
