@@ -3,13 +3,14 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { renderMarkdown } from '@/utils/mdparser-utils';
 import { getPostBySlug, Post } from '@/utils/posts-utils';
 import { motion } from 'framer-motion';
+import Header from '@/sections/Header';
+import Footer from '@/sections/Footer';
 
 const NewsDetailPage: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
   const navigate = useNavigate();
   const [post, setPost] = useState<Post | null>(null);
   const [isLoading, setIsLoading] = useState<boolean>(true);
-  const [readingProgress, setReadingProgress] = useState<number>(0);
   const contentRef = useRef<HTMLDivElement>(null);
   const [modalImage, setModalImage] = useState<{
     src: string;
@@ -33,19 +34,6 @@ const NewsDetailPage: React.FC = () => {
     };
 
     loadPost();
-
-    // Calculate reading progress
-    const handleScroll = () => {
-      const totalHeight =
-        document.documentElement.scrollHeight -
-        document.documentElement.clientHeight;
-      const scrollPosition = document.documentElement.scrollTop;
-      const progress = (scrollPosition / totalHeight) * 100;
-      setReadingProgress(progress);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
   }, [slug]);
 
   useEffect(() => {
@@ -113,15 +101,8 @@ const NewsDetailPage: React.FC = () => {
 
   return (
     <>
-      <div className="container mx-auto px-4 py-8 max-w-4xl bg-white">
-        {/* Reading Progress Bar */}
-        <div className="fixed top-0 left-0 w-full h-1 z-50">
-          <div
-            className="h-full bg-blue-600"
-            style={{ width: `${readingProgress}%` }}
-          ></div>
-        </div>
-
+      <Header />
+      <div className="container mx-auto px-4 py-8 max-w-4xl bg-white mt-10">
         {/* Back button */}
         <motion.button
           onClick={handleGoBack}
@@ -221,13 +202,14 @@ const NewsDetailPage: React.FC = () => {
           </motion.div>
         )}
 
-        {/* Article Content */}
+        {/* Article Content - Updated with key for proper re-rendering */}
         <motion.div
           ref={contentRef}
-          className="mb-12"
+          className="mb-12 prose prose-lg max-w-none"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
+          key={slug} // This ensures re-rendering when the slug changes
           dangerouslySetInnerHTML={{ __html: renderMarkdown(post.content) }}
         />
 
@@ -328,6 +310,7 @@ const NewsDetailPage: React.FC = () => {
           </div>
         </motion.div>
       )}
+      <Footer />
     </>
   );
 };
