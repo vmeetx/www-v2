@@ -2,12 +2,7 @@ import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { motion } from 'framer-motion';
-import {
-  heroContent,
-  images,
-  ImageConfig,
-  mission,
-} from '@/constants/Info.ts';
+import { heroContent, images, ImageConfig, mission } from '@/constants/Info.ts';
 import {
   fadeIn,
   simpleFadeIn,
@@ -57,7 +52,9 @@ const Info: React.FC = () => {
           className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/90 
                    to-transparent p-3 sm:p-4"
         >
-          <p className="text-white font-normal text-sm sm:text-base">{image.caption}</p>
+          <p className="text-white font-normal text-sm sm:text-base">
+            {image.caption}
+          </p>
         </div>
       )}
     </div>
