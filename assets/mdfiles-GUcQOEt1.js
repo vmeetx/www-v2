@@ -140,7 +140,7 @@ after a blank line.
 ---
 
 Thanks for reviewing this Markdown test document! :heart:
-`,h=Object.freeze(Object.defineProperty({__proto__:null,default:e},Symbol.toStringTag,{value:"Module"})),n=`---
+`,g=Object.freeze(Object.defineProperty({__proto__:null,default:e},Symbol.toStringTag,{value:"Module"})),n=`---
 title: "Deployment Profile: Connecting Rural Schools"
 excerpt: "How a grassroots initiative brought technology to 50+ schools across Rwanda"
 category: "COMMUNITY NEWS"
@@ -252,7 +252,7 @@ Looking ahead, the initiative has ambitious plans:
 ---
 
 * This profile is part of our series on deployments worldwide. To share your deployment story, please contact deployments@example.org. *
-`,u=Object.freeze(Object.defineProperty({__proto__:null,default:n},Symbol.toStringTag,{value:"Module"})),t=`---
+`,f=Object.freeze(Object.defineProperty({__proto__:null,default:n},Symbol.toStringTag,{value:"Module"})),t=`---
 title: "Teacher Spotlight: Transforming Classrooms with Sugar"
 excerpt: "How educators in rural areas are revolutionizing learning with Sugar"
 category: "COMMUNITY NEWS"
@@ -348,7 +348,7 @@ This educator continues to advocate for Sugar in their region, conducting worksh
 ---
 
 *If you're a teacher using Sugar in your classroom and would like to be featured in our Teacher Spotlight series, please contact community@sugarlabs.org.*
-`,d=Object.freeze(Object.defineProperty({__proto__:null,default:t},Symbol.toStringTag,{value:"Module"})),o=`---
+`,b=Object.freeze(Object.defineProperty({__proto__:null,default:t},Symbol.toStringTag,{value:"Module"})),i=`---
 title: "Annual Global Hackathon 2025"
 excerpt: "Join us for a 48-hour coding marathon to build exciting new educational activities"
 category: "EVENTS"
@@ -407,7 +407,7 @@ Don't miss this incredible opportunity to make an impact on educational technolo
 ---
 
 For questions, please contact events@example.org.
-`,p=Object.freeze(Object.defineProperty({__proto__:null,default:o},Symbol.toStringTag,{value:"Module"})),a=`---
+`,w=Object.freeze(Object.defineProperty({__proto__:null,default:i},Symbol.toStringTag,{value:"Module"})),a=`---
 title: "Summer Code Sprint 2025: Advancing Core Technology"
 excerpt: "Join our virtual development sprint to enhance core functionality"
 category: "EVENTS"
@@ -488,7 +488,7 @@ Ready to make a significant impact on educational technology used by children wo
 ---
 
 *For technical questions about the Sprint, contact development@example.org*
-`,m=Object.freeze(Object.defineProperty({__proto__:null,default:a},Symbol.toStringTag,{value:"Module"})),i=`---
+`,y=Object.freeze(Object.defineProperty({__proto__:null,default:a},Symbol.toStringTag,{value:"Module"})),o=`---
 title: "Education Beyond Boundaries Conference 2025"
 excerpt: "The premier gathering of educators, developers, and supporters"
 category: "EVENTS"
@@ -563,7 +563,7 @@ Don't miss the premier event for the education community! [Register now](https:/
 ---
 
 *For more information, contact conference@example.org*
-`,g=Object.freeze(Object.defineProperty({__proto__:null,default:i},Symbol.toStringTag,{value:"Module"})),r=`---
+`,T=Object.freeze(Object.defineProperty({__proto__:null,default:o},Symbol.toStringTag,{value:"Module"})),s=`---
 title: "Markdown Test: This page is a test for markdown formats"
 excerpt: "Please Read Through this to get an Understanding of the Markdown converter"
 category: "EVENTS"
@@ -705,7 +705,7 @@ after a blank line.
 ---
 
 Thanks for reviewing this Markdown test document! :heart:
-`,f=Object.freeze(Object.defineProperty({__proto__:null,default:r},Symbol.toStringTag,{value:"Module"})),s=`---
+`,k=Object.freeze(Object.defineProperty({__proto__:null,default:s},Symbol.toStringTag,{value:"Module"})),r=`---
 title: "Education Beyond Boundaries Conference 2024"
 excerpt: "The premier gathering of educators, developers, and supporters"
 category: "EVENTS"
@@ -780,7 +780,7 @@ Don't miss the premier event for the education community! [Register now](https:/
 ---
 
 *For more information, contact conference@example.org*
-`,b=Object.freeze(Object.defineProperty({__proto__:null,default:s},Symbol.toStringTag,{value:"Module"})),l=`---
+`,v=Object.freeze(Object.defineProperty({__proto__:null,default:r},Symbol.toStringTag,{value:"Module"})),l=`---
 title: "Markdown Test: This page is a test for markdown formats"
 excerpt: "Please Read Through this to get an Understanding of the Markdown converter"
 category: "SUGAR STORIES"
@@ -922,7 +922,7 @@ after a blank line.
 ---
 
 Thanks for reviewing this Markdown test document! :heart:
-`,y=Object.freeze(Object.defineProperty({__proto__:null,default:l},Symbol.toStringTag,{value:"Module"})),c=`---
+`,S=Object.freeze(Object.defineProperty({__proto__:null,default:l},Symbol.toStringTag,{value:"Module"})),h=`---
 title: "Connected Through Technology: Our Rural-Urban Classroom Partnership"
 excerpt: "How students from different worlds found common ground through shared activities"
 category: "SUGAR STORIES"
@@ -1069,4 +1069,702 @@ Through the platform, our students discovered that meaningful collaboration does
 
 The partnership continues to evolve, with new projects and new students joining each year. What began as an experimental connection between two classrooms has become a sustainable model for global education that honors both the universal nature of childhood curiosity and the unique perspectives that different contexts provide.
 
----`,w=Object.freeze(Object.defineProperty({__proto__:null,default:c},Symbol.toStringTag,{value:"Module"}));export{h as C,p as E,y as S,u as a,d as b,m as c,g as d,f as e,b as f,w as g};
+---`,x=Object.freeze(Object.defineProperty({__proto__:null,default:h},Symbol.toStringTag,{value:"Module"})),c=`---
+title: Culture and Pedagogy
+slug: culture
+author: Sugar Labs Team
+lastUpdated: 2025-03-07
+category: Education
+---
+
+<!-- markdownlint-disable -->
+
+# The Ultimate Markdown Test Document (NOTE: THIS IS AI GENERATED)
+
+This document demonstrates all the features of our custom Markdown renderer. The first paragraph has special styling with a drop cap first letter. Let's explore everything this renderer can do!
+
+## Basic Formatting
+
+This text is **bold** and this is _italic_. You can also have ~~strikethrough text~~ and ==highlighted text== for emphasis.
+
+You can add super^script^ and sub~script~ text when needed.
+
+## Links and Code
+
+Visit [our website](https://example.com) for more information.
+
+Here's some \`inline code\` within a paragraph.
+
+## Lists
+
+### Unordered Lists
+
+- First item
+- Second item
+
+### Ordered Lists
+
+1. First ordered item
+2. Second ordered item
+
+### Task Lists
+
+- [ ] Uncompleted task
+- [x] Completed task
+- [ ] Another pending task
+
+## Tables
+
+| Feature     | Support | Notes                     |
+| ----------- | ------- | ------------------------- |
+| Headers     | ✅      | With anchor links         |
+| Bold/Italic | ✅      | Basic formatting          |
+| Code blocks | ✅      | With language support     |
+| Tables      | ✅      | This one!                 |
+| Lists       | ✅      | Ordered, unordered, tasks |
+
+## Blockquotes with Proper Nesting
+
+> This is a simple blockquote
+>
+> With multiple paragraphs
+
+>> This is a second-level blockquote
+>> Which continues on a second line
+
+>>> And this is a third-level blockquote
+>>> With another line
+
+> This is a multi-line blockquote
+> that continues on the next line
+>
+> And even has an empty line in between
+
+## Images with Captions
+
+![A beautiful landscape](https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600 'Beautiful mountain landscape')
+
+## Horizontal Rules
+
+Above this text is regular content.
+
+---
+
+Below this is separated by a horizontal rule.
+
+## Special Features
+
+### Collapsible Sections
+
+:::details Click to see hidden content
+This content is hidden by default until the user clicks on the summary.
+
+- You can include lists
+- And other formatting inside
+  ![A beautiful landscape](https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600)
+  :::
+
+### YouTube Embed
+
+[youtube: MM-H69cHYMk]
+
+### Emoji Support
+
+:smile: I'm happy to see this working!
+:rocket: Let's launch this feature!
+:warning: Be careful with this syntax.
+:thumbsup: Looks good to me!
+:heart: Love this feature!
+:fire: This is awesome!
+:star: Five-star quality!
+:info: Here's some information.
+:check: This is correct.
+:x: This is wrong.
+
+## Combined Examples
+
+> This blockquote contains **bold text**.
+> It also has a [link](https://example.com).
+
+- List item with **bold** and _italic_ text
+- Item with a [link](https://example.com) and \`inline code\`
+- Item with ==highlighted text== that stands out
+
+## Advanced Typography Test
+
+H~2~O is water and 5^th^ is an ordinal number.
+
+This paragraph has ~~strikethrough text~~ to show deleted content and ==highlighted text== to show important information.
+
+## Paragraphs with Line Breaks
+
+This is a paragraph with
+line breaks that should be
+preserved as spaces within
+the paragraph.
+
+This is another paragraph
+after a blank line.
+
+---
+
+Thanks for reviewing this Markdown test document! :heart:
+`,C=Object.freeze(Object.defineProperty({__proto__:null,default:c},Symbol.toStringTag,{value:"Module"})),d=`---
+title: 'Markdown Test Page'
+slug: 'markdown-test'
+category: 'MarkdownaData'
+---
+
+<!-- markdownlint-disable -->
+
+# The Ultimate Markdown Test Document (NOTE: THIS IS AI GENERATED)
+
+This document demonstrates all the features of our custom Markdown renderer. The first paragraph has special styling with a drop cap first letter. Let's explore everything this renderer can do!
+
+## Basic Formatting
+
+This text is **bold** and this is _italic_. You can also have ~~strikethrough text~~ and ==highlighted text== for emphasis.
+
+You can add super^script^ and sub~script~ text when needed.
+
+## Links and Code
+
+Visit [our website](https://example.com) for more information.
+
+Here's some \`inline code\` within a paragraph.
+
+## Lists
+
+### Unordered Lists
+
+- First item
+- Second item
+
+### Ordered Lists
+
+1. First ordered item
+2. Second ordered item
+
+### Task Lists
+
+- [ ] Uncompleted task
+- [x] Completed task
+- [ ] Another pending task
+
+## Tables
+
+| Feature     | Support | Notes                     |
+| ----------- | ------- | ------------------------- |
+| Headers     | ✅      | With anchor links         |
+| Bold/Italic | ✅      | Basic formatting          |
+| Code blocks | ✅      | With language support     |
+| Tables      | ✅      | This one!                 |
+| Lists       | ✅      | Ordered, unordered, tasks |
+
+## Blockquotes with Proper Nesting
+
+> This is a simple blockquote
+>
+> With multiple paragraphs
+
+>> This is a second-level blockquote
+>> Which continues on a second line
+
+>>> And this is a third-level blockquote
+>>> With another line
+
+> This is a multi-line blockquote
+> that continues on the next line
+>
+> And even has an empty line in between
+
+## Images with Captions
+
+![A beautiful landscape](https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600 'Beautiful mountain landscape')
+
+## Horizontal Rules
+
+Above this text is regular content.
+
+---
+
+Below this is separated by a horizontal rule.
+
+## Special Features
+
+### Collapsible Sections
+
+:::details Click to see hidden content
+This content is hidden by default until the user clicks on the summary.
+
+- You can include lists
+- And other formatting inside
+  ![A beautiful landscape](https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600)
+  :::
+
+### YouTube Embed
+
+[youtube: MM-H69cHYMk]
+
+### Emoji Support
+
+:smile: I'm happy to see this working!
+:rocket: Let's launch this feature!
+:warning: Be careful with this syntax.
+:thumbsup: Looks good to me!
+:heart: Love this feature!
+:fire: This is awesome!
+:star: Five-star quality!
+:info: Here's some information.
+:check: This is correct.
+:x: This is wrong.
+
+## Combined Examples
+
+> This blockquote contains **bold text**.
+> It also has a [link](https://example.com).
+
+- List item with **bold** and _italic_ text
+- Item with a [link](https://example.com) and \`inline code\`
+- Item with ==highlighted text== that stands out
+
+## Advanced Typography Test
+
+H~2~O is water and 5^th^ is an ordinal number.
+
+This paragraph has ~~strikethrough text~~ to show deleted content and ==highlighted text== to show important information.
+
+## Paragraphs with Line Breaks
+
+This is a paragraph with
+line breaks that should be
+preserved as spaces within
+the paragraph.
+
+This is another paragraph
+after a blank line.
+
+---
+
+Thanks for reviewing this Markdown test document! :heart:
+`,I=Object.freeze(Object.defineProperty({__proto__:null,default:d},Symbol.toStringTag,{value:"Module"})),u=`---
+title: Parents
+slug: parents
+author: Sugar Labs Team
+lastUpdated: 2025-03-07
+category: Education
+---
+
+<!-- markdownlint-disable -->
+
+# The Ultimate Markdown Test Document (NOTE: THIS IS AI GENERATED)
+
+This document demonstrates all the features of our custom Markdown renderer. The first paragraph has special styling with a drop cap first letter. Let's explore everything this renderer can do!
+
+## Basic Formatting
+
+This text is **bold** and this is _italic_. You can also have ~~strikethrough text~~ and ==highlighted text== for emphasis.
+
+You can add super^script^ and sub~script~ text when needed.
+
+## Links and Code
+
+Visit [our website](https://example.com) for more information.
+
+Here's some \`inline code\` within a paragraph.
+
+## Lists
+
+### Unordered Lists
+
+- First item
+- Second item
+
+### Ordered Lists
+
+1. First ordered item
+2. Second ordered item
+
+### Task Lists
+
+- [ ] Uncompleted task
+- [x] Completed task
+- [ ] Another pending task
+
+## Tables
+
+| Feature     | Support | Notes                     |
+| ----------- | ------- | ------------------------- |
+| Headers     | ✅      | With anchor links         |
+| Bold/Italic | ✅      | Basic formatting          |
+| Code blocks | ✅      | With language support     |
+| Tables      | ✅      | This one!                 |
+| Lists       | ✅      | Ordered, unordered, tasks |
+
+## Blockquotes with Proper Nesting
+
+> This is a simple blockquote
+>
+> With multiple paragraphs
+
+>> This is a second-level blockquote
+>> Which continues on a second line
+
+>>> And this is a third-level blockquote
+>>> With another line
+
+> This is a multi-line blockquote
+> that continues on the next line
+>
+> And even has an empty line in between
+
+## Images with Captions
+
+![A beautiful landscape](https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600 'Beautiful mountain landscape')
+
+## Horizontal Rules
+
+Above this text is regular content.
+
+---
+
+Below this is separated by a horizontal rule.
+
+## Special Features
+
+### Collapsible Sections
+
+:::details Click to see hidden content
+This content is hidden by default until the user clicks on the summary.
+
+- You can include lists
+- And other formatting inside
+  ![A beautiful landscape](https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600)
+  :::
+
+### YouTube Embed
+
+[youtube: MM-H69cHYMk]
+
+### Emoji Support
+
+:smile: I'm happy to see this working!
+:rocket: Let's launch this feature!
+:warning: Be careful with this syntax.
+:thumbsup: Looks good to me!
+:heart: Love this feature!
+:fire: This is awesome!
+:star: Five-star quality!
+:info: Here's some information.
+:check: This is correct.
+:x: This is wrong.
+
+## Combined Examples
+
+> This blockquote contains **bold text**.
+> It also has a [link](https://example.com).
+
+- List item with **bold** and _italic_ text
+- Item with a [link](https://example.com) and \`inline code\`
+- Item with ==highlighted text== that stands out
+
+## Advanced Typography Test
+
+H~2~O is water and 5^th^ is an ordinal number.
+
+This paragraph has ~~strikethrough text~~ to show deleted content and ==highlighted text== to show important information.
+
+## Paragraphs with Line Breaks
+
+This is a paragraph with
+line breaks that should be
+preserved as spaces within
+the paragraph.
+
+This is another paragraph
+after a blank line.
+
+---
+
+Thanks for reviewing this Markdown test document! :heart:
+`,A=Object.freeze(Object.defineProperty({__proto__:null,default:u},Symbol.toStringTag,{value:"Module"})),p=`---
+title: School Administrators
+slug: school-admin
+author: Sugar Labs Team
+lastUpdated: 2025-03-07
+category: Education
+---
+
+<!-- markdownlint-disable -->
+
+# The Ultimate Markdown Test Document (NOTE: THIS IS AI GENERATED)
+
+This document demonstrates all the features of our custom Markdown renderer. The first paragraph has special styling with a drop cap first letter. Let's explore everything this renderer can do!
+
+## Basic Formatting
+
+This text is **bold** and this is _italic_. You can also have ~~strikethrough text~~ and ==highlighted text== for emphasis.
+
+You can add super^script^ and sub~script~ text when needed.
+
+## Links and Code
+
+Visit [our website](https://example.com) for more information.
+
+Here's some \`inline code\` within a paragraph.
+
+## Lists
+
+### Unordered Lists
+
+- First item
+- Second item
+
+### Ordered Lists
+
+1. First ordered item
+2. Second ordered item
+
+### Task Lists
+
+- [ ] Uncompleted task
+- [x] Completed task
+- [ ] Another pending task
+
+## Tables
+
+| Feature     | Support | Notes                     |
+| ----------- | ------- | ------------------------- |
+| Headers     | ✅      | With anchor links         |
+| Bold/Italic | ✅      | Basic formatting          |
+| Code blocks | ✅      | With language support     |
+| Tables      | ✅      | This one!                 |
+| Lists       | ✅      | Ordered, unordered, tasks |
+
+## Blockquotes with Proper Nesting
+
+> This is a simple blockquote
+>
+> With multiple paragraphs
+
+>> This is a second-level blockquote
+>> Which continues on a second line
+
+>>> And this is a third-level blockquote
+>>> With another line
+
+> This is a multi-line blockquote
+> that continues on the next line
+>
+> And even has an empty line in between
+
+## Images with Captions
+
+![A beautiful landscape](https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600 'Beautiful mountain landscape')
+
+## Horizontal Rules
+
+Above this text is regular content.
+
+---
+
+Below this is separated by a horizontal rule.
+
+## Special Features
+
+### Collapsible Sections
+
+:::details Click to see hidden content
+This content is hidden by default until the user clicks on the summary.
+
+- You can include lists
+- And other formatting inside
+  ![A beautiful landscape](https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600)
+  :::
+
+### YouTube Embed
+
+[youtube: MM-H69cHYMk]
+
+### Emoji Support
+
+:smile: I'm happy to see this working!
+:rocket: Let's launch this feature!
+:warning: Be careful with this syntax.
+:thumbsup: Looks good to me!
+:heart: Love this feature!
+:fire: This is awesome!
+:star: Five-star quality!
+:info: Here's some information.
+:check: This is correct.
+:x: This is wrong.
+
+## Combined Examples
+
+> This blockquote contains **bold text**.
+> It also has a [link](https://example.com).
+
+- List item with **bold** and _italic_ text
+- Item with a [link](https://example.com) and \`inline code\`
+- Item with ==highlighted text== that stands out
+
+## Advanced Typography Test
+
+H~2~O is water and 5^th^ is an ordinal number.
+
+This paragraph has ~~strikethrough text~~ to show deleted content and ==highlighted text== to show important information.
+
+## Paragraphs with Line Breaks
+
+This is a paragraph with
+line breaks that should be
+preserved as spaces within
+the paragraph.
+
+This is another paragraph
+after a blank line.
+
+---
+
+Thanks for reviewing this Markdown test document! :heart:
+`,E=Object.freeze(Object.defineProperty({__proto__:null,default:p},Symbol.toStringTag,{value:"Module"})),m=`---
+title: Student Learning Goals and Sugar
+slug: students
+author: Sugar Labs Team
+lastUpdated: 2025-03-07
+category: Education
+---
+
+<!-- markdownlint-disable -->
+
+# The Ultimate Markdown Test Document (NOTE: THIS IS AI GENERATED)
+
+This document demonstrates all the features of our custom Markdown renderer. The first paragraph has special styling with a drop cap first letter. Let's explore everything this renderer can do!
+
+## Basic Formatting
+
+This text is **bold** and this is _italic_. You can also have ~~strikethrough text~~ and ==highlighted text== for emphasis.
+
+You can add super^script^ and sub~script~ text when needed.
+
+## Links and Code
+
+Visit [our website](https://example.com) for more information.
+
+Here's some \`inline code\` within a paragraph.
+
+## Lists
+
+### Unordered Lists
+
+- First item
+- Second item
+
+### Ordered Lists
+
+1. First ordered item
+2. Second ordered item
+
+### Task Lists
+
+- [ ] Uncompleted task
+- [x] Completed task
+- [ ] Another pending task
+
+## Tables
+
+| Feature     | Support | Notes                     |
+| ----------- | ------- | ------------------------- |
+| Headers     | ✅      | With anchor links         |
+| Bold/Italic | ✅      | Basic formatting          |
+| Code blocks | ✅      | With language support     |
+| Tables      | ✅      | This one!                 |
+| Lists       | ✅      | Ordered, unordered, tasks |
+
+## Blockquotes with Proper Nesting
+
+> This is a simple blockquote
+>
+> With multiple paragraphs
+
+>> This is a second-level blockquote
+>> Which continues on a second line
+
+>>> And this is a third-level blockquote
+>>> With another line
+
+> This is a multi-line blockquote
+> that continues on the next line
+>
+> And even has an empty line in between
+
+## Images with Captions
+
+![A beautiful landscape](https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600 'Beautiful mountain landscape')
+
+## Horizontal Rules
+
+Above this text is regular content.
+
+---
+
+Below this is separated by a horizontal rule.
+
+## Special Features
+
+### Collapsible Sections
+
+:::details Click to see hidden content
+This content is hidden by default until the user clicks on the summary.
+
+- You can include lists
+- And other formatting inside
+  ![A beautiful landscape](https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600)
+  :::
+
+### YouTube Embed
+
+[youtube: MM-H69cHYMk]
+
+### Emoji Support
+
+:smile: I'm happy to see this working!
+:rocket: Let's launch this feature!
+:warning: Be careful with this syntax.
+:thumbsup: Looks good to me!
+:heart: Love this feature!
+:fire: This is awesome!
+:star: Five-star quality!
+:info: Here's some information.
+:check: This is correct.
+:x: This is wrong.
+
+## Combined Examples
+
+> This blockquote contains **bold text**.
+> It also has a [link](https://example.com).
+
+- List item with **bold** and _italic_ text
+- Item with a [link](https://example.com) and \`inline code\`
+- Item with ==highlighted text== that stands out
+
+## Advanced Typography Test
+
+H~2~O is water and 5^th^ is an ordinal number.
+
+This paragraph has ~~strikethrough text~~ to show deleted content and ==highlighted text== to show important information.
+
+## Paragraphs with Line Breaks
+
+This is a paragraph with
+line breaks that should be
+preserved as spaces within
+the paragraph.
+
+This is another paragraph
+after a blank line.
+
+---
+
+Thanks for reviewing this Markdown test document! :heart:
+`,L=Object.freeze(Object.defineProperty({__proto__:null,default:m},Symbol.toStringTag,{value:"Module"}));export{g as C,w as E,S,f as a,b,y as c,T as d,k as e,v as f,x as g,C as h,L as i,I as m,A as p,E as s};
