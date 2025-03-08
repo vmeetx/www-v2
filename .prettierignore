@@ -1,5 +1,4 @@
 node_modules/
 build/
 public/
-src/constants/posts/
-src/constants/more/
+src/constants/MarkdownFiles/

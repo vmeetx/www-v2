@@ -21,10 +21,13 @@ export interface MorePage {
  */
 export const fetchMorePages = async (): Promise<MorePage[]> => {
   try {
-    const markdownFiles = import.meta.glob('@/constants/more/*.md', {
-      query: '?raw',
-      import: 'default',
-    });
+    const markdownFiles = import.meta.glob(
+      '@/constants/MarkdownFiles/more/*.md',
+      {
+        query: '?raw',
+        import: 'default',
+      },
+    );
 
     const allPages: MorePage[] = [];
 
