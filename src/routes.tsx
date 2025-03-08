@@ -11,6 +11,7 @@ import Donate from '@/pages/Donate';
 import Products from '@/pages/Products';
 import NewsPage from '@/pages/News/NewsPage';
 import NewsDetailPage from '@/pages/News/NewsDetailPage';
+import MorePage from '@/pages/More';
 
 const router = createHashRouter([
   { path: `/`, element: <MainPage /> },
@@ -21,6 +22,8 @@ const router = createHashRouter([
   { path: `/news`, element: <NewsPage /> },
   { path: `/news/:category`, element: <NewsPage /> },
   { path: `/news/:category/:slug`, element: <NewsDetailPage /> },
+  { path: `/more`, element: <MorePage /> },
+  { path: `/more/:slug`, element: <MorePage /> },
   { path: `/try-sugar`, element: <TrySugar /> },
   { path: `/join-development`, element: <JoinDevelopment /> },
   { path: `/volunteer`, element: <Volunteer /> },
