@@ -3,7 +3,7 @@ import TurtleBlocksImg from '/assets/Cards/TurtleBlocks.png';
 import SugarizerImg from '/assets/Cards/Sugarizer.png';
 import BootableDriveImg from '/assets/Cards/BootableDrive.png';
 import DesktopInitializationImg from '/assets/Cards/DesktopInitialization.png';
-import TrisquelImg from '/assets/Cards/Trisquel.png';
+import TrisquelImg from '/assets/Cards/Trisquel.svg';
 import RaspberryPiImg from '/assets/Cards/RaspberryPi.png';
 import FlatpackImg from '/assets/Cards/Flatpack.png';
 import Finance from '/assets/Cards/activity-finance.svg';
