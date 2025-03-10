@@ -1,7 +1,16 @@
+import { motion } from 'framer-motion';
 import Header from '@/sections/Header';
 import Footer from '@/sections/Footer';
 import DirectorCard from '@/components/DirectorCard';
 import { directors } from '@/constants/Leadership';
+import {
+  simpleFadeIn,
+  container,
+  item,
+  testimonialHeading,
+  decorativeElement,
+  dividerVariants,
+} from '@/styles/Animations';
 
 const Leadership = () => {
   return (
@@ -9,29 +18,70 @@ const Leadership = () => {
       <Header />
       <section className="py-24 px-4 bg-white">
         <div className="container mx-auto max-w-7xl">
-          {/* Section header */}
+          {/* Section header with animations */}
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              <span className="text-red-500 font-Pacifico">Meet </span> Our
-              Board of Directors
-            </h2>
-            <div className="h-1 w-24 bg-red-500 mx-auto mb-8"></div>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+            <motion.h2
+              className="text-4xl md:text-5xl font-bold text-gray-900 mb-4"
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              variants={testimonialHeading}
+            >
+              <motion.span
+                className="text-red-500 font-Pacifico"
+                variants={decorativeElement}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+              >
+                Meet{' '}
+              </motion.span>
+              Our Board of Directors
+            </motion.h2>
+
+            <div className="flex justify-center">
+              <motion.div
+                className="h-1 bg-red-500 mb-8"
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                variants={dividerVariants}
+              ></motion.div>
+            </div>
+
+            <motion.p
+              className="text-lg text-gray-600 max-w-3xl mx-auto"
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              variants={simpleFadeIn}
+            >
               The "Sugar Labs Board of Directors" consists of dedicated six
               individuals who guide our organization's mission to provide
               educational tools for children worldwide. They bring diverse
               expertise in education, technology, and nonprofit leadership.
-            </p>
+            </motion.p>
           </div>
 
           {/* Directors grid with equal height cards */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <motion.div
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+            variants={container}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.1 }}
+          >
             {directors.map((director) => (
-              <div key={director.id} className="h-full">
+              <motion.div
+                key={director.id}
+                className="h-full"
+                variants={item}
+                whileHover="hover"
+              >
                 <DirectorCard director={director} />
-              </div>
+              </motion.div>
             ))}
-          </div>
+          </motion.div>
         </div>
       </section>
       <Footer />

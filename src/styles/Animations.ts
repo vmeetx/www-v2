@@ -675,3 +675,16 @@ export const roadmapSectionAnimations = {
     transition: { duration: 0.3 },
   },
 };
+
+export const dividerVariants = {
+  hidden: { width: 0, opacity: 0 },
+  visible: {
+    width: '6rem',
+    opacity: 1,
+    transition: {
+      duration: 0.8,
+      delay: 0.3,
+      ease: 'easeOut',
+    },
+  },
+};
