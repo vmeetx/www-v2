@@ -34,7 +34,7 @@ export const directors: Director[] = [
     name: 'Devin Ulibarri',
     position: 'Executive Director, Sugar Labs',
     bio: "Devin Ulibarri has been involved in Sugar Labs for over a decade. Ulibarri has been involved in education for twenty years, and he's advocated for free/libre/open (FLO) source software, particularly in education, for the past decade. For two years from 2022 to 2024, he worked as Outreach and Communications Coordinator at the Free Software Foundation.\n\nAt Sugar Labs, Ulibarri has worked closely with Walter Bender to create Music Blocks visual programming language. In addition to this, he's mentored for Google Summer of Code (GSoC) and Google Code-In (GCI), and he regularly teaches students as young as five years old using a rich variety of Sugar tools. Ulibarri plays classical guitar, and he is the Dungeon Master for his family on the weekends.",
-    imageUrl: 'assets/Images/BoardMembers/devin.png',
+    imageUrl: 'assets/Images/BoardMembers/Devin.png',
     socialLinks: {
       github: 'https://github.com/pikurasa',
       linkedin: 'https://www.linkedin.com/in/devin-ulibarri-76277a300/',
