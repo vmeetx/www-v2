@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 interface TryCardProps {
   title: string;
@@ -84,8 +85,8 @@ export const TryCard: React.FC<TryCardProps> = ({
           >
             {tryNowText}
           </a>
-          <a
-            href={learnMoreHref}
+          <Link
+            to={learnMoreHref}
             className="w-full bg-gray-50/80 backdrop-blur-sm border-[1.5px] border-gray-100 rounded-xl sm:rounded-2xl px-3 sm:px-4 md:px-5 py-2 sm:py-2.5 md:py-3
                      font-bold transition-all duration-500 hover:scale-[1.02] 
                      hover:bg-gray-100/80 hover:border-gray-200 text-gray-700 text-xs sm:text-sm
@@ -94,7 +95,7 @@ export const TryCard: React.FC<TryCardProps> = ({
                      hover:before:translate-x-[150%] before:transition-transform before:duration-700"
           >
             {learnMoreText}
-          </a>
+          </Link>
         </div>
       </div>
 
