@@ -83,20 +83,26 @@ export function TryMore() {
           already, please reconsider your other options to explore Sugar. Try
           Sugar!
         </motion.p>
-        <motion.button
-          className="mt-6 px-6 py-3 bg-indigo-600 text-white font-medium rounded-lg hover:bg-indigo-700 transition"
-          variants={bounce}
-          custom={4}
-          whileHover={{
-            scale: 1.05,
-            backgroundColor: '#4338ca',
-            boxShadow:
-              '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
-          }}
-          whileTap={{ scale: 0.95 }}
+        <motion.a
+          href="https://v4.activities.sugarlabs.org/"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          Go to sugar activity page
-        </motion.button>
+          <motion.button
+            className="mt-6 px-6 py-3 bg-indigo-600 text-white font-medium rounded-lg hover:bg-indigo-700 transition"
+            variants={bounce}
+            custom={4}
+            whileHover={{
+              scale: 1.05,
+              backgroundColor: '#4338ca',
+              boxShadow:
+                '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
+            }}
+            whileTap={{ scale: 0.95 }}
+          >
+            Go to Sugar Activity page
+          </motion.button>
+        </motion.a>
       </motion.div>
 
       {/* Marquee Section */}
