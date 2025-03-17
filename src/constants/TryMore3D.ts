@@ -59,13 +59,13 @@ export const tryMoreActivities = [
     description:
       'Download and read thousands of free e-books in plain text format from Project Gutenberg!',
     buttonText: 'Get Read ETexts',
-    img: 'assets/Activities/ReadEtextsActivities.svg',
+    img: 'assets/Activities/ReadEtextsActivity.svg',
   },
   {
     title: 'Recall',
     description: 'Memory exercise game',
     buttonText: 'Get Recall',
-    img: 'assets/Activities/RecallActivities.svg',
+    img: 'assets/Activities/RecallActivity.svg',
   },
   {
     title: 'Speak',
