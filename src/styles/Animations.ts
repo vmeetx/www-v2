@@ -1012,3 +1012,14 @@ export const featureSectionAnimations = {
     visible: { opacity: 1, transition: { delay: 0.3, duration: 0.5 } },
   },
 };
+
+export const buttonAnimation: Variants = {
+  whileHover: {
+    scale: 1.05,
+    transition: { type: 'spring', stiffness: 400, damping: 10 },
+  },
+  whileTap: {
+    scale: 0.95,
+    transition: { type: 'spring', stiffness: 400, damping: 10 },
+  },
+};
