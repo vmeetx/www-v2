@@ -14,7 +14,7 @@ import {
 const NewsPage: React.FC = () => {
   const navigate = useNavigate();
   const { category } = useParams<{ category?: string }>();
-  
+
   const [isPathReady, setIsPathReady] = useState<boolean>(false);
   const [activeCategory, setActiveCategory] = useState<string>('');
   const [posts, setPosts] = useState<Post[]>([]);
@@ -33,7 +33,7 @@ const NewsPage: React.FC = () => {
     const timer = setTimeout(() => {
       setIsPathReady(true);
     }, 50);
-    
+
     return () => clearTimeout(timer);
   }, []);
 
@@ -42,14 +42,14 @@ const NewsPage: React.FC = () => {
     if (!isPathReady) return;
 
     let initialCategory = 'COMMUNITY NEWS';
-    
+
     if (category) {
       const formattedCategory = category.toUpperCase().replace(/-/g, ' ');
       if (validCategories.includes(formattedCategory)) {
         initialCategory = formattedCategory;
       }
     }
-    
+
     setActiveCategory(initialCategory);
   }, [category, validCategories, isPathReady]);
 
@@ -84,7 +84,7 @@ const NewsPage: React.FC = () => {
   // Update URL when category changes
   useEffect(() => {
     if (!isPathReady || !activeCategory) return;
-    
+
     const categoryPath = activeCategory.toLowerCase().replace(/\s+/g, '-');
     if (category !== categoryPath) {
       navigate(`/news/${categoryPath}`, { replace: true });

@@ -25,7 +25,7 @@ const NewsDetailPage: React.FC = () => {
     const timer = setTimeout(() => {
       setIsPathReady(true);
     }, 50);
-    
+
     return () => clearTimeout(timer);
   }, []);
 
@@ -65,7 +65,9 @@ const NewsDetailPage: React.FC = () => {
   // Image modal setup
   useEffect(() => {
     if (!isLoading && post && contentRef.current) {
-      const images = contentRef.current.querySelectorAll('img[data-zoomable="true"]');
+      const images = contentRef.current.querySelectorAll(
+        'img[data-zoomable="true"]',
+      );
       const clickHandlers: (() => void)[] = [];
 
       images.forEach((img) => {
