@@ -11,18 +11,26 @@ const NewsDetailPage: React.FC = () => {
   const navigate = useNavigate();
   const [post, setPost] = useState<Post | null>(null);
   const [isLoading, setIsLoading] = useState<boolean>(true);
-  const [isInitialized, setIsInitialized] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
   const contentRef = useRef<HTMLDivElement>(null);
   const [modalImage, setModalImage] = useState<{
     src: string;
     alt: string;
   } | null>(null);
+  const [isPathReady, setIsPathReady] = useState<boolean>(false);
+
+  // Check if path is ready after redirect
+  useEffect(() => {
+    // Small delay to ensure the path restoration from sessionStorage has completed
+    const timer = setTimeout(() => {
+      setIsPathReady(true);
+    }, 50);
+    
+    return () => clearTimeout(timer);
+  }, []);
 
   const loadPost = useCallback(async () => {
-    if (!slug) {
-      setError('No post identifier found');
-      setIsLoading(false);
+    if (!slug || !isPathReady) {
       return;
     }
 
@@ -44,20 +52,20 @@ const NewsDetailPage: React.FC = () => {
       setPost(null);
     } finally {
       setIsLoading(false);
-      setIsInitialized(true);
     }
-  }, [slug]);
+  }, [slug, isPathReady]);
 
+  // Effect to load post when path is ready and slug changes
   useEffect(() => {
-    loadPost();
-  }, [loadPost]);
+    if (isPathReady) {
+      loadPost();
+    }
+  }, [loadPost, isPathReady]);
 
+  // Image modal setup
   useEffect(() => {
-    if (isInitialized && !isLoading && post && contentRef.current) {
-      const images = contentRef.current.querySelectorAll(
-        'img[data-zoomable="true"]',
-      );
-
+    if (!isLoading && post && contentRef.current) {
+      const images = contentRef.current.querySelectorAll('img[data-zoomable="true"]');
       const clickHandlers: (() => void)[] = [];
 
       images.forEach((img) => {
@@ -78,8 +86,9 @@ const NewsDetailPage: React.FC = () => {
         clickHandlers.forEach((cleanup) => cleanup());
       };
     }
-  }, [isInitialized, isLoading, post]);
+  }, [isLoading, post]);
 
+  // ESC key handler for modal
   useEffect(() => {
     const handleEscKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
@@ -104,7 +113,8 @@ const NewsDetailPage: React.FC = () => {
     document.body.classList.remove('overflow-hidden');
   };
 
-  if (!isInitialized || (isLoading && !post)) {
+  // If the path is not ready yet or still loading initial data
+  if (!isPathReady || (isLoading && !post)) {
     return (
       <>
         <Header />
@@ -119,6 +129,7 @@ const NewsDetailPage: React.FC = () => {
     );
   }
 
+  // Error state or post not found
   if (error || !post) {
     return (
       <>
@@ -142,6 +153,7 @@ const NewsDetailPage: React.FC = () => {
     );
   }
 
+  // Successful post rendering
   return (
     <>
       <Header />

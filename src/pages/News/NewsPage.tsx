@@ -13,38 +13,49 @@ import {
 
 const NewsPage: React.FC = () => {
   const navigate = useNavigate();
-  const { category } = useParams<{ category: string }>();
+  const { category } = useParams<{ category?: string }>();
+  
+  const [isPathReady, setIsPathReady] = useState<boolean>(false);
+  const [activeCategory, setActiveCategory] = useState<string>('');
+  const [posts, setPosts] = useState<Post[]>([]);
+  const [displayCount, setDisplayCount] = useState<number>(4);
+  const [isLoading, setIsLoading] = useState<boolean>(true);
+  const [error, setError] = useState<string | null>(null);
 
   const validCategories = useMemo(
     () => ['COMMUNITY NEWS', 'EVENTS', 'PRESS RELEASE', 'SUGAR STORIES'],
     [],
   );
 
-  const getInitialCategory = useCallback((): string => {
-    if (!category) return 'COMMUNITY NEWS';
-
-    const formattedCategory = category.toUpperCase().replace(/-/g, ' ');
-    return validCategories.includes(formattedCategory)
-      ? formattedCategory
-      : 'COMMUNITY NEWS';
-  }, [category, validCategories]);
-
-  const [activeCategory, setActiveCategory] =
-    useState<string>('COMMUNITY NEWS');
-  const [posts, setPosts] = useState<Post[]>([]);
-  const [displayCount, setDisplayCount] = useState<number>(4);
-  const [isLoading, setIsLoading] = useState<boolean>(true);
-  const [isInitialized, setIsInitialized] = useState<boolean>(false);
-  const [error, setError] = useState<string | null>(null);
-
+  // Check if path is ready after redirect
   useEffect(() => {
-    const initialCategory = getInitialCategory();
-    setActiveCategory(initialCategory);
-    setIsInitialized(true);
-  }, [category, getInitialCategory]);
+    // Small delay to ensure the path restoration from sessionStorage has completed
+    const timer = setTimeout(() => {
+      setIsPathReady(true);
+    }, 50);
+    
+    return () => clearTimeout(timer);
+  }, []);
 
+  // Determine the initial category from URL or default
+  useEffect(() => {
+    if (!isPathReady) return;
+
+    let initialCategory = 'COMMUNITY NEWS';
+    
+    if (category) {
+      const formattedCategory = category.toUpperCase().replace(/-/g, ' ');
+      if (validCategories.includes(formattedCategory)) {
+        initialCategory = formattedCategory;
+      }
+    }
+    
+    setActiveCategory(initialCategory);
+  }, [category, validCategories, isPathReady]);
+
+  // Load posts when category changes
   const loadPosts = useCallback(async () => {
-    if (!isInitialized) return;
+    if (!activeCategory || !isPathReady) return;
 
     setIsLoading(true);
     setError(null);
@@ -68,22 +79,24 @@ const NewsPage: React.FC = () => {
     } finally {
       setIsLoading(false);
     }
-  }, [activeCategory, isInitialized]);
+  }, [activeCategory, isPathReady]);
 
+  // Update URL when category changes
   useEffect(() => {
-    if (!isInitialized) return;
-
+    if (!isPathReady || !activeCategory) return;
+    
     const categoryPath = activeCategory.toLowerCase().replace(/\s+/g, '-');
     if (category !== categoryPath) {
       navigate(`/news/${categoryPath}`, { replace: true });
     }
-  }, [activeCategory, navigate, category, isInitialized]);
+  }, [activeCategory, navigate, category, isPathReady]);
 
+  // Load posts when category is determined
   useEffect(() => {
-    if (isInitialized) {
+    if (activeCategory && isPathReady) {
       loadPosts();
     }
-  }, [activeCategory, loadPosts, isInitialized]);
+  }, [activeCategory, loadPosts, isPathReady]);
 
   const handlePostClick = (slug: string): void => {
     const categoryPath = activeCategory.toLowerCase().replace(/\s+/g, '-');
@@ -94,14 +107,15 @@ const NewsPage: React.FC = () => {
     setActiveCategory(category);
   };
 
-  const visiblePosts = posts.slice(0, displayCount);
-  const hasMorePosts = posts.length > displayCount;
-
   const handleShowMore = () => {
     setDisplayCount((prevCount) => prevCount + 4);
   };
 
-  if (!isInitialized || (isLoading && posts.length === 0)) {
+  const visiblePosts = posts.slice(0, displayCount);
+  const hasMorePosts = posts.length > displayCount;
+
+  // Show loading state while waiting for path restoration or initial data load
+  if (!isPathReady || (isLoading && posts.length === 0)) {
     return (
       <>
         <Header />
