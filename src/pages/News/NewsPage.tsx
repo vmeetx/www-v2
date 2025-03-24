@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { fetchMarkdownPosts, Post } from '@/utils/posts-utils';
 import Footer from '@/sections/Footer';
@@ -15,51 +15,79 @@ const NewsPage: React.FC = () => {
   const navigate = useNavigate();
   const { category } = useParams<{ category: string }>();
 
-  const validCategories = [
-    'COMMUNITY NEWS',
-    'EVENTS',
-    'PRESS RELEASE',
-    'SUGAR STORIES',
-  ];
+  const validCategories = useMemo(
+    () => ['COMMUNITY NEWS', 'EVENTS', 'PRESS RELEASE', 'SUGAR STORIES'],
+    [],
+  );
 
-  const getInitialCategory = (): string => {
-    const formattedCategory = category
-      ? category.toUpperCase().replace('-', ' ')
-      : '';
+  const getInitialCategory = useCallback((): string => {
+    if (!category) return 'COMMUNITY NEWS';
+
+    const formattedCategory = category.toUpperCase().replace(/-/g, ' ');
     return validCategories.includes(formattedCategory)
       ? formattedCategory
       : 'COMMUNITY NEWS';
-  };
+  }, [category, validCategories]);
 
   const [activeCategory, setActiveCategory] =
-    useState<string>(getInitialCategory());
+    useState<string>('COMMUNITY NEWS');
   const [posts, setPosts] = useState<Post[]>([]);
   const [displayCount, setDisplayCount] = useState<number>(4);
   const [isLoading, setIsLoading] = useState<boolean>(true);
+  const [isInitialized, setIsInitialized] = useState<boolean>(false);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    const initialCategory = getInitialCategory();
+    setActiveCategory(initialCategory);
+    setIsInitialized(true);
+  }, [category, getInitialCategory]);
 
   const loadPosts = useCallback(async () => {
+    if (!isInitialized) return;
+
     setIsLoading(true);
+    setError(null);
+
     try {
       const fetchedPosts = await fetchMarkdownPosts(activeCategory);
-      setPosts(fetchedPosts);
+
+      if (Array.isArray(fetchedPosts)) {
+        setPosts(fetchedPosts);
+      } else {
+        setPosts([]);
+        setError('Failed to load posts');
+        console.error('Unexpected posts data format:', fetchedPosts);
+      }
+
       setDisplayCount(4);
     } catch (error) {
       console.error('Error loading posts:', error);
+      setPosts([]);
+      setError('Failed to load posts. Please try again later.');
     } finally {
       setIsLoading(false);
     }
-  }, [activeCategory]);
+  }, [activeCategory, isInitialized]);
 
   useEffect(() => {
-    const categoryPath = activeCategory.toLowerCase().replace(' ', '-');
+    if (!isInitialized) return;
+
+    const categoryPath = activeCategory.toLowerCase().replace(/\s+/g, '-');
     if (category !== categoryPath) {
       navigate(`/news/${categoryPath}`, { replace: true });
     }
-    loadPosts();
-  }, [activeCategory, navigate, category, loadPosts]);
+  }, [activeCategory, navigate, category, isInitialized]);
+
+  useEffect(() => {
+    if (isInitialized) {
+      loadPosts();
+    }
+  }, [activeCategory, loadPosts, isInitialized]);
 
   const handlePostClick = (slug: string): void => {
-    navigate(`/news/${activeCategory.toLowerCase().replace(' ', '-')}/${slug}`);
+    const categoryPath = activeCategory.toLowerCase().replace(/\s+/g, '-');
+    navigate(`/news/${categoryPath}/${slug}`);
   };
 
   const handleCategoryClick = (category: string): void => {
@@ -72,6 +100,29 @@ const NewsPage: React.FC = () => {
   const handleShowMore = () => {
     setDisplayCount((prevCount) => prevCount + 4);
   };
+
+  if (!isInitialized || (isLoading && posts.length === 0)) {
+    return (
+      <>
+        <Header />
+        <div className="container mx-auto px-4 py-10 min-h-screen flex flex-col items-center justify-center">
+          <h1 className="text-7xl font-bold font-Caveat text-center mb-8">
+            NEWS
+          </h1>
+          <div className="flex justify-center items-center h-24 my-8">
+            <motion.div
+              className="animate-spin rounded-full h-12 w-12 border-t-4 border-b-4 border-blue-600"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.5 }}
+            />
+            <span className="ml-4 text-lg text-gray-600">Loading news...</span>
+          </div>
+        </div>
+        <Footer />
+      </>
+    );
+  }
 
   return (
     <>
@@ -89,22 +140,22 @@ const NewsPage: React.FC = () => {
         <div className="mb-10">
           <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-2 max-w-3xl mx-auto">
             <div className="flex flex-wrap justify-center gap-2">
-              {validCategories.map((category) => (
+              {validCategories.map((cat) => (
                 <motion.button
-                  key={category}
+                  key={cat}
                   className={`px-5 py-2 rounded-lg transition-all duration-200 font-medium ${
-                    activeCategory === category
+                    activeCategory === cat
                       ? 'bg-blue-600 text-white hover:bg-blue-700 shadow-md'
                       : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-600'
                   }`}
-                  onClick={() => handleCategoryClick(category)}
+                  onClick={() => handleCategoryClick(cat)}
                   variants={bounce}
                   initial="hidden"
                   animate="visible"
                   whileHover="hover"
                   whileTap="tap"
                 >
-                  {category}
+                  {cat}
                 </motion.button>
               ))}
             </div>
@@ -118,13 +169,26 @@ const NewsPage: React.FC = () => {
           animate="visible"
         >
           {activeCategory.charAt(0).toUpperCase() +
-            activeCategory.slice(1).toLowerCase().replace('_', ' ')}
+            activeCategory.slice(1).toLowerCase().replace(/_/g, ' ')}
         </motion.h2>
 
-        {posts.length === 0 && !isLoading ? (
-          <p className="text-center text-gray-600 mb-10">
-            No posts found in this category.
-          </p>
+        {error && (
+          <div className="text-center my-10 p-4 bg-red-50 rounded-lg border border-red-200">
+            <p className="text-red-600">{error}</p>
+            <button
+              onClick={loadPosts}
+              className="mt-2 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700"
+            >
+              Try Again
+            </button>
+          </div>
+        )}
+
+        {posts.length === 0 && !isLoading && !error ? (
+          <div className="text-center text-gray-600 mb-10 p-8 bg-gray-50 rounded-lg">
+            <p className="text-xl mb-2">No posts found in this category.</p>
+            <p>Try selecting a different category or check back later.</p>
+          </div>
         ) : (
           <>
             <AnimatePresence>
@@ -254,7 +318,7 @@ const NewsPage: React.FC = () => {
               </div>
             )}
 
-            {isLoading && posts.length === 0 && (
+            {isLoading && posts.length > 0 && (
               <div className="flex justify-center items-center h-24 my-8">
                 <motion.div
                   className="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-blue-600"

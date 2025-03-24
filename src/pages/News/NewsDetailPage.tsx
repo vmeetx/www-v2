@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { renderMarkdown } from '@/utils/mdparser-utils';
 import { getPostBySlug, Post } from '@/utils/posts-utils';
@@ -7,52 +7,80 @@ import Header from '@/sections/Header';
 import Footer from '@/sections/Footer';
 
 const NewsDetailPage: React.FC = () => {
-  const { slug } = useParams<{ slug: string }>();
+  const { slug, category } = useParams<{ slug?: string; category?: string }>();
   const navigate = useNavigate();
   const [post, setPost] = useState<Post | null>(null);
   const [isLoading, setIsLoading] = useState<boolean>(true);
+  const [isInitialized, setIsInitialized] = useState<boolean>(false);
+  const [error, setError] = useState<string | null>(null);
   const contentRef = useRef<HTMLDivElement>(null);
   const [modalImage, setModalImage] = useState<{
     src: string;
     alt: string;
   } | null>(null);
 
-  useEffect(() => {
-    const loadPost = async () => {
-      setIsLoading(true);
-      try {
-        if (slug) {
-          const fetchedPost = await getPostBySlug(slug);
-          setPost(fetchedPost);
-          document.title = fetchedPost?.title || 'News Detail';
-        }
-      } catch (error) {
-        console.error('Error loading post:', error);
-      } finally {
-        setIsLoading(false);
-      }
-    };
+  const loadPost = useCallback(async () => {
+    if (!slug) {
+      setError('No post identifier found');
+      setIsLoading(false);
+      return;
+    }
 
-    loadPost();
+    setIsLoading(true);
+    try {
+      const fetchedPost = await getPostBySlug(slug);
+
+      if (!fetchedPost) {
+        setError('Post not found');
+        setPost(null);
+      } else {
+        setPost(fetchedPost);
+        setError(null);
+        document.title = fetchedPost.title || 'News Detail';
+      }
+    } catch (error) {
+      console.error('Error loading post:', error);
+      setError('Failed to load the post');
+      setPost(null);
+    } finally {
+      setIsLoading(false);
+      setIsInitialized(true);
+    }
   }, [slug]);
 
   useEffect(() => {
-    if (!isLoading && post && contentRef.current) {
+    loadPost();
+  }, [loadPost]);
+
+  useEffect(() => {
+    if (isInitialized && !isLoading && post && contentRef.current) {
       const images = contentRef.current.querySelectorAll(
         'img[data-zoomable="true"]',
       );
+
+      const clickHandlers: (() => void)[] = [];
+
       images.forEach((img) => {
-        img.addEventListener('click', (e) => {
+        const handler = (e: Event) => {
           const target = e.target as HTMLImageElement;
           setModalImage({
             src: target.src,
             alt: target.alt || 'Image',
           });
           document.body.classList.add('overflow-hidden');
-        });
-      });
-    }
+        };
 
+        img.addEventListener('click', handler);
+        clickHandlers.push(() => img.removeEventListener('click', handler));
+      });
+
+      return () => {
+        clickHandlers.forEach((cleanup) => cleanup());
+      };
+    }
+  }, [isInitialized, isLoading, post]);
+
+  useEffect(() => {
     const handleEscKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
         closeImageModal();
@@ -61,10 +89,14 @@ const NewsDetailPage: React.FC = () => {
 
     window.addEventListener('keydown', handleEscKey);
     return () => window.removeEventListener('keydown', handleEscKey);
-  }, [isLoading, post]);
+  }, []);
 
   const handleGoBack = () => {
-    navigate(-1);
+    if (category) {
+      navigate(`/news/${category}`);
+    } else {
+      navigate('/news/community-news');
+    }
   };
 
   const closeImageModal = () => {
@@ -72,30 +104,41 @@ const NewsDetailPage: React.FC = () => {
     document.body.classList.remove('overflow-hidden');
   };
 
-  if (isLoading) {
+  if (!isInitialized || (isLoading && !post)) {
     return (
-      <div className="container mx-auto px-4 py-16 flex justify-center items-center min-h-screen">
-        <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-blue-600"></div>
-      </div>
+      <>
+        <Header />
+        <div className="container mx-auto px-4 py-16 flex justify-center items-center min-h-screen">
+          <div className="flex flex-col items-center">
+            <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-blue-600 mb-4"></div>
+            <p className="text-gray-600">Loading article...</p>
+          </div>
+        </div>
+        <Footer />
+      </>
     );
   }
 
-  if (!post) {
+  if (error || !post) {
     return (
-      <div className="container mx-auto px-4 py-16 text-center">
-        <h1 className="text-3xl font-bold mb-4 text-blue-600">
-          Post Not Found
-        </h1>
-        <p className="mb-8 text-gray-600">
-          The post you're looking for doesn't exist or has been removed.
-        </p>
-        <button
-          onClick={handleGoBack}
-          className="px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
-        >
-          Go Back
-        </button>
-      </div>
+      <>
+        <Header />
+        <div className="container mx-auto px-4 py-16 text-center min-h-screen flex flex-col justify-center">
+          <h1 className="text-3xl font-bold mb-4 text-blue-600">
+            {error || 'Post Not Found'}
+          </h1>
+          <p className="mb-8 text-gray-600">
+            The post you're looking for doesn't exist or has been removed.
+          </p>
+          <button
+            onClick={handleGoBack}
+            className="px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors mx-auto"
+          >
+            Back to News
+          </button>
+        </div>
+        <Footer />
+      </>
     );
   }
 
@@ -171,14 +214,15 @@ const NewsDetailPage: React.FC = () => {
             </span>
           </div>
           <div className="flex flex-wrap gap-2 mt-3">
-            {post.tags.map((tag, index) => (
-              <span
-                key={index}
-                className="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded-md hover:bg-gray-200 transition-colors"
-              >
-                #{tag}
-              </span>
-            ))}
+            {post.tags &&
+              post.tags.map((tag, index) => (
+                <span
+                  key={index}
+                  className="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded-md hover:bg-gray-200 transition-colors"
+                >
+                  #{tag}
+                </span>
+              ))}
           </div>
         </div>
 
@@ -202,44 +246,50 @@ const NewsDetailPage: React.FC = () => {
           </motion.div>
         )}
 
-        {/* Article Content - Updated with key for proper re-rendering */}
+        {/* Article Content */}
         <motion.div
           ref={contentRef}
           className="mb-12 prose prose-lg max-w-none"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
-          key={slug} // This ensures re-rendering when the slug changes
+          key={slug}
           dangerouslySetInnerHTML={{ __html: renderMarkdown(post.content) }}
         />
 
         {/* Author Bio Section */}
-        <div className="bg-blue-50 rounded-lg p-6 my-8 flex items-center space-x-4">
-          <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 font-bold text-xl">
-            {post.author.charAt(0)}
+        {post.author && (
+          <div className="bg-blue-50 rounded-lg p-6 my-8 flex items-center space-x-4">
+            <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 font-bold text-xl">
+              {post.author.charAt(0)}
+            </div>
+            <div>
+              <h4 className="font-semibold text-lg text-gray-800">
+                About {post.author}
+              </h4>
+              <p className="text-gray-600 mt-1">
+                {post.description || 'Author at SugarLabs'}
+              </p>
+            </div>
           </div>
-          <div>
-            <h4 className="font-semibold text-lg text-gray-800">
-              About {post.author}
-            </h4>
-            <p className="text-gray-600 mt-1">{post.description}</p>
-          </div>
-        </div>
+        )}
 
         {/* Tags Section */}
-        <div className="border-t border-gray-200 pt-6 mb-8">
-          <h3 className="text-xl font-semibold mb-4 text-gray-700">Tags</h3>
-          <div className="flex flex-wrap gap-2">
-            {post.tags.map((tag, index) => (
-              <span
-                key={index}
-                className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm hover:bg-gray-200 cursor-pointer transition-colors"
-              >
-                #{tag}
-              </span>
-            ))}
+        {post.tags && post.tags.length > 0 && (
+          <div className="border-t border-gray-200 pt-6 mb-8">
+            <h3 className="text-xl font-semibold mb-4 text-gray-700">Tags</h3>
+            <div className="flex flex-wrap gap-2">
+              {post.tags.map((tag, index) => (
+                <span
+                  key={index}
+                  className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm hover:bg-gray-200 cursor-pointer transition-colors"
+                >
+                  #{tag}
+                </span>
+              ))}
+            </div>
           </div>
-        </div>
+        )}
 
         {/* Last updated timestamp */}
         <div className="text-right text-gray-500 text-sm italic mb-8">
