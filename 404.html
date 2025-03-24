@@ -2,13 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link id="dynamic" rel="icon" type="image/svg+xml" href="favicons/favicon1.svg" />
+    <link id="dynamic" rel="icon" type="image/svg+xml" href="/favicons/favicon1.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SugarLabs - Redirecting...</title>
     <script>
-      sessionStorage.setItem('redirectPath', 
-        window.location.pathname + window.location.search + window.location.hash
-      );
+      const pathSegments = window.location.pathname.split('/');
+      const fullPath = window.location.pathname + window.location.search + window.location.hash;
+      sessionStorage.setItem('redirectPath', fullPath);
       window.location.href = '/';
     </script>
   </head>
