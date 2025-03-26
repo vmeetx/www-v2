@@ -66,6 +66,7 @@ const TurtleBlocksPage = () => {
             title={section.title}
             content={section.content}
             button={section.button}
+            links={section.links}
           />
         ))}
       </main>

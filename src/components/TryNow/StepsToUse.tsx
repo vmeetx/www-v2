@@ -3,6 +3,8 @@ import { Carousel } from 'react-responsive-carousel';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { steps } from '@/constants/TryNowData/bootableSoasData';
 import { useState } from 'react';
+import DOMPurify from 'dompurify';
+import { renderContentWithLinks } from '@/utils/renderlinks-utils';
 
 const StepsToUse = () => {
   const [currentStep, setCurrentStep] = useState(0);
@@ -41,7 +43,15 @@ const StepsToUse = () => {
               <h3 className="text-2xl font-semibold text-black mt-1">
                 {step.title}
               </h3>
-              <p className="text-gray-700 mt-2">{step.description}</p>
+              <p
+                className="text-gray-700 mt-2"
+                dangerouslySetInnerHTML={{
+                  __html: DOMPurify.sanitize(
+                    renderContentWithLinks(step.description, step.links),
+                  ),
+                }}
+              />
+
               <img
                 src={step.image}
                 alt={step.title}
