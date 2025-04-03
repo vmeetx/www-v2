@@ -22,7 +22,8 @@ export const projects: Project[] = [
       'GSOC is a global program focused on bringing more student developers into open source software development',
     tags: ['Community', 'Development'],
     imageUrl: 'assets/Images/GSOC.png',
-    exlink: 'https://summerofcode.withgoogle.com/programs/2025/organizations/sugar-labs',
+    exlink:
+      'https://summerofcode.withgoogle.com/programs/2025/organizations/sugar-labs',
   },
   {
     title: 'Music Blocks',
