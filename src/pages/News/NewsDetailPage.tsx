@@ -305,16 +305,6 @@ const NewsDetailPage: React.FC = () => {
           </div>
         )}
 
-        {/* Last updated timestamp */}
-        <div className="text-right text-gray-500 text-sm italic mb-8">
-          Last updated:{' '}
-          {new Date().toLocaleDateString('en-US', {
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric',
-          })}
-        </div>
-
         {/* Back to Top Button */}
         <div className="fixed bottom-8 right-8 z-50">
           <motion.button
