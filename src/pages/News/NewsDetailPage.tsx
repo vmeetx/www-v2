@@ -26,7 +26,7 @@ const NewsDetailPage: React.FC = () => {
       setIsLoading(true);
       try {
         const fetchedPost = await getPostBySlug(slug);
-        
+
         if (!fetchedPost) {
           setError('Post not found');
           setPost(null);
@@ -49,8 +49,10 @@ const NewsDetailPage: React.FC = () => {
 
   const setupImageListeners = useCallback(() => {
     if (!contentRef.current || !post) return;
-    
-    const images = contentRef.current.querySelectorAll('img[data-zoomable="true"]');
+
+    const images = contentRef.current.querySelectorAll(
+      'img[data-zoomable="true"]',
+    );
     const handleClick = (event: Event) => {
       const imgElement = event.target as HTMLImageElement;
       setModalImage({
@@ -59,9 +61,9 @@ const NewsDetailPage: React.FC = () => {
       });
       document.body.classList.add('overflow-hidden');
     };
-    images.forEach(img => img.addEventListener('click', handleClick));
+    images.forEach((img) => img.addEventListener('click', handleClick));
     return () => {
-      images.forEach(img => img.removeEventListener('click', handleClick));
+      images.forEach((img) => img.removeEventListener('click', handleClick));
     };
   }, [post]);
   useEffect(() => {
@@ -78,7 +80,7 @@ const NewsDetailPage: React.FC = () => {
 
     window.addEventListener('keydown', handleEscKey);
     return () => window.removeEventListener('keydown', handleEscKey);
-  },);
+  });
 
   const handleGoBack = useCallback(() => {
     if (category) {
@@ -242,10 +244,12 @@ const NewsDetailPage: React.FC = () => {
               src={post.image}
               alt={post.title}
               className="w-full h-auto max-h-80 object-contain mx-auto cursor-pointer hover:scale-105 transition-transform duration-300"
-              onClick={() => setModalImage({
-                src: post.image,
-                alt: post.title
-              })}
+              onClick={() =>
+                setModalImage({
+                  src: post.image,
+                  alt: post.title,
+                })
+              }
               data-zoomable="true"
             />
           </motion.div>
