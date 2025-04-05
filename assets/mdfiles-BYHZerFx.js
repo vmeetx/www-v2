@@ -1516,7 +1516,6 @@ title: "The Sweet Spot – Issue 001"
 category: "COMMUNITY NEWS"
 date: "2024-09-20"
 author: "Sugar Labs"
-image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600"
 ---
 <!-- markdownlint-disable -->
 # Recent news for September 20, 2024
