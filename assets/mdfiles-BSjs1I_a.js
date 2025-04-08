@@ -24,7 +24,7 @@ Many of the core Sugar developers are participating in the launch, including Mar
 Bert Freudenberg, one of the developers of the Etoys activity, commented, “Expanding Sugar to more hardware platforms gives a great boost to all developers of educational software. Sugar is the first system specifically aimed at helping children to learn while supporting a rich variety of contributed applications. As third-party developers, my colleagues at Viewpoints Research Institute look forward to a great relationship with Sugar Labs.”
 
 Tomeu Vizoso added, “Sugar has been brought to maturity by OLPC and a relatively small team of community supporters. The time has come to unlock Sugar’s potential as a global education project; the creation of Sugar Labs is the next step — expanding upon a project where people from all around the world can contribute to improving education, with the assurance that their efforts will be of benefit to everyone.”
-`,ue=Object.freeze(Object.defineProperty({__proto__:null,default:e},Symbol.toStringTag,{value:"Module"})),a=`---
+`,de=Object.freeze(Object.defineProperty({__proto__:null,default:e},Symbol.toStringTag,{value:"Module"})),a=`---
 title: "Sugar Labs joins the Software Freedom Conservancy"
 category: "PRESS RELEASE"
 date: "2008-12-09"
@@ -38,7 +38,7 @@ Boston, MA, December 9, 2008 — Sugar Labs today announced its membership in th
 In May 2008, the Sugar project became independent of OLPC, making Sugar available to a wider community of developers and users. Subsequently, Sugar has been ported to Debian, Ubuntu, and other GNU/Linux distributions. Sugar can now run on almost any computer hardware. In October 2008, Sugar Labs released Sugar Version 0.82, which features enhanced usability and stability. In November, Sugar announced the availability of the pre-alpha version of “Sugar on a Stick,” a LiveUSB image of Sugar that gives children access to Sugar on any computer using just a USB key. Joining the Conservancy is an important milestone in the path toward making Sugar available to children everywhere.
 
 Founded in March 2006, the Conservancy allows developers of its member projects to unite under a common organization that provides much-needed administrative services. This structure spares each software project the burden of starting and maintaining its own independent non-profit organization. Sugar Labs has joined as the Conservancy’s fifteenth member project.
-`,de=Object.freeze(Object.defineProperty({__proto__:null,default:a},Symbol.toStringTag,{value:"Module"})),n=`---
+`,ce=Object.freeze(Object.defineProperty({__proto__:null,default:a},Symbol.toStringTag,{value:"Module"})),n=`---
 title: "La Asociación sin fines de lucro Sugar Labs Anuncia su Nueva Versión de la Plataforma de Aprendizaje Sugar para Niños que Funciona en Notebooks y PCs"
 category: "PRESS RELEASE"
 date: "2009-03-16"
@@ -62,7 +62,7 @@ La plataforma de aprendizaje de Sugar forma parte de la colección permanente de
 El Sr. Bender comentó lo siguiente: “Sugar 0.84 representa un paso importante a medida que se trabaja para lograr la versión 1.0 de Sugar en formato de tarjeta de memoria extraíble que simplificará, en gran medida, la evaluación y el uso de Sugar en el aula. Asimismo, este formato de tarjeta de memoria extraíble hace posible que Sugar se ejecute a partir de un simple formato de memoria USB en casi cualquier computadora actual desde las notebooks (computadora portátil) hasta las desktops (computadora personal), así como en la mayoría de PCs más antiguas, sin interferir con las instalaciones de software preexistente.”
 
 “A medida que nos aproximamos al millón de niños “aprendiendo a aprender” con Sugar en la XO-1 de OLPC, solicitamos voluntarios que se unan a nosotros — un reto para los programadores, diseñadores, traductores e implementadores”, refirió el Sr. Bender. “Necesitamos especialmente probadores de software que nos ayuden a hacer de Sugar en formato de tarjeta de memoria extraíble una sólida solución que se encuentre disponible dondequiera que exista una computadora.”
-`,ce=Object.freeze(Object.defineProperty({__proto__:null,default:n},Symbol.toStringTag,{value:"Module"})),t=`---
+`,ge=Object.freeze(Object.defineProperty({__proto__:null,default:n},Symbol.toStringTag,{value:"Module"})),t=`---
 title: "Sugar Labs, organisation à but non lucratif, annonce la sortie de la nouvelle version de la plateforme d’apprentissage pour enfants Sugar pour PC et netbooks"
 category: "PRESS RELEASE"
 date: "2009-03-16"
@@ -85,7 +85,7 @@ La plateforme d’apprentissage Sugar fait partie de la collection permanente du
 Selon M. Bender, “Sugar 0.84 est une étape importante vers la version 1.0 de Sugar on a Stick, qui va considérablement simplifier l’évaluation et l’utilisation de Sugar en classe. Avec Sugar on a Stick, on pourra lancer Sugar à partir d’une simple clé USB sur la plupart des ordinateurs récents, des netbooks aux ordinateurs de bureau, et aussi sur la plupart des vieux PC, sans perturber les logiciels déjà installés.”
 
 “Alors que nous nous approchons du millionième enfant “apprenant à apprendre” avec Sugar sur le XO-1 de One Laptop per Child, nous appelons de nouveau bénévoles à venir nous aider à relever ce défi éducatif: développeurs, concepteurs, traducteurs, et déployeurs”, a déclaré M. Bender. “Nous avons notamment besoin de testeurs pour nous aider à faire de Sugar on a Stick une solution robuste qui fonctionnera avec n’importe quel ordinateur.”
-`,ge=Object.freeze(Object.defineProperty({__proto__:null,default:t},Symbol.toStringTag,{value:"Module"})),o=`---
+`,pe=Object.freeze(Object.defineProperty({__proto__:null,default:t},Symbol.toStringTag,{value:"Module"})),o=`---
 title: "Sugar Labs Nonprofit Announces New Version of Sugar Learning Platform for Children, Runs on Netbooks and PCs"
 category: "PRESS RELEASE"
 date: "2009-03-16"
@@ -107,7 +107,7 @@ The Sugar Learning Platform is part of the permanent collection of the Museum of
 Mr. Bender commented, “Sugar 0.84 is an important step as we work toward version 1.0 of Sugar on a Stick, which will greatly simplify evaluation and use of Sugar in the classroom. Sugar on a Stick will start Sugar from a simple USB memory stick on nearly any recent computer from netbooks to desktops, and most older PCs as well, without interfering with pre-existing software installations.”
 
 “As we approach the one-millionth child ‘learning to learn’ with Sugar on the OLPC XO-1, we call for volunteers to join us—a challenge to educate for developers, designers, translators, and deployers,” Mr. Bender said. “In particular, we need testers to help us make Sugar on a Stick a robust solution available anywhere there is a computer.”
-`,pe=Object.freeze(Object.defineProperty({__proto__:null,default:o},Symbol.toStringTag,{value:"Module"})),r=`---
+`,he=Object.freeze(Object.defineProperty({__proto__:null,default:o},Symbol.toStringTag,{value:"Module"})),r=`---
 title: "Sugar Labs kündigt neue Version von Sugar an—die Lernplattform für Kinder läuft auf Netbooks und PCs"
 category: "PRESS RELEASE"
 date: "2009-03-16"
@@ -129,7 +129,7 @@ Die Lernplattform Sugar ist Teil der ständigen Ausstellung des Museum of Modern
 Bender fügt hinzu: “Sugar 0.84 ist ein wichtiger Schritt im Hinblick auf die Version 1.0 von Sugar on a Stick, die die Evaluation und die Anwendung von Sugar im Unterricht vereinfachen wird. Sugar on a Stick lädt Sugar von einem USB-Speichermedium auf nahezu jedem gängigen Computer, ob Netbook oder Desktop PC, ohne dabei mit der bereits installierten Software in Konflikt zu geraten.”
 
 “Weil bald das millionste Kind mit Sugar auf dem OLPC XO-1 ‘lernt zu lernen’ laden wir alle Freiwilligen dazu ein, mitzumachen—eine Herausforderung für Entwickler, Pädagogen, Designer, Übersetzer und Anwender,” sagt Bender. “Vor allem brauchen wir Software-Tester, die uns helfen aus Sugar on a Stick eine Alternative zu vorhandener Software auf allen verfügbaren Computern zu machen.”
-`,he=Object.freeze(Object.defineProperty({__proto__:null,default:r},Symbol.toStringTag,{value:"Module"})),i=`---
+`,me=Object.freeze(Object.defineProperty({__proto__:null,default:r},Symbol.toStringTag,{value:"Module"})),i=`---
 title: "Sugar Labs Announces Beta‑1 of Sugar on a Stick, LiveUSB Version of Sugar Learning Platform for Children"
 category: "PRESS RELEASE"
 date: "2009-04-22"
@@ -149,7 +149,7 @@ Walter Bender, Executive Director of Sugar Labs, said: “Sugar is perfectly sui
 Caroline Meeks of Solution Grove ([www.solutiongrove.com](http://www.solutiongrove.com)), the Sugar on a Stick project manager, commented: “We’re counting on teachers to help us improve Sugar on a Stick as we work towards our Version‑1 release scheduled for Q3 2009. We just presented Sugar on a Stick at the FOSS VT conference (<http://www.ncose.org/node/47>) where it generated great interest, and our real-world tests at local sites with varied aging PCs have been very encouraging.”
 
 Sugar testers are invited to send bug information and constructive criticism to [feedback@sugarlabs.org](mailto:feedback@sugarlabs.org). “We won’t be able to reply to every message,” continued Ms. Meeks, “but we will read every one in order to make Sugar on a Stick a reliable learning tool in budget-stretched classrooms by the fall.”
-`,me=Object.freeze(Object.defineProperty({__proto__:null,default:i},Symbol.toStringTag,{value:"Module"})),s=`---
+`,be=Object.freeze(Object.defineProperty({__proto__:null,default:i},Symbol.toStringTag,{value:"Module"})),s=`---
 title: "Sugar Labs annonce la bêta-1 de Sugar on a Stick, version LiveUSB de Sugar, la plate-forme d’apprentissage pour enfants"
 category: "PRESS RELEASE"
 date: "2009-04-22"
@@ -170,7 +170,7 @@ Walter Bender, le directeur exécutif de Sugar Labs, a dit : “Sugar est parfai
 Caroline Meeks de Solution Grove ([www.solutiongrove.com](http://www.solutiongrove.com)), gestionnaire du projet Sugar on a Stick, a commenté : “Nous comptons sur les enseignants pour nous aider à améliorer Sugar on a Stick tandis que nous continuons à travailler sur la Version-1 prévue pour le troisième trimestre 2009. Nous venons de présenter Sugar on a Stick à la conférence FOSS VT (<http://www.ncose.org/node/47>) où il a suscité beaucoup d’intérêt, et nos tests sur le terrain avec des PCs variés et anciens ont été très encourageants.”
 
 Les testeurs de Sugar sont invités à envoyer des informations sur tout bogue et autres critiques constructives à l’adresse suivante : [feedback@sugarlabs.org](mailto:feedback@sugarlabs.org). “Nous ne pourrons pas répondre à chaque message,” a continué Mme Meeks, “mais nous allons lire chacun afin de rendre Sugar on a Stick un outil fiable dans les classes qui manquent de ressources d’ici la rentrée.”
-`,be=Object.freeze(Object.defineProperty({__proto__:null,default:s},Symbol.toStringTag,{value:"Module"})),l=`---
+`,fe=Object.freeze(Object.defineProperty({__proto__:null,default:s},Symbol.toStringTag,{value:"Module"})),l=`---
 title: "Sugar Labs Announces Immediate Availability of Sugar on a Stick; Learning Platform Runs on Any PC or Netbook In The Classroom"
 category: "PRESS RELEASE"
 date: "2009-06-24"
@@ -190,7 +190,7 @@ As part of an ongoing effort to make Sugar on a Stick classroom-ready, Sugar Lab
 Learning Activities are at the heart of Sugar. Sugar on a Stick includes 40 Activities to interest young learners such as Read, Write, Paint, and Etoys. Hundreds more Activities are available free for download at the [Sugar Activity Library](http://activities.sugarlabs.org). Most “Sugarized” Activities have student collaboration built-in; students and teachers work, play, and learn on the same Activities together. The Sugar Learning Platform is open, so by leveraging the work of other open source projects, existing software for children can be integrated; for example, the acclaimed GCompris suite of 100 Activities developed over the past five years by Bruno Coudoin was recently added to Sugar, including Activities such as Chess, Geography, and Sudoku. Teachers and parents interested in Sugar’s Activities and its modern interface for children can watch short videos on the recently opened [Sugar Labs Dailymotion channel](http://www.dailymotion.com/sugarlabs).
 
 Visitors to LinuxTag are welcome to speak with Sugar Labs contributors at booth 7.2a 110a.
-`,fe=Object.freeze(Object.defineProperty({__proto__:null,default:l},Symbol.toStringTag,{value:"Module"})),u=`---
+`,we=Object.freeze(Object.defineProperty({__proto__:null,default:l},Symbol.toStringTag,{value:"Module"})),u=`---
 title: "Sugar Labs annonce la disponibilité immédiate de « Sugar on a Stick », une plate-forme d’apprentissage qui fonctionne sur n’importe quel PC ou netbook dans la salle de classe"
 category: "PRESS RELEASE"
 date: "2009-06-24"
@@ -211,7 +211,7 @@ L’effort pour rendre Sugar on a Stick prêt pour la salle de classe continue ;
 Les Activités pour apprendre sont au cœur de Sugar. Sugar on a Stick est fourni avec 40 Activités intéressantes pour des jeunes apprenants tels que Lire, Écrire, Dessiner, et EToys. Des centaines d’autres Activités sont disponibles gratuitement sur la [Bibliothèque d’Activités Sugar](http://activities.sugarlabs.org). La plupart d’activités « sucrées » offrent la collaboration en natif ; les étudiants et enseignants travaillent, jouent, et apprennent ensemble sur les mêmes Activités. La plate-forme d’apprentissage Sugar est ouverte et bénéficie des travaux d’autres projets ; des logiciels existants peuvent être intégrés. Par exemple, plus de 100 activités tels que Échecs, Géographie, et Sudoku de la suite acclamée GCompris développée depuis cinq ans par Bruno Coudoin ont été ajoutés récemment à Sugar. Des enseignants et parents qui s’intéressent aux activités de Sugar et à son interface moderne pour enfants peuvent visionner de courtes vidéos sur le nouveau canal [Dailymotion de Sugar Labs](http://www.dailymotion.com/sugarlabs).
 
 Les visiteurs à LinuxTag sont invités à dialoguer avec des contributeurs de Sugar Labs au stand 7.2a 110a.
-`,we=Object.freeze(Object.defineProperty({__proto__:null,default:u},Symbol.toStringTag,{value:"Module"})),d=`---
+`,ve=Object.freeze(Object.defineProperty({__proto__:null,default:u},Symbol.toStringTag,{value:"Module"})),d=`---
 title: "Sugar Labs annuncia l’immediata disponibilità di Sugar on a Stick; La Piattaforma di Apprendimento in grado di funzionare su qualsiasi PC o Netbook disponibile in classe"
 category: "PRESS RELEASE"
 date: "2009-06-24"
@@ -231,7 +231,7 @@ Come supporto allo sforzo di rendere “Sugar on a Stick” pronto per l’utili
 Le Attività di Apprendimento sono il cuore di Sugar. “Sugar on a Stick” include 40 attività preinstallate per catturare l’interesse dei giovani studenti, fra queste Leggi, Scrivi, Disegna, e l’ambiente Etoys. Altre centinaia di attività sono disponibili per essere liberamente scaricate dalla [Sugar Activity Library](http://activities.sugarlabs.org). La maggior parte delle attività "Sugarized" possiedono funzionalità di collaborazione native; gli studenti ed i docenti possono lavorare, giocare ed imparare tutti insieme condividendo le stesse attività. La “Sugar Learning Platform” è aperta, quindi approfittando del lavoro di altri progetti OpenSource, software didattico per bambini già esistente può essere integrato; per esempio, la famosa suite GCompris comprendente più di 100 attività didattiche e ludiche sviluppata nel corso degli scorsi cinque anni da Bruno Coudoin è stata recentemente integrata, comprendendo fra le altre Attività come Scacchi, Geografia e Sudoku. Docenti e genitori interessati a valutare le attività di Sugar e la sua innovativa interfaccia utente specificamente progettata per i bambini possono visionare i filmati disponibili sul canale recentemente attivato da [Sugar Labs su Dailymotion](http://www.dailymotion.com/sugarlabs).
 
 I partecipanti a LinuxTag sono caldamente invitati ad incontrare i collaboratori di Sugar Labs presso lo stand 7.2a 110a.
-`,ve=Object.freeze(Object.defineProperty({__proto__:null,default:d},Symbol.toStringTag,{value:"Module"})),c=`---
+`,Se=Object.freeze(Object.defineProperty({__proto__:null,default:d},Symbol.toStringTag,{value:"Module"})),c=`---
 title: "Sugar Labs anuncia la disponibilidad inmediata de Sugar On A Stick (Sugar en un pendrive). El plataforma de aprendizaje funciona en casi cualquier PC o portátil que hay en el aula."
 category: "PRESS RELEASE"
 date: "2009-06-24"
@@ -254,7 +254,7 @@ Actividades dirigidas al aprendizaje están en el corazón de Sugar. Sugar on a 
 
 La plataforma de aprendizaje de Sugar es abierta. Por lo tanto, Sugar utiliza el trabajo de otros proyectos de código abierto. El software existente para los niños se puede integrar a Sugar. Por ejemplo, el reconocido GCompris, junto con 100 actividades desarrolladas en los últimos cinco años por Bruno Coudoin, fueron añadidos recientemente a Sugar; incluye actividades como Ajedrez, Geografía y Sudoku. Los maestros y padres de familia interesados en las Actividades de Sugar y su interfaz moderna pueden ver videos cortos en el recientemente inaugurado canal de [Sugar Labs Dailymotion](http://www.dailymotion.com/sugarlabs).
 
-Los visitantes a LinuxTag son bienvenidos a hablar con los contribuyentes de Sugar Labs en el mostrador 7.2a 110a.`,Se=Object.freeze(Object.defineProperty({__proto__:null,default:c},Symbol.toStringTag,{value:"Module"})),g=`---
+Los visitantes a LinuxTag son bienvenidos a hablar con los contribuyentes de Sugar Labs en el mostrador 7.2a 110a.`,ye=Object.freeze(Object.defineProperty({__proto__:null,default:c},Symbol.toStringTag,{value:"Module"})),g=`---
 title: "Sugar Labs gibt die Veröffentlichung von Sugar on a Stick bekannt; die Lernplattform läuft auf jedem PC oder Netbook im Klassenzimmer."
 category: "PRESS RELEASE"
 date: "2009-06-24"
@@ -274,7 +274,7 @@ Als Teil der andauernden Bemühungen, Sugar on a Stick für den Einsatz im Klass
 Lernaktivitäten bilden das Herzstück von Sugar. Sugar on a Stick umfasst 40 Aktivitäten, um das Interesse junger Lernender zu wecken, beispielsweise Lesen, Schreiben, Malen oder Etoys. Hunderte weiterer Aktivitäten stehen in der [Sugar-Aktivitätenbibliothek](http://activities.sugarlabs.org) zum freien Download bereit. Die meisten "ver-Sugar-ten" Aktivitäten ermöglichen die Zusammenarbeit von Schülern: Schüler und Lehrer arbeiten, spielen und lernen gemeinsam in denselben Aktivitäten. Die Sugar-Lernplattform ist offen, sodass durch Einsatz anderer Open-Source-Produkte vorhandene Software für Kinder integriert werden kann. So wurde etwa die gefeierte GCompris-Suite aus 100 Aktivitäten, die die letzten fünf Jahre über von Bruno Coudoin entwickelt wurde, erst kürzlich zu Sugar hinzugefügt, darunter Aktivitäten wie Schach, Geographie oder Sudoku. Lehrer und Eltern, die sich für Sugars Aktivitäten und sein modernes Interface für Kinder interessieren, finden im unlängst eröffneten [Sugar Labs Dailymotion-Kanal](http://www.dailymotion.com/sugarlabs) kurze Videos.
 
 Besucher des LinuxTages sind herzlich eingeladen, mit Beitragenden zu Sugar Labs am Stand 7.2a 110a zu sprechen.
-`,ye=Object.freeze(Object.defineProperty({__proto__:null,default:g},Symbol.toStringTag,{value:"Module"})),p=`---
+`,ke=Object.freeze(Object.defineProperty({__proto__:null,default:g},Symbol.toStringTag,{value:"Module"})),p=`---
 title: "Sugar Labs kondigt aan dat Sugar on a Stick nu beschikbaar is; dit leerplatform draait op elke pc of netbook."
 category: "PRESS RELEASE"
 date: "2009-06-24"
@@ -339,7 +339,7 @@ For example, **Uruguay** has distributed a Sugar-equipped OLPC laptop to every s
 
 Sugar Labs relies on the efforts of **software developers** who donate their skills to the project. Mr. Bender continued:
 
-> “We are looking for developers with experience in GNU/Linux, Python and/or Gtk+ for contributing to the Sugar shell and educational Activities for children. We also need testers, experienced packagers, and educators willing to contribute their ideas for Sugar in the classroom.”`,ke=Object.freeze(Object.defineProperty({__proto__:null,default:h},Symbol.toStringTag,{value:"Module"})),m=`---
+> “We are looking for developers with experience in GNU/Linux, Python and/or Gtk+ for contributing to the Sugar shell and educational Activities for children. We also need testers, experienced packagers, and educators willing to contribute their ideas for Sugar in the classroom.”`,Ae=Object.freeze(Object.defineProperty({__proto__:null,default:h},Symbol.toStringTag,{value:"Module"})),m=`---
 title: "L’association à but non lucratif Sugar Labs annonce la version 2 de “Sugar on a Stick” qui améliore la lecture de livres électroniques et transforme n’importe quelle clé USB en une plate-forme éducative pour les enfants ; partenariat avec Nexcopy, Inc."
 category: "PRESS RELEASE"
 date: "2009-12-08"
@@ -393,7 +393,7 @@ Nexcopy Incorporated est spécialisée dans le développement d’outils de dupl
 ---
 
 Sugar Labs est une marque déposée de la Software Freedom Conservancy. Les autres marques déposées sont la propriété respective de leurs auteurs.
-`,Ae=Object.freeze(Object.defineProperty({__proto__:null,default:m},Symbol.toStringTag,{value:"Module"})),b=`---
+`,Ce=Object.freeze(Object.defineProperty({__proto__:null,default:m},Symbol.toStringTag,{value:"Module"})),b=`---
 title: "Sugar Labs Nonprofit Announces v2 of Sugar on a Stick with Improved E-Book Readers, Recycles Any USB Stick Into Learning Environment for Children; Partners with Nexcopy, Inc."
 category: "PRESS RELEASE"
 date: "2009-12-08"
@@ -420,7 +420,7 @@ Greg Morris, President of Nexcopy, commented, “Nexcopy is proud to partner wit
 
 **About Nexcopy Incorporated**: Nexcopy Incorporated specializes in developing and manufacturing the finest and most feature-rich flash memory duplicators in the market. Pioneering the solid-state memory duplication market, Nexcopy supplies Central and South America, Europe, India, Asia, Pacific Rim and serves the U.S. market through its headquarters in California.
 
-Sugar Labs is a registered trademark of the Software Freedom Conservancy. Other names are trademarks of their respective owners.`,Ce=Object.freeze(Object.defineProperty({__proto__:null,default:b},Symbol.toStringTag,{value:"Module"})),f=`---
+Sugar Labs is a registered trademark of the Software Freedom Conservancy. Other names are trademarks of their respective owners.`,Pe=Object.freeze(Object.defineProperty({__proto__:null,default:b},Symbol.toStringTag,{value:"Module"})),f=`---
 title: "L'Office de secours et de travaux des Nations unies choisi les ordinateurs du projet One Laptop per Child et la plate-forme Sugar pour un projet majeur d'éducation au proche orient"
 category: "PRESS RELEASE"
 date: "2010-04-29"
@@ -441,7 +441,7 @@ Les contenus existant de l'UNRWA seront adaptés à Sugar et la formation des en
 
 A propos du Sugar Labs: Sugar Labs est un organisation non lucrative de volontaires, membre du projet Software Freedom Conservancy. A l’origine intégré au projet One Laptop Per Child, Sugar Labs coordonne les volontaires dans le monde qui sont passionés par l’idée de fournir des opportunités d’éducation à travers la plate-forme éducative Sugar. Sugar Labs est soutenu par des donations et cherche des fonds pour accélérer son développement. Pour plus d’information, voir [http://www.sugarlabs.org](http://www.sugarlabs.org)
 
-Sugar Labs est une marque déposée de la Software Freedom Conservancy. Les autres marques déposées sont la propriété respective de leur auteurs.`,Pe=Object.freeze(Object.defineProperty({__proto__:null,default:f},Symbol.toStringTag,{value:"Module"})),w=`---
+Sugar Labs est une marque déposée de la Software Freedom Conservancy. Les autres marques déposées sont la propriété respective de leur auteurs.`,Oe=Object.freeze(Object.defineProperty({__proto__:null,default:f},Symbol.toStringTag,{value:"Module"})),w=`---
 title: "United Nations Relief and Works Agency Sceglie i Laptop di One Laptop per Child con  Sugar per un Importante Progetto Educativo in Medio Oriente"
 category: "PRESS RELEASE"
 date: "2010-04-29"
@@ -477,7 +477,7 @@ The heart of Sugar is its Activities for children ([http://activities.sugarlabs.
 
 Existing UNRWA learning content will be adapted to Sugar and teacher training is underway. The UNRWA project follows last year’s deployment of 1000 XO laptops in Palestinian schools by the Palestine Education Initiative ([http://www.pei.gov.ps](http://www.pei.gov.ps), [http://en.palexo.com](http://en.palexo.com)). Sugar Labs welcomes developers and volunteers to make this important endeavor successful.
 
-About Sugar Labs: Sugar Labs, a volunteer-driven, nonprofit organization, is a member project of the Software Freedom Conservancy. Originally part of the One Laptop Per Child project, Sugar Labs coordinates volunteers around the world who are passionate about providing educational opportunities to children through the Sugar Learning Platform. Sugar Labs is supported by donations and is seeking funding to accelerate development. For more information, please visit [http://www.sugarlabs.org](http://www.sugarlabs.org).`,Oe=Object.freeze(Object.defineProperty({__proto__:null,default:v},Symbol.toStringTag,{value:"Module"})),S=`---
+About Sugar Labs: Sugar Labs, a volunteer-driven, nonprofit organization, is a member project of the Software Freedom Conservancy. Originally part of the One Laptop Per Child project, Sugar Labs coordinates volunteers around the world who are passionate about providing educational opportunities to children through the Sugar Learning Platform. Sugar Labs is supported by donations and is seeking funding to accelerate development. For more information, please visit [http://www.sugarlabs.org](http://www.sugarlabs.org).`,Ie=Object.freeze(Object.defineProperty({__proto__:null,default:v},Symbol.toStringTag,{value:"Module"})),S=`---
 title: "La Plataforma de Aprendizaje Sugar y el Escritorio GNOME se distribuirán hoy en la One Laptop per Child modelo XO-1.5; también se ejecutará en el nuevo XO-HS High School Edition"
 category: "PRESS RELEASE"
 date: "2010-01-04"
@@ -525,7 +525,7 @@ Thomas Gilliard, a Sugar Labs contributor, said, "The Sugar Creation Kit turns a
 
 Visitors to LinuxTag are invited to meet Sugar Labs contributors at Hall 7.2a, Booth 115.
 
-**About Sugar Labs**: Sugar Labs, a volunteer-driven, nonprofit organization, is a member project of the Software Freedom Conservancy. Originally part of the One Laptop Per Child project, Sugar Labs coordinates volunteers around the world who are passionate about providing educational opportunities to children through the Sugar Learning Platform. Sugar Labs is supported by donations and is seeking funding to accelerate development. For more information, please visit [http://www.sugarlabs.org](http://www.sugarlabs.org).`,Ee=Object.freeze(Object.defineProperty({__proto__:null,default:y},Symbol.toStringTag,{value:"Module"})),L=`---
+**About Sugar Labs**: Sugar Labs, a volunteer-driven, nonprofit organization, is a member project of the Software Freedom Conservancy. Originally part of the One Laptop Per Child project, Sugar Labs coordinates volunteers around the world who are passionate about providing educational opportunities to children through the Sugar Learning Platform. Sugar Labs is supported by donations and is seeking funding to accelerate development. For more information, please visit [http://www.sugarlabs.org](http://www.sugarlabs.org).`,xe=Object.freeze(Object.defineProperty({__proto__:null,default:y},Symbol.toStringTag,{value:"Module"})),k=`---
 title: "Sugar Labs Annuncia una Nuova Versione di Sugar on a Stick, piattaforma software educativa per bambini"
 category: "PRESS RELEASE"
 date: "2010-06-10"
@@ -550,7 +550,7 @@ Thomas Gilliard, un contributore di Sugar Labs, commenta:
 > “Il *Sugar Creation Kit* trasforma ogni PC in una stazione in grado di produrre istanze di Sugar on a Stick. Strumenti e documentazione sono tutti raccolti in un unico disco; gli insegnanti non perderanno tempo nella ricerca di quanto possa essere utile alla loro attività didattica.  
 > Questo strumento permette inoltre di lavorare via 'sneaker net' (non connessi a Internet) e in aule protette da firewall.”
 
-I visitatori del LinuxTag sono invitati ad incontrare gli sviluppatori di Sugar Labs presso il **Booth 115, Hall 7.2a**.`,Ie=Object.freeze(Object.defineProperty({__proto__:null,default:L},Symbol.toStringTag,{value:"Module"})),k=`---
+I visitatori del LinuxTag sono invitati ad incontrare gli sviluppatori di Sugar Labs presso il **Booth 115, Hall 7.2a**.`,Me=Object.freeze(Object.defineProperty({__proto__:null,default:k},Symbol.toStringTag,{value:"Module"})),L=`---
 title: "Sugar Labs annonce la nouvelle version de «Sugar-On-A-Stick», son système éducatif à destination des enfants"
 category: "PRESS RELEASE"
 date: "2010-06-10"
@@ -574,7 +574,7 @@ Sugar Labs sera présent pour toute la durée du salon LinuxTag 2010 au stand 11
 
 **À propos du Sugar Labs** : Sugar Labs est une organisation non lucrative de volontaires, membre du projet Software Freedom Conservancy. À l’origine intégré au projet One Laptop Per Child, Sugar Labs coordonne les volontaires dans le monde qui sont passionnés par l’idée de fournir des opportunités d’éducation à travers la plate-forme éducative Sugar. Sugar Labs est soutenu par des donations et cherche des fonds pour accélérer son développement. Pour plus d’informations, voir [http://www.sugarlabs.org](http://www.sugarlabs.org)
 
-Sugar Labs est une marque déposée de la Software Freedom Conservancy. Les autres marques déposées sont la propriété respective de leurs auteurs.`,je=Object.freeze(Object.defineProperty({__proto__:null,default:k},Symbol.toStringTag,{value:"Module"})),A=`---
+Sugar Labs est une marque déposée de la Software Freedom Conservancy. Les autres marques déposées sont la propriété respective de leurs auteurs.`,je=Object.freeze(Object.defineProperty({__proto__:null,default:L},Symbol.toStringTag,{value:"Module"})),A=`---
 title: "La plateforme éducative Sugar et l'interface bureautique GNOME désormais présents sur le nouvel XO 1.5 de la fondation OLPC, ainsi que le nouveau modèle XO-HS High School Edition"
 category: "PRESS RELEASE"
 date: "2010-01-14"
@@ -606,7 +606,7 @@ GNOME est un projet de logiciel libre qui développe, pour toutes les distributi
 **À propos de One Laptop per Child**  
 ([http://www.laptop.org](http://www.laptop.org)) : OLPC est une organisation à but non-lucratif créée par Nicholas Negroponte et d'autres membres du Media Lab du MIT afin de concevoir, produire et distribuer des ordinateurs portables suffisamment abordables pour permettre à chaque enfant du monde d'avoir un accès au savoir et aux formes modernes d'éducation.
 
-*Sugar Labs est une marque déposée de la Software Freedom Conservancy. Les autres marques déposées sont la propriété respective de leurs auteurs.*`,ze=Object.freeze(Object.defineProperty({__proto__:null,default:A},Symbol.toStringTag,{value:"Module"})),C=`---
+*Sugar Labs est une marque déposée de la Software Freedom Conservancy. Les autres marques déposées sont la propriété respective de leurs auteurs.*`,Ee=Object.freeze(Object.defineProperty({__proto__:null,default:A},Symbol.toStringTag,{value:"Module"})),C=`---
 title: "Sugar Learning Platform and GNOME Desktop Now Shipping on the One Laptop per Child XO-1.5; Will Run On New XO-HS"
 category: "PRESS RELEASE"
 date: "2010-01-14"
@@ -639,7 +639,7 @@ GNOME is a free-software project which develops a complete, accessible and easy-
 
 ### About One Laptop per Child
 
-[http://www.laptop.org](http://www.laptop.org): OLPC is a non-profit organization created by Nicholas Negroponte and others from the MIT Media Lab to design, manufacture and distribute laptop computers that are inexpensive enough to provide every child in the world access to knowledge and modern forms of education.`,Me=Object.freeze(Object.defineProperty({__proto__:null,default:C},Symbol.toStringTag,{value:"Module"})),P=`---
+[http://www.laptop.org](http://www.laptop.org): OLPC is a non-profit organization created by Nicholas Negroponte and others from the MIT Media Lab to design, manufacture and distribute laptop computers that are inexpensive enough to provide every child in the world access to knowledge and modern forms of education.`,ze=Object.freeze(Object.defineProperty({__proto__:null,default:C},Symbol.toStringTag,{value:"Module"})),P=`---
 title: "Sugar Learning Platform e GNOME Desktop sono disponibili per gli XO-1.5 di One Laptop per Child; Compatibili anche per i nuovi XO-HS High School Edition"
 category: "PRESS RELEASE"
 date: "2010-06-14"
@@ -666,7 +666,7 @@ Walter Bender, Direttore Esecutivo di Sugar Labs, dichiara “la fluidità di mo
 
 **In merito a GNOME**: GNOME è un progetto di free-software che sviluppa un desktop standard completo, accessibile e di facile utilizzo, per tutte le principali distribuzioni GNU/Linux e Unix. Ampiamente conosciuto e utilizzato nelle grandi imprese e in milioni di piccole aziende e utenti privati nel mondo, include anche un ambiente completo di sviluppo per creare nuovi programmi. La nonprofit GNOME Foundation è costituita da centinaia di sviluppatori volontari e da industrie-leader. Ulteriori informazioni possono essere reperite presso: [http://www.gnome.org](http://www.gnome.org) e [http://foundation.gnome.org](http://foundation.gnome.org).
 
-**In merito a One Laptop per Child** ([http://www.laptop.org](http://www.laptop.org)): OLPC è una organizzazione non-profit creata da Nicholas Negroponte ed altri del MIT Media Lab per progettare, produrre e distribuire laptop computers che siano così economici da poter fornire ad ogni bambino del mondo accesso alla conoscenza e alle più moderne forme di apprendimento.`,xe=Object.freeze(Object.defineProperty({__proto__:null,default:P},Symbol.toStringTag,{value:"Module"})),_=`---
+**In merito a One Laptop per Child** ([http://www.laptop.org](http://www.laptop.org)): OLPC è una organizzazione non-profit creata da Nicholas Negroponte ed altri del MIT Media Lab per progettare, produrre e distribuire laptop computers che siano così economici da poter fornire ad ogni bambino del mondo accesso alla conoscenza e alle più moderne forme di apprendimento.`,De=Object.freeze(Object.defineProperty({__proto__:null,default:P},Symbol.toStringTag,{value:"Module"})),O=`---
 title: "La organización sin fines de lucro Sugar Labs patrocina el equipo de ciclistas Team Chipotle para dar a conocer su misión educativa."
 category: "PRESS RELEASE"
 date: "2011-04-15"
@@ -695,7 +695,7 @@ Image: [ChipotleDevelopmentTeam_RedlandsCyclingClassic.jpg](/press/ChipotleDevel
 
 *Sugar Labs es una marca registrada de Software Freedom Conservancy. Otros nombres son marcas registradas de sus respectivos dueños.*
 
-**NOTA:** El equipo Chipotle Development desafortunadamente no va a participar de la 68a. Vuelta Ciclista del Uruguay este año.`,De=Object.freeze(Object.defineProperty({__proto__:null,default:_},Symbol.toStringTag,{value:"Module"})),O=`---
+**NOTA:** El equipo Chipotle Development desafortunadamente no va a participar de la 68a. Vuelta Ciclista del Uruguay este año.`,Be=Object.freeze(Object.defineProperty({__proto__:null,default:O},Symbol.toStringTag,{value:"Module"})),_=`---
 title: "Sugar Labs Nonprofit Sponsoring Team Chipotle to Raise Awareness of Educational Mission"
 category: "PRESS RELEASE"
 date: "2011-04-15"
@@ -772,7 +772,7 @@ Other names are trademarks of their respective owners.
 NOTE: The Chipotle Development Team will unfortunately not race in the Vuelta
 Ciclista del Uruguay this year.
 
-`,Be=Object.freeze(Object.defineProperty({__proto__:null,default:O},Symbol.toStringTag,{value:"Module"})),T=`---
+`,Ne=Object.freeze(Object.defineProperty({__proto__:null,default:_},Symbol.toStringTag,{value:"Module"})),I=`---
 title: "La organización educacional sin fines de lucro Sugar Labs(R) celebra el Día del Aprendizaje Digital con dos ganadores del premio Google Code-In"
 category: "PRESS RELEASE"
 date: "2013-02-05"
@@ -821,7 +821,7 @@ Sugar Labs se mantiene en base a donaciones y está buscando financiación y vol
 **Sitio oficial:** [www.sugarlabs.org](http://www.sugarlabs.org)
 
 *Sugar Labs es una marca registrada de la Software Freedom Conservancy. Otros nombres y marcas corresponden a sus respectivos dueños.*
-`,qe=Object.freeze(Object.defineProperty({__proto__:null,default:T},Symbol.toStringTag,{value:"Module"})),E=`---
+`,qe=Object.freeze(Object.defineProperty({__proto__:null,default:I},Symbol.toStringTag,{value:"Module"})),T=`---
 title: "Le Sugar Labs(R), organisme non lucratif à but éducatif, célèbre le 'Digital Learning Day' avec deux lauréats au grand prix du 'Google Code-In'"
 category: "PRESS RELEASE"
 date: "2013-02-05"
@@ -869,7 +869,7 @@ Le Sugar Labs tient à exprimer sa gratitude à Google et tout particulièrement
 **À propos de Sugar Labs(R)**  
 Sugar Labs(R) est une organisation non lucrative de volontaires, membre du projet Software Freedom Conservancy. À l’origine intégré au projet One Laptop Per Child, Sugar Labs coordonne les volontaires dans le monde qui sont passionnés par l’idée de fournir des opportunités d’éducation à travers la plate-forme éducative Sugar. Sugar Labs(R) est soutenu par des donations et cherche des fonds pour accélérer son développement. Pour plus d’information, voir [www.sugarlabs.org/press](http://www.sugarlabs.org/press) ou contacter **pr@sugarlabs.org**.
 
-*Sugar Labs(R) est une marque déposée de la Software Freedom Conservancy. Les autres marques déposées sont la propriété respective de leur auteurs.*`,Ne=Object.freeze(Object.defineProperty({__proto__:null,default:E},Symbol.toStringTag,{value:"Module"})),I=`---
+*Sugar Labs(R) est une marque déposée de la Software Freedom Conservancy. Les autres marques déposées sont la propriété respective de leur auteurs.*`,Ge=Object.freeze(Object.defineProperty({__proto__:null,default:T},Symbol.toStringTag,{value:"Module"})),x=`---
 title: "Sugar Labs(R) Educational Nonprofit Celebrates Digital Learning Day With Two Google Code-In Grand Prize Winners"
 category: "PRESS RELEASE"
 date: "2013-02-05"
@@ -902,7 +902,7 @@ Sugar Labs wishes to thank Google and in particular Bradley Kuhn, executive dire
 **About Sugar Labs(R):**  
 Sugar Labs(R), a volunteer-driven, educational nonprofit organization, is a member project of the Software Freedom Conservancy. Originally part of the One Laptop Per Child project, Sugar Labs coordinates volunteers around the world who are passionate about providing educational opportunities to children through the Sugar Learning Platform. Sugar Labs(R) is supported by donations and is seeking funding to accelerate development. For more information, please visit [sugarlabs.org/press](http://www.sugarlabs.org/press) or contact pr@sugarlabs.org.
 
-Sugar Labs(R) is a registered trademark of the Software Freedom Conservancy. Other names are trademarks of their respective owners.`,Ge=Object.freeze(Object.defineProperty({__proto__:null,default:I},Symbol.toStringTag,{value:"Module"})),j=`---
+Sugar Labs(R) is a registered trademark of the Software Freedom Conservancy. Other names are trademarks of their respective owners.`,Fe=Object.freeze(Object.defineProperty({__proto__:null,default:x},Symbol.toStringTag,{value:"Module"})),M=`---
 title: "Children Programmers Abound at First International TurtleArt Day"
 category: "PRESS RELEASE"
 date: "2013-10-12"
@@ -951,7 +951,7 @@ Sugar Labs, a volunteer-driven, nonprofit organization, is a member project of t
 For more information, please visit [sugarlabs.org/press](http://www.sugarlabs.org/press) or contact **pr@sugarlabs.org**.
 
 *Sugar Labs® is a registered trademark of the Software Freedom Conservancy. Other names are trademarks of their respective owners.*
-`,Fe=Object.freeze(Object.defineProperty({__proto__:null,default:j},Symbol.toStringTag,{value:"Module"})),z=`---
+`,Ue=Object.freeze(Object.defineProperty({__proto__:null,default:M},Symbol.toStringTag,{value:"Module"})),j=`---
 title: "Programadores niños abundan en el primer Día Internacional de TurtleArt"
 category: "PRESS RELEASE"
 date: "2013-10-12"
@@ -993,7 +993,7 @@ Andrés Aguirre, del proyecto Butiá —un robot programado con Tortugarte—, d
 **Sobre Sugar Labs®:**  
 Es una organización sin fines de lucro dirigida por voluntarios, miembro de la Software Freedom Conservancy. Sugar Labs coordina alrededor del mundo a voluntarios apasionados por proveer oportunidades educativas a través de la plataforma de aprendizaje Sugar. Sugar se encuentra instalada en más de tres millones de computadoras. Sugar Labs se mantiene a base de donaciones y busca fondos para acelerar su desarrollo. Para más información visita [sugarlabs.org/press](http://www.sugarlabs.org/press) o escribe a [pr@sugarlabs.org](mailto:pr@sugarlabs.org).
 
-Sugar Labs es una marca registrada de la Software Freedom Conservancy. Otros nombres y marcas mencionados corresponden a sus respectivos dueños.`,Re=Object.freeze(Object.defineProperty({__proto__:null,default:z},Symbol.toStringTag,{value:"Module"})),M=`---
+Sugar Labs es una marca registrada de la Software Freedom Conservancy. Otros nombres y marcas mencionados corresponden a sus respectivos dueños.`,Re=Object.freeze(Object.defineProperty({__proto__:null,default:j},Symbol.toStringTag,{value:"Module"})),E=`---
 title: "Une foule d'enfants programmeurs participe à la 1ère Journée Internationale TurtleArt"
 category: "PRESS RELEASE"
 date: "2013-10-12"
@@ -1036,7 +1036,7 @@ Image: ![Journée TurtleArt Caacupé](/press/caacupe-turtleartday.png)
 **À propos de Sugar Labs(R)**  
 Sugar Labs(R) est une organisation non lucrative de volontaires, membre du projet Software Freedom Conservancy. Sugar Labs coordonne les volontaires dans le monde qui sont passionnés par l'idée de fournir des opportunités d'éducation à travers la plate-forme éducative Sugar; installée sur plus de 3 millions d'ordinateurs. Sugar Labs(R) est soutenu par des donations et cherche des fonds pour accélérer son développement. Pour plus d'information, voir [http://www.sugarlabs.org/press](http://www.sugarlabs.org/press) ou contacter **pr@sugarlabs.org**.
 
-Sugar Labs(R) est une marque déposée de la Software Freedom Conservancy. Les autres marques déposées sont la propriété respective de leurs auteurs.`,Ue=Object.freeze(Object.defineProperty({__proto__:null,default:M},Symbol.toStringTag,{value:"Module"})),x=`---
+Sugar Labs(R) est une marque déposée de la Software Freedom Conservancy. Les autres marques déposées sont la propriété respective de leurs auteurs.`,We=Object.freeze(Object.defineProperty({__proto__:null,default:E},Symbol.toStringTag,{value:"Module"})),z=`---
 title: "Sugar Labs(R), organización sin fines de lucro para la Educación celebra dos Ganadores del Gran Premio de Google Code-In"
 category: "PRESS RELEASE"
 date: "2014-01-22"
@@ -1085,7 +1085,7 @@ Sugar Labs se mantiene en base a donaciones y está buscando financiación y vol
 Sugar Labs es una marca registrada de la Software Freedom Conservancy. Otros nombres y marcas corresponden a sus respectivos dueños.
 
 ---
-`,We=Object.freeze(Object.defineProperty({__proto__:null,default:x},Symbol.toStringTag,{value:"Module"})),D=`---
+`,He=Object.freeze(Object.defineProperty({__proto__:null,default:z},Symbol.toStringTag,{value:"Module"})),D=`---
 title: "Sugar Labs(R) Educational Nonprofit Celebrates Two Google Code-In Grand Prize Winners"
 category: "PRESS RELEASE"
 date: "2014-01-22"
@@ -1133,7 +1133,7 @@ Sugar Labs®️ is a volunteer-driven member project of [Software Freedom Conser
 Sugar Labs®️ is supported by donations and is seeking funding to accelerate development. For more information, please visit [www.sugarlabs.org/press](http://www.sugarlabs.org/press) or contact \`pr@sugarlabs.org\`.
 
 Sugar Labs®️ is a registered trademark of the Software Freedom Conservancy. Other names are trademarks of their respective owners.
-`,He=Object.freeze(Object.defineProperty({__proto__:null,default:D},Symbol.toStringTag,{value:"Module"})),B=`---
+`,Xe=Object.freeze(Object.defineProperty({__proto__:null,default:D},Symbol.toStringTag,{value:"Module"})),B=`---
 title: "The connection between Sugar - Students - Teachers"
 category: "SUGAR STORIES"
 date: "2016-05-15"
@@ -1191,7 +1191,7 @@ References
 
 - Ceibal Jam (2009). Convenio marco entre la Asociación Civil Ceibal Jam y la Universidad de la República.
 - DSPE-ANEP (2011). Informe de evaluación del Plan Ceibal 2010. Administración Nacional de Educación Pública Dirección Sectorial de Planificación Educativa Área de Evaluación del Plan Ceibal.
-`,Xe=Object.freeze(Object.defineProperty({__proto__:null,default:B},Symbol.toStringTag,{value:"Module"})),q=`---
+`,Ve=Object.freeze(Object.defineProperty({__proto__:null,default:B},Symbol.toStringTag,{value:"Module"})),N=`---
 title: "The connection between Sugar - Students - Teachers"
 category: "SUGAR STORIES"
 date: "2016-05-15"
@@ -1247,7 +1247,7 @@ Since 2019, Sugar Labs has published projects it is considering for Google Summe
 Sugar Labs® is a US-based 501(c)(3) nonprofit organization with a global mission to create educational opportunities in technology to youth around the world. Volunteer mentors and contributors work together to develop activity-focused software for children. All software is developed with learning as the primary goal, necessitating the need for source code to be published publicly for study, licensed under a Free/Libre license for explicit permission to share and remix, and openly worked upon within a community where students are invited to make contributions, under guidance of experienced mentors.
 
 Donations to support the work of Sugar Labs can be made at [https://wiki.sugarlabs.org/go/Sugar_Labs/Donate](https://wiki.sugarlabs.org/go/Sugar_Labs/Donate).
-`,Ve=Object.freeze(Object.defineProperty({__proto__:null,default:q},Symbol.toStringTag,{value:"Module"})),N=`---
+`,Je=Object.freeze(Object.defineProperty({__proto__:null,default:N},Symbol.toStringTag,{value:"Module"})),q=`---
 title: "Sugar Labs: Past, present, and future"
 category: "EVENTS"
 date: "2024-05-03"
@@ -1288,7 +1288,7 @@ Volunteer mentors and contributors work together to develop activity-focused sof
 Support our work: [Donate here](https://www.sugarlabs.org/donate/)
 
 ---
-`,Je=Object.freeze(Object.defineProperty({__proto__:null,default:N},Symbol.toStringTag,{value:"Module"})),G=`--- 
+`,Ke=Object.freeze(Object.defineProperty({__proto__:null,default:q},Symbol.toStringTag,{value:"Module"})),G=`--- 
 title: "Sugar Labs announces nonprofit status, new executive director"
 category: "PRESS RELEASE"
 date: "2024-05-08"
@@ -1359,7 +1359,7 @@ Volunteer mentors and contributors work together to develop activity-focused sof
 - Contributions from students under experienced guidance
 
 Support our work: [Donate here](https://www.sugarlabs.org/donate/)
-`,Ke=Object.freeze(Object.defineProperty({__proto__:null,default:F},Symbol.toStringTag,{value:"Module"})),R=`---
+`,$e=Object.freeze(Object.defineProperty({__proto__:null,default:F},Symbol.toStringTag,{value:"Module"})),U=`---
 title: "Learn to make games with Gameeky!"
 category: "EVENTS"
 date: "2024-05-17"
@@ -1391,7 +1391,7 @@ Volunteer mentors and contributors work together to develop activity-focused sof
 - Contributions from students under experienced guidance
 
 Support our work: [Donate here](https://www.sugarlabs.org/donate/)
-`,$e=Object.freeze(Object.defineProperty({__proto__:null,default:R},Symbol.toStringTag,{value:"Module"})),U=`---
+`,Ze=Object.freeze(Object.defineProperty({__proto__:null,default:U},Symbol.toStringTag,{value:"Module"})),R=`---
 title: "An OLPC update with Lylian Peraza"
 category: "EVENTS"
 date: "2024-05-24"
@@ -1423,7 +1423,7 @@ Volunteer mentors and contributors work together to develop activity-focused sof
 - Contributions from students under experienced guidance
 
 Support our work: [Donate here](https://www.sugarlabs.org/donate/)
-`,Ze=Object.freeze(Object.defineProperty({__proto__:null,default:U},Symbol.toStringTag,{value:"Module"})),W=`---
+`,Qe=Object.freeze(Object.defineProperty({__proto__:null,default:R},Symbol.toStringTag,{value:"Module"})),W=`---
 title: "Learn: How to git involved with Sugar Labs this summer"
 category: "EVENTS"
 date: "2024-05-31"
@@ -1456,7 +1456,7 @@ under a free/libre license for explicit permission to share and remix,
 and openly worked upon within a community where students are invited  
 to make contributions, under guidance of experienced mentors.  
 Support our work: [Donate here](https://www.sugarlabs.org/donate/)
-`,Qe=Object.freeze(Object.defineProperty({__proto__:null,default:W},Symbol.toStringTag,{value:"Module"})),H=`---
+`,ea=Object.freeze(Object.defineProperty({__proto__:null,default:W},Symbol.toStringTag,{value:"Module"})),H=`---
 title: "Learn: How to git involved with Sugar Labs this summer"
 category: "EVENTS"
 date: "2024-05-31"
@@ -1483,7 +1483,7 @@ Sugar Labs® is a US-based 501(c)(3) nonprofit organization with a global missio
 Volunteer mentors and contributors work together to develop activity-focused software for children. All software is developed with learning as the primary goal, necessitating the need for source code to be published publicly for study, licensed under a free/libre license for explicit permission to share and remix, and openly worked upon within a community where students are invited to make contributions, under guidance of experienced mentors.
 
 Support our work: [Donate here](https://www.sugarlabs.org/donate/)
-`,ea=Object.freeze(Object.defineProperty({__proto__:null,default:H},Symbol.toStringTag,{value:"Module"})),X=`---
+`,aa=Object.freeze(Object.defineProperty({__proto__:null,default:H},Symbol.toStringTag,{value:"Module"})),X=`---
 title: "Writing new Activities and sharing sugar with Youth"
 category: "SUGAR STORIES"
 date: "2024-9-13"
@@ -1511,7 +1511,7 @@ At the time, the best, and maybe only, way to learn how to create Activities was
 
 My personal involvement in Sugar Labs did not require any direct work with children, but, recently, I had the opportunity to introduce a young boy to Sugar. I had an old computer that I was going to give to a family friend, who was studying computer programming in college. His nine-year-old brother found out about it and wanted it for himself, so I installed the latest [Sugar Learning Platform](https://wiki.sugarlabs.org/go/What_is_Sugar#About_the_Sugar_Learning_Platform) and updated my old Activities to run on Python 3. He is pleased to have [the same operating system (OS) used by astronauts on the International Space Station (ISS)](https://www.fsf.org/blogs/community/gnu-linux-chosen-as-operating-system-of-the-international-space-station) and enjoys playing [Tux Kart](https://supertuxkart.net/Main_Page). I look forward to introducing him to even more that Sugar has to offer in the coming months.
 
-It’s nice to have the [Sugar environment](https://wiki.sugarlabs.org/go/What_is_Sugar) as an option for kids, as well as ways for the community to participate in the creation of new Activities.`,aa=Object.freeze(Object.defineProperty({__proto__:null,default:X},Symbol.toStringTag,{value:"Module"})),V=`---
+It’s nice to have the [Sugar environment](https://wiki.sugarlabs.org/go/What_is_Sugar) as an option for kids, as well as ways for the community to participate in the creation of new Activities.`,na=Object.freeze(Object.defineProperty({__proto__:null,default:X},Symbol.toStringTag,{value:"Module"})),V=`---
 title: "The Sweet Spot – Issue 001"
 category: "COMMUNITY NEWS"
 date: "2024-09-20"
@@ -1576,7 +1576,7 @@ Sugar Labs is seeking volunteer assistance in the following ways. Sustained, com
 Sugar Labs® is a US-based 501(c)(3) nonprofit organization with a global mission to create educational opportunities in technology to youth around the world. Volunteer mentors and contributors work together to develop activity-focused software for children. All software is developed with learning as the primary goal, necessitating the need for source code to be published publicly for study, licensed under a Free/Libre license for explicit permission to share and remix, and openly worked upon within a community where students are invited to make contributions, under guidance of experienced mentors.
 
 Donations to support the work of Sugar Labs can be made at [https://wiki.sugarlabs.org/go/Sugar_Labs/Donate](https://wiki.sugarlabs.org/go/Sugar_Labs/Donate).
-`,na=Object.freeze(Object.defineProperty({__proto__:null,default:V},Symbol.toStringTag,{value:"Module"})),J=`---
+`,ta=Object.freeze(Object.defineProperty({__proto__:null,default:V},Symbol.toStringTag,{value:"Module"})),J=`---
 title: "Board election results announcement: Three new members for the 2025-26 cycle"
 category: "COMMUNITY NEWS"
 date: "2024-12-19"
@@ -1605,7 +1605,7 @@ If you were a member in the past but [did not vote in this election](https://www
 If you are interested in volunteering to assist with the next election in 2025, please contact <volunteering@sugarlabs.org> with your interest.
 
 On behalf of the [Sugar Labs Board of Directors](https://www.sugarlabs.org/leadership/), we offer a big **Thank you!** to all who participated in this year's election.
-`,ta=Object.freeze(Object.defineProperty({__proto__:null,default:J},Symbol.toStringTag,{value:"Module"})),Y=`---
+`,oa=Object.freeze(Object.defineProperty({__proto__:null,default:J},Symbol.toStringTag,{value:"Module"})),K=`---
 title: "Deadline extended to November 24 to apply for a ballot and apply for candidacy"
 category: "COMMUNITY NEWS"
 date: "2024-11-22"
@@ -1661,7 +1661,7 @@ The updated timeline of the election is planned as follows, with a deadline to r
 After doing research on various [election software recommended by the FLOSS community](https://github.com/sugarlabs/elections-research), we have decided to use [bettervoting.com](http://bettervoting.com). The software is licensed under the AGPLv3, and the system supports automatic runoff vote tallying. Our internal research on the system can be found in [this document](https://docs.google.com/document/d/1kuXXL-tVgB1Ptu50cTonWtRnAuKmWn1jyKd1qPgqFJY/edit?tab=t.0).
 
 Again, we encourage you to take the first step and apply for a ballot via our [application form](https://forms.gle/48F6h5wdV6BpSro66), and we look forward to your involvement.
-`,oa=Object.freeze(Object.defineProperty({__proto__:null,default:Y},Symbol.toStringTag,{value:"Module"})),K=`---
+`,ra=Object.freeze(Object.defineProperty({__proto__:null,default:K},Symbol.toStringTag,{value:"Module"})),Y=`---
 title: "Today, help Sugar Labs continue to transform education"
 category: "COMMUNITY NEWS"
 date: "2024-12-03"
@@ -1786,7 +1786,7 @@ Devin Ulibarri
 Executive Director, Sugar Labs Inc.
 
 P.S. Visit [https://www.sugarlabs.org/donate/](https://www.sugarlabs.org/donate/) to donate to, and support, our mission today!
-`,ra=Object.freeze(Object.defineProperty({__proto__:null,default:K},Symbol.toStringTag,{value:"Module"})),$=`---
+`,ia=Object.freeze(Object.defineProperty({__proto__:null,default:Y},Symbol.toStringTag,{value:"Module"})),$=`---
 title: "Board election results announcement: Three new members for the 2025-26 cycle"
 category: "COMMUNITY NEWS"
 date: "2024-12-19"
@@ -1815,7 +1815,7 @@ If you were a member in the past but [did not vote in this election](https://www
 If you are interested in volunteering to assist with the next election in 2025, please contact <volunteering@sugarlabs.org> with your interest.
 
 On behalf of the [Sugar Labs Board of Directors](https://www.sugarlabs.org/leadership/), we offer a big **Thank you!** to all who participated in this year's election.
-`,ia=Object.freeze(Object.defineProperty({__proto__:null,default:$},Symbol.toStringTag,{value:"Module"})),Z=`---
+`,sa=Object.freeze(Object.defineProperty({__proto__:null,default:$},Symbol.toStringTag,{value:"Module"})),Z=`---
 title: "Reflections as Parents and Teachers Sugar at home and in their classroom"
 category: "COMMUNITY NEWS"
 date: "2024-12-19"
@@ -1844,7 +1844,7 @@ At four years old, Kai had memorized much of the _Dog Man_ series by [Dav Pilkey
 Kai, with his OLPC, running the Speak Activity on the Sugar Learning Platform.
 
 The Speak Activity reads back what the user types. Kai started walking around the house, typing words he saw on labels, signs, and books, and listening to the computer speak them back. This led to him memorizing spellings, creating his own sentences, and
-`,sa=Object.freeze(Object.defineProperty({__proto__:null,default:Z},Symbol.toStringTag,{value:"Module"})),Q=`---
+`,la=Object.freeze(Object.defineProperty({__proto__:null,default:Z},Symbol.toStringTag,{value:"Module"})),Q=`---
 title: "Reflections as Parents and Teachers Sugar at home and in their classroom"
 category: "SUGAR STORIES"
 date: "2024-12-25"
@@ -1916,7 +1916,7 @@ As I alluded to earlier, I have sometimes heard criticism of the Sugar Learning 
 One of the students in my Sugar class. She surprised me by coming in with this hand-drawn computer, which she made just a few days after taking one of her first classes.
 
 I’m more proud than I ever have been to be a part of the Sugar community, and my decades’ long experience with youth from ages five through college, only gives me stronger conviction that we’re creating something of unique value for education.
-`,la=Object.freeze(Object.defineProperty({__proto__:null,default:Q},Symbol.toStringTag,{value:"Module"})),ee=`---
+`,ua=Object.freeze(Object.defineProperty({__proto__:null,default:Q},Symbol.toStringTag,{value:"Module"})),ee=`---
 title: "The Sweet Spot – Issue 002"
 category: "COMMUNITY NEWS"
 date: "2024-12-29"
@@ -2057,7 +2057,7 @@ Stay connected with Sugar Labs on the following platforms:
 ## Back issues of “The Sweet Spot”
 
 Find this issue and past issues at: [sugarlabs.org/community-news](https://www.sugarlabs.org/community-news/)
-`,ua=Object.freeze(Object.defineProperty({__proto__:null,default:ee},Symbol.toStringTag,{value:"Module"})),ae=`---
+`,da=Object.freeze(Object.defineProperty({__proto__:null,default:ee},Symbol.toStringTag,{value:"Module"})),ae=`---
 title: "Get and gift Sugar: Purchase new Sugar on a Stick USBs"
 category: "COMMUNITY NEWS"
 date: "2025-01-21"
@@ -2101,7 +2101,689 @@ If you purchase a USB or clothing merchandise, **please let us know about it!** 
 📹 And if you create a video of your experience on YouTube, let us know and we can add it to [our Sugar on a Stick playlist](https://www.youtube.com/playlist?list=PLyTz5XRZyi-xuPdS7kReqP5Nu5TAlTu4f).
 
 We love hearing from you!
-`,da=Object.freeze(Object.defineProperty({__proto__:null,default:ae},Symbol.toStringTag,{value:"Module"})),ne=`---
+`,ca=Object.freeze(Object.defineProperty({__proto__:null,default:ae},Symbol.toStringTag,{value:"Module"})),ne=`---
+title: "2024 Annual Report"
+category: "COMMUNITY NEWS"
+date: "2025-03-24"
+author: "Devin Ulibarri"
+tags: "markdown,parser,test,education,post,aigenerated"
+---
+<!-- markdownlint-disable -->
+
+# Annual report for 2024
+
+This report is meant to be an overview of the work Sugar Labs did in 2024. Looking back, we did a lot of work. We participated in events in the US and India. We mentored more than a dozen students over the summer for Google Summer of Code and the Dedicated Mentorship Program, the latter of which we participated in for the first time last year.
+
+We launched a series of online videos to showcase our work to the public while simultaneously giving a platform for young contributors to reflect upon their progress and be introduced to a larger developer community. We created a handful of entirely new software projects for learning, such as new math games and Sugarizer activities. We improved our existing software—implementing new features, fixing bugs, and making our learning software available on more platforms. We did all this and more in 2024, which I detail below.
+
+In many aspects, this report is highly personal. I share about my own journeys to conferences, photos of the people I met, and the students to whom I introduced Sugar. In 2024, I became Sugar Labs’s first full-time staff member, which helped me fully dedicate myself to many aspects of the organization. We were also able to sponsor community members like Anindya Kundu to represent Sugar Labs internationally.
+
+As you read this report, please understand that the vision for Sugar Labs as a nonprofit organization is to grow to be able to support more and more people like myself, so we can have an even wider reach. That said, Sugar Labs, being a free/libre/open source community-driven project, makes its tools available to the public under free licenses, so anyone may use what we’ve created to support teachers and classrooms in their communities, regardless of their “status” within the organization.
+
+In other words, Sugar Labs is *not* a one-man-band. Instead, it’s a community of orchestras and ensembles. The organization is meant to support those orchestras and ensembles, comprised of teachers and learners, listening to and responding to their needs.
+
+It is my hope that 2025’s annual report includes even more stories and photos from the broader Sugar Labs community. Sugar Labs welcomes your interest, support, and contributions. I encourage you to join our community of teachers, learners, and parents working together to create better tools and a supportive environment for learning.
+
+I hope the annual publication of our work in the form of an executive summary will serve as a benchmark as we work toward continuous self-improvement as a nonprofit dedicated to serving our community of teachers and learners.
+
+## Development in 2024
+
+### Google Summer of Code (GSoC) and Dedicated Mentorship Program (DMP)
+
+As for our work this summer, Sugar Labs participated in our fourteenth Google Summer of Code (GSoC) to assist students in working on [eleven projects](https://www.sugarlabs.org/press/2024/05/01/Sugar-Labs-receives-eleven-contributor-projects-for-GSoC-2024/). This, combined with our first-ever participation in Code4GovTech’s Dedicated Mentorship Program (DMP), advanced our software development, mentoring a total of fourteen students who worked an estimated five thousand hours on projects ranging from maintaining and porting twelve activities to Flatpak, to creating new math games, to promising new generative-AI services for both teachers and learners.
+
+To get a better sense of all that we accomplished this summer, you are encouraged to watch the Finale series of students’ presentations on our YouTube channel at [https://www.youtube.com/@SugarlabsOrg-EN](https://www.youtube.com/@SugarlabsOrg-EN).
+
+We also encourage you to check out the work in more detail by reading the reports published on Medium:
+
+- [https://medium.com/@sugarlabs/list/google-summer-of-code-d90eae4b54fb](https://medium.com/@sugarlabs/list/google-summer-of-code-d90eae4b54fb)
+- [https://medium.com/@sugarlabs/list/code4govtech-3377e03c6dd5](https://medium.com/@sugarlabs/list/code4govtech-3377e03c6dd5)
+
+## Outreach and communications
+
+### Online events
+
+In 2024, I started a series of live events online where past and current contributors and students have a platform to tell their stories, as well as invite guests from other organizations to discuss the future of technology in education.
+
+I did this because, although Sugar Labs’s impact is obvious to many in the community, I’ve found that there are still many untold stories from community members whose lives have been impacted by our work. Publishing these stories has continued to affirm the important role Sugar Labs plays in education.
+
+For example, in [my interview with Ibiam Chihurumnaya](https://youtu.be/JLsUiVzZ5Z0), he shared how the Sugar Learning Platform and community introduced him and his classmates to programming from a young age and gave him skills he continues to use to this day.
+
+### Expanded social media presence
+
+Last year, we expanded our presence on social media. In addition to Facebook, Instagram, YouTube, and LinkedIn, we are now on Bluesky, WhatsApp, and my personal favorite, Mastodon.
+
+If you are on any of these platforms, please follow Sugar Labs and boost our posts to support our outreach. If you're interested in helping with our outreach, join our marketing mailing list and express your interest: [https://lists.sugarlabs.org/listinfo/marketing](https://lists.sugarlabs.org/listinfo/marketing).
+
+### Reboot of regular newsletters
+
+In 2024, we relaunched regular newsletters, now sent approximately once every three months. These newsletters share our progress as an organization and news valuable to our community:
+
+- [https://www.sugarlabs.org/community/2024/09/20/sweet-spot/](https://www.sugarlabs.org/community/2024/09/20/sweet-spot/)
+- [https://www.sugarlabs.org/community/2024/12/29/sweet-spot-002/](https://www.sugarlabs.org/community/2024/12/29/sweet-spot-002/)
+
+### Newsletter email subscription
+
+Our newsletters are published to the website and also sent via email. In 2024, we started using Buttondown to send newsletters to subscribers worldwide. If you’re not subscribed yet, please do so: [https://buttondown.com/sugarlabs](https://buttondown.com/sugarlabs).
+
+### Reboot of Sugar Stories
+
+In 2024, we began collecting stories from our community. While it’s still early, we’ve already received some fantastic articles.
+
+- From [James Simmons](https://activities.sugarlabs.org/en-US/sugar/user/45): [Helping others to create their own Sugar Activities](https://www.sugarlabs.org/stories/2024/09/13/Writing-new-Activities-and-sharing-sugar-with-youth/)
+- From me: [Reflections as Parents and Teachers](https://www.sugarlabs.org/stories/2024/12/25/Reflections-as-Parents-and-Teachers-Sugar-at-home-and-in-their-classroom/)
+
+You can read these and more at: [https://www.sugarlabs.org/sugar-stories/](https://www.sugarlabs.org/sugar-stories/)
+
+If you have a story, share it via [info@sugarlabs.org](mailto:info@sugarlabs.org) or through the mailing lists:
+
+- Education: [https://lists.sugarlabs.org/listinfo/iaep](https://lists.sugarlabs.org/listinfo/iaep)
+- Development: [https://lists.sugarlabs.org/listinfo/sugar-devel](https://lists.sugarlabs.org/listinfo/sugar-devel)
+
+### Major improvements to our website
+
+Throughout 2024, I worked on updating our website, which needed attention. Being unfamiliar with Jekyll (the framework it’s built on), I struggled at first, but with help from the free software community, I learned enough to begin publishing updates more regularly.
+
+Near the end of the year, more folks from the development community pitched in. Now, the site is in much better shape, and we are working toward a completely revamped version set to launch in April 2025.
+
+Thanks to the many volunteers who helped! Interested in joining the web team? Visit [https://matrix.to/#/#sugarlabs-web:matrix.org](https://matrix.to/#/#sugarlabs-web:matrix.org).
+
+### Conference talks
+
+In 2024, we sent representatives to a few in-person conferences. With limited budget, we focused on visibility, sending me to several conferences in the US and sponsoring Anindya Kundu to represent us at the Opportunity Open Source Conference at IIT Kanpur.
+
+### - LibrePlanet
+
+In May, I attended the Free Software Foundation’s annual LibrePlanet conference in Boston, MA. There, I [handed out flyers](https://mstdn.io/@codewiz/112384505018899979) and showed off a computer running the Sugar Desktop Environment.
+
+<figure><img src="{{ site.baseurl
+}}/assets/2024-annual-report/image30.jpg?w=960&amp;fit=max"
+alt="Devin with Zoe, with the address 51-55 Franklin St visible in the background." draggable="false"
+width="100%"><figcaption>Devin Ulibarri and FSF executive director Zoë Kooyman, in front of the FSF office in Boston, MA. The FSF hosts the annual Libre Planet conference.</figcaption></figure>
+
+### - 2024 Micro Camp
+
+In June, I spent a weekend at a 2024 Micro Camp, a retreat for microtonal musicians, where I showcased the Music Blocks visual programming language. Music Blocks, a flagship Sugar Labs project, has rich microtonal capabilities. I showcased those features during one of the first talks of the retreat, and I even used Music Blocks as a musical instrument to perform a piece of music that requires twenty-two divisions of the octave—something for which I did not have a capable physical instrument, except for [a programmed instrument I created within Music Blocks](https://musicblocks.sugarlabs.org/index.html?id=1719093905649087&run=True).
+
+At the conference, I was also pleasantly surprised to meet so many free/libre/open source developers and educators. A large percentage—much larger than at most music conferences—were developing software. In retrospect, it makes sense that there are so many microtonalists who develop software, because these musicians typically need to create instruments that play pitches differently from what you would find in most stores, and they use both physical and digital mediums to craft such unique instruments.
+
+
+<section id="intro" class="customMarPadCombo2">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="testimonial-carousel">
+          <div id="testimonial-slider2" class="owl-carousel text-center">
+            <div class="text-center">
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image29.png" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">22 EDO in Music Blocks.</h3>
+              <p>Music Blocks has many affordances for tuning and temperament, an important concept in music. The program in this screenshot performs a 22 equal-divisions-of-the-octave (EDO) pitch whenever you touch one of the mice.</p>
+            </div>
+            <div>
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image20.png" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Music Blocks as an instrument</h3>
+              <p>Devin (at right) performs a piece, written in 22 EDO, together with an ensemble using Music Blocks on a tablet.</p>
+            </div>
+            <div>
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image8.png" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Duo performance on Kite guitar and linnstrument</h3>
+              <p>The ideas that inspire Music Blocks come from musical concepts, instruments, and traditions. Devin (at left) performs together with composer and microtonalist Kite Giedraitis.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+### - CMK
+
+In July, I attended Constructing Modern Knowledge (CMK), a retreat for teachers, in Manchester, NH. This retreat is a good fit for Sugar Labs as it is focused on Constructionism. CMK brings together passionate educators from around the world to work on new and creative projects, which they bring back to their respective schools.
+
+
+<section id="intro" class="customMarPadCombo2">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="testimonial-carousel">
+          <div id="testimonial-slider2" class="owl-carousel text-center">
+            <div class="text-center">
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image7.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">First Day at CMK</h3>
+              <p>Gary Stager is the organizer of CMK, a retreat for teachers to work together on Constructionism projects.</p>
+            </div>
+            <div>
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image26.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">CMK projects</h3>
+              <p>CMK participants are expected to work in groups create a project. On the final day, each group presents their project.</p>
+            </div>
+            <div>
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image25.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Guest speakers</h3>
+              <p>The 2024 CMK brought two esteemed individuals working in music education, Tricia Tunstall (left) and Melissa Walker</p>
+            </div>
+	    <div class="text-center">
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image4.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Lego notation</h3>
+              <p>Devin (at left) collaborated with Jamie Chelel (MIT) to create lego notation for the blind.</p>
+            </div>
+            <div>
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image21.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Detailed notation</h3>
+              <p>Devin and Jamie created a simple and detailed notation system as a starting point to explore lego as a music notation system for the blind.</p>
+            </div>
+            <div>
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image35.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Fellow instructors</h3>
+              <p>CMK attracts many passionate instructors. Devin (far left) had the pleasure of working together with Josh Burker (left), Tracy Rudzitis (right) and many others.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+You can read my full article on the experience, as well as work done toward creating a system for using Lego blocks to encode musical data, here:  
+[https://medium.com/@sugarlabs/reflections-from-constructing-modern-knowledge-2024-1ce7d60fbb1c](https://medium.com/@sugarlabs/reflections-from-constructing-modern-knowledge-2024-1ce7d60fbb1c).
+
+### - FOSSY 2024
+
+In August, I attended FOSSY, hosted by the Software Freedom Conservancy, in Portland, OR. I gave a talk titled “[Mentoring youth: The FOSS strategy we've been looking for](https://2024.fossy.us/schedule/presentation/202/)”. You can watch the talk on our YouTube channel at  
+[https://www.youtube.com/watch?v=mKBXSC9Veq8](https://www.youtube.com/watch?v=mKBXSC9Veq8).
+
+I also ran two Birds of a Feather sessions. One was a Music Blocks workshop, where Bryan Ollendyke of [HAX](https://hax.psu.edu/) tested the limits of the JavaScript editor in Music Blocks. The other was a free/libre/open (FLO) music concert, where I joined [Aaron Wolf](https://blog.snowdrift.coop/author/wolftune/), [Timmy Barnett](https://gnulinux.love/), [Kite Giedraitis](https://tallkite.com/), and others to showcase [FLO](https://wiki.snowdrift.coop/about/free-libre-open) through instruments, software, and a variety of music.
+
+<section id="intro" class="customMarPadCombo2">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="testimonial-carousel">
+          <div id="testimonial-slider2" class="owl-carousel text-center">
+            <div class="text-center">
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image3.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Hacking on musical Javascript</h3>
+              <p>Music Blocks has an export to Javascript feature, which got the attention of Bryan Ollendyke, creator of HAX.</p>
+            </div>
+            <div>
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image45.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Music Blocks's JS editor</h3>
+              <p>Music Blocks is a waypoint not a destination. That's why we offer learners the option to export to Lilypond, MIDI, and Javascript.</p>
+            </div>
+            <div>
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image13.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Two Birds of a feather</h3>
+              <p>At FOSSY, Devin gave one talk and led two Birds of a feather sessions. One session was for Music Blocks, and the other was a music concert.</p>
+            </div>
+	    <div class="text-center">
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image49.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Mariah Villarreal</h3>
+              <p>Sugar Labs Google Code-In mentor and Libre Learn Lab director Mariah Villarreal (left) has dedicated her career to STEAM education and free software.</p>
+            </div>
+            <div>
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image40.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Meeting with good friends</h3>
+              <p>Free software volunteer Jason Self attended FOSSY.</p>
+            </div>
+            <div>
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image34.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Making new connections</h3>
+              <p>Bryan Ollendyke (left), creator of HAX, and his son attended the Music Blocks workshop at FOSSY.</p>
+            </div>
+	    <div class="text-center">
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image5.png" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Live musical performances</h3>
+              <p>Devin performed together with microtonalist Kite Giedraitis at FOSSY.</p>
+            </div>
+            <div>
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image9.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">FLO musicians</h3>
+              <p>There were many "FLO musicians" at FOSSY. Among the musicians who performed in the concert who also gave a talk were Aaron Wolf of Snowdrift (2nd from the left), Timmy Barnett (third from left), and Devin Ulibarri (2nd from the right).</p>
+            </div>
+            <div>
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image33.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Playful</h3>
+              <p>After the concert, audience members got a chance to play the instruments. Alternate tuning on the Linnstrument is made possible thanks to free/libre/open (FLO) source software, an important concept for Sugar Labs.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+### - Internet-in-a-box demonstration
+
+Also in August, I attended a meetup to demonstrate [Internet-in-a-box](https://internet-in-a-box.org/) (IIAB), led by [Adam Holt](https://github.com/holta). Kids and teachers got an opportunity to see what IIAB does and to try it. [Sugarizer](https://sugarizer.org/), the web-based version of the Sugar Learning Platform, is among the packages chosen for IIAB, which empowers schools to use learning services that would otherwise require an internet connection.
+
+<section id="intro" class="customMarPadCombo2">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="testimonial-carousel">
+          <div id="testimonial-slider2" class="owl-carousel text-center">
+            <div class="text-center">
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image43.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Internet in a Box</h3>
+              <p>Internet-in-a-Box (IIAB) is a solution for communities that do not have internet access. It acts as a server with educational software and services pre-installed.</p>
+            </div>
+            <div>
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image39.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Sugarizer</h3>
+              <p>Sugarizer is one of the programs that comes pre-installed on IIAB.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+### - GSoC Mentor Summit
+
+Sugar Labs has participated in GSoC almost every year since 2009. This year, we worked on a number of projects. I was sent to represent Sugar Labs at the conference, hosted at Google headquarters. I met with other mentors, attended talks, and gave a lightning talk on our unique approaches to mentoring.
+
+
+<section id="intro" class="customMarPadCombo2">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="testimonial-carousel">
+          <div id="testimonial-slider2" class="owl-carousel text-center">
+            <div class="text-center">
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image17.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Sameer Verma</h3>
+              <p>Sameer Verma (at left) is the organizer for OLPC San Francisco and has documented some of Sugar Labs's growth over the years in the form of interviews.</p>
+            </div>
+            <div>
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image41.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Karen Sandler</h3>
+              <p>Karen Sandler (at right) is the executive director for Software Freedom Conservancy, which acted as fiscal sponsor Sugar Labs until 2019.</p>
+            </div>
+            <div>
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image32.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Google Summer of Code mentors</h3>
+              <p>Google hosts many orgs and many, many mentors for GSoC every year. Devin is at lower-left.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+### - Opportunity Open Source Conference at IIT Kanpur
+
+Sugar Labs was invited to present at the Opportunity Open Source Conference at IIT Kanpur. We sponsored community member and Music Blocks v4 maintainer, Anindya Kundu, to represent our organization. Anindya presented his journey in Sugar Labs through a talk titled *“The ‘build to learn’ guide for Google Summer of Code and beyond.”*
+
+<figure>
+  <img src="{{ site.baseurl }}/assets/2024-annual-report/image51.png?w=960&amp;fit=max" alt="Anindya Kundu presenting at IIT Kanpur" draggable="false" width="100%">
+  <figcaption>Former GSoC participant and Music Blocks v4 maintainer Anindya Kundu represented Sugar Labs at the Opportunity Open Source Conference at IIT Kanpur in August.</figcaption>
+</figure>
+
+Comment on, like, and share the original post: <https://www.instagram.com/p/C_S_ccSRlFR/>
+
+Interested in representing Sugar Labs at a conference? Please reach out to us at [info@sugarlabs.org](mailto:info@sugarlabs.org) for presentation feedback and handout materials.
+
+### - Boston Code Camp
+
+Sugar Labs Executive Director Devin Ulibarri and board member Walter Bender led a session for [Boston Code Camp on November 23, 2024](https://www.bostoncodecamp.com/CC37/Schedule/SessionGrid) titled *“Create musical code with Music Blocks”*, where they introduced Music Blocks to an audience of educators and technologists.
+
+<section id="intro" class="customMarPadCombo2">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="testimonial-carousel">
+          <div id="testimonial-slider2" class="owl-carousel text-center">
+            <div class="text-center">
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image37.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Music Blocks co-creators</h3>
+              <p>Devin Ulibarri (at left) and Walter Bender (at right) have been working together on Music Blocks since its start in 2014.</p>
+            </div>
+            <div>
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image23.png" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Phrase Maker widget</h3>
+              <p>Devin and Walter presented Music Blocks at Boston Code Camp in November.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+## Sugar Labs in the Classroom
+
+### Music Blocks
+
+This year marked significant progress in research and development for the Music Blocks visual programming language. Alongside the development work done during GSoC over the summer, I explored every opportunity to bring the new features to students, teachers, and classrooms.
+
+I collaborated with one of my students, Nathan, who has studied music with me for about a decade and has also taken over a year of Music Blocks classes directly from Walter Bender. Together, we tested the new AI features, such as MIDI import, as well as experimental features like music transcription and lesson plan generators.
+
+During the same period, I worked closely with teachers who were preparing innovative Music Blocks lessons. They provided valuable feedback by reporting bugs and suggesting new feature requests based on their classroom experiences.
+
+
+<section id="intro" class="customMarPadCombo2">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="testimonial-carousel">
+          <div id="testimonial-slider2" class="owl-carousel text-center">
+            <div class="text-center">
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image22.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Nathan</h3>
+              <p>Nathan (at back) has studied with Devin for ten years. Over the summer, Nathan came in regularly to test new Music Blocks features that were being developed as part of Google Summer of Code.</p>
+            </div>
+            <div>
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image12.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Musician and programmer duo</h3>
+              <p>Two instructors for a summer camp at MAP Family Learning Center worked together to create lessons for different themes, such as Egypt, Spain, and India. One instructor is primarily a programmer, the other is a Berklee-trained musician.</p>
+            </div>
+            <div>
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image14.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Lesson plan generator</h3>
+              <p>One of the projects for GSoC was a LLM-enabled lesson plan generator. Nathan (at right) and I tested it as we were helping the instructors create lesson plans for five weeks of summer classes.</p>
+            </div>
+	    <div class="text-center">
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image38.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Music+Code</h3>
+              <p>Nathan was eventually recruited to help the instructors create lesson plans. He utilized his knowledge and understanding of both music and programming to create projects for the students.</p>
+            </div>
+            <div>
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image16.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Musical debugging</h3>
+              <p>Nathan created unique projects for Music Blocks, which are now uploaded to the Planet. He had to debug both the music and the logic in order to make his projects work.</p>
+            </div>
+            <div>
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image2.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Summer fun</h3>
+              <p>Lesson plans created by Nathan and the two teachers were used over the summer. The students had a great time, and we received important feedback to improve Music Blocks.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+### Sugar Learning Platform and Sugar Activities
+
+In the fall, I began teaching a small group of kindergarten and first-grade students using the Sugar Learning Platform. We started with a few One Laptop Per Child (OLPC) laptops and later transitioned to newer hardware. The students quickly fell in love with their computers — calling the chat robot their "robot friend" — and eagerly created art, composed music, and played educational games.
+
+Our sessions covered a variety of topics, from spelling to problem-solving. The foundation we built early on eventually led to the students learning to program using Turtle Blocks. The class is ongoing, and it has been both a joy for the students and an insightful experience for me.
+
+Additionally, my time in the classroom has allowed me to provide valuable feedback to developers for future improvements to the platform.
+
+
+<section id="intro" class="customMarPadCombo2">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="testimonial-carousel">
+          <div id="testimonial-slider2" class="owl-carousel text-center">
+            <div class="text-center">
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image44.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">First introduction</h3>
+              <p>Devin ran "Sugar classes" for kindergarten and second grade in the fall.</p>
+            </div>
+            <div>
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image31.png" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Robot friend</h3>
+              <p>The students in Devin's class expressed much joy as they explored the tools in Sugar.</p>
+            </div>
+            <div>
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image18.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Computer surprise</h3>
+              <p>Soon after the computers were introduced to the students, one student brought in her own computer. She had drawn a computer with a monitor and keyboard, modeled after her experience using Sugar.</p>
+            </div>
+	    <div class="text-center">
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image24.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Students helping students</h3>
+              <p>Devin's son Kai (at right) helped the students in their first weeks.</p>
+            </div>
+            <div>
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image6.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">First steps</h3>
+              <p>At first, the computers took some getting used to. Now, the students understand the basics.</p>
+            </div>
+            <div>
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image46.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Joyful learning</h3>
+              <p>The students had a blast learning together with the Sugar Learning Platform.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+### Teaching Git to Students of Everett High School
+
+In the spring, a couple of teachers at a local high school approached me about training their students in collaborative software development practices. I met with the students twice and followed up with them via email and group chat to support their learning journey.
+Together, we covered the basics of Git version control, using the command line, and making their first contributions to our repositories. It was a rewarding experience that gave the students practical skills and an introduction to open source collaboration.
+
+<section id="intro" class="customMarPadCombo2">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="testimonial-carousel">
+          <div id="testimonial-slider2" class="owl-carousel text-center">
+            <div class="text-center">
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image28.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">First inception into git</h3>
+              <p>The high school students were eager to contribute. Contributing to free/libre/open source projects like Sugar Labs typically requires version-control collaborative tools like git.</p>
+            </div>
+            <div>
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image42.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Students and teachers of Everett High School</h3>
+              <p>Devin (at left) met with the students of Everett High School two times to get them started as contributors for Sugar Labs.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+## Finances
+
+Last year, I spent time working on our finances — where we keep our money, which platforms can be used to donate to our organization, and increasing the number of financial tools available to us. I did this work primarily to ensure that charitable donations can be made with confidence, ultimately helping every contribution we receive go further.
+
+One of the major improvements I made to increase financial transparency was updating and publishing our 990 tax filings. All of our tax documents are now up to date and publicly available on our [donations page](https://www.sugarlabs.org/donate/) under the section "Our 990 tax filings."
+
+In addition, I helped Sugar Labs secure in-kind services that directly support our day-to-day operations at no cost. This year, we received:
+
+- **Open Source Credits from AWS**: These credits are helping us test and develop new educational software.
+- **Over 100 terabytes of data storage** through Google Workspace for Nonprofits.
+- **Other in-kind services** that allow us to run more efficiently and at a lower cost.
+
+Lastly, I laid the groundwork for accepting financial contributions through a wide variety of platforms, including ACH, stocks, and even cryptocurrency. We were also added to the PayPal Giving Fund, which makes us discoverable through multiple corporate donation programs. Employers can now support Sugar Labs via Benevity, and all these channels are now live as of 2025 — a result of the foundational work completed in 2024.
+
+### Ways to Give
+
+- [every.org/sugar-labs](https://www.every.org/sugar-labs)
+- [Benevity Causes](https://causes.benevity.org/causes/840-843289298)
+- [MyGoodness by Benevity](https://mygoodness.benevity.org/community/cause/840-843289298/donate)
+- [PayPal Giving Fund (for businesses)](https://www.paypal.com/us/fundraiser/charity/4357440)
+- [Our Donations Page (up-to-date list)](https://www.sugarlabs.org/donate/)
+
+### In-kind Donations
+
+We received eleven ThinkPads (X1 Yogas) from Beacon Communities, LLC in April. These laptops feature touchscreens — a particularly useful feature for children — and have been used to teach both Sugar Activities and Music Blocks effectively.
+
+
+<section id="intro" class="customMarPadCombo2">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="testimonial-carousel">
+          <div id="testimonial-slider2" class="owl-carousel text-center">
+            <div class="text-center">
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image47.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Installing Trisquel on the donated machines</h3>
+              <p>Trisquel is a distribution of GNU/Linux that offers a version for download that has the Sugar Learning Platform as its default.</p>
+            </div>
+            <div>
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image19.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Super Tux</h3>
+              <p>The computers were received near the end of the school year, so the obvious way to test them out was to let the kids play with them.</p>
+            </div>
+            <div>
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image1.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Teacher and intern training</h3>
+              <p>The donated computers helped us train teachers and interns to use Music Blocks.</p>
+            </div>
+	    <div class="text-center">
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image27.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Nine upcycled computers</h3>
+              <p>These nine computers are now property of Sugar Labs. They've been used since we've received them to teach Sugar and Music Blocks, as well as to test new code created by GSoC participants.</p>
+            </div>
+            <div>
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image48.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Touch screens</h3>
+              <p>All of the donated laptops have touchscreens.</p>
+            </div>
+            <div>
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image36.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Multimedia</h3>
+              <p>Students are able to interact with the computers via touch and with a mouse. They also ahve headphones they can use to hear sounds from the computers.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+### AWS Open Source Credits
+
+In 2024, we applied for and were awarded **open-source credits worth $8,000** from Amazon Web Services (AWS). These credits will help us continue testing and developing the large language model (LLM) and neural network services we worked on over the summer.
+
+### New Sugar Labs Merchandise for Sale
+
+We added a fun twist to our fundraising efforts last year! Inspired by the community reaching out with questions like *"How can I buy Sugar?"*, we launched a variety of branded merchandise.
+
+We now offer:
+
+- **Clothing items** – Hoodies and t-shirts in a range of colors.
+- **SoaS (Sugar on a Stick) USBs** – Bootable drives ready for use.
+
+To minimize overhead and simplify logistics, we partnered with two trusted vendors:
+
+- [**Bonfire**](https://www.bonfire.com/store/sugar-labs/) for apparel  
+- [**USB Memory Direct**](https://www.usbmemorydirect.com/) for USB drives
+
+All proceeds directly support Sugar Labs’ mission to create educational software based on Constructionist learning principles.
+
+
+<section id="intro" class="customMarPadCombo2">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="testimonial-carousel">
+          <div id="testimonial-slider2" class="owl-carousel text-center">
+            <div class="text-center">
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image15.png" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Landing page for USBs</h3>
+              <p>USB Memory Direct partnered with us to sell and distribute USBs with Sugar on a Stick (SoaS) pre-installed.</p>
+            </div>
+            <div>
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image10.png" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">T-shirts and hoodies</h3>
+              <p>In 2024, we started a merchandise store through Bonfire.</p>
+            </div>
+            <div>
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image50.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">SOAS delivered to your door</h3>
+              <p>The test package came with smarties and a sticker. The USB was tested and proven to work as expected.</p>
+            </div>
+	    <div>
+              <img id="imgrflt" src="{{ site.baseurl }}/assets/2024-annual-report/image11.jpg" alt="" class="customImageStyle" style="width: 50%; display: block; margin: 0 auto; padding-bottom: 20px;">
+              <h3 class="text-center">Fun fashion</h3>
+              <p>Our store on Bonfire offers a range of colors and styles.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+*To view and purchase our merchandise, please go to:
+[https://www.sugarlabs.org/products/](https://www.sugarlabs.org/products/).*
+
+*Read more about the launch of our products:
+[https://www.sugarlabs.org/community/2025/01/21/SoaS-USB-announcement/](https://www.sugarlabs.org/community/2025/01/21/SoaS-USB-announcement/).*
+
+
+---
+
+## 2024 Accounting Details: Revenue and Expenses
+
+In 2024, Sugar Labs reported a **net loss of $62,629.28**.
+
+### Revenue:  
+- **Total**: $7,872.86
+
+### Expenses:  
+- **Total**: $70,502.14
+
+#### Top Expenses:
+1. Payroll: $45,136.99  
+2. Contractor expenses: $9,978.19  
+3. Taxes: $6,356.05  
+4. Legal & accounting fees: $2,793.00  
+5. Travel (conferences): $2,792.66  
+6. Conference fees: $1,345.00  
+7. Other (mail, marketing, insurance, government fees, web hosting): $2,100.25
+
+#### Revenue Sources:
+1. Google: $6,700.00  
+2. Donations\\*\\*: $786.05  
+3. Interest (US Bank checking account): $350.57  
+4. Bonfire merchandise sales: $36.24  
+
+\\*\\*Note: We use the cash accounting method. Donations sent in 2024 but not deposited until 2025 are not reflected here.
+
+### In-Kind Donations
+
+In addition to financial income, we received **$8,000 in AWS Open Source Credits** in Fall 2024, which we plan to use to test the tools developed during GSoC.
+
+---
+
+## Membership
+
+In 2024, we made one significant change to how membership is maintained. In preparation for our annual election, we required community members to reapply for membership to ensure active participation, as our [bylaws](https://wiki.sugarlabs.org/go/Sugar_Labs/Governance) require a majority vote from members for some decisions.
+
+Aside from this participation requirement, the eligibility criteria remain unchanged:
+
+> “Any ‘significant and sustained’ contributor to Sugar Labs is eligible for membership... Contributions may be code, documentation, translations, maintenance of project-wide resources, running a Sugar deployment, or other non-trivial activities which benefit Sugar Labs.”
+
+If you're an active contributor — technical or non-technical — we encourage you to [apply for membership](https://wiki.sugarlabs.org/go/Sugar_Labs/Members). Membership gives you the right to vote in board elections and other key decisions.
+
+---
+
+## Election
+
+Sugar Labs held its annual **Board of Directors election** in 2024. The results, announced on **December 19, 2024**, elected the following three individuals for the 2024–2025 term:
+
+- **Devin Ulibarri**  
+- **Sumit Srivastava**  
+- **Sebastian Silva**
+
+Learn more about the process and outcomes here:
+
+- [How to participate in board elections (Nov 8)](https://www.sugarlabs.org/community/2024/11/08/fall-board-elections-how-to-participate/)
+- [Elections extension notice (Nov 22)](https://www.sugarlabs.org/community/2024/11/22/elections-extension/)
+- [Final election results (Dec 19)](https://www.sugarlabs.org/community/2024/12/19/election-results/)
+
+---
+
+## Management and Board
+
+In 2024, [Devin Ulibarri was appointed Executive Director](https://www.sugarlabs.org/press/2024/05/08/Sugar-Labs-announces-nonprofit-status-new-executive-director/). Alongside his leadership, our membership also voted in three new board members, as noted in the section above, including one seat that had been previously vacant.
+`,ga=Object.freeze(Object.defineProperty({__proto__:null,default:ne},Symbol.toStringTag,{value:"Module"})),te=`---
 title: "The Sweet Spot – Issue 003"
 category: "COMMUNITY NEWS"
 date: "2025-03-31"
@@ -2253,7 +2935,7 @@ Support our work: [Donate here](https://www.sugarlabs.org/donate/)
 
 Find this and previous issues at:  
  [Sugar Labs Community News](https://www.sugarlabs.org/community-news/)
-`,ca=Object.freeze(Object.defineProperty({__proto__:null,default:ne},Symbol.toStringTag,{value:"Module"})),te=`---
+`,pa=Object.freeze(Object.defineProperty({__proto__:null,default:te},Symbol.toStringTag,{value:"Module"})),oe=`---
 title: "Markdown Test: This page is a test for markdown formats"
 excerpt: "Please Read Through this to get an Understanding of the Markdown converter"
 category: ""
@@ -2395,7 +3077,7 @@ after a blank line.
 ---
 
 Thanks for reviewing this Markdown test document! :heart:
-`,ga=Object.freeze(Object.defineProperty({__proto__:null,default:te},Symbol.toStringTag,{value:"Module"})),oe=`---
+`,ha=Object.freeze(Object.defineProperty({__proto__:null,default:oe},Symbol.toStringTag,{value:"Module"})),re=`---
 title: Culture and Pedagogy
 slug: culture
 author: Sugar Labs Team
@@ -2457,7 +3139,7 @@ Plus, cross-community collaboration between technologists and teachers ensures t
 The Sugar pedagogy is embodied in the culture of Free/Libre Software; teachers and students are empowered with both the freedom to actively participate and the freedom to be critical.  
 
 Criticism of ideas is a powerful force in learning, as well as in fostering economic development; unleashing this potential is an important part of our mission.
-`,pa=Object.freeze(Object.defineProperty({__proto__:null,default:oe},Symbol.toStringTag,{value:"Module"})),re=`---
+`,ma=Object.freeze(Object.defineProperty({__proto__:null,default:re},Symbol.toStringTag,{value:"Module"})),ie=`---
 title: 'Markdown Test Page'
 slug: 'markdown-test'
 category: 'MarkdownaData'
@@ -2595,7 +3277,7 @@ after a blank line.
 ---
 
 Thanks for reviewing this Markdown test document! :heart:
-`,ha=Object.freeze(Object.defineProperty({__proto__:null,default:re},Symbol.toStringTag,{value:"Module"})),ie=`---
+`,ba=Object.freeze(Object.defineProperty({__proto__:null,default:ie},Symbol.toStringTag,{value:"Module"})),se=`---
 title: Sugar Labs For Parents
 slug: parents
 author: Sugar Labs Team
@@ -2640,7 +3322,7 @@ This aligns with research by Daniel Pink, who reviewed four decades of studies s
 2. **Mastery** – confidence and space to develop expertise  
 3. **Purpose** – authentic problem-solving opportunities  
 
-A key insight of Minsky, Papert, and Solomon is to give children tools they can explore, master, and apply to problems they care about. Children using Sugar are **motivated learners**, pursuing meaningful goals that help them build their own “cognitive towers.”`,ma=Object.freeze(Object.defineProperty({__proto__:null,default:ie},Symbol.toStringTag,{value:"Module"})),se=`---
+A key insight of Minsky, Papert, and Solomon is to give children tools they can explore, master, and apply to problems they care about. Children using Sugar are **motivated learners**, pursuing meaningful goals that help them build their own “cognitive towers.”`,fa=Object.freeze(Object.defineProperty({__proto__:null,default:se},Symbol.toStringTag,{value:"Module"})),le=`---
 title: Sugar Labs For School Administrators
 slug: school-admin
 author: Sugar Labs Team
@@ -2712,7 +3394,7 @@ The primary function of the journal is as a **time-based view** of the activitie
 
 ## Where to get resources?
 
-For more information, visit the **official Sugar Labs website** and explore its resources on **collaborative learning, development tools, and community support**.`,ba=Object.freeze(Object.defineProperty({__proto__:null,default:se},Symbol.toStringTag,{value:"Module"})),le=`---
+For more information, visit the **official Sugar Labs website** and explore its resources on **collaborative learning, development tools, and community support**.`,wa=Object.freeze(Object.defineProperty({__proto__:null,default:le},Symbol.toStringTag,{value:"Module"})),ue=`---
 title: Student Learning Goals and Sugar
 slug: students
 author: Sugar Labs Team
@@ -2746,4 +3428,4 @@ These books are recommended as a rich source of ideas on how to use Sugar in and
 - **Papert, S. & Solomon, C.** (1971). *Twenty Things to Do with a Computer.* *Artificial Intelligence Memo No. 248* and *Logo Memo No. 3.*
 - **Pink, D.** (2009). *Drive: The Surprising Truth About What Motivates Us.* Riverhead Press.
 - **Stefanakis, E.** (2002). *Multiple Intelligences and Portfolios: A Window into the Learner's Mind.* Greenwood Press.
-- **Trinidad, G.** (2013). *Física con XO.*`,fa=Object.freeze(Object.defineProperty({__proto__:null,default:le},Symbol.toStringTag,{value:"Module"}));export{la as $,De as A,Be as B,qe as C,Ne as D,Ge as E,Fe as F,Re as G,Ue as H,We as I,He as J,Xe as K,Ve as L,Je as M,Ye as N,Ke as O,$e as P,Ze as Q,Qe as R,ea as S,aa as T,na as U,ta as V,oa as W,ra as X,ia as Y,sa as Z,ue as _,de as a,ua as a0,da as a1,ca as a2,ga as a3,pa as a4,ha as a5,ma as a6,ba as a7,fa as a8,ce as b,ge as c,pe as d,he as e,me as f,be as g,fe as h,we as i,ve as j,Se as k,ye as l,Le as m,ke as n,Ae as o,Ce as p,Pe as q,_e as r,Oe as s,Te as t,Ee as u,Ie as v,je as w,ze as x,Me as y,xe as z};
+- **Trinidad, G.** (2013). *Física con XO.*`,va=Object.freeze(Object.defineProperty({__proto__:null,default:ue},Symbol.toStringTag,{value:"Module"}));export{ua as $,Be as A,Ne as B,qe as C,Ge as D,Fe as E,Ue as F,Re as G,We as H,He as I,Xe as J,Ve as K,Je as L,Ke as M,Ye as N,$e as O,Ze as P,Qe as Q,ea as R,aa as S,na as T,ta as U,oa as V,ra as W,ia as X,sa as Y,la as Z,de as _,ce as a,da as a0,ca as a1,ga as a2,pa as a3,ha as a4,ma as a5,ba as a6,fa as a7,wa as a8,va as a9,ge as b,pe as c,he as d,me as e,be as f,fe as g,we as h,ve as i,Se as j,ye as k,ke as l,Le as m,Ae as n,Ce as o,Pe as p,Oe as q,_e as r,Ie as s,Te as t,xe as u,Me as v,je as w,Ee as x,ze as y,De as z};
