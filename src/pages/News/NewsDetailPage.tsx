@@ -1,10 +1,10 @@
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { renderMarkdown } from '@/utils/mdparser-utils';
 import { getPostBySlug, Post } from '@/utils/posts-utils';
 import { motion } from 'framer-motion';
 import Header from '@/sections/Header';
 import Footer from '@/sections/Footer';
+import MarkdownRenderer from '@/utils/MarkdownRenderer';
 
 const NewsDetailPage: React.FC = () => {
   const { slug, category } = useParams<{ slug?: string; category?: string }>();
@@ -12,11 +12,11 @@ const NewsDetailPage: React.FC = () => {
   const [post, setPost] = useState<Post | null>(null);
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
-  const contentRef = useRef<HTMLDivElement>(null);
   const [modalImage, setModalImage] = useState<{
     src: string;
     alt: string;
   } | null>(null);
+  const [zoomableImages, setZoomableImages] = useState<HTMLImageElement[]>([]);
 
   // Load post data when slug changes
   useEffect(() => {
@@ -47,30 +47,24 @@ const NewsDetailPage: React.FC = () => {
     loadPost();
   }, [slug]);
 
-  const setupImageListeners = useCallback(() => {
-    if (!contentRef.current || !post) return;
-
-    const images = contentRef.current.querySelectorAll(
-      'img[data-zoomable="true"]',
-    );
-    const handleClick = (event: Event) => {
-      const imgElement = event.target as HTMLImageElement;
-      setModalImage({
-        src: imgElement.src,
-        alt: imgElement.alt || 'Image',
-      });
-      document.body.classList.add('overflow-hidden');
-    };
-    images.forEach((img) => img.addEventListener('click', handleClick));
-    return () => {
-      images.forEach((img) => img.removeEventListener('click', handleClick));
-    };
-  }, [post]);
   useEffect(() => {
-    if (!isLoading && post) {
-      return setupImageListeners();
+    if (!isLoading && zoomableImages.length > 0) {
+      const handleClick = (event: Event) => {
+        const imgElement = event.target as HTMLImageElement;
+        setModalImage({
+          src: imgElement.src,
+          alt: imgElement.alt || 'Image',
+        });
+        document.body.classList.add('overflow-hidden');
+      };
+      
+      zoomableImages.forEach((img) => img.addEventListener('click', handleClick));
+      return () => {
+        zoomableImages.forEach((img) => img.removeEventListener('click', handleClick));
+      };
     }
-  }, [isLoading, post, setupImageListeners]);
+  }, [isLoading, zoomableImages]);
+
   useEffect(() => {
     const handleEscKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape' && modalImage) {
@@ -257,14 +251,14 @@ const NewsDetailPage: React.FC = () => {
 
         {/* Article Content */}
         <motion.div
-          ref={contentRef}
-          className="mb-12 prose prose-lg max-w-none"
+          className="mb-12"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
           key={slug}
-          dangerouslySetInnerHTML={{ __html: renderMarkdown(post.content) }}
-        />
+        >
+          <MarkdownRenderer content={post.content} setZoomableImages={setZoomableImages} />
+        </motion.div>
 
         {/* Author Bio Section */}
         {post.author && (
