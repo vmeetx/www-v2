@@ -23,7 +23,10 @@ const MorePage: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState<string>('All');
   const [notFoundSlug, setNotFoundSlug] = useState<string | null>(null);
   const [zoomableImages, setZoomableImages] = useState<HTMLImageElement[]>([]);
-  const [modalImage, setModalImage] = useState<{ src: string; alt: string } | null>(null);
+  const [modalImage, setModalImage] = useState<{
+    src: string;
+    alt: string;
+  } | null>(null);
 
   useEffect(() => {
     const loadPage = async () => {
@@ -81,10 +84,14 @@ const MorePage: React.FC = () => {
         });
         document.body.classList.add('overflow-hidden');
       };
-      
-      zoomableImages.forEach((img) => img.addEventListener('click', handleClick));
+
+      zoomableImages.forEach((img) =>
+        img.addEventListener('click', handleClick),
+      );
       return () => {
-        zoomableImages.forEach((img) => img.removeEventListener('click', handleClick));
+        zoomableImages.forEach((img) =>
+          img.removeEventListener('click', handleClick),
+        );
       };
     }
   }, [isLoading, zoomableImages]);
@@ -209,13 +216,13 @@ const MorePage: React.FC = () => {
             <div className="bg-white rounded-lg shadow-md p-6">
               {page ? (
                 <div className="prose prose-lg max-w-none">
-                  <MarkdownRenderer 
-                    content={page.content} 
-                    setZoomableImages={setZoomableImages} 
-                    frontmatter={{ 
-                      title: page.title, 
+                  <MarkdownRenderer
+                    content={page.content}
+                    setZoomableImages={setZoomableImages}
+                    frontmatter={{
+                      title: page.title,
                       slug: page.slug,
-                      category: page.category ?? null
+                      category: page.category ?? null,
                     }}
                   />
                 </div>
@@ -298,7 +305,7 @@ const MorePage: React.FC = () => {
           </div>
         </motion.div>
       )}
-      
+
       <Footer />
     </>
   );

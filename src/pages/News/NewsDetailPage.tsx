@@ -57,10 +57,14 @@ const NewsDetailPage: React.FC = () => {
         });
         document.body.classList.add('overflow-hidden');
       };
-      
-      zoomableImages.forEach((img) => img.addEventListener('click', handleClick));
+
+      zoomableImages.forEach((img) =>
+        img.addEventListener('click', handleClick),
+      );
       return () => {
-        zoomableImages.forEach((img) => img.removeEventListener('click', handleClick));
+        zoomableImages.forEach((img) =>
+          img.removeEventListener('click', handleClick),
+        );
       };
     }
   }, [isLoading, zoomableImages]);
@@ -257,7 +261,10 @@ const NewsDetailPage: React.FC = () => {
           transition={{ duration: 0.5 }}
           key={slug}
         >
-          <MarkdownRenderer content={post.content} setZoomableImages={setZoomableImages} />
+          <MarkdownRenderer
+            content={post.content}
+            setZoomableImages={setZoomableImages}
+          />
         </motion.div>
 
         {/* Author Bio Section */}

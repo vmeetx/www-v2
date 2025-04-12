@@ -23,8 +23,15 @@ const customSanitizeSchema = {
   attributes: {
     ...defaultSchema.attributes,
     mark: ['class'],
-    iframe: ['src', 'allow', 'allowfullscreen', 'frameborder', 'title', 'style']
-  }
+    iframe: [
+      'src',
+      'allow',
+      'allowfullscreen',
+      'frameborder',
+      'title',
+      'style',
+    ],
+  },
 };
 
 // Emoji mapping for shortcode replacement
@@ -51,7 +58,7 @@ const processMarkdownContent = (content: string): string => {
 
   processed = processed.replace(
     /==([\s\S]*?)==/g,
-    '<mark class="bg-yellow-200 px-1 rounded">$1</mark>'
+    '<mark class="bg-yellow-200 px-1 rounded">$1</mark>',
   );
 
   // Handle collapsible sections
@@ -60,7 +67,7 @@ const processMarkdownContent = (content: string): string => {
     '<details class="my-4 border border-gray-200 rounded-lg overflow-hidden">' +
       '<summary class="bg-gray-100 px-4 py-2 cursor-pointer font-medium text-gray-800 hover:bg-gray-200 transition-colors">$1</summary>' +
       '<div class="px-4 py-3 text-gray-700">$2</div>' +
-    '</details>'
+      '</details>',
   );
 
   // Updated YouTube embeds
@@ -79,18 +86,27 @@ const processMarkdownContent = (content: string): string => {
     </iframe>
   </div>
 </div>
-`
+`,
   );
 
   return processed;
 };
 
-const MarkdownRenderer = ({ content, setZoomableImages, frontmatter }: MarkdownRendererProps) => {
-  const processedContent = useMemo(() => processMarkdownContent(content), [content]);
+const MarkdownRenderer = ({
+  content,
+  setZoomableImages,
+  frontmatter,
+}: MarkdownRendererProps) => {
+  const processedContent = useMemo(
+    () => processMarkdownContent(content),
+    [content],
+  );
   useEffect(() => {
     const handleCopyClick = (e: MouseEvent) => {
       const target = e.target as HTMLElement;
-      const button = target.closest('.copy-code-btn') as HTMLButtonElement | null;
+      const button = target.closest(
+        '.copy-code-btn',
+      ) as HTMLButtonElement | null;
       if (button) {
         const code = button.getAttribute('data-code') || '';
         navigator.clipboard.writeText(code).then(() => {
@@ -106,7 +122,8 @@ const MarkdownRenderer = ({ content, setZoomableImages, frontmatter }: MarkdownR
     };
 
     document.addEventListener('click', handleCopyClick as EventListener);
-    return () => document.removeEventListener('click', handleCopyClick as EventListener);
+    return () =>
+      document.removeEventListener('click', handleCopyClick as EventListener);
   }, []);
   useEffect(() => {
     if (setZoomableImages) {
@@ -117,63 +134,81 @@ const MarkdownRenderer = ({ content, setZoomableImages, frontmatter }: MarkdownR
 
   const components: Components = {
     h1: ({ children, ...props }) => (
-      <h1 
-        {...props} 
+      <h1
+        {...props}
         className="text-3xl font-bold my-6 text-gray-800 group flex items-center"
       >
         {children}
         {props.id && (
-          <a 
-            href={`#${props.id}`} 
+          <a
+            href={`#${props.id}`}
             className="ml-2 text-blue-500 opacity-0 group-hover:opacity-100 transition-opacity"
             aria-hidden="true"
             tabIndex={-1}
           >
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
-              <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
-              <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="currentColor"
+              viewBox="0 0 16 16"
+            >
+              <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z" />
+              <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z" />
             </svg>
           </a>
         )}
       </h1>
     ),
     h2: ({ children, ...props }) => (
-      <h2 
-        {...props} 
+      <h2
+        {...props}
         className="text-2xl font-bold my-5 text-gray-800 group flex items-center"
       >
         {children}
         {props.id && (
-          <a 
-            href={`#${props.id}`} 
+          <a
+            href={`#${props.id}`}
             className="ml-2 text-blue-500 opacity-0 group-hover:opacity-100 transition-opacity"
             aria-hidden="true"
             tabIndex={-1}
           >
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
-              <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
-              <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="18"
+              fill="currentColor"
+              viewBox="0 0 16 16"
+            >
+              <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z" />
+              <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z" />
             </svg>
           </a>
         )}
       </h2>
     ),
     h3: ({ children, ...props }) => (
-      <h3 
-        {...props} 
+      <h3
+        {...props}
         className="text-xl font-bold my-4 text-gray-800 group flex items-center"
       >
         {children}
         {props.id && (
-          <a 
-            href={`#${props.id}`} 
+          <a
+            href={`#${props.id}`}
             className="ml-2 text-blue-500 opacity-0 group-hover:opacity-100 transition-opacity"
             aria-hidden="true"
             tabIndex={-1}
           >
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-              <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
-              <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              viewBox="0 0 16 16"
+            >
+              <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z" />
+              <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z" />
             </svg>
           </a>
         )}
@@ -200,7 +235,11 @@ const MarkdownRenderer = ({ content, setZoomableImages, frontmatter }: MarkdownR
           </p>
         );
       }
-      return <p {...props} className="my-4 text-gray-700 leading-relaxed">{children}</p>;
+      return (
+        <p {...props} className="my-4 text-gray-700 leading-relaxed">
+          {children}
+        </p>
+      );
     },
     blockquote: ({ node, children, ...props }) => {
       interface ExtendedNode {
@@ -215,18 +254,20 @@ const MarkdownRenderer = ({ content, setZoomableImages, frontmatter }: MarkdownR
         }
         currentNode = currentNode.parent;
       }
-      const borderColorClasses = [
-        'border-green-400 bg-green-50'
-      ];
-      const borderClass = borderColorClasses[nestingLevel % borderColorClasses.length];
+      const borderColorClasses = ['border-green-400 bg-green-50'];
+      const borderClass =
+        borderColorClasses[nestingLevel % borderColorClasses.length];
       const marginClass = nestingLevel > 0 ? 'ml-4' : '';
-      const nestIndicator = nestingLevel > 0 ? (
-        <div className="absolute -left-2 top-0 bottom-0 flex items-center">
-          <div className={`w-1 h-full ${borderClass.split(' ')[0].replace('border-', 'bg-')}`} />
-        </div>
-      ) : null;
+      const nestIndicator =
+        nestingLevel > 0 ? (
+          <div className="absolute -left-2 top-0 bottom-0 flex items-center">
+            <div
+              className={`w-1 h-full ${borderClass.split(' ')[0].replace('border-', 'bg-')}`}
+            />
+          </div>
+        ) : null;
       return (
-        <blockquote 
+        <blockquote
           {...props}
           className={`border-l-4 ${borderClass} ${marginClass} pl-4 py-2 my-4 italic text-gray-700 rounded-r-md relative`}
         >
@@ -235,31 +276,52 @@ const MarkdownRenderer = ({ content, setZoomableImages, frontmatter }: MarkdownR
         </blockquote>
       );
     },
-    code: ({ inline, className, children, ...props }: { inline?: boolean; className?: string; children?: React.ReactNode }) => {
+    code: ({
+      inline,
+      className,
+      children,
+      ...props
+    }: {
+      inline?: boolean;
+      className?: string;
+      children?: React.ReactNode;
+    }) => {
       if (inline) {
         return (
-          <code 
-            {...props} 
+          <code
+            {...props}
             className="bg-gray-100 px-1 py-0.5 rounded text-sm font-mono"
           >
             {children}
           </code>
         );
       }
-      const codeText = Children.toArray(children).reduce((acc, child) => 
-        typeof child === 'string' ? acc + child : acc, ''
+      const codeText = Children.toArray(children).reduce(
+        (acc, child) => (typeof child === 'string' ? acc + child : acc),
+        '',
       );
       return (
         <div className="relative rounded-lg overflow-hidden shadow-lg bg-gray-900 my-1 group">
           <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-            <button 
-              className="copy-code-btn bg-gray-600 hover:bg-gray-700 text-white text-xs px-2 py-1 rounded shadow-sm flex items-center" 
+            <button
+              className="copy-code-btn bg-gray-600 hover:bg-gray-700 text-white text-xs px-2 py-1 rounded shadow-sm flex items-center"
               data-code={codeText}
               onClick={(e) => e.stopPropagation()}
               aria-label="Copy code"
             >
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-4 w-4 mr-1"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
+                />
               </svg>
               Copy
             </button>
@@ -269,7 +331,14 @@ const MarkdownRenderer = ({ content, setZoomableImages, frontmatter }: MarkdownR
           </div>
           <div className="px-2 overflow-x-auto">
             <pre className="px-3 py-7">
-              <code className={className ? `${className} font-mono text-sm text-gray-200 block whitespace-pre overflow-visible` : 'font-mono text-sm text-gray-200 block whitespace-pre overflow-visible'} style={{ lineHeight: 0.8 }}>
+              <code
+                className={
+                  className
+                    ? `${className} font-mono text-sm text-gray-200 block whitespace-pre overflow-visible`
+                    : 'font-mono text-sm text-gray-200 block whitespace-pre overflow-visible'
+                }
+                style={{ lineHeight: 0.8 }}
+              >
                 {children}
               </code>
             </pre>
@@ -277,15 +346,16 @@ const MarkdownRenderer = ({ content, setZoomableImages, frontmatter }: MarkdownR
         </div>
       );
     },
-    img: ({ src = "", alt = "", title, ...props }) => {
-      const imageSrc = (src === "" && frontmatter?.image) ? frontmatter.image : src;
+    img: ({ src = '', alt = '', title, ...props }) => {
+      const imageSrc =
+        src === '' && frontmatter?.image ? frontmatter.image : src;
       return (
         <figure className="flex flex-col items-center my-6">
           <div className="overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-            <img 
+            <img
               {...props}
               src={String(imageSrc)}
-              alt={alt} 
+              alt={alt}
               title={title || alt || ''}
               className="max-w-full sm:max-w-md md:max-w-lg rounded-lg object-contain max-h-80 hover:scale-105 transition-transform duration-300"
               data-zoomable="true"
@@ -293,16 +363,23 @@ const MarkdownRenderer = ({ content, setZoomableImages, frontmatter }: MarkdownR
             />
           </div>
           {title && (
-            <figcaption className="text-center text-sm text-gray-600 mt-2">{title}</figcaption>
+            <figcaption className="text-center text-sm text-gray-600 mt-2">
+              {title}
+            </figcaption>
           )}
         </figure>
       );
     },
     sub: ({ children }) => <sub className="text-xs">{children}</sub>,
     sup: ({ children }) => <sup className="text-xs">{children}</sup>,
-    mark: ({ children }) => <mark className="bg-yellow-200 px-1 rounded">{children}</mark>,
+    mark: ({ children }) => (
+      <mark className="bg-yellow-200 px-1 rounded">{children}</mark>
+    ),
     details: ({ children, ...props }) => (
-      <details className="my-4 border border-gray-200 rounded-lg overflow-hidden" {...props}>
+      <details
+        className="my-4 border border-gray-200 rounded-lg overflow-hidden"
+        {...props}
+      >
         {children}
       </details>
     ),
@@ -313,7 +390,10 @@ const MarkdownRenderer = ({ content, setZoomableImages, frontmatter }: MarkdownR
     ),
     table: ({ children, ...props }) => (
       <div className="overflow-x-auto my-6 rounded-lg shadow">
-        <table {...props} className="min-w-full border border-gray-200 divide-y divide-gray-200">
+        <table
+          {...props}
+          className="min-w-full border border-gray-200 divide-y divide-gray-200"
+        >
           {children}
         </table>
       </div>
@@ -329,24 +409,24 @@ const MarkdownRenderer = ({ content, setZoomableImages, frontmatter }: MarkdownR
       </tbody>
     ),
     tr: ({ children, ...props }) => (
-      <tr 
-        {...props} 
+      <tr
+        {...props}
         className="hover:bg-gray-100 transition-colors duration-150"
       >
         {children}
       </tr>
     ),
     th: ({ children, ...props }) => (
-      <th 
-        {...props} 
+      <th
+        {...props}
         className="px-4 py-3 text-left text-sm font-medium text-gray-700 uppercase tracking-wider border-r last:border-r-0 border-gray-200"
       >
         {children}
       </th>
     ),
     td: ({ children, ...props }) => (
-      <td 
-        {...props} 
+      <td
+        {...props}
         className="px-4 py-3 whitespace-normal text-sm text-gray-700 border-r last:border-r-0 border-gray-200"
       >
         {children}
@@ -367,10 +447,10 @@ const MarkdownRenderer = ({ content, setZoomableImages, frontmatter }: MarkdownR
         {children}
       </li>
     ),
-    a: ({ href = "#", children, ...props }) => (
-      <a 
-        href={href} 
-        {...props} 
+    a: ({ href = '#', children, ...props }) => (
+      <a
+        href={href}
+        {...props}
         className="text-blue-600 hover:underline transition-colors duration-200"
         target={href?.startsWith('http') ? '_blank' : undefined}
         rel={href?.startsWith('http') ? 'noopener noreferrer' : undefined}
@@ -392,9 +472,9 @@ const MarkdownRenderer = ({ content, setZoomableImages, frontmatter }: MarkdownR
       <hr {...props} className="my-8 border-t border-gray-300" />
     ),
     input: ({ ...props }) => (
-      <input 
-        {...props} 
-        disabled 
+      <input
+        {...props}
+        disabled
         className="form-checkbox h-4 w-4 text-blue-600 transition duration-150 ease-in-out"
       />
     ),
@@ -403,16 +483,12 @@ const MarkdownRenderer = ({ content, setZoomableImages, frontmatter }: MarkdownR
   return (
     <div className="prose prose-lg max-w-none">
       <ReactMarkdown
-        remarkPlugins={[
-          remarkFrontmatter,
-          remarkGfm,
-          remarkSupersub
-        ]}
+        remarkPlugins={[remarkFrontmatter, remarkGfm, remarkSupersub]}
         rehypePlugins={[
           rehypeRaw,
           [rehypeSanitize, customSanitizeSchema],
           rehypeSlug,
-          [rehypeAutolinkHeadings, { behavior: 'wrap' }]
+          [rehypeAutolinkHeadings, { behavior: 'wrap' }],
         ]}
         components={components}
       >
