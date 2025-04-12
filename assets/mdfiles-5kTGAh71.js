@@ -821,7 +821,7 @@ Sugar Labs se mantiene en base a donaciones y está buscando financiación y vol
 **Sitio oficial:** [www.sugarlabs.org](http://www.sugarlabs.org)
 
 *Sugar Labs es una marca registrada de la Software Freedom Conservancy. Otros nombres y marcas corresponden a sus respectivos dueños.*
-`,qe=Object.freeze(Object.defineProperty({__proto__:null,default:I},Symbol.toStringTag,{value:"Module"})),T=`---
+`,Ge=Object.freeze(Object.defineProperty({__proto__:null,default:I},Symbol.toStringTag,{value:"Module"})),T=`---
 title: "Le Sugar Labs(R), organisme non lucratif à but éducatif, célèbre le 'Digital Learning Day' avec deux lauréats au grand prix du 'Google Code-In'"
 category: "PRESS RELEASE"
 date: "2013-02-05"
@@ -869,7 +869,7 @@ Le Sugar Labs tient à exprimer sa gratitude à Google et tout particulièrement
 **À propos de Sugar Labs(R)**  
 Sugar Labs(R) est une organisation non lucrative de volontaires, membre du projet Software Freedom Conservancy. À l’origine intégré au projet One Laptop Per Child, Sugar Labs coordonne les volontaires dans le monde qui sont passionnés par l’idée de fournir des opportunités d’éducation à travers la plate-forme éducative Sugar. Sugar Labs(R) est soutenu par des donations et cherche des fonds pour accélérer son développement. Pour plus d’information, voir [www.sugarlabs.org/press](http://www.sugarlabs.org/press) ou contacter **pr@sugarlabs.org**.
 
-*Sugar Labs(R) est une marque déposée de la Software Freedom Conservancy. Les autres marques déposées sont la propriété respective de leur auteurs.*`,Ge=Object.freeze(Object.defineProperty({__proto__:null,default:T},Symbol.toStringTag,{value:"Module"})),x=`---
+*Sugar Labs(R) est une marque déposée de la Software Freedom Conservancy. Les autres marques déposées sont la propriété respective de leur auteurs.*`,qe=Object.freeze(Object.defineProperty({__proto__:null,default:T},Symbol.toStringTag,{value:"Module"})),x=`---
 title: "Sugar Labs(R) Educational Nonprofit Celebrates Digital Learning Day With Two Google Code-In Grand Prize Winners"
 category: "PRESS RELEASE"
 date: "2013-02-05"
@@ -1247,7 +1247,7 @@ Since 2019, Sugar Labs has published projects it is considering for Google Summe
 Sugar Labs® is a US-based 501(c)(3) nonprofit organization with a global mission to create educational opportunities in technology to youth around the world. Volunteer mentors and contributors work together to develop activity-focused software for children. All software is developed with learning as the primary goal, necessitating the need for source code to be published publicly for study, licensed under a Free/Libre license for explicit permission to share and remix, and openly worked upon within a community where students are invited to make contributions, under guidance of experienced mentors.
 
 Donations to support the work of Sugar Labs can be made at [https://wiki.sugarlabs.org/go/Sugar_Labs/Donate](https://wiki.sugarlabs.org/go/Sugar_Labs/Donate).
-`,Je=Object.freeze(Object.defineProperty({__proto__:null,default:N},Symbol.toStringTag,{value:"Module"})),q=`---
+`,Je=Object.freeze(Object.defineProperty({__proto__:null,default:N},Symbol.toStringTag,{value:"Module"})),G=`---
 title: "Sugar Labs: Past, present, and future"
 category: "EVENTS"
 date: "2024-05-03"
@@ -1288,7 +1288,7 @@ Volunteer mentors and contributors work together to develop activity-focused sof
 Support our work: [Donate here](https://www.sugarlabs.org/donate/)
 
 ---
-`,Ke=Object.freeze(Object.defineProperty({__proto__:null,default:q},Symbol.toStringTag,{value:"Module"})),G=`--- 
+`,Ke=Object.freeze(Object.defineProperty({__proto__:null,default:G},Symbol.toStringTag,{value:"Module"})),q=`--- 
 title: "Sugar Labs announces nonprofit status, new executive director"
 category: "PRESS RELEASE"
 date: "2024-05-08"
@@ -1327,7 +1327,7 @@ The officers of Sugar Labs Inc. are currently: Devin Ulibarri, executive directo
 - [Sugar Labs Oversight Board](https://wiki.sugarlabs.org/go/Oversight_Board)
 
 <!-- {% include about_sugar_labs.html %} -->
-`,Ye=Object.freeze(Object.defineProperty({__proto__:null,default:G},Symbol.toStringTag,{value:"Module"})),F=`---
+`,Ye=Object.freeze(Object.defineProperty({__proto__:null,default:q},Symbol.toStringTag,{value:"Module"})),F=`---
 title: "Musical Squares: From Turtle Blocks to Music Blocks and Beyond"
 category: "EVENTS"
 date: "2024-05-10"
@@ -2949,8 +2949,6 @@ image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600"
 <!-- markdownlint-disable -->
 # The Ultimate Markdown Test Document (NOTE: THIS IS AI GENERATED)
 
-This document demonstrates all the features of our custom Markdown renderer. The first paragraph has special styling with a drop cap first letter. Let's explore everything this renderer can do!
-
 ## Basic Formatting
 
 This text is **bold** and this is *italic*. You can also have ~~strikethrough text~~ and ==highlighted text== for emphasis.
@@ -2961,7 +2959,23 @@ You can add super^script^ and sub~script~ text when needed.
 
 Visit [our website](https://example.com) for more information.
 
-Here's some \`inline code\` within a paragraph.
+Here's some \`inline code\` within a paragraph for demonstration.
+
+### Code Block Example
+
+Below is an example of a JavaScript function:
+
+\`\`\`javascript
+// Returns a greeting for the provided name
+
+function greet(name) {
+
+    return \`Hello, \${name}!\`;
+
+}
+
+console.log(greet("Markdown"));
+\`\`\`
 
 ## Lists
 
@@ -2969,11 +2983,13 @@ Here's some \`inline code\` within a paragraph.
 
 - First item
 - Second item
+- Third item
 
 ### Ordered Lists
 
 1. First ordered item
 2. Second ordered item
+3. Third ordered item
 
 ### Task Lists
 
@@ -2983,30 +2999,20 @@ Here's some \`inline code\` within a paragraph.
 
 ## Tables
 
-| Feature | Support | Notes |
-|---------|---------|-------|
-| Headers | ✅ | With anchor links |
-| Bold/Italic | ✅ | Basic formatting |
-| Code blocks | ✅ | With language support |
-| Tables | ✅ | This one! |
-| Lists | ✅ | Ordered, unordered, tasks |
+| Feature        | Supported | Notes                               |
+|----------------|-----------|-------------------------------------|
+| Headers        | ✅        | With anchor links                   |
+| Bold/Italic    | ✅        | Basic formatting                    |
+| Code Blocks    | ✅        | With language support               |
+| Tables         | ✅        | Responsive design                   |
+| Lists          | ✅        | Unordered, ordered, task lists      |
 
 ## Blockquotes with Proper Nesting
 
-> This is a simple blockquote
->
-> With multiple paragraphs
+> This is a simple blockquote.
 
->> This is a second-level blockquote
->> Which continues on a second line
-
->>> And this is a third-level blockquote
->>> With another line
-
-> This is a multi-line blockquote
-> that continues on the next line
-> 
-> And even has an empty line in between
+> This is a multi-line blockquote that continues on the next line.
+> This is a multi-line blockquote that continues on the next line.
 
 ## Images with Captions
 
@@ -3018,18 +3024,17 @@ Above this text is regular content.
 
 ----
 
-Below this is separated by a horizontal rule.
+Below is separated by a horizontal rule.
 
 ## Special Features
 
 ### Collapsible Sections
 
 :::details Click to see hidden content
-This content is hidden by default until the user clicks on the summary.
+This content is hidden by default until the user clicks the summary.
 
-- You can include lists
-- And other formatting inside
-![A beautiful landscape](https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600)
+Here you can write additional **markdown content**, include lists, or even code.
+Enjoy the hidden content!
 :::
 
 ### YouTube Embed
@@ -3038,46 +3043,44 @@ This content is hidden by default until the user clicks on the summary.
 
 ### Emoji Support
 
-:smile: I'm happy to see this working!
-:rocket: Let's launch this feature!
-:warning: Be careful with this syntax.
-:thumbsup: Looks good to me!
-:heart: Love this feature!
-:fire: This is awesome!
-:star: Five-star quality!
-:info: Here's some information.
-:check: This is correct.
+:smile: I'm happy to see this working!  
+:rocket: Let's launch this feature!  
+:warning: Be careful with this syntax.  
+:thumbsup: Looks good to me!  
+:heart: Love this feature!  
+:fire: This is awesome!  
+:star: Five-star quality!  
+:info: Here's some information.  
+:check: This is correct!  
 :x: This is wrong.
 
 ## Combined Examples
 
-> This blockquote contains **bold text**.
-> It also has a [link](https://example.com).
+> This blockquote contains **bold text** and a [link](https://example.com) to example.com.
 
-- List item with **bold** and *italic* text
-- Item with a [link](https://example.com) and \`inline code\`
-- Item with ==highlighted text== that stands out
+- List item with **bold** and *italic* text.
+- Item with a [link](https://example.com) and \`inline code\`.
+- Item with ==highlighted text== that stands out.
 
 ## Advanced Typography Test
 
-H~2~O is water and 5^th^ is an ordinal number.
+Water is H~2~O and an ordinal number like 5^th^ is very common.
 
-This paragraph has ~~strikethrough text~~ to show deleted content and ==highlighted text== to show important information.
+This paragraph includes ~~strikethrough text~~ and ==highlighted text== to denote important information.
 
 ## Paragraphs with Line Breaks
 
-This is a paragraph with
-line breaks that should be
-preserved as spaces within
-the paragraph.
+This is a paragraph with  
+line breaks that are preserved as spaces within the paragraph.
 
-This is another paragraph
+This is another paragraph  
 after a blank line.
 
----
+### Final Thoughts
 
-Thanks for reviewing this Markdown test document! :heart:
-`,ha=Object.freeze(Object.defineProperty({__proto__:null,default:oe},Symbol.toStringTag,{value:"Module"})),re=`---
+This Markdown file has been designed to demonstrate multiple aspects of our custom Markdown parser. Every section shows different capabilities from formatting to embedded media.
+
+Thank you for reading this detailed Markdown test document! :heart:`,ha=Object.freeze(Object.defineProperty({__proto__:null,default:oe},Symbol.toStringTag,{value:"Module"})),re=`---
 title: Culture and Pedagogy
 slug: culture
 author: Sugar Labs Team
@@ -3142,18 +3145,14 @@ Criticism of ideas is a powerful force in learning, as well as in fostering econ
 `,ma=Object.freeze(Object.defineProperty({__proto__:null,default:re},Symbol.toStringTag,{value:"Module"})),ie=`---
 title: 'Markdown Test Page'
 slug: 'markdown-test'
-category: 'MarkdownaData'
+category: 'MarkdownData'
 ---
-
 <!-- markdownlint-disable -->
-
 # The Ultimate Markdown Test Document (NOTE: THIS IS AI GENERATED)
-
-This document demonstrates all the features of our custom Markdown renderer. The first paragraph has special styling with a drop cap first letter. Let's explore everything this renderer can do!
 
 ## Basic Formatting
 
-This text is **bold** and this is _italic_. You can also have ~~strikethrough text~~ and ==highlighted text== for emphasis.
+This text is **bold** and this is *italic*. You can also have ~~strikethrough text~~ and ==highlighted text== for emphasis.
 
 You can add super^script^ and sub~script~ text when needed.
 
@@ -3161,7 +3160,23 @@ You can add super^script^ and sub~script~ text when needed.
 
 Visit [our website](https://example.com) for more information.
 
-Here's some \`inline code\` within a paragraph.
+Here's some \`inline code\` within a paragraph for demonstration.
+
+### Code Block Example
+
+Below is an example of a JavaScript function:
+
+\`\`\`javascript
+// Returns a greeting for the provided name
+
+function greet(name) {
+
+    return \`Hello, \${name}!\`;
+
+}
+
+console.log(greet("Markdown"));
+\`\`\`
 
 ## Lists
 
@@ -3169,11 +3184,13 @@ Here's some \`inline code\` within a paragraph.
 
 - First item
 - Second item
+- Third item
 
 ### Ordered Lists
 
 1. First ordered item
 2. Second ordered item
+3. Third ordered item
 
 ### Task Lists
 
@@ -3183,54 +3200,43 @@ Here's some \`inline code\` within a paragraph.
 
 ## Tables
 
-| Feature     | Support | Notes                     |
-| ----------- | ------- | ------------------------- |
-| Headers     | ✅      | With anchor links         |
-| Bold/Italic | ✅      | Basic formatting          |
-| Code blocks | ✅      | With language support     |
-| Tables      | ✅      | This one!                 |
-| Lists       | ✅      | Ordered, unordered, tasks |
+| Feature        | Supported | Notes                               |
+|----------------|-----------|-------------------------------------|
+| Headers        | ✅        | With anchor links                   |
+| Bold/Italic    | ✅        | Basic formatting                    |
+| Code Blocks    | ✅        | With language support               |
+| Tables         | ✅        | Responsive design                   |
+| Lists          | ✅        | Unordered, ordered, task lists      |
 
 ## Blockquotes with Proper Nesting
 
-> This is a simple blockquote
->
-> With multiple paragraphs
+> This is a simple blockquote.
 
->> This is a second-level blockquote
->> Which continues on a second line
-
->>> And this is a third-level blockquote
->>> With another line
-
-> This is a multi-line blockquote
-> that continues on the next line
->
-> And even has an empty line in between
+> This is a multi-line blockquote that continues on the next line.
+> This is a multi-line blockquote that continues on the next line.
 
 ## Images with Captions
 
-![A beautiful landscape](https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600 'Beautiful mountain landscape')
+![A beautiful landscape](https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600 "Beautiful mountain landscape")
 
 ## Horizontal Rules
 
 Above this text is regular content.
 
----
+----
 
-Below this is separated by a horizontal rule.
+Below is separated by a horizontal rule.
 
 ## Special Features
 
 ### Collapsible Sections
 
 :::details Click to see hidden content
-This content is hidden by default until the user clicks on the summary.
+This content is hidden by default until the user clicks the summary.
 
-- You can include lists
-- And other formatting inside
-  ![A beautiful landscape](https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600)
-  :::
+Here you can write additional **markdown content**, include lists, or even code.
+Enjoy the hidden content!
+:::
 
 ### YouTube Embed
 
@@ -3238,46 +3244,44 @@ This content is hidden by default until the user clicks on the summary.
 
 ### Emoji Support
 
-:smile: I'm happy to see this working!
-:rocket: Let's launch this feature!
-:warning: Be careful with this syntax.
-:thumbsup: Looks good to me!
-:heart: Love this feature!
-:fire: This is awesome!
-:star: Five-star quality!
-:info: Here's some information.
-:check: This is correct.
+:smile: I'm happy to see this working!  
+:rocket: Let's launch this feature!  
+:warning: Be careful with this syntax.  
+:thumbsup: Looks good to me!  
+:heart: Love this feature!  
+:fire: This is awesome!  
+:star: Five-star quality!  
+:info: Here's some information.  
+:check: This is correct!  
 :x: This is wrong.
 
 ## Combined Examples
 
-> This blockquote contains **bold text**.
-> It also has a [link](https://example.com).
+> This blockquote contains **bold text** and a [link](https://example.com) to example.com.
 
-- List item with **bold** and _italic_ text
-- Item with a [link](https://example.com) and \`inline code\`
-- Item with ==highlighted text== that stands out
+- List item with **bold** and *italic* text.
+- Item with a [link](https://example.com) and \`inline code\`.
+- Item with ==highlighted text== that stands out.
 
 ## Advanced Typography Test
 
-H~2~O is water and 5^th^ is an ordinal number.
+Water is H~2~O and an ordinal number like 5^th^ is very common.
 
-This paragraph has ~~strikethrough text~~ to show deleted content and ==highlighted text== to show important information.
+This paragraph includes ~~strikethrough text~~ and ==highlighted text== to denote important information.
 
 ## Paragraphs with Line Breaks
 
-This is a paragraph with
-line breaks that should be
-preserved as spaces within
-the paragraph.
+This is a paragraph with  
+line breaks that are preserved as spaces within the paragraph.
 
-This is another paragraph
+This is another paragraph  
 after a blank line.
 
----
+### Final Thoughts
 
-Thanks for reviewing this Markdown test document! :heart:
-`,ba=Object.freeze(Object.defineProperty({__proto__:null,default:ie},Symbol.toStringTag,{value:"Module"})),se=`---
+This Markdown file has been designed to demonstrate multiple aspects of our custom Markdown parser. Every section shows different capabilities from formatting to embedded media.
+
+Thank you for reading this detailed Markdown test document! :heart:`,ba=Object.freeze(Object.defineProperty({__proto__:null,default:ie},Symbol.toStringTag,{value:"Module"})),se=`---
 title: Sugar Labs For Parents
 slug: parents
 author: Sugar Labs Team
@@ -3428,4 +3432,4 @@ These books are recommended as a rich source of ideas on how to use Sugar in and
 - **Papert, S. & Solomon, C.** (1971). *Twenty Things to Do with a Computer.* *Artificial Intelligence Memo No. 248* and *Logo Memo No. 3.*
 - **Pink, D.** (2009). *Drive: The Surprising Truth About What Motivates Us.* Riverhead Press.
 - **Stefanakis, E.** (2002). *Multiple Intelligences and Portfolios: A Window into the Learner's Mind.* Greenwood Press.
-- **Trinidad, G.** (2013). *Física con XO.*`,va=Object.freeze(Object.defineProperty({__proto__:null,default:ue},Symbol.toStringTag,{value:"Module"}));export{ua as $,Be as A,Ne as B,qe as C,Ge as D,Fe as E,Ue as F,Re as G,We as H,He as I,Xe as J,Ve as K,Je as L,Ke as M,Ye as N,$e as O,Ze as P,Qe as Q,ea as R,aa as S,na as T,ta as U,oa as V,ra as W,ia as X,sa as Y,la as Z,de as _,ce as a,da as a0,ca as a1,ga as a2,pa as a3,ha as a4,ma as a5,ba as a6,fa as a7,wa as a8,va as a9,ge as b,pe as c,he as d,me as e,be as f,fe as g,we as h,ve as i,Se as j,ye as k,ke as l,Le as m,Ae as n,Ce as o,Pe as p,Oe as q,_e as r,Ie as s,Te as t,xe as u,Me as v,je as w,Ee as x,ze as y,De as z};
+- **Trinidad, G.** (2013). *Física con XO.*`,va=Object.freeze(Object.defineProperty({__proto__:null,default:ue},Symbol.toStringTag,{value:"Module"}));export{ua as $,Be as A,Ne as B,Ge as C,qe as D,Fe as E,Ue as F,Re as G,We as H,He as I,Xe as J,Ve as K,Je as L,Ke as M,Ye as N,$e as O,Ze as P,Qe as Q,ea as R,aa as S,na as T,ta as U,oa as V,ra as W,ia as X,sa as Y,la as Z,de as _,ce as a,da as a0,ca as a1,ga as a2,pa as a3,ha as a4,ma as a5,ba as a6,fa as a7,wa as a8,va as a9,ge as b,pe as c,he as d,me as e,be as f,fe as g,we as h,ve as i,Se as j,ye as k,ke as l,Le as m,Ae as n,Ce as o,Pe as p,Oe as q,_e as r,Ie as s,Te as t,xe as u,Me as v,je as w,Ee as x,ze as y,De as z};
