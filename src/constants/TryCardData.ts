@@ -55,7 +55,7 @@ export const TryCardData: CardDataType[] = [
     description:
       'Get a taste of Sugar with Sugarizer, which opens in your browser with no installation.',
     tryNowText: 'Try Sugarizer now!',
-    tryNowHref: 'https://sugarizer.org/',
+    tryNowHref: 'https://try.sugarizer.org/',
     learnMoreText: 'Learn more about Sugarizer',
     learnMoreHref: '/sugarizer',
     imagePath: SugarizerImg,
