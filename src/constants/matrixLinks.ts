@@ -8,27 +8,35 @@ export interface MatrixLink {
 
 export const matrixLinks: MatrixLink[] = [
   {
-    id: 'webdev',
-    title: 'Web Development',
-    description:
-      'Join our web development community room to discuss HTML, CSS, JavaScript, and modern frameworks.',
-    url: 'https://matrix.to/#/#webdev:matrix.org',
-    icon: 'code',
-  },
-  {
-    id: 'development',
-    title: 'Development',
-    description:
-      'General software development discussions, problem-solving, and coding challenges.',
-    url: 'https://matrix.to/#/#development:matrix.org',
-    icon: 'terminal',
-  },
-  {
     id: 'organization',
     title: 'Organization',
     description:
       "Discussion about our organization's projects, events, and planning.",
-    url: 'https://matrix.to/#/#organization:matrix.org',
+    url: 'https://matrix.to/#/#sugar:matrix.org',
     icon: 'building',
+  },
+  {
+    id: 'webdev',
+    title: 'Web Development',
+    description:
+      'Join our web development community room to discuss web technologies, frameworks, and best practices.',
+    url: 'https://matrix.to/#/#sugarlabs-web:matrix.org',
+    icon: 'code',
+  },
+  {
+    id: 'mbdev',
+    title: 'Music Blocks Development',
+    description:
+      'Music Blocks software development discussions and coding challenges.',
+    url: 'https://matrix.to/#/#musicblocksdev:matrix.org',
+    icon: 'terminal',
+  },
+  {
+    id: 'sugarizerdev',
+    title: 'Sugarizer Development',
+    description:
+      'Sugarizer software development discussions and coding challenges.',
+    url: 'https://matrix.to/#/#sugarizer:matrix.org',
+    icon: 'terminal',
   },
 ];
