@@ -80,7 +80,7 @@ After you are set-up, the steps you take depend on what you want to do:
         - For generating a production build under the subdirectory `/www-v2`, run
 
             ```bash
-            npm run build:gh
+            npm run build
             ```
 
         - For serving the last production build (`dist` folder), run
