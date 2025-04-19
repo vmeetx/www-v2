@@ -105,12 +105,12 @@ export const TryCardData: CardDataType[] = [
     gradientClass: 'bg-gradient-to-r from-red-600 to-green-500',
   },
   {
-    title: 'Convenient installation via Flathub',
+    title: 'Convenient installation via Flatpak',
     description:
       'Create musical code with the browser based visual programming language Music Blocks',
-    tryNowText: 'Try Flathub now!',
+    tryNowText: 'Try Flatpak now!',
     tryNowHref: 'https://flathub.org/apps/search?q=sugar%20labs',
-    learnMoreText: 'Learn more about Flathub',
+    learnMoreText: 'Learn more about Flatpak',
     learnMoreHref: '/flathub',
     imagePath: FlatHubImg,
     gradientClass: 'bg-gradient-to-r from-gray-400 to-gray-900',

@@ -60,7 +60,7 @@ const FlatHubPage = () => {
         ))}
 
         <h2 className="text-3xl sm:text-4xl font-semibold border-b-2 border-gray-300 pb-2 font-[Caveat] text-center mx-auto w-fit mt-10">
-          What can you do with <span className="text-[#68A6F7]">Flathub</span>?
+          What can you do with <span className="text-[#68A6F7]">Flatpak</span>?
         </h2>
 
         <div className="flex justify-center">
