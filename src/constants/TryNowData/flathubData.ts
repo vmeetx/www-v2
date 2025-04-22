@@ -1,5 +1,5 @@
 export const flathubData = {
-  title: 'Flatpak for Sugar Labs',
+  title: 'Sugar on Flatpak',
   subtitle: 'Simplified Learning Platform Distribution',
   quote: '"Education should be accessible everywhere" – Sugar Labs',
   description:
@@ -14,7 +14,7 @@ export const flathubData = {
 
 export const flathubSections = [
   {
-    title: 'Flatpak and Sugar Labs',
+    title: 'Flatpak and Sugar',
     content:
       'Flatpak provides a streamlined way to package and distribute Sugar Labs educational activities. It ensures that learning tools can be easily installed on various Linux distributions, making education more accessible.',
     button: 'Explore Sugar Labs Activities',
