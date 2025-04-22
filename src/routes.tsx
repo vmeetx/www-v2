@@ -20,6 +20,7 @@ import RaspberryPiPage from '@/pages/TryNow/Raspberry';
 import MusicBlocksPage from '@/pages/TryNow/MusicBlocks';
 import FlatHubPage from '@/pages/TryNow/FlatHub';
 import Matrix from './pages/Matrix';
+import NotFoundPage from '@/pages/NotFoundPage';
 
 const router = createBrowserRouter([
   { path: `/`, element: <MainPage /> },
@@ -45,6 +46,7 @@ const router = createBrowserRouter([
   { path: `/musicblocks`, element: <MusicBlocksPage /> },
   { path: `/flathub`, element: <FlatHubPage /> },
   { path: `/contact-us/:matrix`, element: <Matrix /> },
+  { path: `*`, element: <NotFoundPage /> },
 ]);
 
 export default router;
