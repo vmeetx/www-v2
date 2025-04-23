@@ -1071,3 +1071,10 @@ export const cardFadeIn = {
     transition: { duration: 0.6, ease: 'easeOut', delay: index * 0.2 }, // Stagger effect
   }),
 };
+export const lineAnimation = {
+  hidden: { height: 0 },
+  visible: {
+    height: '100%',
+    transition: { duration: 1.5, ease: 'easeInOut' },
+  },
+};
