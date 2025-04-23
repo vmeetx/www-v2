@@ -110,14 +110,9 @@ const FlatHubPage = () => {
           </h2>
           <div className="max-w-3xl mx-auto">
             <p className="text-lg mb-4">
-              Looking to package and distribute your application using Flatpak?
+              Looking to package and distribute Sugar activities using Flatpak?
               Our comprehensive guide walks you through the entire process of
               creating, building, and publishing Flatpak applications.
-            </p>
-            <p className="text-lg mb-6">
-              Learn about manifests, building from source, testing your
-              packages, and submitting to Flathub with step-by-step instructions
-              designed for both new and experienced developers.
             </p>
             <div className="flex justify-center mt-6">
               <a
