@@ -80,6 +80,7 @@ const FlatHubPage = () => {
                   title={card.title}
                   description={card.description}
                   borderColor={card.borderColor}
+                  link={card.link}
                 />
               ))}
             </div>
@@ -98,6 +99,37 @@ const FlatHubPage = () => {
                   borderColor={card.borderColor}
                 />
               ))}
+            </div>
+          </div>
+        </div>
+
+        {/* New Developer Section */}
+        <div className="my-12 p-6 bg-gray-50 rounded-lg shadow-sm">
+          <h2 className="text-3xl sm:text-4xl font-semibold border-b-2 border-gray-300 pb-2 font-[Caveat] text-center mx-auto w-fit mb-6">
+            For <span className="text-blue-600">Developers</span>
+          </h2>
+          <div className="max-w-3xl mx-auto">
+            <p className="text-lg mb-4">
+              Looking to package and distribute your application using Flatpak?
+              Our comprehensive guide walks you through the entire process of
+              creating, building, and publishing Flatpak applications.
+            </p>
+            <p className="text-lg mb-6">
+              Learn about manifests, building from source, testing your
+              packages, and submitting to Flathub with step-by-step instructions
+              designed for both new and experienced developers.
+            </p>
+            <div className="flex justify-center mt-6">
+              <a
+                href="https://github.com/tchx84/sugarapp/blob/master/flatpak-guide.md"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center px-6 py-3 rounded-xl font-semibold
+                        text-white bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700
+                        hover:to-blue-800 transition-all duration-300"
+              >
+                <span className="mr-2">View Developer Guide</span>
+              </a>
             </div>
           </div>
         </div>

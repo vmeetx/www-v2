@@ -41,12 +41,12 @@ export const flathubLogoCards = [
     logo: 'assets/TryNowImages/fpLogoCard2.png',
     title: 'Easy Installation',
     description: [
-      'Install Sugar Labs applications with just a few clicks on any Linux distribution',
+      'Install Sugar activities with just a few commands on any Linux distribution',
     ],
     buttons: [
       {
         text: 'Get Started',
-        link: 'https://flathub.org/apps/search?q=sugar%20labs',
+        link: 'https://flatpak.org/setup/',
         target: '_blank',
       },
     ],
@@ -73,12 +73,14 @@ export const numberedCards1 = [
     title: 'Install Flatpak',
     description: 'Add Flatpak repository to your Linux system',
     borderColor: '#68A6F7',
+    link: 'https://flatpak.org/setup/',
   },
   {
     number: '2',
     title: 'Find Sugar Activities',
     description: 'Browse the collection of 34+ educational applications',
     borderColor: '#68A6F7',
+    link: 'https://flathub.org/apps/collection/developer/Sugar%20Labs%20Community/1',
   },
 ];
 
