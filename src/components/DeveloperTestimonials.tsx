@@ -72,14 +72,6 @@ const ReviewCard = ({
 };
 
 export function DeveloperTestimonials() {
-  const firstRow =
-    developertestimonials.length > 2
-      ? developertestimonials.slice(
-          0,
-          Math.ceil(developertestimonials.length / 2),
-        )
-      : developertestimonials;
-
   return (
     <div className="w-full p-6">
       {/* Heading Section with Hearts */}
@@ -150,9 +142,8 @@ export function DeveloperTestimonials() {
         viewport={{ once: true, amount: 0.1 }}
         variants={marqueeContainer}
       >
-        {/* First Row (left to right) */}
-        <Marquee pauseOnHover className="w-full">
-          {firstRow.map((review, index) => (
+        <Marquee pauseOnHover className="w-full flex">
+          {developertestimonials.map((review, index) => (
             <ReviewCard
               key={review.username}
               {...review}
