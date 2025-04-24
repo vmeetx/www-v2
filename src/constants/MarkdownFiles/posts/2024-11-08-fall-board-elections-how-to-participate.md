@@ -1,7 +1,7 @@
 ---
 title: "Board election results announcement: Three new members for the 2025-26 cycle"
 category: "COMMUNITY NEWS"
-date: "2024-12-19"
+date: "2024-11-08"
 author: "Devin Ulibarri"
 tags: "markdown,parser,test,education,post,aigenerated"
 ---

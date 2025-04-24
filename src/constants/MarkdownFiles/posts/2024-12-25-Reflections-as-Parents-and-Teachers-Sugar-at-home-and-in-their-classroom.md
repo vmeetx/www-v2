@@ -1,10 +1,11 @@
 ---
 title: "Reflections as Parents and Teachers Sugar at home and in their classroom"
 category: "COMMUNITY NEWS"
-date: "2024-12-19"
+date: "2024-12-25"
 author: "Devin Ulibarri"
 tags: "markdown,parser,test,education,post,aigenerated"
 ---
+<!-- markdownlint-disable -->
 
 # Reflections as a Parent and Teacher: Sugar at Home and in the Classroom
 

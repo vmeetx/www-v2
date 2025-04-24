@@ -5,11 +5,7 @@ date: "2024-9-13"
 author: "James Simmons"
 
 ---
-
-Writing new Activities and sharing Sugar with Youth
----
-
-
+<!-- markdownlint-disable -->
 
 _Editorial note: This article was given to us by Sugar Labs community member James Simmons as part of a series called Sugar Stories, which aims to highlight stories from members our community. If you would like to share your Sugar Story with us as an article for possible publication, please send a draft to_ [_info@sugarlabs.org_](mailto:info@sugarlabs.org)_. Please be aware that there is an editorial process that will require some additional effort and collaboration, even after submission._
 

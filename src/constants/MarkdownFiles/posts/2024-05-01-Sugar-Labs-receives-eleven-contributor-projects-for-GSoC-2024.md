@@ -1,11 +1,4 @@
 ---
-title: "The connection between Sugar - Students - Teachers"
-category: "SUGAR STORIES"
-date: "2016-05-15"
-author: "Sugar Labs"
----
-
----
 title: "Sugar Labs receives eleven contributor projects for GSoC 2024"
 category: "PRESS RELEASE"
 date: "2024-05-01"

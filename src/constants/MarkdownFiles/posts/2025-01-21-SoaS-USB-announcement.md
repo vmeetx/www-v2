@@ -18,7 +18,7 @@ Well, we're excited to share the news that you are **now able to purchase a Suga
 
 <figure>
   <img 
-    src="{{ site.baseurl }}/assets/post-assets/sugarlabs_soas_usb-two.jpg?w=960&amp;fit=max" 
+    src="/assets/post-assets/sugarlabs_soas_usb-two.jpg?w=960&amp;fit=max" 
     alt="Two USB drives on a laptop. The Sugar Labs logo is prominent, and the drives are shiny." 
     draggable="false" 
     width="100%">

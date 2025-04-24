@@ -4,6 +4,7 @@ category: "SUGAR STORIES"
 date: "2016-05-15"
 author: "Sugar Labs"
 ---
+<!-- markdownlint-disable -->
 
 Story1: The connection between Sugar - Students - Teachers
 ---------------------------------------------------------
