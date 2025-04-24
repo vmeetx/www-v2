@@ -3302,8 +3302,8 @@ In 1971, Papert and Solomon published *“20 Things to do with a Computer”*, a
 ---
 
 ## Sugar Pedagogy  
->>> **“Learning is hard fun.”** – Marvin Minsky  
->>> **“A six-year-old child can become an expert.”** – Marvin Minsky  
+> **“Learning is hard fun.”** – Marvin Minsky  
+> **“A six-year-old child can become an expert.”** – Marvin Minsky  
 
 In a 2008 essay questioning “general” education, Marvin Minsky proposed that we *“re-aim our schools towards encouraging children to pursue more focused hobbies and specialties—to provide them with more time for (and earlier experience with) developing more powerful sets of mental skills, which they later can extend to more academic activities.”*  
 
@@ -3368,7 +3368,7 @@ Sugar equally promotes cultures of **expression and reflection**. With Sugar, we
 3. **Discovering:**  
    Sugar tries to accommodate a wide variety of users with different levels of skill in terms of reading and language and different levels of experience with computing by providing activities with a "low floor" and, where possible, "no ceiling."
 
->>> **“The only time collaboration is called cheating is when you are in school.” – Walter Bender**
+> **“The only time collaboration is called cheating is when you are in school.” – Walter Bender**
 
 Sugar drew inspiration for its activities and the fluid interface between activities from observing how the **free software community** collaborates. Software developers chat, socialize, play games, share media, and collaborate on media creation and programming in both formal and informal settings.
 
@@ -3409,7 +3409,7 @@ category: Education
 
 ## Student Learning Goals and Sugar
 
->>>*"Learning with Sugar is something a child does, not something that is done to or for a child." – Walter Bender*
+> *"Learning with Sugar is something a child does, not something that is done to or for a child." – Walter Bender*
 
 Sugar is a collection of hundreds of tools designed to introduce children to programming, computational thinking, and problem-solving. Sugar has no set curriculum; its best practice is to immerse children in problem-solving and debugging. Children are given agency to work on problems they are passionate about in a context where there is an expectation that there were no predetermined solutions or prescribed paths to a solution. 
 
