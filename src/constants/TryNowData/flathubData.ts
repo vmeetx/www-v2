@@ -1,7 +1,7 @@
 export const flathubData = {
   title: 'Sugar on Flatpak',
   subtitle: 'Simplified Learning Platform Distribution',
-  quote: '"Education should be accessible everywhere" – Sugar Labs',
+  quote: '“The context of human development is always a culture, not an isolated technology.” – Seymour Papert, computer scientist and educator',
   description:
     'Flatpak enables easy installation and distribution of Sugar Labs educational activities across different Linux platforms.',
   images: [
