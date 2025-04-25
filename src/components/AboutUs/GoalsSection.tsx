@@ -97,13 +97,7 @@ const GoalsSection: FC = () => {
           whileInView={animations.flowContainer.whileInView}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.5 }}
-        >
-          <div className="inline-block p-px bg-gradient-to-r from-blue-600 to-rose-400 rounded-full">
-            <button className="bg-white hover:bg-slate-50 transition-colors px-8 py-3 rounded-full text-slate-800 font-medium">
-              Learn More About Our Vision
-            </button>
-          </div>
-        </motion.div>
+        ></motion.div>
       </div>
     </section>
   );
