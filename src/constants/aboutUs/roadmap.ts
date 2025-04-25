@@ -47,7 +47,7 @@ export const roadmapContent = {
   sectionId: 'roadmap',
   title: {
     prefix: 'Our',
-    highlight: 'Roadmap',
+    highlight: 'Strategy',
   },
   description:
     'Our strategic roadmap outlines our key milestones and future directions as we continue to grow and innovate.',
