@@ -1,13 +1,16 @@
 ---
 title: "Sugar Labs(R), organización sin fines de lucro para la Educación celebra dos Ganadores del Gran Premio de Google Code-In"
+excerpt: "Sugar Labs reconoce a los estudiantes Ignacio Rodríguez y Jorge Alberto Gómez López como ganadores del gran premio de Google Code-In, quienes contribuyeron significativamente a mejorar la plataforma de aprendizaje Sugar."
 category: "PRESS RELEASE"
 date: "2014-01-22"
+slug: "sugar-labs-celebra-ganadores-google-code-in"
 author: "Sugar Labs"
+description: "Education Nonprofit"
+tags: "google-code-in,open-source,education,students,programming,development,uruguay,el-salvador"
 ---
-
 <!-- markdownlint-disable -->
 
-[PDF](/press/SugarLabsPR-es.20140122.pdf)
+[PDF](/assets/post-assets/press/SugarLabsPR-es.20140122.pdf)
 
 CAMBRIDGE, Mass, Enero 22, 2014 — Sugar Labs(R), organización educativa sin fines de lucro que provee software de aprendizaje libre y de código abierto para niños, se enorgullece en reconocer a los ganadores del gran premio de Google Code-In (GCI) Ignacio Rodríguez y Jorge Alberto Gómez López, quienes participaron de forma brillante en el programa anual de Google para estudiantes de secundaria y bachillerato entre 13 a 17 años de edad.
 
@@ -34,8 +37,8 @@ Sugar Labs desea agradecer a Google y, en particular, a Bradley Kuhn, director e
 ---
 
 **Imágenes**  
-![Ignacio Rodríguez - Ganador GCI 2013](/press/SugarLabs_GCI_2013_Winner_Ignacio.jpg)  
-![Jorge Alberto Gómez López - Ganador GCI 2013](/press/SugarLabs_GCI_2013_Winner_Jorge.jpg)
+![Ignacio Rodríguez - Ganador GCI 2013](/assets/post-assets/press/SugarLabs_GCI_2013_Winner_Ignacio.jpg)  
+![Jorge Alberto Gómez López - Ganador GCI 2013](/assets/post-assets/press/SugarLabs_GCI_2013_Winner_Jorge.jpg)
 
 ---
 

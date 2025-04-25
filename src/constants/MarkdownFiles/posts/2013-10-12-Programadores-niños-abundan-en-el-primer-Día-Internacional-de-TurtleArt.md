@@ -1,14 +1,17 @@
 ---
 title: "Programadores niños abundan en el primer Día Internacional de TurtleArt"
+excerpt: "Sugar Labs celebra el primer Día de Tortugarte en Caacupé, Paraguay, con 275 estudiantes y 77 profesores explorando programación creativa a través del entorno TurtleArt."
 category: "PRESS RELEASE"
 date: "2013-10-12"
+slug: "primer-dia-internacional-turtleart"
 author: "Sugar Labs"
-
+description: "Education Nonprofit"
+tags: "tortugarte,programming,education,art,logo,children,paraguay,international-day"
 ---
 <!-- markdownlint-disable -->
 
 
-[PDF](/press/SugarLabsPR-es.20131015.pdf)
+[PDF](/assets/post-assets/press/SugarLabsPR-es.20131015.pdf)
 
 Caacupé, Paraguay, 12 de octubre de 2013 — Sugar Labs®, el proveedor educativo de aprendizaje sin fines de lucro de software libre y de código abierto para los niños, se enorgullece de celebrar el Día de Tortugarte en Caacupé, Paraguay, con 275 estudiantes, sus padres y 77 profesores. A ellos se sumaron educadores y desarrolladores de Sugar procedentes de 8 países de América y de otros lugares lejanos como Australia. Están previstos Días de Tortugarte adicionales para Perú, Costa Rica, Argentina y Malasia; el próximo será el 15 de octubre en Montevideo, Uruguay.
 
@@ -34,8 +37,8 @@ Andrés Aguirre, del proyecto Butiá —un robot programado con Tortugarte—, d
 - [Ceibal Jam](http://ceibaljam.org)
 
 **Imágenes del evento:**  
-- ![Captura de pantalla](./press/caacupe-turtleartday-captura-pantalla.png)  
-- ![Evento en Caacupé](./press/caacupe-turtleartday.png)
+- ![Captura de pantalla](/assets/post-assets/press/caacupe-turtleartday-captura-pantalla.png)  
+- ![Evento en Caacupé](/assets/post-assets/press/caacupe-turtleartday.png)
 
 **Sobre Sugar Labs®:**  
 Es una organización sin fines de lucro dirigida por voluntarios, miembro de la Software Freedom Conservancy. Sugar Labs coordina alrededor del mundo a voluntarios apasionados por proveer oportunidades educativas a través de la plataforma de aprendizaje Sugar. Sugar se encuentra instalada en más de tres millones de computadoras. Sugar Labs se mantiene a base de donaciones y busca fondos para acelerar su desarrollo. Para más información visita [sugarlabs.org/press](http://www.sugarlabs.org/press) o escribe a [pr@sugarlabs.org](mailto:pr@sugarlabs.org).

@@ -1,25 +1,29 @@
 ---
 title: "The Sweet Spot – Issue 001"
+excerpt: "The inaugural issue of Sugar Labs' newsletter covering recent updates, GSoC projects, ways to get involved, and community news."
 category: "COMMUNITY NEWS"
 date: "2024-09-20"
+slug: "the-sweet-spot-issue-001"
 author: "Sugar Labs"
+description: "Community Newsletter"
+tags: "newsletter,community,gsoc,dmp,updates,volunteer,outreach,education"
 ---
 <!-- markdownlint-disable -->
 # Recent news for September 20, 2024
 
 Welcome to the very first issue of the **"Sweet Spot"**, a newsletter for Sugar Labs-related news in development, student and teacher work, events, how to get involved, and other news and information. This newsletter will be published semi-regularly for now, but the plan is to publish it on a bi-monthly, perhaps even monthly, basis in the future. Our aim with this newsletter is to help keep the growing body of Sugar Labs contributors on the same page, all while documenting our growth for our own and others' reference.
 
-This first issue is meant to set a precedent of communication and documentation, as well as to help inform the community of our current status, recent progress, and future plans. Its predecessor is the [“Sugar Digest”](https://lists.sugarlabs.org/archive/community-news/), which still serves as an important catalog of our activities. Like Sugar Digest, this newsletter is intended to keep community members in the loop about everything going on within Sugar Labs. It will highlight any recent publications from us. It will occasionally include links to third-party news and updates that our community finds relevant.
+This first issue is meant to set a precedent of communication and documentation, as well as to help inform the community of our current status, recent progress, and future plans. Its predecessor is the ["Sugar Digest"](https://lists.sugarlabs.org/archive/community-news/), which still serves as an important catalog of our activities. Like Sugar Digest, this newsletter is intended to keep community members in the loop about everything going on within Sugar Labs. It will highlight any recent publications from us. It will occasionally include links to third-party news and updates that our community finds relevant.
 
-This first issue has links and “news” from a few months back. Future installments will focus on a more acute timeframe than this inaugural issue, which aims to cover our news since the beginning of this year.
+This first issue has links and "news" from a few months back. Future installments will focus on a more acute timeframe than this inaugural issue, which aims to cover our news since the beginning of this year.
 
-We hope that you enjoy this first issue. And, if you have something you’d like to share, please feel free to email [info@sugarlabs.org](mailto:info@sugarlabs.org). And for those who would like to volunteer in other ways, this edition has a list of volunteer help that we need with Sugar Labs overall.
+We hope that you enjoy this first issue. And, if you have something you'd like to share, please feel free to email [info@sugarlabs.org](mailto:info@sugarlabs.org). And for those who would like to volunteer in other ways, this edition has a list of volunteer help that we need with Sugar Labs overall.
 
 ## Updates
 
 ### GSoC and DMP students complete their projects
 
-This year’s GSoC and DMP students have completed their work for Sugar Labs. Students were asked to document their progress through blogs and participate in online events showcasing their work at regular intervals throughout the summer. You can find links to their blog posts on our bi-weekly summary posts on Medium and watch videos of their presentations on YouTube.
+This year's GSoC and DMP students have completed their work for Sugar Labs. Students were asked to document their progress through blogs and participate in online events showcasing their work at regular intervals throughout the summer. You can find links to their blog posts on our bi-weekly summary posts on Medium and watch videos of their presentations on YouTube.
 
 #### Bi-weekly GSoC and DMP summaries:
 
@@ -52,14 +56,3 @@ Sugar Labs is seeking volunteer assistance in the following ways. Sustained, com
 
 - **Wiki** – [https://wiki.sugarlabs.org](https://wiki.sugarlabs.org)
 - **Mastodon** – [https://mastodon.social/@sugar_labs](https://mastodon.social/@sugar_labs)
-- **Twitter/X** – [https://twitter.com/sugar_labs](https://twitter.com/sugar_labs)
-- **Facebook** – [https://www.facebook.com/SugarLabsforall/](https://www.facebook.com/SugarLabsforall/)
-- **LinkedIn** – [https://www.linkedin.com/company/sugar-labs](https://www.linkedin.com/company/sugar-labs)
-- **Medium** – [https://medium.com/@sugarlabs](https://medium.com/@sugarlabs)
-- **YouTube** – [https://www.youtube.com/@SugarlabsOrg-EN](https://www.youtube.com/@SugarlabsOrg-EN)
-
-## About Sugar Labs
-
-Sugar Labs® is a US-based 501(c)(3) nonprofit organization with a global mission to create educational opportunities in technology to youth around the world. Volunteer mentors and contributors work together to develop activity-focused software for children. All software is developed with learning as the primary goal, necessitating the need for source code to be published publicly for study, licensed under a Free/Libre license for explicit permission to share and remix, and openly worked upon within a community where students are invited to make contributions, under guidance of experienced mentors.
-
-Donations to support the work of Sugar Labs can be made at [https://wiki.sugarlabs.org/go/Sugar_Labs/Donate](https://wiki.sugarlabs.org/go/Sugar_Labs/Donate).

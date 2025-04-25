@@ -1,8 +1,11 @@
 ---
 title: "Board election results announcement: Three new members for the 2025-26 cycle"
+excerpt: "The election results for the Sugar Labs Board of Directors have been announced. Devin Ulibarri, Sumit Srivastava, and Sebastian Silva will serve on the board for the 2025-26 cycle."
 category: "COMMUNITY NEWS"
 date: "2024-11-08"
+slug: "board-election-results-2025-26"
 author: "Devin Ulibarri"
+description: "Executive Director"
 tags: "markdown,parser,test,education,post,aigenerated"
 ---
 <!-- markdownlint-disable -->

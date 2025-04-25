@@ -1,8 +1,12 @@
 ---
 title: "An OLPC update with Lylian Peraza"
+excerpt: "Sugar Labs hosts Lylian Peraza, Vice President of Project Development at OLPC, for a livestream discussion about the latest developments and projects from One Laptop Per Child."
 category: "EVENTS"
 date: "2024-05-24"
+slug: "olpc-update-lylian-peraza"
 author: "Sugar Labs"
+description: "Education Nonprofit"
+tags: "olpc,education,technology,livestream,interview,nonprofit,laptops,global-education"
 ---
 <!-- markdownlint-disable -->
 

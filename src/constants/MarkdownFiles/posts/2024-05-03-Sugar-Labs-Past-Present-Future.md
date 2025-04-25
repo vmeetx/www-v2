@@ -1,14 +1,17 @@
 ---
 title: "Sugar Labs: Past, present, and future"
+excerpt: "Join Sugar Labs for the kickoff of our new event series exploring our history, current projects, and vision for the future of educational technology for youth around the world."
 category: "EVENTS"
 date: "2024-05-03"
+slug: "sugar-labs-past-present-future"
 author: "Sugar Labs"
+description: "Education Nonprofit"
 tags: "events, education, open source, community, sugar labs"
 ---
 
 <!-- markdownlint-disable -->
 
-**Sugar Labs kicks off a series of events with a live online event titled _“Sugar Labs: Past, present, and future”_ on Friday, May 3, 2024 at 15:00 ET (19:00 UTC).** We invite you to join us as we reflect on our story, explore our vision, and share how you can contribute.
+**Sugar Labs kicks off a series of events with a live online event titled _"Sugar Labs: Past, present, and future"_ on Friday, May 3, 2024 at 15:00 ET (19:00 UTC).** We invite you to join us as we reflect on our story, explore our vision, and share how you can contribute.
 
 **Watch Live:** [YouTube Link](https://www.youtube.com/watch?v=jZs-QJNfglc)  
 - **Platform:** [Sugar Labs YouTube Channel](https://www.youtube.com/@SugarlabsOrg-EN/streams)

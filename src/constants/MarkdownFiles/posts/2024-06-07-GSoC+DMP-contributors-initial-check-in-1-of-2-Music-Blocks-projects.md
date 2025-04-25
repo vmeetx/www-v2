@@ -1,8 +1,12 @@
 ---
 title: "Learn: How to git involved with Sugar Labs this summer"
+excerpt: "Join Sugar Labs Executive Director Devin Ulibarri for a live session on how to get involved with Sugar Labs this summer while learning valuable programming skills and contributing to educational software."
 category: "EVENTS"
 date: "2024-05-31"
+slug: "how-to-git-involved-sugar-labs-summer"
 author: "Sugar Labs"
+description: "Education Nonprofit"
+tags: "volunteer,git,programming,education,summer-programs,open-source,mentorship,coding"
 ---
 <!-- markdownlint-disable -->
 

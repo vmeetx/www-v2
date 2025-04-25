@@ -1,9 +1,12 @@
 ---
 title: "Get and gift Sugar: Purchase new Sugar on a Stick USBs"
+excerpt: "Sugar Labs now offers pre-installed Sugar on a Stick USB drives for purchase, making it easier for educators and supporters to use and share our educational software."
 category: "COMMUNITY NEWS"
 date: "2025-01-21"
+slug: "get-and-gift-sugar-soas-usbs"
 author: "Devin Ulibarri"
-tags: "markdown,parser,test,education,post,aigenerated"
+description: "Executive Director"
+tags: "products,merchandise,SoaS,USB,education,fundraising,open-source"
 ---
 
 <!-- markdownlint-disable -->
@@ -16,16 +19,8 @@ One is that they wanted the **convenience—and added assurance—of purchasing 
 
 Well, we're excited to share the news that you are **now able to purchase a Sugar Labs-branded USB with Sugar on a Stick pre-installed!**
 
-<figure>
-  <img 
-    src="/assets/post-assets/sugarlabs_soas_usb-two.jpg?w=960&amp;fit=max" 
-    alt="Two USB drives on a laptop. The Sugar Labs logo is prominent, and the drives are shiny." 
-    draggable="false" 
-    width="100%">
-  <figcaption>
-    Samples of two USBs with Sugar on a Stick pre-installed. All profits from purchases will go to Sugar Labs to help develop current and future learning projects.
-  </figcaption>
-</figure>
+![Two USB drives on a laptop. The Sugar Labs logo is prominent, and the drives are shiny.](/assets/post-assets/sugarlabs_soas_usb-two.jpg?w=960&amp;fit=max)
+*Samples of two USBs with Sugar on a Stick pre-installed. All profits from purchases will go to Sugar Labs to help develop current and future learning projects.*
 
 
 We partnered up with USB Memory Direct for this particular offering. USB Memory Direct (UMD) has a history of supporting [free/libre/open source projects such as ours](https://www.sugarlabs.org/about-us/). They will also be handling inventory and shipping & handling, which means that we at Sugar Labs can keep focusing on what we do best: create learning software for education! Plus, UMD will give **all profits from sales to Sugar Labs**, which we will use to further our mission in Constructionist education.

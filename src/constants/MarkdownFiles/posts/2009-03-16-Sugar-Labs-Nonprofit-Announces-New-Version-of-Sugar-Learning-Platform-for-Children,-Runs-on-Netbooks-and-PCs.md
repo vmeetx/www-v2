@@ -7,7 +7,7 @@ author: "Sugar Labs"
 ---
 <!-- markdownlint-disable -->
 
-[PDF](/press/SugarLabsPR_en_20090316.pdf)
+[PDF](/assets/post-assets/press/SugarLabsPR_en_20090316.pdf)
 
 Cambridge, MA, March 16, 2009: Sugar Labs™ announces the availability of version 0.84 of the Sugar Learning Platform for the One Laptop Per Child XO-1, classroom PCs, and netbook computers. Designed from the ground up for children, the Sugar computer environment is used by almost one-million students aged 5 to 12 in over 40 countries every school day. This improved version features new collaborative Sugar Activities and, in response to teacher feedback, the ability to easily suspend and resume Activities, saving time in the classroom.
 

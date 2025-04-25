@@ -1,8 +1,12 @@
 ---
 title: "Musical Squares: From Turtle Blocks to Music Blocks and Beyond"
+excerpt: "Learn about Music Blocks, a visual programming language that combines music and coding, with a hands-on demonstration during this educational Sugar Labs livestream event."
 category: "EVENTS"
 date: "2024-05-10"
+slug: "musical-squares-turtle-blocks-music-blocks-beyond"
 author: "Sugar Labs"
+description: "Education Nonprofit"
+tags: "music,programming,education,turtle-blocks,visual-programming,livestream,coding,music-education"
 ---
 <!-- markdownlint-disable -->
 
@@ -20,13 +24,4 @@ author: "Sugar Labs"
 
 ## About Sugar Labs
 
-Sugar Labs® is a US-based 501(c)(3) nonprofit organization with a global mission to create educational opportunities in technology for youth around the world.
-
-Volunteer mentors and contributors work together to develop activity-focused software for children. All software is developed with learning as the primary goal, necessitating:
-
-- Public access to source code for study  
-- Free/Libre licensing for sharing and remixing  
-- Open collaboration within a welcoming community  
-- Contributions from students under experienced guidance
-
-Support our work: [Donate here](https://www.sugarlabs.org/donate/)
+Sugar Labs® is a US-based 501(c)(3) nonprofit organization with a global mission to create educational opportunities

@@ -1,19 +1,22 @@
 ---
 title: "Sugar Labs(R) Educational Nonprofit Celebrates Digital Learning Day With Two Google Code-In Grand Prize Winners"
+excerpt: "Sugar Labs announces two students, Agustin Zubiaga Sanchez and Aneesh Dogra, as Google Code-In grand prize winners who made significant contributions to the Sugar Learning Platform."
 category: "PRESS RELEASE"
 date: "2013-02-05"
+slug: "sugar-labs-celebrates-digital-learning-day-code-in-winners"
 author: "Sugar Labs"
+description: "Education Nonprofit"
+tags: "google-code-in,digital-learning-day,education,programming,students,open-source,python"
 ---
-
 <!-- markdownlint-disable -->
 
-[PDF](/press/SugarLabsPR-en.20130205.pdf)
+[PDF](/assets/post-assets/press/SugarLabsPR-en.20130205.pdf)
 
 CAMBRIDGE, Mass, February 5, 2013 — Sugar Labs(R), educational nonprofit provider of free and open-source learning software for children, is proud to celebrate **[Digital Learning Day](http://www.digitallearningday.org)** on February 6th with **[Google Code-In](http://developers.google.com/open-source/gci/2012)** grand prize winners Agustin Zubiaga Sanchez and Aneesh Dogra, who participated brilliantly in Google's annual program for middle and high school students aged 13 to 17. Over 50 participants from 14 countries, mentored by 22 Sugar Labs volunteers, helped to improve Sugar. The winners will visit Google headquarters in Mountain View, CA this spring. Google Code-In and its sister program for university students, Google Summer of Code, invite open source organizations to mentor students who work on real programming and documentation tasks.
 
 Agustin (Aguz to his friends) is 15, lives in a village in Uruguay and is a recent graduate of Rafael Perazza Technical High School at Universidad del Trabajo del Uruguay. After using Sugar for several years, his computer club teacher encouraged him to learn the Python programming language used in Sugar. One of his projects involved code to add background images to Sugar's Home View. He says, "I started programming thanks to Sugar and now I am very happy to be one of its developers."
 
-Aneesh, also a winner at last year's Google Code-In, is 17 and lives in Punjab, India. He worked on updating a large number of Sugar “Apps” for children and contributed to the "**[Make Your Own Sugar Activities!](http://www.flossmanuals.net/make-your-own-sugar-activities)**" ebook. Having won previous honors, including runner-up in last year's **[Raspberry Pi Summer Coding Contest](http://www.raspberrypi.org/archives/2544)**, he is interested in audiovisual applications and computer security. More information about Aneesh is available on his **[blog](http://anee.me)**.
+Aneesh, also a winner at last year's Google Code-In, is 17 and lives in Punjab, India. He worked on updating a large number of Sugar "Apps" for children and contributed to the "**[Make Your Own Sugar Activities!](http://www.flossmanuals.net/make-your-own-sugar-activities)**" ebook. Having won previous honors, including runner-up in last year's **[Raspberry Pi Summer Coding Contest](http://www.raspberrypi.org/archives/2544)**, he is interested in audiovisual applications and computer security. More information about Aneesh is available on his **[blog](http://anee.me)**.
 
 "We had a hard time choosing our winners," commented Chris Leonard, Sugar Labs liaison for Google Code-In. "Fully a third of our participants completed multiple tasks. Aneesh was prolific, completing over 40 tasks, and Aguz made fundamental improvements to the Sugar platform itself. All of our participants learned over these past three months. Notably, one participant, Daniel Francis of Uruguay, had to take his name out the running because he was elected to the Sugar Labs Oversight Board during the contest at the ripe old age of 14."
 
@@ -24,7 +27,7 @@ Sugar is used in developing countries worldwide through the **[One Laptop Per Ch
 Sugar Labs wishes to thank Google and in particular Bradley Kuhn, executive director of the Software Freedom Conservancy, parent organization of Sugar Labs and 27 other free/libre software projects.
 
 **Image:**  
-[SugarLabs_GCI_2012_Winners.jpg](/press/SugarLabs_GCI_2012_Winners.jpg)
+![SugarLabs_GCI_2012_Winners.jpg](/assets/post-assets/press/SugarLabs_GCI_2012_Winners.jpg)
 
 ---
 

@@ -1,8 +1,12 @@
 ---
 title: "Sugar Labs receives eleven contributor projects for GSoC 2024"
+excerpt: "Sugar Labs announces acceptance of eleven programming projects for Google Summer of Code 2024, including work on Music Blocks, Sugarizer, AI tools, and more."
 category: "PRESS RELEASE"
 date: "2024-05-01"
+slug: "sugar-labs-gsoc-2024-projects"
 author: "Sugar Labs"
+description: "Education Nonprofit"
+tags: "gsoc,google-summer-of-code,programming,education,ai,music-blocks,sugarizer,open-source,mentorship"
 ---
 
 <!-- markdownlint-disable -->

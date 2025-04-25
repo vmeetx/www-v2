@@ -1,9 +1,12 @@
 ---
 title: "Deadline extended to November 24 to apply for a ballot and apply for candidacy"
+excerpt: "Sugar Labs has extended the deadline for board of directors election participation to November 24, including both ballot applications and candidacy submissions for the upcoming election cycle."
 category: "COMMUNITY NEWS"
 date: "2024-11-22"
+slug: "elections-extension-november-2024"
 author: "Devin Ulibarri"
-tags: "markdown,parser,test,education,post,aigenerated"
+description: "Executive Director"
+tags: "elections,governance,board,voting,deadline,community,membership"
 ---
 <!-- markdownlint-disable -->
 
@@ -15,17 +18,17 @@ The deadline to apply for a ballot and apply for candidacy is fast approaching. 
 
 Since we made [our initial announcement](https://www.sugarlabs.org/community/2024/11/08/fall-board-elections-how-to-participate/), one of the most frequently asked questions has been *what determines eligibility for participating in the election?* Participation in the election is open to any member of Sugar Labs, and the eligibility requirements for membership are published on [Sugar Labs Members page](https://wiki.sugarlabs.org/go/Sugar_Labs/Members). 
 
-The main gist, however, is that you’ve made a contribution to Sugar Labs. According to our definition, such a contribution “may be code, documentation, translations, maintenance of project-wide resources, *running a Sugar deployment*, or other non-trivial activities which benefit Sugar Labs.”
+The main gist, however, is that you've made a contribution to Sugar Labs. According to our definition, such a contribution "may be code, documentation, translations, maintenance of project-wide resources, *running a Sugar deployment*, or other non-trivial activities which benefit Sugar Labs."
 
-If you’ve made such a contribution to Sugar Labs, you are eligible as a member, and, as a member, you may vote. ***Also, if you’re not a member or unsure about your status, we still encourage you to submit an application for a ballot.*** We will automatically begin to determine your membership eligibility based on your publicly visible contributions, so no other steps are necessary on your part.
+If you've made such a contribution to Sugar Labs, you are eligible as a member, and, as a member, you may vote. ***Also, if you're not a member or unsure about your status, we still encourage you to submit an application for a ballot.*** We will automatically begin to determine your membership eligibility based on your publicly visible contributions, so no other steps are necessary on your part.
 
 ### Current members must vote in this election in order to maintain their membership status
 
 Our most recent membership list may be found [here](https://wiki.sugarlabs.org/go/Sugar_Labs/Members/List). If you are currently a member but you do not apply for a ballot to vote in this election, then we will consider your membership to be rescinded and your membership will be made inactive. Because [our bylaws require a majority vote from members to pass certain amendments](https://wiki.sugarlabs.org/go/Sugar_Labs/Governance#ARTICLE_XI), we need to ensure that our current membership list is up-to-date with active members.
 
-If you’ve made a contribution to Sugar Labs in the past, ***we strongly encourage you to vote in this election to maintain your membership status.*** We thank you for your contribution, and we encourage you to continue to participate in Sugar Labs, which is now investing in its growth and expansion like never before.
+If you've made a contribution to Sugar Labs in the past, ***we strongly encourage you to vote in this election to maintain your membership status.*** We thank you for your contribution, and we encourage you to continue to participate in Sugar Labs, which is now investing in its growth and expansion like never before.
 
-If it’s been a while since you’ve made a contribution, we encourage you to join us on our main [Matrix channel](https://matrix.to/#/#sugar:matrix.org) and follow us on [GitHub](https://github.com/sugarlabs/). These two channels are currently the most active for coordinating contributions.
+If it's been a while since you've made a contribution, we encourage you to join us on our main [Matrix channel](https://matrix.to/#/#sugar:matrix.org) and follow us on [GitHub](https://github.com/sugarlabs/). These two channels are currently the most active for coordinating contributions.
 
 ### Receive your ballot
 

@@ -7,7 +7,7 @@ author: "Sugar Labs"
 ---
 <!-- markdownlint-disable -->
 
-[PDF](/press/SugarLabsPR_es_20090316.pdf)
+[PDF](/assets/post-assets/press/SugarLabsPR_es_20090316.pdf)
 
 Cambridge, MA, March 16, 2009: Sugar Labs™ anuncia que la versión 0.84 de la Plataforma de Aprendizaje de Sugar para la XO-1 de OLPC, las PCs de aula y los notebooks ya se encuentra disponible. Diseñada desde un principio para los niños, el entorno Sugar es usado aproximadamente por un millón de estudiantes, cuyas edades fluctúan entre los 5 y 12 años, en aproximadamente 40 países durante todos los días del calendario escolar. Esta versión mejorada se caracteriza por poseer nuevas Actividades colaborativas. Asimismo, y en respuesta a la retroalimentación brindada por los docentes, posee la capacidad para detener y reanudar las Actividades con facilidad, lo cual permite ahorrar tiempo en el aula.
 

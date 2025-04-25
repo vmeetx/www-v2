@@ -7,7 +7,7 @@ author: "Sugar Labs"
 ---
 <!-- markdownlint-disable -->
 
-[PDF](/press/SugarLabsPR_de_20090316.pdf)
+[PDF](/assets/post-assets/press/SugarLabsPR_de_20090316.pdf)
 
 Cambridge, MA, 16. März, 2009: Sugar Labs™ hat die Version 0.84 der Lernplattform Sugar freigegeben. Die Software ist auf dem XO-1 von One Laptop Per Child, PCs und Netbooks einsetzbar. Die speziell für Kinder entwickelte Plattform wird von fast einer Million Schülern im Alter von 5 bis 12 Jahren in über 40 Ländern täglich im Schulunterricht eingesetzt.
 

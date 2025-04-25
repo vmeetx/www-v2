@@ -1,13 +1,16 @@
 ---
 title: "Une foule d'enfants programmeurs participe à la 1ère Journée Internationale TurtleArt"
+excerpt: "Sugar Labs célèbre la première Journée TurtleArt à Caacupé, Paraguay, avec 275 élèves, 77 professeurs et des participants internationaux explorant la programmation créative à travers l'environnement TurtleArt."
 category: "PRESS RELEASE"
 date: "2013-10-12"
+slug: "premiere-journee-internationale-turtleart"
 author: "Sugar Labs"
+description: "Education Nonprofit"
+tags: "turtleart,programming,education,art,logo,children,paraguay,international-day"
 ---
-
 <!-- markdownlint-disable -->
 
-[PDF](/press/SugarLabsPR-fr.20131015.pdf)
+[PDF](/assets/post-assets/press/SugarLabsPR-fr.20131015.pdf)
 
 CAACUPÉ, Paraguay, le 12 Octobre 2013. Sugar Labs(R), fournisseur à but non lucratif de programmes éducatifs gratuits et sous licence libre, célèbre avec une grande fierté la journée TurtleArt à Caacupé, au Paraguay. 275 élèves y participent avec leurs parents ainsi que 77 professeurs. Des éducateurs et des développeurs Sugar se sont joints à eux, venant de 8 pays des Amériques mais aussi d'aussi loin que l'Australie. De nouvelles journées TurtleArt sont prévues au Pérou, au Costa Rica, en Argentine et en Malaysie; la prochaine aura lieu le 15 octobre à Montevideo, Uruguay.
 
@@ -33,8 +36,8 @@ Andres Aguirre du projet Butia, un robot programmé avec TurtleArt, déclare: "B
 - **Lien:** [Paraguay Educa](http://www.paraguayeduca.org)  
 - **Lien:** [CeibalJam!](http://ceibaljam.org)
 
-Image: ![Capture d'écran TurtleArt Caacupé](/press/caacupe-turtleartday-captura-pantalla.png)  
-Image: ![Journée TurtleArt Caacupé](/press/caacupe-turtleartday.png)
+Image: ![Capture d'écran TurtleArt Caacupé](/assets/post-assets/press/caacupe-turtleartday-captura-pantalla.png)  
+Image: ![Journée TurtleArt Caacupé](/assets/post-assets/press/caacupe-turtleartday.png)
 
 ---
 

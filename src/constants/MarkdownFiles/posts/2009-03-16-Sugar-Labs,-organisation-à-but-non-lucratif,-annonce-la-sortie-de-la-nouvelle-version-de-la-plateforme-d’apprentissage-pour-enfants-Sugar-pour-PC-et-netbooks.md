@@ -8,7 +8,7 @@ author: "Sugar Labs"
 <!-- markdownlint-disable -->
 
 
-[PDF](/press/SugarLabsPR_fr_20090316.pdf)
+[PDF](/assets/post-assets/press/SugarLabsPR_fr_20090316.pdf)
 
 Cambridge, MA, le 16 mars 2009: Sugar Labs™ annonce la sortie de la version 0.84 de sa plateforme d’apprentissage Sugar destinée au XO-1 du projet One Laptop Per Child, aux micro-ordinateurs des établissements scolaires, et aux ordinateurs netbook. Conçu pour enfants de A à Z, l’environnement Sugar est utilisé par près d’un million d’élèves de 5 à 12 ans dans plus de 40 pays, tous les jours. Cette nouvelle version contient de nouvelles Activités Sugar à faire à plusieurs en travail collaboratif et, à la demande des professeurs, prévoit la possibilité d’interrompre et de reprendre facilement les Activités, pour gagner du temps en classe.
 

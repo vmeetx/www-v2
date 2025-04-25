@@ -1,10 +1,13 @@
---- 
+---
 title: "Sugar Labs announces nonprofit status, new executive director"
+excerpt: "Sugar Labs officially announces its 501(c)(3) nonprofit status and the appointment of long-time contributor Devin Ulibarri as its first full-time executive director."
 category: "PRESS RELEASE"
 date: "2024-05-08"
+slug: "sugar-labs-announces-nonprofit-status-new-executive-director"
 author: "Sugar Labs"
+description: "Education Nonprofit"
+tags: "nonprofit,501c3,leadership,executive-director,free-software,education,announcement,organization"
 ---
-
 <!-- markdownlint-disable -->
 
 **CAMBRIDGE, MA, USA -- May 8, 2024 -- Sugar Labs today announced its 501(c)(3) nonprofit status as well as its pick for executive director, long-time contributor Devin Ulibarri.**
@@ -35,5 +38,3 @@ The officers of Sugar Labs Inc. are currently: Devin Ulibarri, executive directo
 
 **More Info:**  
 - [Sugar Labs Oversight Board](https://wiki.sugarlabs.org/go/Oversight_Board)
-
-<!-- {% include about_sugar_labs.html %} -->

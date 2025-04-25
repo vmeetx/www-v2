@@ -7,7 +7,7 @@ author: "Sugar Labs"
 ---
 <!-- markdownlint-disable -->
 
-[PDF](/press/SugarLabsPR_en_20090422.pdf)
+[PDF](/assets/post-assets/press/SugarLabsPR_en_20090422.pdf)
 
 Cambridge, MA, April 22, 2009: Sugar Labs™ announces the availability for testing of Sugar on a Stick Beta‑1. This version of the free open-source Sugar Learning Platform, available at [www.sugarlabs.org](http://www.sugarlabs.org) for loading on any 1 Gb or greater USB stick, is designed to facilitate exploration of the award-winning Sugar interface beyond its original platform, the One Laptop per Child XO‑1, to such varied hardware as aging PCs and recent Macs to the latest netbooks.
 

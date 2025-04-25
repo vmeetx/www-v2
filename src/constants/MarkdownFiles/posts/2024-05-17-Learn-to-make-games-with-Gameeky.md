@@ -1,8 +1,12 @@
 ---
 title: "Learn to make games with Gameeky!"
+excerpt: "Join developer Martin Abente Lahaye for a hands-on tutorial on creating games with Gameeky, a platform that empowers young learners and educators to build cooperative games and learning experiences."
 category: "EVENTS"
 date: "2024-05-17"
+slug: "learn-make-games-with-gameeky"
 author: "Sugar Labs"
+description: "Education Nonprofit"
+tags: "game-development,education,tutorial,livestream,programming,youth,coding,gameeky"
 ---
 <!-- markdownlint-disable -->
 

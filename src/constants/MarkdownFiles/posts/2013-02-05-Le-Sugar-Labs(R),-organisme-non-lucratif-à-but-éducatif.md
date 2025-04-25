@@ -1,13 +1,16 @@
 ---
 title: "Le Sugar Labs(R), organisme non lucratif à but éducatif, célèbre le 'Digital Learning Day' avec deux lauréats au grand prix du 'Google Code-In'"
+excerpt: "Sugar Labs annonce deux étudiants, Agustin Zubiaga Sanchez et Aneesh Dogra, comme lauréats du grand prix Google Code-In qui ont apporté des contributions significatives à la plateforme d'apprentissage Sugar."
 category: "PRESS RELEASE"
 date: "2013-02-05"
+slug: "sugar-labs-celebre-digital-learning-day-lauréats-google-code-in"
 author: "Sugar Labs"
+description: "Education Nonprofit"
+tags: "google-code-in,digital-learning-day,education,programming,students,open-source,python"
 ---
-
 <!-- markdownlint-disable -->
 
-[PDF](/press/SugarLabsPR-fr.20130205.pdf)
+[PDF](/assets/post-assets/press/SugarLabsPR-fr.20130205.pdf)
 
 Cambridge (Massachusetts), 5 février 2013 — Le Sugar Labs(R), l'éditeur éducatif à but non lucratif de logiciels libres et ouverts à destination des enfants, a le plaisir de célébrer la Journée d'Apprentissage Numérique (Digital Learning Day) du 6 février.  
 **Lien :** [Digital Learning Day](http://www.digitallearningday.org)
@@ -39,7 +42,7 @@ Gerald Ardito, membre du bureau du Sugar Labs, enseignant de collège et profess
 Le Sugar Labs tient à exprimer sa gratitude à Google et tout particulièrement à Bradley Kuhn, le directeur exécutif du Software Freedom Conservancy, organisme fédérant le Sugar Labs et 27 autres projets de logiciels libres et ouverts.
 
 **Image :**  
-![SugarLabs GCI 2012 Winners](/press/SugarLabs_GCI_2012_Winners.jpg)
+![SugarLabs GCI 2012 Winners](/assets/post-assets/press/SugarLabs_GCI_2012_Winners.jpg)
 
 ---
 
