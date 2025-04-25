@@ -1,30 +1,45 @@
 ---
-title: "Markdown Test: This page is a test for markdown formats"
-excerpt: "Please Read Through this to get an Understanding of the Markdown converter"
-category: ""
-date: "2025-03-1"
-slug: "GitHub-Test-1"
-author: "GitHub Copilot"
-description: "GitHub Copilot is an AI that completes task"
-tags: "markdown,parser,test,education,post,aigenerated"
-image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600"
+title: "Comprehensive Markdown Syntax Guide"
+excerpt: "A complete reference template showcasing all common markdown features and formatting options"
+category: "TEMPLATE"
+date: "2025-04-25"
+slug: "markdown-guide"
+author: "Safwan Sayeed"
+description: "Member and Contributor at SugarLabs"
+tags: "markdown,reference,guide,syntax,documentation,template"
+image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=2070"
 ---
 <!-- markdownlint-disable -->
-# The Ultimate Markdown Test Document (NOTE: THIS IS AI GENERATED)
 
-## Basic Formatting
+# Comprehensive Markdown Syntax Guide
 
-This text is **bold** and this is *italic*. You can also have ~~strikethrough text~~ and ==highlighted text== for emphasis.
+This document serves as a complete reference for markdown syntax, demonstrating various formatting elements and features supported by most markdown parsers.
 
-You can add super^script^ and sub~script~ text when needed.
 
-## Links and Code
+## Headings
 
-Visit [our website](https://example.com) for more information.
+# Heading Level 1
+## Heading Level 2
+### Heading Level 3
+#### Heading Level 4
+
+## Text Formatting
+
+**Bold text** or __also bold text__
+
+*Italic text* or _also italic text_
+
+***Bold and italic text*** or ___also bold and italic___
+
+~~Strikethrough text~~
+
+==Highlighted text==
+
+Super^script^
 
 Here's some `inline code` within a paragraph for demonstration.
 
-### Code Block Example
+## Code Block Example
 
 Below is an example of a JavaScript function:
 
@@ -40,67 +55,123 @@ function greet(name) {
 console.log(greet("Markdown"));
 ```
 
+## Links
+
+### Basic Links
+[Basic link to example.com](https://example.com)
+
+[Link with title](https://example.com "Example Website")
+
+### Auto-links
+<https://example.com>
+
+<email@example.com>
+
 ## Lists
 
 ### Unordered Lists
+- Item 1
+- Item 2
+  - Nested Item 2.1
+  - Nested Item 2.2
+- Item 3
 
-- First item
-- Second item
-- Third item
+Alternative syntax:
+* Item 1
+* Item 2
+  * Nested item
+* Item 3
 
 ### Ordered Lists
-
-1. First ordered item
-2. Second ordered item
-3. Third ordered item
+1. First item
+2. Second item
+   1. Nested item 2.1
+   2. Nested item 2.2
+3. Third item
 
 ### Task Lists
-
-- [ ] Uncompleted task
 - [x] Completed task
-- [ ] Another pending task
+- [ ] Incomplete task
+- [ ] Another task
+
+### Definition Lists
+First Term
+: Definition of the first term
+
+Second Term
+: Definition of the second term
+: Another definition of the second term
+
+## Images
+
+### Basic Image
+![Alt text for image](https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600 "Optional title")
+
+### Linked Image
+[![Alt text for linked image](https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=300 "Click me!")](https://example.com)
 
 ## Tables
 
-| Feature        | Supported | Notes                               |
-|----------------|-----------|-------------------------------------|
-| Headers        | ✅        | With anchor links                   |
-| Bold/Italic    | ✅        | Basic formatting                    |
-| Code Blocks    | ✅        | With language support               |
-| Tables         | ✅        | Responsive design                   |
-| Lists          | ✅        | Unordered, ordered, task lists      |
+| Header 1 | Header 2 | Header 3 |
+|----------|:--------:|---------:|
+| Default  | Centered | Right    |
+| aligned  | aligned  | aligned  |
+| text     | text     | text     |
 
-## Blockquotes with Proper Nesting
+| Command | Description |
+| --- | --- |
+| `git status` | List all new or modified files |
+| `git diff` | Show file differences not yet staged |
 
-> This is a simple blockquote.
+## Blockquotes
 
-> This is a multi-line blockquote that continues on the next line.
-> This is a multi-line blockquote that continues on the next line.
+> This is a simple blockquote
 
-## Images with Captions
+> This is a blockquote with multiple paragraphs
+>
+> Second paragraph in the blockquote
 
-![A beautiful landscape](https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600 "Beautiful mountain landscape")
+> #### Blockquote with other elements
+>
+> - Lists inside blockquote
+> - Another item
+>
+> **Bold text** inside blockquote
 
 ## Horizontal Rules
 
-Above this text is regular content.
+Three or more hyphens:
 
-----
+---
 
-Below is separated by a horizontal rule.
+Asterisks:
 
-## Special Features
+***
+
+Underscores:
+
+___
+
+## Extended Features
+
+### Footnotes
+
+Here's a sentence with a footnote[^1].
+
+[^1]: This is the footnote content.
 
 ### Collapsible Sections
 
-:::details Click to see hidden content
-This content is hidden by default until the user clicks the summary.
+<details>
+<summary>Click to expand/collapse</summary>
 
-Here you can write additional **markdown content**, include lists, or even code.
-Enjoy the hidden content!
-:::
+This content is hidden by default.
+- You can include **formatted text**
+- And other elements
 
-### YouTube Embed
+</details>
+
+### YouTube Video Embed
 
 [youtube: MM-H69cHYMk]
 
@@ -117,27 +188,7 @@ Enjoy the hidden content!
 :check: This is correct!  
 :x: This is wrong.
 
-## Combined Examples
-
-> This blockquote contains **bold text** and a [link](https://example.com) to example.com.
-
-- List item with **bold** and *italic* text.
-- Item with a [link](https://example.com) and `inline code`.
-- Item with ==highlighted text== that stands out.
-
-## Advanced Typography Test
-
-Water is H~2~O and an ordinal number like 5^th^ is very common.
-
-This paragraph includes ~~strikethrough text~~ and ==highlighted text== to denote important information.
-
-## Paragraphs with Line Breaks
-
-This is a paragraph with  
-line breaks that are preserved as spaces within the paragraph.
-
-This is another paragraph  
-after a blank line.
+---
 
 ### Final Thoughts
 
