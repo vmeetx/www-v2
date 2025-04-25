@@ -1,7 +1,8 @@
 export const bootableSoasData = {
   title: 'Boot SOAS',
   subtitle: 'Sugar On A Stick',
-  quote: '“Love is a better master than duty.” — Albert Einstein',
+  quote:
+    '“Through Sugar, we strive to provide every child with the opportunity to learn learning within a context that will allow them both to engage in an on-going critical dialog with others and to develop independent means towards their personal goals.” — Walter Bender',
   description:
     'Learn how to boot Sugar Labs OS on your computer. Follow our step-by-step guide to get started easily.',
   images: [{ src: 'assets/TryNowImages/step7.png', alt: 'Boot SOAS step 7' }],
