@@ -19,7 +19,7 @@ const InaugurationReveal: React.FC<InaugurationRevealProps> = ({
   mainColor = '#8a1538',
   accentColor = '#ffcc00',
   messageTitle = 'Welcome to our New Website!',
-  messageSubtitle = 'We are excited launch our new Website',
+  messageSubtitle = 'We are excited to launch our new Website',
   backgroundImage,
   buttonText,
   onButtonClick,
