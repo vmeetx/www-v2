@@ -1,4 +1,6 @@
 import React, { useState, useEffect, useCallback, useMemo } from 'react';
+import Header from '@/sections/Header';
+import Footer from '@/sections/Footer';
 import axios from 'axios';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
@@ -297,118 +299,125 @@ const Contributors: React.FC = () => {
   }, [selectedRepo, loading, error, contributors]);
 
   return (
-    <div className="min-h-screen flex flex-col font-sans bg-[#FFFEF9]">
-      {/* Hero Section */}
-      <motion.section
-        initial="hidden"
-        animate="visible"
-        variants={fadeIn}
-        className="relative py-16 sm:py-20 overflow-hidden bg-gradient-to-b from-black via-gray-800 to-gray-600"
-      >
-        <div className="absolute inset-0 z-0 overflow-hidden">
-          <div className="absolute inset-0 opacity-10"></div>
-          <div
-            className="absolute inset-0"
-            style={{
-              backgroundImage:
-                'radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px)',
-              backgroundSize: '20px 20px',
-            }}
-          ></div>
-        </div>
-        <div className="container mx-auto px-4 md:px-6">
-          <div className="flex flex-col items-center text-center z-10 relative">
-            <motion.h1
-              className="font-black text-4xl sm:text-5xl md:text-6xl mb-4 sm:mb-6 text-white"
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8 }}
-            >
-              Sugar Labs <span className="text-[#D4B062]">Developers</span>
-            </motion.h1>
-            <motion.div
-              className="w-16 sm:w-24 h-1 bg-[#D4B062] mb-4 sm:mb-6 rounded-full"
-              initial={{ width: 0 }}
-              animate={{ width: 96 }}
-              transition={{ duration: 0.8, delay: 0.3 }}
-            ></motion.div>
-            <motion.p
-              className="text-base sm:text-lg md:text-xl mb-8 sm:mb-10 text-gray-300 max-w-2xl leading-relaxed px-4"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.8, delay: 0.5 }}
-            >
-              Explore Sugar Labs repositories and their contributors. Browse our
-              open source projects and discover the developers behind them.
-            </motion.p>
-          </div>
-        </div>
-      </motion.section>
-
-      <div className="container mx-auto px-4 py-12">
-        {/* Search input */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.3 }}
-          className="max-w-md mx-auto mb-8 relative"
+    <>
+      <Header />
+      <div className="min-h-screen flex flex-col font-sans bg-[#FFFEF9]">
+        {/* Hero Section */}
+        <motion.section
+          initial="hidden"
+          animate="visible"
+          variants={fadeIn}
+          className="relative py-16 sm:py-20 overflow-hidden bg-gradient-to-b from-black via-gray-800 to-gray-600"
         >
-          <div className="relative">
-            <input
-              type="text"
-              placeholder="Search repositories..."
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full px-4 py-3 pl-12 border border-gray-200 rounded-full focus:outline-none focus:ring-2 focus:ring-[#D4B062] shadow-sm bg-white text-gray-700"
-            />
-            <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
+          <div className="absolute inset-0 z-0 overflow-hidden">
+            <div className="absolute inset-0 opacity-10"></div>
+            <div
+              className="absolute inset-0"
+              style={{
+                backgroundImage:
+                  'radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px)',
+                backgroundSize: '20px 20px',
+              }}
+            ></div>
           </div>
-          <p className="text-sm text-gray-500 mt-2 text-center">
-            Showing {filteredRepos.length} repositories.
-          </p>
-        </motion.div>
-
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
-          {/* Repositories List */}
-          <motion.div
-            initial="hidden"
-            animate="visible"
-            variants={staggerContainer}
-            className="lg:col-span-5 bg-white rounded-xl shadow-md p-6 overflow-hidden border border-gray-100"
-          >
-            <div className="flex items-center gap-3 mb-6">
-              <div className="bg-[#D4B062] p-3 rounded-full text-white">
-                <Code className="h-5 w-5" />
-              </div>
-              <h2 className="text-2xl font-bold text-gray-800">Repositories</h2>
+          <div className="container mx-auto px-4 md:px-6">
+            <div className="flex flex-col items-center text-center z-10 relative">
+              <motion.h1
+                className="font-black text-4xl sm:text-5xl md:text-6xl mb-4 sm:mb-6 text-white"
+                initial={{ opacity: 0, y: -20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8 }}
+              >
+                Sugar Labs <span className="text-[#D4B062]">Developers</span>
+              </motion.h1>
+              <motion.div
+                className="w-16 sm:w-24 h-1 bg-[#D4B062] mb-4 sm:mb-6 rounded-full"
+                initial={{ width: 0 }}
+                animate={{ width: 96 }}
+                transition={{ duration: 0.8, delay: 0.3 }}
+              ></motion.div>
+              <motion.p
+                className="text-base sm:text-lg md:text-xl mb-8 sm:mb-10 text-gray-300 max-w-2xl leading-relaxed px-4"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.8, delay: 0.5 }}
+              >
+                Explore Sugar Labs repositories and their contributors. Browse
+                our open source projects and discover the developers behind
+                them.
+              </motion.p>
             </div>
+          </div>
+        </motion.section>
 
-            {repositoryList}
+        <div className="container mx-auto px-4 py-12">
+          {/* Search input */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.3 }}
+            className="max-w-md mx-auto mb-8 relative"
+          >
+            <div className="relative">
+              <input
+                type="text"
+                placeholder="Search repositories..."
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                className="w-full px-4 py-3 pl-12 border border-gray-200 rounded-full focus:outline-none focus:ring-2 focus:ring-[#D4B062] shadow-sm bg-white text-gray-700"
+              />
+              <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
+            </div>
+            <p className="text-sm text-gray-500 mt-2 text-center">
+              Showing {filteredRepos.length} repositories.
+            </p>
           </motion.div>
 
-          {/* Contributors List */}
-          <motion.div
-            initial="hidden"
-            animate="visible"
-            variants={staggerContainer}
-            className="lg:col-span-7 bg-white rounded-xl shadow-md p-6 overflow-hidden border border-gray-100"
-          >
-            <div className="flex items-center gap-3 mb-6">
-              <div className="bg-[#D4B062] p-3 rounded-full text-white">
-                <Users className="h-5 w-5" />
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
+            {/* Repositories List */}
+            <motion.div
+              initial="hidden"
+              animate="visible"
+              variants={staggerContainer}
+              className="lg:col-span-5 bg-white rounded-xl shadow-md p-6 overflow-hidden border border-gray-100"
+            >
+              <div className="flex items-center gap-3 mb-6">
+                <div className="bg-[#D4B062] p-3 rounded-full text-white">
+                  <Code className="h-5 w-5" />
+                </div>
+                <h2 className="text-2xl font-bold text-gray-800">
+                  Repositories
+                </h2>
               </div>
-              <h2 className="text-2xl font-bold text-gray-800">
-                {selectedRepo
-                  ? `Contributors for ${selectedRepo}`
-                  : 'Select a repository'}
-              </h2>
-            </div>
 
-            {contributorsList}
-          </motion.div>
+              {repositoryList}
+            </motion.div>
+
+            {/* Contributors List */}
+            <motion.div
+              initial="hidden"
+              animate="visible"
+              variants={staggerContainer}
+              className="lg:col-span-7 bg-white rounded-xl shadow-md p-6 overflow-hidden border border-gray-100"
+            >
+              <div className="flex items-center gap-3 mb-6">
+                <div className="bg-[#D4B062] p-3 rounded-full text-white">
+                  <Users className="h-5 w-5" />
+                </div>
+                <h2 className="text-2xl font-bold text-gray-800">
+                  {selectedRepo
+                    ? `Contributors for ${selectedRepo}`
+                    : 'Select a repository'}
+                </h2>
+              </div>
+
+              {contributorsList}
+            </motion.div>
+          </div>
         </div>
       </div>
-    </div>
+      <Footer />
+    </>
   );
 };
 
