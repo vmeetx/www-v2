@@ -1494,11 +1494,11 @@ tags: "volunteer,git,programming,education,summer-programs,open-source,mentorshi
 
 ## Event information
 
-Title: GSoC+DMP contributors initial check-in 1 of 2: Music Blocks projects
-Date: June 7, 2024
-Time: 13:00 ET (17:00 UTC)
-Link: <https://www.youtube.com/watch?v=PeIS3gXPFj0>
-Platform: [Sugar Labs YouTube Channel](https://www.youtube.com/@SugarlabsOrg-EN/streams)
+- **Title:** GSoC+DMP contributors initial check-in 1 of 2: Music Blocks projects
+- **Date:** June 7, 2024
+- **Time:** 13:00 ET (17:00 UTC)
+- **Watch Live:** [YouTube Link](https://www.youtube.com/watch?v=PeIS3gXPFj0)
+- **Platform:**  [Sugar Labs YouTube Channel](https://www.youtube.com/@SugarlabsOrg-EN/streams)
 ---
 
 ## About Sugar Labs
