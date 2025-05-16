@@ -1,8 +1,8 @@
 ---
 title: "Live Session: Role of generative AI in education"
-excerpt: "Join us with guest speaker Ken Kahn for a live session on the role of generative AI in education"
+excerpt: "Join us with guest speaker Ken Kahn, PhD for a live session on the role of generative AI in education"
 category: "EVENTS"
-date: "2025-05-18"
+date: "2025-05-16"
 slug: "role-of-generative-ai-education"
 author: "Sugar Labs"
 description: "Education Nonprofit"
@@ -10,13 +10,13 @@ tags: "gen-ai,education,live-session,guest-talk"
 ---
 <!-- markdownlint-disable -->
 
-**Join us live with researcher and author Ken Kahn for a live session on the role of generative AI in education. Watch live on Sunday, May 18, 2025 at 13:00 ET (17:00 UTC).**
+**Join us live with researcher and author Ken Kahn, PhD for a live session on the role of generative AI in education. Watch live on Friday, May 18, 2025 at 13:00 EDT (17:00 UTC).**
 
 ## Event information
 
 - **Title:** Live Session: Role of generative AI in education
-- **Date:** May 18, 2025
-- **Time:** 13:00 ET (17:00 UTC)  
+- **Date:** May 16, 2025
+- **Time:** 13:00 EDT (17:00 UTC)  
 - **Watch Live:** [YouTube Link](https://www.youtube.com/watch?v=nn1jeQgKTOA)  
 - **Platform:** [Sugar Labs YouTube Channel](https://www.youtube.com/@SugarlabsOrg-EN/streams)
 
