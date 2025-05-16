@@ -2679,7 +2679,7 @@ tags: "gen-ai,education,live-session,guest-talk"
 ---
 <!-- markdownlint-disable -->
 
-**Join us live with researcher and author Ken Kahn, PhD for a live session on the role of generative AI in education. Watch live on Friday, May 18, 2025 at 13:00 EDT (17:00 UTC).**
+**Join us live with researcher and author Ken Kahn, PhD for a live session on the role of generative AI in education. Watch live on Friday, May 16, 2025 at 13:00 EDT (17:00 UTC).**
 
 ## Event information
 
