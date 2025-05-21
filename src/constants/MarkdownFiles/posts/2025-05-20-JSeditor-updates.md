@@ -1,7 +1,7 @@
 ---
 title: "JavaScript Editor Updates and Future Features"
 excerpt: "Overview of changes being made to the JavaScript editor tool in MusicBlocks v3, and future plans"
-category: "COMMUNITY NEWS"
+category: "DEVELOPER NEWS"
 date: "2025-05-20"
 slug: "JSeditor-updates"
 author: "Elwin Li"
