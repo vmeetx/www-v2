@@ -35,7 +35,7 @@ effectively.
 ### Motivation
 I believe that kids cannot learn to
 code without coding. Although they can learn the concept of coding through MusicBlocks, they
-still cannot learn real coding effectively. The JavaScript-to-MusicBlocks conversion feature
+still cannot learn text-based coding effectively. The JavaScript-to-MusicBlocks conversion feature
 will enable them to better transition between visual block-based programming and
 textual JavaScript coding. This promotes a deeper understanding of programming concepts and
 has kids learn them more effectively. With the step by step debugger, kids will better understand
