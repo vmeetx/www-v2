@@ -38,8 +38,12 @@ code without coding. Although they can learn the concept of coding through Music
 still cannot learn text-based coding effectively. The JavaScript-to-MusicBlocks conversion feature
 will enable them to better transition between visual block-based programming and
 textual JavaScript coding. This promotes a deeper understanding of programming concepts and
-has kids learn them more effectively. With the step by step debugger, kids will better understand
-what exactly each line of code that they write does.
+has kids learn them more effectively. 
+
+Even more important than learning how to code is learning how to problem solve. Debugging and 
+problem solving skills provide kids with the knowledge to overcome problems of any kind, not 
+just in programming. With the step by step debugger, kids will learn how to break a problem down, and 
+identify where problems are and track them. 
 
 ### JavaScript to Music Blocks
 The JavaScript to Music Blocks feature is fairly simple as an end product: implementing the ability
