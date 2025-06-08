@@ -43,6 +43,7 @@ image: "assets/Images/GSOC.png"
 
 3. **Hosted Streamlit App**  
    - Because the Fast API server was not deployed, I simply wrote the RAG code in the Streamlit code itself. Now that it is hosted, mentors and contributors can test it and give feedback.
+   - [Streamlit app](https://reflectionapp-2yoxtvn6sknvktme2zorvq.streamlit.app/)
 
 4. **Refined Prompts**
    - Prompt Engineering is the key to get a well structured and quality response from any LLM. I improved the instructions for the LLM to ask follow up questions to get quality answers from users.
