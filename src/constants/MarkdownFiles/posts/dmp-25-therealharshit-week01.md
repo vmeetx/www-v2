@@ -1,6 +1,6 @@
 ---
 title: "DMP ’25 Week 01 Update by Harshit Verma"
-excerpt: "This is a Template to write Blog Posts for weekly updates"
+excerpt: "Week 01 focused on understanding the Pippy codebase, testing Sugar-AI endpoints, and evaluating AI models for the debugger."
 category: "DEVELOPER NEWS"
 date: "2025-06-09"
 slug: "dmp-25-therealharshit-week01"
