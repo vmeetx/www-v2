@@ -1,7 +1,7 @@
 ---
 title: "GSoC ’25 Week 01 Update by Shubham Singh"
 excerpt: "Creating UIs and visuals for addition of Lego Bricks "
-category: "TEMPLATE"
+category: "DEVELOPER NEWS"
 date: "2025-06-07"
 slug: "gsoc-25-FirePheonix-week01"
 author: "Shubham Singh"
