@@ -17,7 +17,7 @@ image: "assets/Images/GSOC.png"
 **Project:** Music Blocks 4 Program Engine  
 **Mentors:** [Anindya Kundu](https://github.com/meganindya/), [Sumit Srivastava](https://github.com/sum2it)  
 **Assisting Mentors:** [Devin Ullibari](https://github.com/pikurasa/), [Walter Bender](https://github.com/walterbender)  
-**Reporting Period:** 2025-05-02 - 2025-05-08  
+**Reporting Period:** 2025-06-02 - 2025-06-08  
 
 ---
 
