@@ -1,7 +1,7 @@
 ---
 title: "GSoC ’25 Week 01 Update by Saumya Shahi"
 excerpt: "Weekly Progress Report on the Masonry Module for GSoC '25"
-category: "GSoC"
+category: "DEVELOPER NEWS"
 date: "2025-06-08"
 slug: "gsoc-25-saumya-week01"
 author: "Saumya Shahi"
