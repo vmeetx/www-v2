@@ -3304,7 +3304,7 @@ slug: "dmp-25-AnvitaPrasad-week01"
 author: "Anvita Prasad"
 description: "DMP'25 Contributor at SugarLabs (Music Blocks)"
 tags: "dmp25,sugarlabs,week01,AnvitaPrasad"
-image: "assets/Images/GSOC.png"
+image: "assets/Images/c4gt_DMP.png"
 ---
 
 # Week 01 Progress Report by Anvita Prasad
@@ -3371,6 +3371,7 @@ slug: "dmp-25-justin212407-week01"
 author: "Justin Charles"
 description: "Member and DMP'25 Contributor at SugarLabs"
 tags: "dmp25,sugarlabs,week01,justin212407"
+image: "assets/Images/c4gt_DMP.png"
 ---
 
 <!-- markdownlint-disable -->
