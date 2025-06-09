@@ -3,7 +3,7 @@ title: "SSoC ’25 Week 01 Update by Muhammad Haroon"
 excerpt: "Kick off Generative AI Instrument Sample Generation for Music Blocks"
 category: "DEVELOPER NEWS"
 date: "2025-06-08"
-slug: "ssoc-25-MuhammadHaroon-week01"
+slug: "2025-06-08-ssoc-25-MuhammadHaroon-week01"
 author: "Muhammad Haroon"
 description: "SSoC'25 Contributor working on Generative AI Instrument Sample Generation for Music Blocks"
 tags: "ssoc25,sugarlabs,week01,GenAI,MusicBlocks,Music"
@@ -16,8 +16,8 @@ image: "assets/Images/GSOC.png"
 
 **Project:** [Generative AI Instrument Sample Generation for Music Blocks](https://github.com/sugarlabs/GSoC/blob/master/Ideas-2025.md#Generative-AI-Instrument-Sample-Generation-for-Music-Blocks)  
 **Mentors:** [Walter Bender](https://github.com/walterbender), [Sumit Srivastava](https://github.com/sum2it)  
-**Assisting Mentors:** [Devin Ulibarri](https://github.com/pikurasa)
-**Reporting Period:** 2025-06-02 - 2025-06-08 
+**Assisting Mentors:** [Devin Ulibarri](https://github.com/pikurasa)  
+**Reporting Period:** 2025-06-02 - 2025-06-08  
 
 ---
 
