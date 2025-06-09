@@ -7,7 +7,7 @@ slug: "dmp-25-aman-week01"
 author: "Aman Chadha"
 description: "GSoC '25 Contributor working on retrieval-augmented generation for Music Blocks"
 tags: "dmp25,musicblocks,rag,week01"
-image: "assets/Images/DMP_logo.png"
+image: "assets/Images/c4gt_DMP.png"
 ---
 
 # Week 01 Progress Report by Aman Chadha
