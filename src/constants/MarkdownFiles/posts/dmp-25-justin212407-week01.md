@@ -7,6 +7,7 @@ slug: "dmp-25-justin212407-week01"
 author: "Justin Charles"
 description: "Member and DMP'25 Contributor at SugarLabs"
 tags: "dmp25,sugarlabs,week01,justin212407"
+image: "assets/Images/c4gt_DMP.png"
 ---
 
 <!-- markdownlint-disable -->
