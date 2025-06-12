@@ -19,7 +19,7 @@ tags: "gsoc25,sugarlabs,communitybonding,week1,karanpalan"
 **Projects:** Music Blocks 4 **Masonry** & **Program Engine**  
 **Role:** Volunteer & Peer-Mentor (GSoC 2024 alumnus)  
 **Mentor:** [Anindya Kundu](https://github.com/meganindya/)  
-**Mentees:** Justin Jacob, Saumya Sarma (Masonry) • Safwan Sayeed (Engine)  
+**Mentees:** [Justin Charles](https://github.com/justin212407), [Saumya Shahi](https://github.com/saumyashahi) (Masonry) • [Safwan Sayeed](https://github.com/sa-fw-an) (Engine)  
 **Reporting Period:** 2025-05-20 → 2025-06-08  
 
 ---
