@@ -87,8 +87,7 @@ const TagPage: React.FC = () => {
           return new Date(b.date).getTime() - new Date(a.date).getTime();
         case 'title':
           return a.title.localeCompare(b.title);
-        case 'relevance': // Sort by tag frequency (posts with more matching tags first)
-        {
+        case 'relevance': { // Sort by tag frequency (posts with more matching tags first)
           const aTagCount = a.tags.filter((t) =>
             t.toLowerCase().includes(tag?.toLowerCase() || ''),
           ).length;
