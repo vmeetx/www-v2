@@ -1,7 +1,8 @@
 /**
- * Blog post utility functions - Optimized version
- * Main utility file for post-specific functionality
+ * Blog post utility functions - Updated with author support
  */
+
+import { parseAuthorReference, AuthorReference } from '@/utils/author-utils';
 
 export interface Post {
   id: string;
@@ -11,15 +12,13 @@ export interface Post {
   category: string;
   date: string;
   slug: string;
-  author: string;
-  description: string;
+  author: AuthorReference | null;
   tags: string[];
   image: string;
 }
 
 /**
  * Parse frontmatter from markdown content
- * Shared utility used by both posts and more pages
  */
 export const parseFrontmatter = (
   content: string,
@@ -42,7 +41,6 @@ export const parseFrontmatter = (
     const key = line.slice(0, colonIndex).trim();
     let value = line.slice(colonIndex + 1).trim();
 
-    // Remove quotes
     if (
       (value.startsWith('"') && value.endsWith('"')) ||
       (value.startsWith("'") && value.endsWith("'"))
@@ -50,7 +48,6 @@ export const parseFrontmatter = (
       value = value.slice(1, -1);
     }
 
-    // Handle tags array
     frontmatter[key] =
       key === 'tags' && value
         ? value.split(',').map((tag) => tag.trim())
@@ -89,8 +86,7 @@ const processImageUrl = (imageValue: string | string[] | undefined): string => {
 };
 
 /**
- * Fetch and parse all markdown blog posts
- * Optimized with better error handling and sorting
+ * Fetch and parse all markdown blog posts with author support
  */
 export const fetchMarkdownPosts = async (
   category?: string,
@@ -114,6 +110,12 @@ export const fetchMarkdownPosts = async (
         );
         const fileName = filePath.split('/').pop()?.replace('.md', '') || '';
 
+        // Parse author reference
+        const author = await parseAuthorReference(
+          frontmatterToString(frontmatter.author),
+          frontmatterToString(frontmatter.description),
+        );
+
         const post: Post = {
           id: fileName,
           title: frontmatterToString(frontmatter.title, 'Untitled'),
@@ -122,11 +124,7 @@ export const fetchMarkdownPosts = async (
           category: frontmatterToString(frontmatter.category, 'UNCATEGORIZED'),
           date: frontmatterToString(frontmatter.date, 'No date'),
           slug: frontmatterToString(frontmatter.slug, fileName),
-          author: frontmatterToString(frontmatter.author, 'Sugar Labs'),
-          description: frontmatterToString(
-            frontmatter.description,
-            'Writer and contributor at Sugar Labs',
-          ),
+          author,
           tags: Array.isArray(frontmatter.tags)
             ? frontmatter.tags
             : frontmatter.tags
@@ -141,7 +139,6 @@ export const fetchMarkdownPosts = async (
       }
     }
 
-    // Sort by date (newest first) with better date handling
     const sortedPosts = allPosts.sort((a, b) => {
       const dateA = new Date(a.date).getTime() || 0;
       const dateB = new Date(b.date).getTime() || 0;
@@ -158,21 +155,45 @@ export const fetchMarkdownPosts = async (
 };
 
 /**
- * Get a single post by its slug
+ * Get posts by author slug
  */
+export const getPostsByAuthor = async (authorSlug: string): Promise<Post[]> => {
+  const allPosts = await fetchMarkdownPosts();
+  return allPosts.filter((post) => post.author?.slug === authorSlug);
+};
+
+/**
+ * Get posts by tag
+ */
+export const getPostsByTag = async (tag: string): Promise<Post[]> => {
+  const allPosts = await fetchMarkdownPosts();
+  return allPosts.filter((post) =>
+    post.tags.some((postTag) => postTag.toLowerCase() === tag.toLowerCase()),
+  );
+};
+
+/**
+ * Get all unique tags from posts
+ */
+export const getAllTags = async (): Promise<string[]> => {
+  const allPosts = await fetchMarkdownPosts();
+  const tagSet = new Set<string>();
+
+  allPosts.forEach((post) => {
+    post.tags.forEach((tag) => tagSet.add(tag));
+  });
+
+  return Array.from(tagSet).sort();
+};
+
+// ... rest of the existing functions remain the same
 export const getPostBySlug = async (slug: string): Promise<Post | null> => {
   const allPosts = await fetchMarkdownPosts();
   return allPosts.find((post) => post.slug === slug) || null;
 };
 
-/**
- * Get all posts (alias for fetchMarkdownPosts with no category filter)
- */
 export const getAllPosts = async (): Promise<Post[]> => fetchMarkdownPosts();
 
-/**
- * Group posts by category with 'All' category included
- */
 export const groupPostsByCategory = (posts: Post[]): Record<string, Post[]> => {
   const categoryMap: Record<string, Post[]> = { All: posts };
 

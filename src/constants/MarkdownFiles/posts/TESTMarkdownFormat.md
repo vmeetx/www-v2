@@ -4,8 +4,7 @@ excerpt: "A complete reference template showcasing all common markdown features 
 category: "TEMPLATE"
 date: "2025-06-13"
 slug: "markdown-guide"
-author: "Safwan Sayeed"
-description: "Member and GSoC Contributor at SugarLabs"
+author: "@/constants/MarkdownFiles/authors/safwan-sayeed.md"
 tags: "markdown,reference,guide,syntax,documentation,template"
 image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=2070"
 ---
