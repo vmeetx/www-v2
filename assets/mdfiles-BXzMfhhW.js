@@ -170,7 +170,7 @@ Walter Bender, le directeur exécutif de Sugar Labs, a dit : “Sugar est parfai
 Caroline Meeks de Solution Grove ([www.solutiongrove.com](http://www.solutiongrove.com)), gestionnaire du projet Sugar on a Stick, a commenté : “Nous comptons sur les enseignants pour nous aider à améliorer Sugar on a Stick tandis que nous continuons à travailler sur la Version-1 prévue pour le troisième trimestre 2009. Nous venons de présenter Sugar on a Stick à la conférence FOSS VT (<http://www.ncose.org/node/47>) où il a suscité beaucoup d’intérêt, et nos tests sur le terrain avec des PCs variés et anciens ont été très encourageants.”
 
 Les testeurs de Sugar sont invités à envoyer des informations sur tout bogue et autres critiques constructives à l’adresse suivante : [feedback@sugarlabs.org](mailto:feedback@sugarlabs.org). “Nous ne pourrons pas répondre à chaque message,” a continué Mme Meeks, “mais nous allons lire chacun afin de rendre Sugar on a Stick un outil fiable dans les classes qui manquent de ressources d’ici la rentrée.”
-`,ze=Object.freeze(Object.defineProperty({__proto__:null,default:s},Symbol.toStringTag,{value:"Module"})),l=`---
+`,De=Object.freeze(Object.defineProperty({__proto__:null,default:s},Symbol.toStringTag,{value:"Module"})),l=`---
 title: "Sugar Labs Announces Immediate Availability of Sugar on a Stick; Learning Platform Runs on Any PC or Netbook In The Classroom"
 category: "PRESS RELEASE"
 date: "2009-06-24"
@@ -190,7 +190,7 @@ As part of an ongoing effort to make Sugar on a Stick classroom-ready, Sugar Lab
 Learning Activities are at the heart of Sugar. Sugar on a Stick includes 40 Activities to interest young learners such as Read, Write, Paint, and Etoys. Hundreds more Activities are available free for download at the [Sugar Activity Library](http://activities.sugarlabs.org). Most “Sugarized” Activities have student collaboration built-in; students and teachers work, play, and learn on the same Activities together. The Sugar Learning Platform is open, so by leveraging the work of other open source projects, existing software for children can be integrated; for example, the acclaimed GCompris suite of 100 Activities developed over the past five years by Bruno Coudoin was recently added to Sugar, including Activities such as Chess, Geography, and Sudoku. Teachers and parents interested in Sugar’s Activities and its modern interface for children can watch short videos on the recently opened [Sugar Labs Dailymotion channel](http://www.dailymotion.com/sugarlabs).
 
 Visitors to LinuxTag are welcome to speak with Sugar Labs contributors at booth 7.2a 110a.
-`,De=Object.freeze(Object.defineProperty({__proto__:null,default:l},Symbol.toStringTag,{value:"Module"})),u=`---
+`,ze=Object.freeze(Object.defineProperty({__proto__:null,default:l},Symbol.toStringTag,{value:"Module"})),u=`---
 title: "Sugar Labs annonce la disponibilité immédiate de « Sugar on a Stick », une plate-forme d’apprentissage qui fonctionne sur n’importe quel PC ou netbook dans la salle de classe"
 category: "PRESS RELEASE"
 date: "2009-06-24"
@@ -666,7 +666,7 @@ Walter Bender, Direttore Esecutivo di Sugar Labs, dichiara “la fluidità di mo
 
 **In merito a GNOME**: GNOME è un progetto di free-software che sviluppa un desktop standard completo, accessibile e di facile utilizzo, per tutte le principali distribuzioni GNU/Linux e Unix. Ampiamente conosciuto e utilizzato nelle grandi imprese e in milioni di piccole aziende e utenti privati nel mondo, include anche un ambiente completo di sviluppo per creare nuovi programmi. La nonprofit GNOME Foundation è costituita da centinaia di sviluppatori volontari e da industrie-leader. Ulteriori informazioni possono essere reperite presso: [http://www.gnome.org](http://www.gnome.org) e [http://foundation.gnome.org](http://foundation.gnome.org).
 
-**In merito a One Laptop per Child** ([http://www.laptop.org](http://www.laptop.org)): OLPC è una organizzazione non-profit creata da Nicholas Negroponte ed altri del MIT Media Lab per progettare, produrre e distribuire laptop computers che siano così economici da poter fornire ad ogni bambino del mondo accesso alla conoscenza e alle più moderne forme di apprendimento.`,nn=Object.freeze(Object.defineProperty({__proto__:null,default:P},Symbol.toStringTag,{value:"Module"})),I=`---
+**In merito a One Laptop per Child** ([http://www.laptop.org](http://www.laptop.org)): OLPC è una organizzazione non-profit creata da Nicholas Negroponte ed altri del MIT Media Lab per progettare, produrre e distribuire laptop computers che siano così economici da poter fornire ad ogni bambino del mondo accesso alla conoscenza e alle più moderne forme di apprendimento.`,nn=Object.freeze(Object.defineProperty({__proto__:null,default:P},Symbol.toStringTag,{value:"Module"})),T=`---
 title: "La organización sin fines de lucro Sugar Labs patrocina el equipo de ciclistas Team Chipotle para dar a conocer su misión educativa."
 excerpt: "Sugar Labs se asocia con el equipo de ciclismo Team Chipotle en un acuerdo innovador de patrocinio para recaudar fondos y dar a conocer su misión educativa, involucrando a niños en Uruguay para documentar la carrera usando sus laptops XO."
 category: "PRESS RELEASE"
@@ -698,7 +698,7 @@ Image: ![ChipotleDevelopmentTeam_RedlandsCyclingClassic.jpg](/assets/post-assets
 
 *Sugar Labs es una marca registrada de Software Freedom Conservancy. Otros nombres son marcas registradas de sus respectivos dueños.*
 
-**NOTA:** El equipo Chipotle Development desafortunadamente no va a participar de la 68a. Vuelta Ciclista del Uruguay este año.`,an=Object.freeze(Object.defineProperty({__proto__:null,default:I},Symbol.toStringTag,{value:"Module"})),T=`---
+**NOTA:** El equipo Chipotle Development desafortunadamente no va a participar de la 68a. Vuelta Ciclista del Uruguay este año.`,an=Object.freeze(Object.defineProperty({__proto__:null,default:T},Symbol.toStringTag,{value:"Module"})),I=`---
 title: "Sugar Labs Nonprofit Sponsoring Team Chipotle to Raise Awareness of Educational Mission"
 excerpt: "Sugar Labs partners with Team Chipotle cycling team in an innovative sponsorship arrangement to raise awareness and funds for its educational mission while engaging children in Uruguay to document the race using their XO laptops."
 category: "PRESS RELEASE"
@@ -775,7 +775,7 @@ Sugar Labs is a registered trademark of the Software Freedom Conservancy.
 Other names are trademarks of their respective owners.
 
 NOTE: The Chipotle Development Team will unfortunately not race in the Vuelta
-Ciclista del Uruguay this year.`,tn=Object.freeze(Object.defineProperty({__proto__:null,default:T},Symbol.toStringTag,{value:"Module"})),M=`---
+Ciclista del Uruguay this year.`,tn=Object.freeze(Object.defineProperty({__proto__:null,default:I},Symbol.toStringTag,{value:"Module"})),M=`---
 title: "La organización educacional sin fines de lucro Sugar Labs(R) celebra el Día del Aprendizaje Digital con dos ganadores del premio Google Code-In"
 excerpt: "Sugar Labs anuncia que dos estudiantes, Agustín Zubiaga Sánchez y Aneesh Dogra, han sido ganadores del premio principal de Google Code-In por sus significativas contribuciones a la plataforma de aprendizaje Sugar."
 category: "PRESS RELEASE"
@@ -1106,7 +1106,7 @@ Sugar Labs se mantiene en base a donaciones y está buscando financiación y vol
 
 Sugar Labs es una marca registrada de la Software Freedom Conservancy. Otros nombres y marcas corresponden a sus respectivos dueños.
 
----`,cn=Object.freeze(Object.defineProperty({__proto__:null,default:G},Symbol.toStringTag,{value:"Module"})),z=`---
+---`,cn=Object.freeze(Object.defineProperty({__proto__:null,default:G},Symbol.toStringTag,{value:"Module"})),D=`---
 title: "Sugar Labs(R) Educational Nonprofit Celebrates Two Google Code-In Grand Prize Winners"
 excerpt: "Sugar Labs recognizes students Ignacio Rodríguez and Jorge Alberto Gómez López as winners of the Google Code-In Contest, who contributed significantly to improving the Sugar Learning Platform used by over three million children worldwide."
 category: "PRESS RELEASE"
@@ -1156,7 +1156,7 @@ Sugar Labs®️ is a volunteer-driven member project of [Software Freedom Conser
 
 Sugar Labs®️ is supported by donations and is seeking funding to accelerate development. For more information, please visit [www.sugarlabs.org/press](http://www.sugarlabs.org/press) or contact \`pr@sugarlabs.org\`.
 
-Sugar Labs®️ is a registered trademark of the Software Freedom Conservancy. Other names are trademarks of their respective owners.`,gn=Object.freeze(Object.defineProperty({__proto__:null,default:z},Symbol.toStringTag,{value:"Module"})),D=`---
+Sugar Labs®️ is a registered trademark of the Software Freedom Conservancy. Other names are trademarks of their respective owners.`,gn=Object.freeze(Object.defineProperty({__proto__:null,default:D},Symbol.toStringTag,{value:"Module"})),z=`---
 title: "The connection between Sugar - Students - Teachers"
 excerpt: "This Sugar Story explores how the Sugar learning platform connects students and teachers, highlighting user contributions, educational impact, and how the platform's open design encourages innovation from its community."
 category: "SUGAR STORIES"
@@ -1218,7 +1218,7 @@ References
 - **Platform:** [Sugar Labs YouTube Channel](https://www.youtube.com/@SugarlabsOrg-EN/streams)
 
 - Ceibal Jam (2009). Convenio marco entre la Asociación Civil Ceibal Jam y la Universidad de la República.
-- DSPE-ANEP (2011). Informe de evaluación del Plan Ceibal 2010. Administración Nacional de Educación Pública Dirección Sectorial de Planificación Educativa Área de Evaluación del Plan Ceibal.`,pn=Object.freeze(Object.defineProperty({__proto__:null,default:D},Symbol.toStringTag,{value:"Module"})),B=`---
+- DSPE-ANEP (2011). Informe de evaluación del Plan Ceibal 2010. Administración Nacional de Educación Pública Dirección Sectorial de Planificación Educativa Área de Evaluación del Plan Ceibal.`,pn=Object.freeze(Object.defineProperty({__proto__:null,default:z},Symbol.toStringTag,{value:"Module"})),B=`---
 title: "Sugar Labs receives eleven contributor projects for GSoC 2024"
 excerpt: "Sugar Labs announces acceptance of eleven programming projects for Google Summer of Code 2024, including work on Music Blocks, Sugarizer, AI tools, and more."
 category: "PRESS RELEASE"
@@ -1834,7 +1834,7 @@ If you were a member in the past but [did not vote in this election](https://www
 If you are interested in volunteering to assist with the next election in 2025, please contact <volunteering@sugarlabs.org> with your interest.
 
 On behalf of the [Sugar Labs Board of Directors](https://www.sugarlabs.org/leadership/), we offer a big **Thank you!** to all who participated in this year's election.
-`,In=Object.freeze(Object.defineProperty({__proto__:null,default:$},Symbol.toStringTag,{value:"Module"})),Z=`---
+`,Tn=Object.freeze(Object.defineProperty({__proto__:null,default:$},Symbol.toStringTag,{value:"Module"})),Z=`---
 title: "Reflections as Parents and Teachers Sugar at home and in their classroom"
 excerpt: "Sugar Labs Executive Director Devin Ulibarri shares personal experiences using the Sugar Learning Platform both as a parent with his son and as an educator in various classroom settings."
 category: "SUGAR STORIES"
@@ -1900,7 +1900,7 @@ As I alluded to earlier, I have sometimes heard criticism of the Sugar Learning 
 ![Student 5](/assets/post-assets/stories/student5.jpg)
 *One of the students in my Sugar class. She surprised me by coming in with this hand-drawn computer, which she made just a few days after taking one of her first classes.*
 
-I'm more proud than I ever have been to be a part of the Sugar community, and my decades' long experience with youth from ages five through college, only gives me stronger conviction that we're creating something of unique value for education.`,Tn=Object.freeze(Object.defineProperty({__proto__:null,default:Z},Symbol.toStringTag,{value:"Module"})),Q=`---
+I'm more proud than I ever have been to be a part of the Sugar community, and my decades' long experience with youth from ages five through college, only gives me stronger conviction that we're creating something of unique value for education.`,In=Object.freeze(Object.defineProperty({__proto__:null,default:Z},Symbol.toStringTag,{value:"Module"})),Q=`---
 title: "The Sweet Spot – Issue 002"
 excerpt: "The second issue of Sugar Labs' newsletter covering recent updates, events, volunteer opportunities, and community news from December 2024."
 category: "COMMUNITY NEWS"
@@ -3007,7 +3007,7 @@ Thank you to my mentors, the Sugar Labs community, and fellow GSoC contributors 
 - Twitter: [@AdityaKrSingh26](https://x.com/AdityaKrSingh26)
 
 ---
-`,zn=Object.freeze(Object.defineProperty({__proto__:null,default:ie},Symbol.toStringTag,{value:"Module"})),se=`---
+`,Dn=Object.freeze(Object.defineProperty({__proto__:null,default:ie},Symbol.toStringTag,{value:"Module"})),se=`---
 title: "DMP '25 Week 01 Update by Anvita Prasad"
 excerpt: "Improving Synth and Sample Features in Music Blocks"
 category: "DEVELOPER NEWS"
@@ -3076,7 +3076,7 @@ Thank you to my mentors, the Sugar Labs community, and fellow DMP contributors f
 - GitHub: [@AnvitaPrasad](https://github.com/AnvitaPrasad)
 - Email: [anvita.prasad1@gmail.com](mailto:anvita.prasad1@gmail.com)
 - LinkedIn: [Anvita Prasad](https://www.linkedin.com/in/anvita-prasad)
-`,Dn=Object.freeze(Object.defineProperty({__proto__:null,default:se},Symbol.toStringTag,{value:"Module"})),le=`---
+`,zn=Object.freeze(Object.defineProperty({__proto__:null,default:se},Symbol.toStringTag,{value:"Module"})),le=`---
 title: "DMP ’25 Week 01 Update by Justin Charles"
 excerpt: "Week 01 focused on understanding and creating the path file to render the outlines for the SVG Paths for different brick types."
 category: "DEVELOPER NEWS"
@@ -4442,10 +4442,10 @@ Huge thanks to **Anindya** for the deep-dive lectures and mentoring, and to **Ju
 title: "Comprehensive Markdown Syntax Guide"
 excerpt: "A complete reference template showcasing all common markdown features and formatting options"
 category: "TEMPLATE"
-date: "2025-04-25"
+date: "2025-06-13"
 slug: "markdown-guide"
 author: "Safwan Sayeed"
-description: "Member and Contributor at SugarLabs"
+description: "Member and GSoC Contributor at SugarLabs"
 tags: "markdown,reference,guide,syntax,documentation,template"
 image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=2070"
 ---
@@ -4453,8 +4453,7 @@ image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=2070"
 
 # Comprehensive Markdown Syntax Guide
 
-This document serves as a complete reference for markdown syntax, demonstrating various formatting elements and features supported by most markdown parsers.
-
+This document serves as a complete reference for markdown syntax, demonstrating various formatting elements and features supported by our enhanced markdown parser with GitHub-style rendering.
 
 ## Headings
 
@@ -4462,6 +4461,8 @@ This document serves as a complete reference for markdown syntax, demonstrating 
 ## Heading Level 2
 ### Heading Level 3
 #### Heading Level 4
+##### Heading Level 5
+###### Heading Level 6
 
 ## Text Formatting
 
@@ -4473,29 +4474,94 @@ This document serves as a complete reference for markdown syntax, demonstrating 
 
 ~~Strikethrough text~~
 
-==Highlighted text==
+==Highlighted text with custom styling==
 
-Super^script^
+Super^script^ text and Sub~script~ text
 
 Here's some \`inline code\` within a paragraph for demonstration.
 
-## Code Block Example
+## Code Examples
 
-Below is an example of a JavaScript function:
+### Inline Code vs Code Blocks
+
+Single backticks for \`inline code highlighting\` like \`const variable = "value"\` or \`npm install\`.
+
+### Code Blocks with Language Support
 
 \`\`\`javascript
-// Returns a greeting for the provided name
-
-function greet(name) {
-
-    return \`Hello, \${name}!\`;
-
+// JavaScript example with syntax highlighting
+function calculateSum(a, b) {
+    return a + b;
 }
 
-console.log(greet("Markdown"));
+const result = calculateSum(5, 10);
+console.log(\`The sum is: \${result}\`);
 \`\`\`
 
-## Links
+\`\`\`python
+# Python example
+def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n-1) + fibonacci(n-2)
+
+# Generate first 10 Fibonacci numbers
+for i in range(10):
+    print(f"F({i}) = {fibonacci(i)}")
+\`\`\`
+
+\`\`\`typescript
+// TypeScript example
+interface User {
+    id: number;
+    name: string;
+    email: string;
+}
+
+const createUser = (userData: Partial<User>): User => {
+    return {
+        id: Date.now(),
+        name: userData.name || "Anonymous",
+        email: userData.email || "user@example.com"
+    };
+};
+\`\`\`
+
+\`\`\`css
+/* CSS example */
+.markdown-content {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.code-block {
+    background: #f6f8fa;
+    border-radius: 6px;
+    padding: 16px;
+    overflow-x: auto;
+}
+\`\`\`
+
+\`\`\`bash
+# Bash commands
+git clone https://github.com/username/repo.git
+cd repo
+npm install
+npm run dev
+\`\`\`
+
+\`\`\`sql
+-- SQL example
+SELECT users.name, posts.title, posts.created_at
+FROM users
+JOIN posts ON users.id = posts.user_id
+WHERE posts.published = true
+ORDER BY posts.created_at DESC
+LIMIT 10;
+\`\`\`
+
+## Links and References
 
 ### Basic Links
 [Basic link to example.com](https://example.com)
@@ -4514,6 +4580,7 @@ console.log(greet("Markdown"));
 - Item 2
   - Nested Item 2.1
   - Nested Item 2.2
+    - Deeply nested item
 - Item 3
 
 Alternative syntax:
@@ -4527,12 +4594,15 @@ Alternative syntax:
 2. Second item
    1. Nested item 2.1
    2. Nested item 2.2
+      1. Deeply nested numbered item
 3. Third item
 
 ### Task Lists
 - [x] Completed task
 - [ ] Incomplete task
-- [ ] Another task
+- [x] Another completed task
+- [ ] Task with **bold text**
+- [ ] Task with \`inline code\`
 
 ### Definition Lists
 First Term
@@ -4542,7 +4612,10 @@ Second Term
 : Definition of the second term
 : Another definition of the second term
 
-## Images
+Complex Term
+: This is a more complex definition that can include **bold text**, *italic text*, and \`inline code\`.
+
+## Images and Media
 
 ### Basic Image
 ![Alt text for image](https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600 "Optional title")
@@ -4550,33 +4623,64 @@ Second Term
 ### Linked Image
 [![Alt text for linked image](https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=300 "Click me!")](https://example.com)
 
+### YouTube Video Embeds
+
+[youtube: MM-H69cHYMk]
+
 ## Tables
 
+### Basic Table
 | Header 1 | Header 2 | Header 3 |
 |----------|:--------:|---------:|
 | Default  | Centered | Right    |
 | aligned  | aligned  | aligned  |
 | text     | text     | text     |
 
-| Command | Description |
-| --- | --- |
-| \`git status\` | List all new or modified files |
-| \`git diff\` | Show file differences not yet staged |
+### Advanced Table with Formatting
+| Command | Description | Example |
+| --- | --- | --- |
+| \`git status\` | List all new or modified files | Shows modified files in red |
+| \`git diff\` | Show file differences not yet staged | \`git diff HEAD~1\` |
+| \`git add .\` | Stage all changes | Adds all files to staging |
+| \`git commit -m "message"\` | **Commit** with message | Creates new commit |
+
+### Feature Comparison Table
+| Feature | Basic Plan | Pro Plan | Enterprise |
+|---------|:----------:|:--------:|:----------:|
+| Users | 5 | 25 | Unlimited |
+| Storage | 10GB | 100GB | 1TB |
+| Support | Email | Priority | 24/7 Phone |
+| Price | $10/mo | $25/mo | Custom |
 
 ## Blockquotes
 
+### Simple Blockquote
 > This is a simple blockquote
 
+### Multi-paragraph Blockquote
 > This is a blockquote with multiple paragraphs
 >
 > Second paragraph in the blockquote
 
+### Nested Blockquotes
+> This is the first level of quoting.
+>
+> > This is nested blockquote.
+>
+> Back to the first level.
+
+### Complex Blockquote
 > #### Blockquote with other elements
 >
 > - Lists inside blockquote
-> - Another item
+> - Another item with \`inline code\`
 >
-> **Bold text** inside blockquote
+> **Bold text** inside blockquote with *italic* and \`code\`.
+>
+> \`\`\`javascript
+> // Code block inside blockquote
+> console.log("Hello from blockquote!");
+> \`\`\`
 
 ## Horizontal Rules
 
@@ -4592,49 +4696,223 @@ Underscores:
 
 ___
 
+## GitHub-Style Alerts
+
+:::note
+This is a note alert. Use it to provide additional information that's helpful but not critical.
+:::
+
+:::tip Pro Tip
+This is a tip alert. Great for sharing best practices and helpful suggestions!
+:::
+
+:::important Important Notice
+This is an important alert. Use it for information that users should definitely pay attention to.
+:::
+
+:::warning Be Careful
+This is a warning alert. Use it to highlight potential issues or things to watch out for.
+:::
+
+:::caution Critical Warning
+This is a caution alert. Use it for serious warnings about potential problems or security issues.
+:::
+
+## Collapsible Sections
+
+### Basic Collapsible
+:::details Click to expand basic details
+This content is hidden by default and can be expanded by clicking the summary.
+
+You can include:
+- **Formatted text**
+- \`Code examples\`
+- And other markdown elements
+
+\`\`\`javascript
+console.log("Code works too!");
+\`\`\`
+:::
+
+### Advanced Collapsible
+:::details Advanced Configuration Options
+Here are some advanced configuration options:
+
+#### Database Settings
+- **Host**: localhost
+- **Port**: 5432
+- **Database**: myapp_production
+
+#### Security Configuration
+\`\`\`yaml
+security:
+  encryption: AES-256
+  hashing: bcrypt
+  session_timeout: 3600
+\`\`\`
+
+#### Performance Tuning
+| Setting | Development | Production |
+|---------|-------------|------------|
+| Cache TTL | 60s | 3600s |
+| Max Connections | 10 | 100 |
+| Timeout | 30s | 10s |
+:::
+
+<details>
+<summary>HTML-style Collapsible Section</summary>
+
+This is using HTML details/summary tags.
+
+- You can include **formatted text**
+- And other elements
+- \`Code snippets\`
+
+\`\`\`python
+def hello_world():
+    print("Hello from collapsible section!")
+\`\`\`
+
+</details>
+
 ## Extended Features
 
 ### Footnotes
 
 Here's a sentence with a footnote[^1].
 
-[^1]: This is the footnote content.
+Here's another footnote reference[^2].
 
-### Collapsible Sections
+Multiple footnotes in one sentence[^3][^4].
 
-<details>
-<summary>Click to expand/collapse</summary>
-
-This content is hidden by default.
-- You can include **formatted text**
-- And other elements
-
-</details>
-
-### YouTube Video Embed
-
-[youtube: MM-H69cHYMk]
+[^1]: This is the footnote content with **formatting**.
+[^2]: This footnote contains \`code\` and *emphasis*.
+[^3]: Short footnote.
+[^4]: This is a longer footnote that can contain multiple sentences. It can even contain code blocks and other formatting elements.
 
 ### Emoji Support
 
+#### Emotions and Reactions
 :smile: I'm happy to see this working!  
-:rocket: Let's launch this feature!  
-:warning: Be careful with this syntax.  
-:thumbsup: Looks good to me!  
 :heart: Love this feature!  
+:thumbsup: Looks good to me!  
+:thumbsdown: This needs work.  
+:eyes: I'm watching this.  
+:tada: Celebration time!  
+
+#### Technical and Development
+:rocket: Let's launch this feature!  
 :fire: This is awesome!  
 :star: Five-star quality!  
+:bug: There's a bug here.  
+:wrench: Fix needed.  
+:gear: Configuration required.  
+:sparkles: New feature!  
+:package: New release.  
+:zap: Performance improvement.  
+:boom: Breaking change.  
+
+#### Communication and Status
+:warning: Be careful with this syntax.  
 :info: Here's some information.  
 :check: This is correct!  
-:x: This is wrong.
+:x: This is wrong.  
+:bulb: Great idea!  
+:memo: Take notes.  
+:link: Related link.  
+:lock: Secure content.  
+:unlock: Public content.  
+
+#### Objects and Places
+:computer: Development environment.  
+:phone: Mobile responsive.  
+:email: Contact information.  
+:calendar: Scheduled event.  
+:clock: Timing important.  
+:house: Home page.  
+:car: Fast delivery.  
+:plane: Deploy quickly.  
+:coffee: Developer fuel.  
+:pizza: Team lunch.  
+
+### Deletions and Insertions
+
+~~This text has been deleted~~ and replaced with new content.
+
+<del>This is also deleted text</del>
+
+<ins>This text has been inserted</ins>
+
+## Advanced Formatting Combinations
+
+### Mixed Formatting Examples
+
+Here's text with **bold**, *italic*, \`code\`, ==highlighted==, ~~strikethrough~~, and [[Ctrl+A]] keyboard shortcut.
+
+> **Important Quote**: Use \`console.log()\` for debugging, but remember to ==remove it== before production. ~~Don't use alert().~~ :warning:
+
+| Feature | Status | Shortcut | Notes |
+|---------|--------|----------|--------|
+| **Bold** | :check: | [[Ctrl+B]] | Works everywhere |
+| *Italic* | :check: | [[Ctrl+I]] | \`_text_\` also works |
+| \`Code\` | :check: | [[Ctrl+\`]] | Inline highlighting |
+| ==Highlight== | :check: | N/A | Custom feature |
+
+### Complex List with Everything
+
+1. **First Item** with \`code\` and [link](https://example.com)
+   - Nested item with ==highlighting==
+   - Another nested item with :rocket: emoji
+   - [ ] Unchecked task with ~~strikethrough~~
+   - [x] Completed task with **bold text**
+
+2. **Second Item** with math: $E = mc^2$
+   \`\`\`python
+   # Code block in list
+   def example():
+       return "Hello World"
+   \`\`\`
+
+3. **Third Item** with blockquote:
+   > This is a quote inside a list item
+   > with **bold** and *italic* text
+
+## Accessibility Features
+
+### Screen Reader Friendly Content
+
+All images have descriptive alt text:
+![A developer working on code with multiple monitors showing colorful syntax highlighting](https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600 "Developer workspace")
+
+All links have descriptive text:
+[Read the complete accessibility guidelines](https://example.com "Complete guide to web accessibility")
+
+### Semantic HTML Elements
+
+<details>
+<summary>Semantic Structure Information</summary>
+
+Our markdown parser generates semantic HTML with:
+- Proper heading hierarchy
+- Accessible form controls
+- ARIA labels where appropriate
+- Focus management for interactive elements
+
+</details>
 
 ---
 
 ### Final Thoughts
 
-This Markdown file has been designed to demonstrate multiple aspects of our custom Markdown parser. Every section shows different capabilities from formatting to embedded media.
+This comprehensive markdown guide demonstrates the full capabilities of our enhanced parser. From basic formatting to advanced features like mathematical expressions and interactive elements, this parser provides a rich, GitHub-style experience.
 
-Thank you for reading this detailed Markdown test document! :heart:`,Zn=Object.freeze(Object.defineProperty({__proto__:null,default:ke},Symbol.toStringTag,{value:"Module"})),Le=`---
+Thank you for reading this detailed markdown reference! :heart: :rocket:
+
+Remember to use the copy button on code blocks to quickly copy examples! :sparkles:
+
+---
+
+*Last updated: 2025-06-13 | Version 2.0 | Contributors: Safwan Sayeed*`,Zn=Object.freeze(Object.defineProperty({__proto__:null,default:ke},Symbol.toStringTag,{value:"Module"})),Le=`---
 title: "GSoC ’25 Week XX Update by Safwan Sayeed"
 excerpt: "This is a Template to write Blog Posts for weekly updates"
 category: "TEMPLATE"
@@ -4976,7 +5254,7 @@ This aligns with research by Daniel Pink, who reviewed four decades of studies s
 2. **Mastery** – confidence and space to develop expertise  
 3. **Purpose** – authentic problem-solving opportunities  
 
-A key insight of Minsky, Papert, and Solomon is to give children tools they can explore, master, and apply to problems they care about. Children using Sugar are **motivated learners**, pursuing meaningful goals that help them build their own “cognitive towers.”`,aa=Object.freeze(Object.defineProperty({__proto__:null,default:Pe},Symbol.toStringTag,{value:"Module"})),Ie=`---
+A key insight of Minsky, Papert, and Solomon is to give children tools they can explore, master, and apply to problems they care about. Children using Sugar are **motivated learners**, pursuing meaningful goals that help them build their own “cognitive towers.”`,aa=Object.freeze(Object.defineProperty({__proto__:null,default:Pe},Symbol.toStringTag,{value:"Module"})),Te=`---
 title: Sugar Labs For School Administrators
 slug: school-admin
 author: Sugar Labs Team
@@ -5048,7 +5326,7 @@ The primary function of the journal is as a **time-based view** of the activitie
 
 ## Where to get resources?
 
-For more information, visit the **official Sugar Labs website** and explore its resources on **collaborative learning, development tools, and community support**.`,ta=Object.freeze(Object.defineProperty({__proto__:null,default:Ie},Symbol.toStringTag,{value:"Module"})),Te=`---
+For more information, visit the **official Sugar Labs website** and explore its resources on **collaborative learning, development tools, and community support**.`,ta=Object.freeze(Object.defineProperty({__proto__:null,default:Te},Symbol.toStringTag,{value:"Module"})),Ie=`---
 title: Student Learning Goals and Sugar
 slug: students
 author: Sugar Labs Team
@@ -5082,4 +5360,4 @@ These books are recommended as a rich source of ideas on how to use Sugar in and
 - **Papert, S. & Solomon, C.** (1971). *Twenty Things to Do with a Computer.* *Artificial Intelligence Memo No. 248* and *Logo Memo No. 3.*
 - **Pink, D.** (2009). *Drive: The Surprising Truth About What Motivates Us.* Riverhead Press.
 - **Stefanakis, E.** (2002). *Multiple Intelligences and Portfolios: A Window into the Learner's Mind.* Greenwood Press.
-- **Trinidad, G.** (2013). *Física con XO.*`,oa=Object.freeze(Object.defineProperty({__proto__:null,default:Te},Symbol.toStringTag,{value:"Module"}));export{Mn as $,an as A,tn as B,on as C,rn as D,sn as E,ln as F,un as G,dn as H,cn as I,gn as J,pn as K,hn as L,mn as M,bn as N,fn as O,wn as P,vn as Q,yn as R,Sn as S,kn as T,Ln as U,An as V,Cn as W,Pn as X,In as Y,Tn as Z,Me as _,_e as a,_n as a0,On as a1,En as a2,xn as a3,jn as a4,Gn as a5,zn as a6,Dn as a7,Bn as a8,Rn as a9,Wn as aa,Nn as ab,Un as ac,Fn as ad,qn as ae,Hn as af,Kn as ag,Vn as ah,Jn as ai,Xn as aj,Yn as ak,$n as al,Zn as am,Qn as an,ea as ao,na as ap,aa as aq,ta as ar,oa as as,Oe as b,Ee as c,xe as d,je as e,Ge as f,ze as g,De as h,Be as i,Re as j,We as k,Ne as l,Ue as m,Fe as n,qe as o,He as p,Ke as q,Ve as r,Je as s,Xe as t,Ye as u,$e as v,Ze as w,Qe as x,en as y,nn as z};
+- **Trinidad, G.** (2013). *Física con XO.*`,oa=Object.freeze(Object.defineProperty({__proto__:null,default:Ie},Symbol.toStringTag,{value:"Module"}));export{Mn as $,an as A,tn as B,on as C,rn as D,sn as E,ln as F,un as G,dn as H,cn as I,gn as J,pn as K,hn as L,mn as M,bn as N,fn as O,wn as P,vn as Q,yn as R,Sn as S,kn as T,Ln as U,An as V,Cn as W,Pn as X,Tn as Y,In as Z,Me as _,_e as a,_n as a0,On as a1,En as a2,xn as a3,jn as a4,Gn as a5,Dn as a6,zn as a7,Bn as a8,Rn as a9,Wn as aa,Nn as ab,Un as ac,Fn as ad,qn as ae,Hn as af,Kn as ag,Vn as ah,Jn as ai,Xn as aj,Yn as ak,$n as al,Zn as am,Qn as an,ea as ao,na as ap,aa as aq,ta as ar,oa as as,Oe as b,Ee as c,xe as d,je as e,Ge as f,De as g,ze as h,Be as i,Re as j,We as k,Ne as l,Ue as m,Fe as n,qe as o,He as p,Ke as q,Ve as r,Je as s,Xe as t,Ye as u,$e as v,Ze as w,Qe as x,en as y,nn as z};
