@@ -1,6 +1,6 @@
 /**
- * Blog post utility functions
- * Handles post-specific functionality like loading and parsing blog posts
+ * Blog post utility functions - Optimized version
+ * Main utility file for post-specific functionality
  */
 
 export interface Post {
@@ -19,50 +19,78 @@ export interface Post {
 
 /**
  * Parse frontmatter from markdown content
+ * Shared utility used by both posts and more pages
  */
 export const parseFrontmatter = (
   content: string,
-): { frontmatter: { [key: string]: string | string[] }; content: string } => {
+): {
+  frontmatter: Record<string, string | string[]>;
+  content: string;
+} => {
   const frontmatterRegex = /^---\s*\n([\s\S]*?)\n---\s*\n([\s\S]*)$/;
   const match = frontmatterRegex.exec(content);
 
-  if (!match) {
-    return { frontmatter: {}, content };
-  }
+  if (!match) return { frontmatter: {}, content };
 
-  const frontmatterString = match[1];
-  const mainContent = match[2];
-
-  // Parse frontmatter
+  const [, frontmatterString, mainContent] = match;
   const frontmatter: Record<string, string | string[]> = {};
-  const lines = frontmatterString.split('\n');
 
-  for (const line of lines) {
+  frontmatterString.split('\n').forEach((line) => {
     const colonIndex = line.indexOf(':');
-    if (colonIndex !== -1) {
-      const key = line.slice(0, colonIndex).trim();
-      let value = line.slice(colonIndex + 1).trim();
-      if (
-        (value.startsWith('"') && value.endsWith('"')) ||
-        (value.startsWith("'") && value.endsWith("'"))
-      ) {
-        value = value.slice(1, -1);
-      }
-      if (key === 'tags' && value) {
-        const tagsArray = value.split(',').map((tag) => tag.trim());
-        frontmatter[key] = tagsArray;
-      } else {
-        frontmatter[key] = value;
-      }
+    if (colonIndex === -1) return;
+
+    const key = line.slice(0, colonIndex).trim();
+    let value = line.slice(colonIndex + 1).trim();
+
+    // Remove quotes
+    if (
+      (value.startsWith('"') && value.endsWith('"')) ||
+      (value.startsWith("'") && value.endsWith("'"))
+    ) {
+      value = value.slice(1, -1);
     }
-  }
+
+    // Handle tags array
+    frontmatter[key] =
+      key === 'tags' && value
+        ? value.split(',').map((tag) => tag.trim())
+        : value;
+  });
 
   return { frontmatter, content: mainContent };
 };
 
 /**
+ * Convert frontmatter value to string with fallback
+ */
+const frontmatterToString = (
+  value: string | string[] | undefined,
+  fallback = '',
+): string =>
+  Array.isArray(value) ? value.join(' ').trim() : value?.trim() || fallback;
+
+/**
+ * Process image URL with validation and fallback
+ */
+const processImageUrl = (imageValue: string | string[] | undefined): string => {
+  let imageUrl = frontmatterToString(
+    imageValue,
+    '/assets/Images/SugarNewsLogo.png',
+  );
+
+  if (
+    imageUrl !== '/assets/Images/SugarNewsLogo.png' &&
+    !/^https?:\/\//.test(imageUrl)
+  ) {
+    imageUrl = '/' + imageUrl.replace(/^\/+/, '');
+  }
+
+  return imageUrl;
+};
+
+/**
  * Fetch and parse all markdown blog posts
- * If `category` is passed, filters the result by exact match.
+ * Optimized with better error handling and sorting
  */
 export const fetchMarkdownPosts = async (
   category?: string,
@@ -86,50 +114,25 @@ export const fetchMarkdownPosts = async (
         );
         const fileName = filePath.split('/').pop()?.replace('.md', '') || '';
 
-        let imageUrl: string;
-        if (Array.isArray(frontmatter.image)) {
-          imageUrl = frontmatter.image.join(' ').trim();
-        } else if (frontmatter.image) {
-          imageUrl = frontmatter.image.trim();
-        } else {
-          imageUrl = '/assets/Images/SugarNewsLogo.png';
-        }
-        if (!/^https?:\/\//.test(imageUrl)) {
-          imageUrl = '/' + imageUrl.replace(/^\/+/, '');
-        }
-
         const post: Post = {
           id: fileName,
-          title: Array.isArray(frontmatter.title)
-            ? frontmatter.title.join(' ')
-            : frontmatter.title || 'Untitled',
-          excerpt: Array.isArray(frontmatter.excerpt)
-            ? frontmatter.excerpt.join(' ')
-            : frontmatter.excerpt || '',
+          title: frontmatterToString(frontmatter.title, 'Untitled'),
+          excerpt: frontmatterToString(frontmatter.excerpt),
           content,
-          category: Array.isArray(frontmatter.category)
-            ? frontmatter.category.join(' ').trim()
-            : frontmatter.category
-              ? frontmatter.category.trim()
-              : 'UNCATEGORIZED',
-          date: Array.isArray(frontmatter.date)
-            ? frontmatter.date.join(' ')
-            : frontmatter.date || 'No date',
-          slug: Array.isArray(frontmatter.slug)
-            ? frontmatter.slug.join(' ')
-            : frontmatter.slug || fileName,
-          author: Array.isArray(frontmatter.author)
-            ? frontmatter.author.join(' ')
-            : frontmatter.author || 'Sugar Labs',
-          description: Array.isArray(frontmatter.description)
-            ? frontmatter.description.join(' ')
-            : frontmatter.description || 'Writer and contributor at Sugar Labs',
+          category: frontmatterToString(frontmatter.category, 'UNCATEGORIZED'),
+          date: frontmatterToString(frontmatter.date, 'No date'),
+          slug: frontmatterToString(frontmatter.slug, fileName),
+          author: frontmatterToString(frontmatter.author, 'Sugar Labs'),
+          description: frontmatterToString(
+            frontmatter.description,
+            'Writer and contributor at Sugar Labs',
+          ),
           tags: Array.isArray(frontmatter.tags)
             ? frontmatter.tags
             : frontmatter.tags
               ? [frontmatter.tags]
               : [],
-          image: imageUrl,
+          image: processImageUrl(frontmatter.image),
         };
 
         allPosts.push(post);
@@ -138,14 +141,13 @@ export const fetchMarkdownPosts = async (
       }
     }
 
-    // Sort posts by date (newest first)
+    // Sort by date (newest first) with better date handling
     const sortedPosts = allPosts.sort((a, b) => {
       const dateA = new Date(a.date).getTime() || 0;
       const dateB = new Date(b.date).getTime() || 0;
       return dateB - dateA;
     });
 
-    // Filter by category if specified
     return category
       ? sortedPosts.filter((post) => post.category === category)
       : sortedPosts;
@@ -163,21 +165,24 @@ export const getPostBySlug = async (slug: string): Promise<Post | null> => {
   return allPosts.find((post) => post.slug === slug) || null;
 };
 
-export const getAllPosts = async (): Promise<Post[]> => {
-  return fetchMarkdownPosts();
-};
+/**
+ * Get all posts (alias for fetchMarkdownPosts with no category filter)
+ */
+export const getAllPosts = async (): Promise<Post[]> => fetchMarkdownPosts();
 
+/**
+ * Group posts by category with 'All' category included
+ */
 export const groupPostsByCategory = (posts: Post[]): Record<string, Post[]> => {
-  const map: Record<string, Post[]> = {};
+  const categoryMap: Record<string, Post[]> = { All: posts };
 
   posts.forEach((post) => {
-    const cat = post.category || 'UNCATEGORIZED';
-    if (!map[cat]) {
-      map[cat] = [];
+    const category = post.category || 'UNCATEGORIZED';
+    if (!categoryMap[category]) {
+      categoryMap[category] = [];
     }
-    map[cat].push(post);
+    categoryMap[category].push(post);
   });
 
-  map['All'] = posts;
-  return map;
+  return categoryMap;
 };
