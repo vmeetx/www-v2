@@ -5179,7 +5179,7 @@ title: "GSoC ’25 Week XX Update by Safwan Sayeed"
 excerpt: "This is a Template to write Blog Posts for weekly updates"
 category: "TEMPLATE"
 date: "2025-05-10"
-slug: "YYYY-MM-DD-gsoc-25-sa-fw-an-weekXX"
+slug: "gsoc-25-sa-fw-an-weekX"
 author: "@/constants/MarkdownFiles/authors/safwan-sayeed.md"
 tags: "gsoc25,sugarlabs,weekXX,sa-fw-an"
 image: "assets/Images/GSOC.png"
@@ -5261,6 +5261,14 @@ Thank you to my mentors, the Sugar Labs community, and fellow GSoC contributors 
 
 ---
 
+## Connect with Me
+
+- GitHub: [@sa-fw-an](https://github.com/sa-fw-an)
+- Gmail: [isafwansayeed@gmail.com](mailto:isafwansayeed@gmail.com)
+- LinkedIn: [Safwan Sayeed](https://www.linkedin.com/in/safwan-sayeed-6a3a482a9/)
+- Twitter: [@safwan_say](https://twitter.com/safwan_say)
+
+---
 `,ia=Object.freeze(Object.defineProperty({__proto__:null,default:Pe},Symbol.toStringTag,{value:"Module"})),Te=`---\r
 title: "DMP ’25 Week 01 Update by Aman Chadha"\r
 excerpt: "Working on a RAG model for Music Blocks core files to enhance context-aware retrieval"\r
