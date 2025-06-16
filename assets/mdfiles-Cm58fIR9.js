@@ -3919,8 +3919,7 @@ excerpt: "Implemented repository creation via GitHub App, secure key generation,
 category: "DEVELOPER NEWS"
 date: "2025-06-08"
 slug: "2025-06-08-gsoc-25-Nikhil-Bhatt-week01"
-author: "Nikhil Bhatt"
-description: "GSoC'25 Contributor at SugarLabs (Git backend for Musicblocks)"
+author: "@/constants/MarkdownFiles/authors/nikhil-bhatt.md"
 tags: "gsoc25,sugarlabs,week01,Nikhil-Bhatt"
 image: "assets/Images/GSOC.png"
 ---
@@ -4122,94 +4121,6 @@ Special thanks to my mentors Anindya, Sumit, Devin, and Walter for their continu
 
 ---
 `,da=Object.freeze(Object.defineProperty({__proto__:null,default:Se},Symbol.toStringTag,{value:"Module"})),ke=`---
-title: "GSoC '25 Week 2 Update by Safwan Sayeed"
-excerpt: "Memory Module Architecture and CRUD Operations Development"
-category: "DEVELOPER NEWS"
-date: "2025-06-15"
-slug: "2025-06-15-gsoc-25-sa-fw-an-week2"
-author: "@/constants/MarkdownFiles/authors/safwan-sayeed.md"
-tags: "gsoc25,sugarlabs,week2,sa-fw-an"
-image: "assets/Images/GSOC.png"
----
-
-<!-- markdownlint-disable -->
-
-# Week 2 Progress Report by Safwan Sayeed
-
-**Project:** Music Blocks 4 Program Engine  
-**Mentors:** [Anindya Kundu](https://github.com/meganindya/), [Sumit Srivastava](https://github.com/sum2it)  
-**Assisting Mentors:** [Devin Ullibari](https://github.com/pikurasa/), [Walter Bender](https://github.com/walterbender)  
-**Reporting Period:** 2025-06-09 - 2025-06-15  
-
----
-
-## A Blog-style Retrospective
-
-This week was all about diving deep into the memory architecture for the Music Blocks program engine. After completing our comprehensive AST framework in week 1, we shifted focus to building the foundational memory management system that will power program execution. The challenge was designing a three-scope memory hierarchy (Global, Thread, Local) with full CRUD operations while keeping the implementation clean and focused.
-
-Working alongside Karan Palan, we expanded our tech spec to include detailed memory module specifications. The mentors provided crucial guidance on scope requirements, emphasizing the need for thread isolation, and multi-level local scope support.
-
----
-
-## Goals for This Week
-
-- Complete the memory module technical specification with three-scope architecture details.
-- Develop full CRUD operations for global variables accessible from any scope.
-- Implement it with tests.
-
----
-
-## This Week's Highlights
-
-1. **Memory Module Tech Specification**  
-   - Expanded the tech spec with comprehensive memory architecture documentation covering three-scope system.
-   - Detailed CRUD operation requirements for global, thread, and local scope variables.
-   - Link: [Tech Spec Document - Memory Section](https://docs.google.com/document/d/1_MCCgl-RqiEQH0UQ4EX-2O6G4iRxgHAY1rZpw3QPXT0/edit?tab=t.3xe7coiooljb#heading=h.s3q9swsg3ifd)
-
-
-2. **Memory Module CRUD Operations**  
-   - Started Implementing the CRUD Operations for the Scopes
-
----
-
-## Challenges & Solutions
-
-- **Understanding Scope Hierarchy Complexity:**  
-  The three-scope system (Global, Thread, Local) with proper variable shadowing was conceptually challenging.  
-  *Solution:* Studied the existing reference implementation and created detailed diagrams to visualize scope relationships.
-
-
----
-
-## Key Learnings
-
-- Mastered hierarchical data structure design with proper encapsulation and scope isolation.
-- Gained deep understanding of variable shadowing and scope resolution mechanisms.
-- Enhanced collaboration skills working on complex architecture with multiple contributors.
-
----
-
-## Next Week's Roadmap
-
-- Begin symbol table implementation building on the memory module foundation.
-- IR Implementation
-- Write comprehensive unit tests for all memory module CRUD operations.
-
----
-
-## Resources & References
-
-- **Tech Spec:** [Memory Module Architecture](https://docs.google.com/document/d/1_MCCgl-RqiEQH0UQ4EX-2O6G4iRxgHAY1rZpw3QPXT0/edit?tab=t.3xe7coiooljb#heading=h.s3q9swsg3ifd)  
-- **Repository:** [musicblocks-v4](https://github.com/sugarlabs/musicblocks-v4)
-- **Reference Implementation:** [For conceptual guidance](https://github.com/sugarlabs/musicblocks-v4-lib/tree/develop/src/execution/scopeexecution/scope) 
-
----
-
-## Acknowledgments
-
-Special thanks to my mentors Anindya, Sumit, Devin, and Walter for their detailed guidance on memory architecture design and scope management. Their clarification on keeping the focus on memory module fundamentals was crucial for this week's progress.
-
----`,ca=Object.freeze(Object.defineProperty({__proto__:null,default:ke},Symbol.toStringTag,{value:"Module"})),Le=`---
 title: "GSoC ’25 Week 01 Update by Saumya Shahi"
 excerpt: "Weekly Progress Report on the Masonry Module for GSoC '25"
 category: "DEVELOPER NEWS"
@@ -4315,7 +4226,7 @@ Grateful to my mentors Anindya, Walter, and Devin for their constant guidance an
 - LinkedIn: [Saumya Shahi](https://www.linkedin.com/in/saumya-shahi/)
 
 ---
-`,ga=Object.freeze(Object.defineProperty({__proto__:null,default:Le},Symbol.toStringTag,{value:"Module"})),Ae=`---
+`,ca=Object.freeze(Object.defineProperty({__proto__:null,default:ke},Symbol.toStringTag,{value:"Module"})),Le=`---
 title: "GSoC ’25 Week 01 Update by Diwangshu Kakoty"
 excerpt: "Deploying a Streamlit app for testing"
 category: "DEVELOPER NEWS"
@@ -4392,7 +4303,7 @@ image: "assets/Images/GSOC.png"
 
 Thank you to my mentors, the Sugar Labs community, and fellow GSoC contributors for ongoing support.
 
----`,pa=Object.freeze(Object.defineProperty({__proto__:null,default:Ae},Symbol.toStringTag,{value:"Module"})),Ce=`---
+---`,ga=Object.freeze(Object.defineProperty({__proto__:null,default:Le},Symbol.toStringTag,{value:"Module"})),Ae=`---
 title: "GSoC '25 Community Bonding and First Week by Krish"
 excerpt: "A deep dive into the GTK4 migration journey for Sugar Labs - exploring the challenges, progress, and tooling setup"
 category: "DEVELOPER NEWS"
@@ -4543,14 +4454,13 @@ Looking forward to sharing more updates,
 
 
 ---
-`,ha=Object.freeze(Object.defineProperty({__proto__:null,default:Ce},Symbol.toStringTag,{value:"Module"})),Pe=`---
+`,pa=Object.freeze(Object.defineProperty({__proto__:null,default:Ae},Symbol.toStringTag,{value:"Module"})),Ce=`---
 title: "GSoC ’25 Week 01 Update by Om Santosh Suneri"
 excerpt: "Refining the JSON to text convertor code and creating a basic streamlit debugger app UI"
 category: "DEVELOPER NEWS"
 date: "2025-06-07"
 slug: "2025-06-07-gsoc-25-omsuneri-week01"
-author: "Om Santosh Suneri"
-description: "GSoC'25 Contributor working on AI-powered Debugger for Music Blocks"
+author: "@/constants/MarkdownFiles/authors/om-santosh-suneri.md"
 tags: "gsoc25,sugarlabs,week01,Debugger,AI,Music Blocks"
 image: "assets/Images/GSOC.png"
 ---
@@ -4626,16 +4536,7 @@ image: "assets/Images/GSOC.png"
 Thank you to my mentors, the Sugar Labs community, and fellow GSoC contributors for ongoing support.
 
 ---
-
-## Connect with Me
-
-- GitHub: [@omsuneri](https://github.com/omsuneri)
-- Gmail: [omsuneri@gmail.com](mailto:omsuneri@gmail.com)
-- LinkedIn: [Om Santosh Suneri](https://www.linkedin.com/in/om-santosh-suneri-736767166/)
-- Twitter: [@suneri_om](https://x.com/suneri_om)
-
----
-`,ma=Object.freeze(Object.defineProperty({__proto__:null,default:Pe},Symbol.toStringTag,{value:"Module"})),Te=`---
+`,ha=Object.freeze(Object.defineProperty({__proto__:null,default:Ce},Symbol.toStringTag,{value:"Module"})),Pe=`---
 title: "SSoC ’25 Week 01 Update by Muhammad Haroon"
 excerpt: "Kick off Generative AI Instrument Sample Generation for Music Blocks"
 category: "DEVELOPER NEWS"
@@ -4681,7 +4582,7 @@ Thank you to my mentors, the Sugar Labs community, and fellow GSoC contributors 
 - LinkedIn: [Muhammad Haroon](https://www.linkedin.com/in/muhammad-haroon-7003b923b/)
 
 ---
-`,ba=Object.freeze(Object.defineProperty({__proto__:null,default:Te},Symbol.toStringTag,{value:"Module"})),Ie=`---
+`,ma=Object.freeze(Object.defineProperty({__proto__:null,default:Pe},Symbol.toStringTag,{value:"Module"})),Te=`---
 
 title: "Community Bonding & Week 1 Update by Karan Palan"
 excerpt: "From compiler theory deep-dives to brick-rendering math—mentoring the 2025 Music Blocks Masonry & Engine cohorts."
@@ -4792,7 +4693,7 @@ Huge thanks to **Anindya** for the deep-dive lectures and mentoring, and to **Ju
 * Twitter: [Karan_Palan7](https://x.com/Karan_Palan7)
 
 ---
-`,fa=Object.freeze(Object.defineProperty({__proto__:null,default:Ie},Symbol.toStringTag,{value:"Module"})),Me=`---
+`,ba=Object.freeze(Object.defineProperty({__proto__:null,default:Te},Symbol.toStringTag,{value:"Module"})),Ie=`---
 title: "GSoC ’25 Week 04 Update by Aditya Kumar Singh"
 excerpt: "localization for 3D Human Activity in Sugarizer, palette switcher, and skeletal improvements."
 category: "DEVELOPER NEWS"
@@ -4899,7 +4800,7 @@ Thank you to my mentors, the Sugar Labs community, and fellow GSoC contributors 
 - Twitter: [@AdityaKrSingh26](https://x.com/AdityaKrSingh26)
 
 ---
-`,wa=Object.freeze(Object.defineProperty({__proto__:null,default:Me},Symbol.toStringTag,{value:"Module"})),_e=`---
+`,fa=Object.freeze(Object.defineProperty({__proto__:null,default:Ie},Symbol.toStringTag,{value:"Module"})),Me=`---
 title: "GSoC '25 Week 2 Update by Krish Pandya"
 excerpt: "From initial GTK4 porting to building a solid foundation with separate C and Python libraries"
 category: "DEVELOPER NEWS"
@@ -5185,7 +5086,7 @@ Huge thanks to Juan Pablo Ugarte first of all for being the official mentor and 
 
 THe architecture is building itself, and I'm excited to lay down the foundations!
 
-`,ya=Object.freeze(Object.defineProperty({__proto__:null,default:_e},Symbol.toStringTag,{value:"Module"})),Oe=`---
+`,wa=Object.freeze(Object.defineProperty({__proto__:null,default:Me},Symbol.toStringTag,{value:"Module"})),_e=`---
 title: "GSoC '25 Week 02 Update by Nikhil Bhatt"
 excerpt: "Implemented edit functionality for project repositories and introduced a forking mechanism for collaborative workflows."
 category: "DEVELOPER NEWS"
@@ -5271,7 +5172,95 @@ image: "assets/Images/GSOC.png"
 Thank you to my mentors and the Sugar Labs community for guidance and feedback, and to the GitHub community for their detailed API documentation and tooling support.
 
 ---
-`,va=Object.freeze(Object.defineProperty({__proto__:null,default:Oe},Symbol.toStringTag,{value:"Module"})),xe=`---
+`,ya=Object.freeze(Object.defineProperty({__proto__:null,default:_e},Symbol.toStringTag,{value:"Module"})),Oe=`---
+title: "GSoC '25 Week 2 Update by Safwan Sayeed"
+excerpt: "Memory Module Architecture and CRUD Operations Development"
+category: "DEVELOPER NEWS"
+date: "2025-06-15"
+slug: "2025-06-15-gsoc-25-sa-fw-an-week2"
+author: "@/constants/MarkdownFiles/authors/safwan-sayeed.md"
+tags: "gsoc25,sugarlabs,week2,sa-fw-an"
+image: "assets/Images/GSOC.png"
+---
+
+<!-- markdownlint-disable -->
+
+# Week 2 Progress Report by Safwan Sayeed
+
+**Project:** Music Blocks 4 Program Engine  
+**Mentors:** [Anindya Kundu](https://github.com/meganindya/), [Sumit Srivastava](https://github.com/sum2it)  
+**Assisting Mentors:** [Devin Ullibari](https://github.com/pikurasa/), [Walter Bender](https://github.com/walterbender)  
+**Reporting Period:** 2025-06-09 - 2025-06-15  
+
+---
+
+## A Blog-style Retrospective
+
+This week was all about diving deep into the memory architecture for the Music Blocks program engine. After completing our comprehensive AST framework in week 1, we shifted focus to building the foundational memory management system that will power program execution. The challenge was designing a three-scope memory hierarchy (Global, Thread, Local) with full CRUD operations while keeping the implementation clean and focused.
+
+Working alongside Karan Palan, we expanded our tech spec to include detailed memory module specifications. The mentors provided crucial guidance on scope requirements, emphasizing the need for thread isolation, and multi-level local scope support.
+
+---
+
+## Goals for This Week
+
+- Complete the memory module technical specification with three-scope architecture details.
+- Develop full CRUD operations for global variables accessible from any scope.
+- Implement it with tests.
+
+---
+
+## This Week's Highlights
+
+1. **Memory Module Tech Specification**  
+   - Expanded the tech spec with comprehensive memory architecture documentation covering three-scope system.
+   - Detailed CRUD operation requirements for global, thread, and local scope variables.
+   - Link: [Tech Spec Document - Memory Section](https://docs.google.com/document/d/1_MCCgl-RqiEQH0UQ4EX-2O6G4iRxgHAY1rZpw3QPXT0/edit?tab=t.3xe7coiooljb#heading=h.s3q9swsg3ifd)
+
+
+2. **Memory Module CRUD Operations**  
+   - Started Implementing the CRUD Operations for the Scopes
+
+---
+
+## Challenges & Solutions
+
+- **Understanding Scope Hierarchy Complexity:**  
+  The three-scope system (Global, Thread, Local) with proper variable shadowing was conceptually challenging.  
+  *Solution:* Studied the existing reference implementation and created detailed diagrams to visualize scope relationships.
+
+
+---
+
+## Key Learnings
+
+- Mastered hierarchical data structure design with proper encapsulation and scope isolation.
+- Gained deep understanding of variable shadowing and scope resolution mechanisms.
+- Enhanced collaboration skills working on complex architecture with multiple contributors.
+
+---
+
+## Next Week's Roadmap
+
+- Begin symbol table implementation building on the memory module foundation.
+- IR Implementation
+- Write comprehensive unit tests for all memory module CRUD operations.
+
+---
+
+## Resources & References
+
+- **Tech Spec:** [Memory Module Architecture](https://docs.google.com/document/d/1_MCCgl-RqiEQH0UQ4EX-2O6G4iRxgHAY1rZpw3QPXT0/edit?tab=t.3xe7coiooljb#heading=h.s3q9swsg3ifd)  
+- **Repository:** [musicblocks-v4](https://github.com/sugarlabs/musicblocks-v4)
+- **Reference Implementation:** [For conceptual guidance](https://github.com/sugarlabs/musicblocks-v4-lib/tree/develop/src/execution/scopeexecution/scope) 
+
+---
+
+## Acknowledgments
+
+Special thanks to my mentors Anindya, Sumit, Devin, and Walter for their detailed guidance on memory architecture design and scope management. Their clarification on keeping the focus on memory module fundamentals was crucial for this week's progress.
+
+---`,va=Object.freeze(Object.defineProperty({__proto__:null,default:Oe},Symbol.toStringTag,{value:"Module"})),xe=`---
 title: "GSoC ’25 Week 02 Update by Diwangshu Kakoty"
 excerpt: "Multi-AI Agent Chat Model"
 category: "DEVELOPER NEWS"
@@ -5377,8 +5366,7 @@ excerpt: "To Develop a Basic RAG Debugger for Music Blocks"
 category: "DEVELOPER NEWS"
 date: "2025-06-14"
 slug: "2025-06-14-gsoc-25-omsuneri-week02"
-author: "Om Santosh Suneri"
-description: "GSoC'25 Contributor working on AI-powered Debugger for Music Blocks"
+author: "@/constants/MarkdownFiles/authors/om-santosh-suneri.md"
 tags: "gsoc25,sugarlabs,week02,Debugger,AI,Music Blocks"
 image: "assets/Images/GSOC.png"
 ---
@@ -5461,15 +5449,6 @@ While building the RAG debugger, I realized the importance of designing componen
 ## Acknowledgments
 
 Thank you to my mentors, the Sugar Labs community, and fellow GSoC contributors for ongoing support.
-
----
-
-## Connect with Me
-
-- GitHub: [@omsuneri](https://github.com/omsuneri)
-- Gmail: [omsuneri@gmail.com](mailto:omsuneri@gmail.com)
-- LinkedIn: [Om Santosh Suneri](https://www.linkedin.com/in/om-santosh-suneri-736767166/)
-- Twitter: [@suneri_om](https://x.com/suneri_om)
 
 ---
 `,ka=Object.freeze(Object.defineProperty({__proto__:null,default:Ee},Symbol.toStringTag,{value:"Module"})),je=`---
@@ -6037,12 +6016,14 @@ title: "DMP ’25 Week 01 Update by Aman Chadha"\r
 excerpt: "Working on a RAG model for Music Blocks core files to enhance context-aware retrieval"\r
 category: "DEVELOPER NEWS"\r
 date: "2025-06-09"\r
-slug: "dmp-25-aman-week01"\r
+slug: "2025-06-09-dmp-25-aman-week01"\r
 author: "Aman Chadha"\r
 description: "DMP '25 Contributor working on retrieval-augmented generation for Music Blocks"\r
 tags: "dmp25,musicblocks,rag,week01"\r
 image: "assets/Images/c4gt_DMP.png"\r
 ---\r
+\r
+<!--markdownlint-disable-->\r
 \r
 # Week 01 Progress Report by Aman Chadha\r
 \r
