@@ -7316,7 +7316,7 @@ image: "assets/Images/c4gt_DMP.png"
 
 # Week 3 Progress Report by Justin Charles
 
-**Project:** Music Blocks 4 Maosonry 
+**Project:** Music Blocks 4 Maosonry  
 **Mentors:** [Anindya Kundu](https://github.com/meganindya/), [Sumit Srivastava](https://github.com/sum2it)  
 **Assisting Mentors:** [Devin Ulibari](https://github.com/pikurasa/), [Walter Bender](https://github.com/walterbender)  
 **Reporting Period:** 2025-06-15 - 2025-06-22  
@@ -8531,7 +8531,7 @@ title: "DMP’25 Week 04 Update by Justin Charles"
 excerpt: "Completed SVG path logic for all brick types and documented props and rendering states"
 category: "DEVELOPER NEWS"
 date: "2025-06-29"
-slug: "2025-06-29-dmp-25-justin212407-week02"
+slug: "2025-06-29-dmp-25-justin212407-week04"
 author: "@/constants/MarkdownFiles/authors/justin-charles.md"
 tags: "dmp25,sugarlabs,week4,justin212407"
 image: "assets/Images/c4gt_DMP.png"
@@ -8542,7 +8542,7 @@ image: "assets/Images/c4gt_DMP.png"
 # Week 4 Progress Report by Justin Charles
 
 **Project:** Music Blocks 4 Masonry  
-**Mentors:** [Anindya Kundu](https://github.com/meganindya/) 
+**Mentors:** [Anindya Kundu](https://github.com/meganindya/)  
 **Assisting Mentors:** [Devin Ulibari](https://github.com/pikurasa/), [Walter Bender](https://github.com/walterbender), [Sumit Srivastava](https://github.com/sum2it)   
 **Reporting Period:** 2025-06-22 - 2025-06-29  
 
