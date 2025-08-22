@@ -13291,6 +13291,8 @@ tags: "gsoc25,sugarlabs,week07,mebinthattil,speak_activity"
 image: "assets/Images/GSOCxSpeak.webp"
 ---
 
+<!-- markdownlint-disable -->
+
 # Week 07 Progress Report by Mebin J Thattil
 
 **Project:** [Speak Activity](https://github.com/sugarlabs/speak)  
@@ -13869,7 +13871,7 @@ tags:
   - sugarlabs
   - week07
   - firepheonix
-image: "assets/Images/GSOC.png"
+image: "assets/Images/GSOC.webp"
 ---
 
 <!-- markdownlint-disable -->
@@ -14093,7 +14095,7 @@ date: "2025-07-26"
 slug: "2025-07-26-gsoc-25-Elwin-Li-week08"
 author: "@/constants/MarkdownFiles/authors/elwin-li.md"
 tags: "gsoc25,sugarlabs,week8,music generation,RAG"
-image: "assets/Images/GSOC.png"
+image: "assets/Images/GSOC.webp"
 ---
 
 <!-- markdownlint-disable -->
@@ -14264,7 +14266,7 @@ date: "2025-07-27"
 slug: "2025-07-27-gsoc-25-AdityaKrSingh26-week011"
 author: "@/constants/MarkdownFiles/authors/aditya-singh.md"
 tags: "gsoc25,sugarlabs,week11,AdityaKrSingh26"
-image: "assets/Images/GSOC.png"
+image: "assets/Images/GSOC.webp"
 ---
 
 <!-- markdownlint-disable -->
@@ -14579,7 +14581,7 @@ date: "2025-07-27"
 slug: "2025-07-27-gsoc-25-sa-fw-an-week8"
 author: "@/constants/MarkdownFiles/authors/safwan-sayeed.md"
 tags: "gsoc25,sugarlabs,week8,sa-fw-an"
-image: "assets/Images/GSOC.png"
+image: "assets/Images/GSOC.webp"
 ---
 
 <!-- markdownlint-disable -->
@@ -14673,7 +14675,7 @@ date: "2025-07-27"
 slug: "2025-07-27-gsoc-25-omsuneri-week08"
 author: "@/constants/MarkdownFiles/authors/om-santosh-suneri.md"
 tags: "gsoc25,sugarlabs,week08,Debugger,AI,Music Blocks"
-image: "assets/Images/GSOC.png"
+image: "assets/Images/GSOC.webp"
 ---
 
 <!-- markdownlint-disable -->
@@ -14777,7 +14779,7 @@ date: "2025-07-27"
 slug: "2025-07-27-ssoc-25-MuhammadHaroon-week08"
 author: "@/constants/MarkdownFiles/authors/muhammad-haroon.md"
 tags: "ssoc25,sugarlabs,week08,GenAI,MusicBlocks,Music"
-image: "assets/Images/GSOC.png"
+image: "assets/Images/GSOC.webp"
 ---
 
 <!-- markdownlint-disable -->
@@ -14923,7 +14925,7 @@ date: "2025-08-02"
 slug: "2025-08-02-dmp-25-therealharshit-week08"
 author: "@/constants/MarkdownFiles/authors/harshit-verma.md"
 tags: "dmp25,sugarlabs,week08,therealharshit"
-image: "assets/Images/c4gt_DMP.png"
+image: "assets/Images/c4gt_DMP.webp"
 ---
 
 <!-- markdownlint-disable -->
@@ -15002,7 +15004,7 @@ date: "2025-08-02"
 slug: "2025-08-02-gsoc-25-Elwin-Li-week09"
 author: "@/constants/MarkdownFiles/authors/elwin-li.md"
 tags: "gsoc25,sugarlabs,week9,RAG pipeline,MIDI widget"
-image: "assets/Images/GSOC.png"
+image: "assets/Images/GSOC.webp"
 ---
 
 <!-- markdownlint-disable -->
@@ -15067,8 +15069,10 @@ date: "2025-08-03"
 slug: "gsoc-25-BishoyWadea-week08"
 author: "@/constants/MarkdownFiles/authors/bishoy-wadea.md"
 tags: "gsoc25,sugarlabs,week08,BishoyWadea"
-image: "assets/Images/GSOC.png"
+image: "assets/Images/GSOC.webp"
 ---
+
+<!-- markdownlint-disable -->
 
 # Week 08 Progress Report by Bishoy Wadea
 
@@ -15141,8 +15145,10 @@ date: "2025-08-03"
 slug: "2025-08-03-gsoc-25-mebinthattil-week9"
 author: "@/constants/MarkdownFiles/authors/mebin-thattil.md"
 tags: "gsoc25,sugarlabs,week09,mebinthattil,speak_activity"
-image: "assets/Images/GSOCxSpeak.png"
+image: "assets/Images/GSOCxSpeak.webp"
 ---
+
+<!-- markdownlint-disable -->
 
 # Week 09 Progress Report by Mebin J Thattil
 
@@ -15212,7 +15218,7 @@ date: "2025-08-03"
 slug: "2025-08-03-gsoc-25-sa-fw-an-week9"
 author: "@/constants/MarkdownFiles/authors/safwan-sayeed.md"
 tags: "gsoc25,sugarlabs,week9,sa-fw-an"
-image: "assets/Images/GSOC.png"
+image: "assets/Images/GSOC.webp"
 ---
 
 <!-- markdownlint-disable -->
@@ -15297,7 +15303,7 @@ date: "2025-08-09"
 slug: "2025-08-09-dmp-25-therealharshit-week09"
 author: "@/constants/MarkdownFiles/authors/harshit-verma.md"
 tags: "dmp25,sugarlabs,week08,therealharshit"
-image: "assets/Images/c4gt_DMP.png"
+image: "assets/Images/c4gt_DMP.webp"
 ---
 
 <!-- markdownlint-disable -->
@@ -15375,7 +15381,7 @@ date: "2025-08-04"
 slug: "2025-08-04-gsoc-25-AdityaKrSingh26-week12"
 author: "@/constants/MarkdownFiles/authors/aditya-singh.md"
 tags: "gsoc25,sugarlabs,week12,AdityaKrSingh26"
-image: "assets/Images/GSOC.png"
+image: "assets/Images/GSOC.webp"
 ---
 
 <!-- markdownlint-disable -->
@@ -15481,7 +15487,7 @@ date: "2025-08-04"
 slug: "2025-08-04-gsoc-25-omsuneri-week09"
 author: "@/constants/MarkdownFiles/authors/om-santosh-suneri.md"
 tags: "gsoc25,sugarlabs,week09,Debugger,AI,Music Blocks"
-image: "assets/Images/GSOC.png"
+image: "assets/Images/GSOC.webp"
 ---
 
 <!-- markdownlint-disable -->
@@ -15637,7 +15643,7 @@ date: "2025-08-07"
 slug: "2025-08-07-gsoc-25-AdityaKrSingh26-week13"
 author: "@/constants/MarkdownFiles/authors/aditya-singh.md"
 tags: "gsoc25,sugarlabs,week13,AdityaKrSingh26"
-image: "assets/Images/GSOC.png"
+image: "assets/Images/GSOC.webp"
 ---
 
 <!-- markdownlint-disable -->
