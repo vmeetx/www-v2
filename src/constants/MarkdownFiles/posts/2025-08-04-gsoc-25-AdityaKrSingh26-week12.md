@@ -6,7 +6,7 @@ date: "2025-08-04"
 slug: "2025-08-04-gsoc-25-AdityaKrSingh26-week12"
 author: "@/constants/MarkdownFiles/authors/aditya-singh.md"
 tags: "gsoc25,sugarlabs,week12,AdityaKrSingh26"
-image: "assets/Images/GSOC.png"
+image: "assets/Images/GSOC.webp"
 ---
 
 <!-- markdownlint-disable -->

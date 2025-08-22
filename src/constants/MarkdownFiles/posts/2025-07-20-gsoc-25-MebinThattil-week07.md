@@ -9,6 +9,8 @@ tags: "gsoc25,sugarlabs,week07,mebinthattil,speak_activity"
 image: "assets/Images/GSOCxSpeak.webp"
 ---
 
+<!-- markdownlint-disable -->
+
 # Week 07 Progress Report by Mebin J Thattil
 
 **Project:** [Speak Activity](https://github.com/sugarlabs/speak)  

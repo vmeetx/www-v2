@@ -6,7 +6,7 @@ date: "2025-07-26"
 slug: "2025-07-26-gsoc-25-Elwin-Li-week08"
 author: "@/constants/MarkdownFiles/authors/elwin-li.md"
 tags: "gsoc25,sugarlabs,week8,music generation,RAG"
-image: "assets/Images/GSOC.png"
+image: "assets/Images/GSOC.webp"
 ---
 
 <!-- markdownlint-disable -->

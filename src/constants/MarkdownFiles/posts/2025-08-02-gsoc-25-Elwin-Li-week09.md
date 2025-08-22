@@ -6,7 +6,7 @@ date: "2025-08-02"
 slug: "2025-08-02-gsoc-25-Elwin-Li-week09"
 author: "@/constants/MarkdownFiles/authors/elwin-li.md"
 tags: "gsoc25,sugarlabs,week9,RAG pipeline,MIDI widget"
-image: "assets/Images/GSOC.png"
+image: "assets/Images/GSOC.webp"
 ---
 
 <!-- markdownlint-disable -->

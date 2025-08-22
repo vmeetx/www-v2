@@ -6,8 +6,10 @@ date: "2025-08-03"
 slug: "gsoc-25-BishoyWadea-week08"
 author: "@/constants/MarkdownFiles/authors/bishoy-wadea.md"
 tags: "gsoc25,sugarlabs,week08,BishoyWadea"
-image: "assets/Images/GSOC.png"
+image: "assets/Images/GSOC.webp"
 ---
+
+<!-- markdownlint-disable -->
 
 # Week 08 Progress Report by Bishoy Wadea
 

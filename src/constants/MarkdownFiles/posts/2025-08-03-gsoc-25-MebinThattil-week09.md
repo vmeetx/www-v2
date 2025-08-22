@@ -6,8 +6,10 @@ date: "2025-08-03"
 slug: "2025-08-03-gsoc-25-mebinthattil-week9"
 author: "@/constants/MarkdownFiles/authors/mebin-thattil.md"
 tags: "gsoc25,sugarlabs,week09,mebinthattil,speak_activity"
-image: "assets/Images/GSOCxSpeak.png"
+image: "assets/Images/GSOCxSpeak.webp"
 ---
+
+<!-- markdownlint-disable -->
 
 # Week 09 Progress Report by Mebin J Thattil
 
