@@ -6,7 +6,7 @@ date: "2025-08-09"
 slug: "2025-08-09-dmp-25-AmanNaik-week10"
 author: "@/constants/MarkdownFiles/authors/amannaik247.md"
 tags: "dmp25,writeactivity,write,sugarlabs,week10,amannaik247"
-image: "assets/Images/c4gt_DMP.png"
+image: "assets/Images/c4gt_DMP.webp"
 ---
 
 <!-- markdownlint-disable -->

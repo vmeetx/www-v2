@@ -6,7 +6,7 @@ date: "2025-08-10"
 slug: "2025-08-10-gsoc-25-mostlyk-week10"
 author: "@/constants/MarkdownFiles/authors/krish-pandya.md"
 tags: "gsoc25,sugarlabs,week10,mostlyk,datastore,objectchooser,widgets"
-image: "assets/Images/GSOC.png"
+image: "assets/Images/GSOC.webp"
 ---
 
 # Week 10: 20,000 Lines, Datastore, ObjectChooser, and Sugar Widgets

@@ -6,7 +6,7 @@ date: "2025-08-24"
 slug: "2025-08-24-gsoc-25-omsuneri-week12"
 author: "@/constants/MarkdownFiles/authors/om-santosh-suneri.md"
 tags: "gsoc25,sugarlabs,week12,Debugger,AI,Music Blocks,Final Submission"
-image: "assets/Images/GSOC.png"
+image: "assets/Images/GSOC.webp"
 ---
 
 <!-- markdownlint-disable -->
